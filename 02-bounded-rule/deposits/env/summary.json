@@ -1,0 +1,109 @@
+{
+ "cells": [
+  {
+   "family": "A",
+   "df0": 3,
+   "power_cost_pct": 1.7314223713550987,
+   "env_fwer": 0.023785316863308602,
+   "plugin_fwer": 0.02696819935913388,
+   "within": true
+  },
+  {
+   "family": "A",
+   "df0": 5,
+   "power_cost_pct": 3.641578440484078,
+   "env_fwer": 0.02187844249236123,
+   "plugin_fwer": 0.025063710516435155,
+   "within": true
+  },
+  {
+   "family": "A",
+   "df0": 7,
+   "power_cost_pct": 4.869569927494942,
+   "env_fwer": 0.020433643026955824,
+   "plugin_fwer": 0.024717229735511822,
+   "within": true
+  },
+  {
+   "family": "A",
+   "df0": 11,
+   "power_cost_pct": 6.036950896226877,
+   "env_fwer": 0.019121447362292945,
+   "plugin_fwer": 0.024584099292219844,
+   "within": true
+  },
+  {
+   "family": "A",
+   "df0": 19,
+   "power_cost_pct": 6.931454794856235,
+   "env_fwer": 0.018038279403976735,
+   "plugin_fwer": 0.02465846561974178,
+   "within": true
+  },
+  {
+   "family": "A",
+   "df0": 35,
+   "power_cost_pct": 8.659479434934777,
+   "env_fwer": 0.016312829622903285,
+   "plugin_fwer": 0.024816031090750854,
+   "within": true
+  },
+  {
+   "family": "B",
+   "df0": 3,
+   "power_cost_pct": 23.635870530659695,
+   "env_fwer": 0.009889679436920899,
+   "plugin_fwer": 0.027896699592058885,
+   "within": true
+  },
+  {
+   "family": "B",
+   "df0": 5,
+   "power_cost_pct": 11.92901761612809,
+   "env_fwer": 0.014531751206502396,
+   "plugin_fwer": 0.0255298586618182,
+   "within": true
+  },
+  {
+   "family": "B",
+   "df0": 7,
+   "power_cost_pct": 7.836865559163646,
+   "env_fwer": 0.01723504816411729,
+   "plugin_fwer": 0.025031560672457702,
+   "within": true
+  },
+  {
+   "family": "B",
+   "df0": 11,
+   "power_cost_pct": 4.147911649265595,
+   "env_fwer": 0.020432990127323004,
+   "plugin_fwer": 0.02496145435182916,
+   "within": true
+  },
+  {
+   "family": "B",
+   "df0": 19,
+   "power_cost_pct": 3.7150425125196276,
+   "env_fwer": 0.02084389427521786,
+   "plugin_fwer": 0.025159411226027325,
+   "within": true
+  },
+  {
+   "family": "B",
+   "df0": 35,
+   "power_cost_pct": 3.1093367824866918,
+   "env_fwer": 0.02150032675045649,
+   "plugin_fwer": 0.025401526949987346,
+   "within": true
+  }
+ ],
+ "n_cells": 12,
+ "all_within_guarantee": true,
+ "cost_min_pct": 1.7314223713550987,
+ "cost_max_pct": 23.635870530659695,
+ "cost_mean_pct": 7.18704170963128,
+ "cost_median_pct": 5.45326041186091,
+ "gamma": 0.0005,
+ "alpha": 0.025,
+ "draws_per_cell": 200
+}

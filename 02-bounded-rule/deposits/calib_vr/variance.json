@@ -1,0 +1,1565 @@
+{
+  "B_sweep": [
+    600,
+    1500,
+    3000
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44
+  ],
+  "rows": [
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 600,
+      "seed": 11,
+      "diag": {
+        "plain": {
+          "B": 600,
+          "variant": "plain",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.02591883684799702,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.000880320862233685,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0013789903807847651,
+          "B_used": 600
+        },
+        "anti": {
+          "B": 600,
+          "variant": "anti",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.02611616388426273,
+          "F_at_root": 0.025000000000000005,
+          "F_se": 0.0008070323020207299,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0011885421331980662,
+          "B_used": 600
+        },
+        "vr": {
+          "B": 600,
+          "variant": "vr",
+          "seed": 11,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.02635107839823614,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.00034808960728238713,
+          "control_r2": 0.8162043306490785,
+          "F_lo_at_zero": 0.0011513488772632921,
+          "B_used": 600
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 600,
+      "seed": 22,
+      "diag": {
+        "plain": {
+          "B": 600,
+          "variant": "plain",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.02625608841707449,
+          "F_at_root": 0.025,
+          "F_se": 0.0008660291758418973,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012777917993280908,
+          "B_used": 600
+        },
+        "anti": {
+          "B": 600,
+          "variant": "anti",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.02562836121279676,
+          "F_at_root": 0.025,
+          "F_se": 0.0008095492498132389,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012839004457284844,
+          "B_used": 600
+        },
+        "vr": {
+          "B": 600,
+          "variant": "vr",
+          "seed": 22,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.025657570839987626,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.00036075692748905995,
+          "control_r2": 0.8017094293994446,
+          "F_lo_at_zero": 0.0012924881796277756,
+          "B_used": 600
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 600,
+      "seed": 33,
+      "diag": {
+        "plain": {
+          "B": 600,
+          "variant": "plain",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.025218837289875146,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0008081137722175955,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0013231968134109116,
+          "B_used": 600
+        },
+        "anti": {
+          "B": 600,
+          "variant": "anti",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.025902985763340845,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0008103600755979425,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012405740009219068,
+          "B_used": 600
+        },
+        "vr": {
+          "B": 600,
+          "variant": "vr",
+          "seed": 33,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.025829941070232947,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.00037574442878051984,
+          "control_r2": 0.7842049045201704,
+          "F_lo_at_zero": 0.001248347780928008,
+          "B_used": 600
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 600,
+      "seed": 44,
+      "diag": {
+        "plain": {
+          "B": 600,
+          "variant": "plain",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.026759300056164725,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0007641592132381447,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0010658858910196326,
+          "B_used": 600
+        },
+        "anti": {
+          "B": 600,
+          "variant": "anti",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.026078537710559097,
+          "F_at_root": 0.025,
+          "F_se": 0.0008297452145936964,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012587843434512845,
+          "B_used": 600
+        },
+        "vr": {
+          "B": 600,
+          "variant": "vr",
+          "seed": 44,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.026412836300145744,
+          "F_at_root": 0.025,
+          "F_se": 0.0003740967945408787,
+          "control_r2": 0.8000692159215301,
+          "F_lo_at_zero": 0.0011782508493936598,
+          "B_used": 600
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 1500,
+      "seed": 11,
+      "diag": {
+        "plain": {
+          "B": 1500,
+          "variant": "plain",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.026209104869234626,
+          "F_at_root": 0.025,
+          "F_se": 0.0005267482263695693,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012520378733355342,
+          "B_used": 1500
+        },
+        "anti": {
+          "B": 1500,
+          "variant": "anti",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.02631073210364071,
+          "F_at_root": 0.025,
+          "F_se": 0.000509652099881515,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0011888908629273968,
+          "B_used": 1500
+        },
+        "vr": {
+          "B": 1500,
+          "variant": "vr",
+          "seed": 11,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.026636753703492493,
+          "F_at_root": 0.025,
+          "F_se": 0.00022767481438288941,
+          "control_r2": 0.8036634542294272,
+          "F_lo_at_zero": 0.0011349981009224006,
+          "B_used": 1500
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 1500,
+      "seed": 22,
+      "diag": {
+        "plain": {
+          "B": 1500,
+          "variant": "plain",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.026352563193420407,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0005173133265543689,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0011935888611062163,
+          "B_used": 1500
+        },
+        "anti": {
+          "B": 1500,
+          "variant": "anti",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.02573272188955302,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0005144584668224588,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012790978268663788,
+          "B_used": 1500
+        },
+        "vr": {
+          "B": 1500,
+          "variant": "vr",
+          "seed": 22,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.025723028935040144,
+          "F_at_root": 0.025,
+          "F_se": 0.00023711720128160462,
+          "control_r2": 0.7874615876380184,
+          "F_lo_at_zero": 0.0012873085170673803,
+          "B_used": 1500
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 1500,
+      "seed": 33,
+      "diag": {
+        "plain": {
+          "B": 1500,
+          "variant": "plain",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.025750799089802615,
+          "F_at_root": 0.025,
+          "F_se": 0.0005097492970405861,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012389942140052354,
+          "B_used": 1500
+        },
+        "anti": {
+          "B": 1500,
+          "variant": "anti",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.02577167826544826,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0005201039624238253,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012742273454107837,
+          "B_used": 1500
+        },
+        "vr": {
+          "B": 1500,
+          "variant": "vr",
+          "seed": 33,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.025743617676556613,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.00024118242160562305,
+          "control_r2": 0.7846585081332309,
+          "F_lo_at_zero": 0.0012698094773344398,
+          "B_used": 1500
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 1500,
+      "seed": 44,
+      "diag": {
+        "plain": {
+          "B": 1500,
+          "variant": "plain",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.026114353576736755,
+          "F_at_root": 0.02499999999999999,
+          "F_se": 0.0005125722628449556,
+          "control_r2": null,
+          "F_lo_at_zero": 0.001199226803594491,
+          "B_used": 1500
+        },
+        "anti": {
+          "B": 1500,
+          "variant": "anti",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.026089880496405246,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0005252995238356902,
+          "control_r2": null,
+          "F_lo_at_zero": 0.001286359594038864,
+          "B_used": 1500
+        },
+        "vr": {
+          "B": 1500,
+          "variant": "vr",
+          "seed": 44,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.02623861804058685,
+          "F_at_root": 0.025,
+          "F_se": 0.00024323857584754413,
+          "control_r2": 0.7871294823722383,
+          "F_lo_at_zero": 0.0012335313212816007,
+          "B_used": 1500
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 3000,
+      "seed": 11,
+      "diag": {
+        "plain": {
+          "B": 3000,
+          "variant": "plain",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.025887348705237755,
+          "F_at_root": 0.02499999999999999,
+          "F_se": 0.0003796491669057768,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0013183148406727982,
+          "B_used": 3000
+        },
+        "anti": {
+          "B": 3000,
+          "variant": "anti",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.026464373649398354,
+          "F_at_root": 0.025,
+          "F_se": 0.00035144575549474736,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0011276128828014275,
+          "B_used": 3000
+        },
+        "vr": {
+          "B": 3000,
+          "variant": "vr",
+          "seed": 11,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.026537645624385625,
+          "F_at_root": 0.025,
+          "F_se": 0.00015551388420309215,
+          "control_r2": 0.8049252054747139,
+          "F_lo_at_zero": 0.0011384885072882923,
+          "B_used": 3000
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 3000,
+      "seed": 22,
+      "diag": {
+        "plain": {
+          "B": 3000,
+          "variant": "plain",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.02665639819610311,
+          "F_at_root": 0.025,
+          "F_se": 0.00036559653808698273,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0011807916023246488,
+          "B_used": 3000
+        },
+        "anti": {
+          "B": 3000,
+          "variant": "anti",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.025907219659466303,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0003647336873532068,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012583000117229615,
+          "B_used": 3000
+        },
+        "vr": {
+          "B": 3000,
+          "variant": "vr",
+          "seed": 22,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.025869915178239396,
+          "F_at_root": 0.025,
+          "F_se": 0.0001721032546221514,
+          "control_r2": 0.7769291137613306,
+          "F_lo_at_zero": 0.0012575758577738649,
+          "B_used": 3000
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 3000,
+      "seed": 33,
+      "diag": {
+        "plain": {
+          "B": 3000,
+          "variant": "plain",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.02551544108915254,
+          "F_at_root": 0.02499999999999999,
+          "F_se": 0.0003624372182866723,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012661815399466077,
+          "B_used": 3000
+        },
+        "anti": {
+          "B": 3000,
+          "variant": "anti",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.025610775592461152,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.00037392671437616294,
+          "control_r2": null,
+          "F_lo_at_zero": 0.001319996247058062,
+          "B_used": 3000
+        },
+        "vr": {
+          "B": 3000,
+          "variant": "vr",
+          "seed": 33,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.025783090446822504,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.00016969342281235018,
+          "control_r2": 0.7958192094064773,
+          "F_lo_at_zero": 0.0012743631046885082,
+          "B_used": 3000
+        }
+      }
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sig": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "B": 3000,
+      "seed": 44,
+      "diag": {
+        "plain": {
+          "B": 3000,
+          "variant": "plain",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.02612610347317526,
+          "F_at_root": 0.02499999999999999,
+          "F_se": 0.00036485232635394976,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012133113248161073,
+          "B_used": 3000
+        },
+        "anti": {
+          "B": 3000,
+          "variant": "anti",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.025938344859022647,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.00036985230421061844,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0012824968984010312,
+          "B_used": 3000
+        },
+        "vr": {
+          "B": 3000,
+          "variant": "vr",
+          "seed": 44,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.025978060081963628,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.0001711823209813995,
+          "control_r2": 0.786198685253791,
+          "F_lo_at_zero": 0.001264349437406884,
+          "B_used": 3000
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 600,
+      "seed": 11,
+      "diag": {
+        "plain": {
+          "B": 600,
+          "variant": "plain",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.0210724539566391,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.001304668810954335,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002921789419096962,
+          "B_used": 600
+        },
+        "anti": {
+          "B": 600,
+          "variant": "anti",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.02090305005508499,
+          "F_at_root": 0.025,
+          "F_se": 0.001250780929723968,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002941863484764388,
+          "B_used": 600
+        },
+        "vr": {
+          "B": 600,
+          "variant": "vr",
+          "seed": 11,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.021371954425170064,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0005002185155100912,
+          "control_r2": 0.8440273351704434,
+          "F_lo_at_zero": 0.0028133697662803153,
+          "B_used": 600
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 600,
+      "seed": 22,
+      "diag": {
+        "plain": {
+          "B": 600,
+          "variant": "plain",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.021770323512508162,
+          "F_at_root": 0.025,
+          "F_se": 0.0012654517123767432,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002753435626645815,
+          "B_used": 600
+        },
+        "anti": {
+          "B": 600,
+          "variant": "anti",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.022056701495774503,
+          "F_at_root": 0.025,
+          "F_se": 0.0012171295017661058,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0025974111967102835,
+          "B_used": 600
+        },
+        "vr": {
+          "B": 600,
+          "variant": "vr",
+          "seed": 22,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.021952670443828218,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.0005109255159773839,
+          "control_r2": 0.8228985474650994,
+          "F_lo_at_zero": 0.0026283041216736665,
+          "B_used": 600
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 600,
+      "seed": 33,
+      "diag": {
+        "plain": {
+          "B": 600,
+          "variant": "plain",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.020619383314221425,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.0012742575728952917,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0029586953446103957,
+          "B_used": 600
+        },
+        "anti": {
+          "B": 600,
+          "variant": "anti",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.021410606113869746,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0012392042761418976,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0028012358970434625,
+          "B_used": 600
+        },
+        "vr": {
+          "B": 600,
+          "variant": "vr",
+          "seed": 33,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.02133843947116376,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.0005450512196205319,
+          "control_r2": 0.8058301741773369,
+          "F_lo_at_zero": 0.0028189591207971867,
+          "B_used": 600
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 600,
+      "seed": 44,
+      "diag": {
+        "plain": {
+          "B": 600,
+          "variant": "plain",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.022188094216672505,
+          "F_at_root": 0.025,
+          "F_se": 0.001260071736290102,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002754668538996157,
+          "B_used": 600
+        },
+        "anti": {
+          "B": 600,
+          "variant": "anti",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.020949386696555362,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.0012578876199455125,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0030177119966295087,
+          "B_used": 600
+        },
+        "vr": {
+          "B": 600,
+          "variant": "vr",
+          "seed": 44,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.021866449540477458,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.000522386800140647,
+          "control_r2": 0.8350700460703958,
+          "F_lo_at_zero": 0.0027508739995032367,
+          "B_used": 600
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 1500,
+      "seed": 11,
+      "diag": {
+        "plain": {
+          "B": 1500,
+          "variant": "plain",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.021555744897834787,
+          "F_at_root": 0.025,
+          "F_se": 0.0007991802006283694,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002742457199072896,
+          "B_used": 1500
+        },
+        "anti": {
+          "B": 1500,
+          "variant": "anti",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.02160251813868609,
+          "F_at_root": 0.025,
+          "F_se": 0.0007858529983399567,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002747055070087016,
+          "B_used": 1500
+        },
+        "vr": {
+          "B": 1500,
+          "variant": "vr",
+          "seed": 11,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.022187405911370896,
+          "F_at_root": 0.025,
+          "F_se": 0.00031665217067174145,
+          "control_r2": 0.8418849024841536,
+          "F_lo_at_zero": 0.002599534161644168,
+          "B_used": 1500
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 1500,
+      "seed": 22,
+      "diag": {
+        "plain": {
+          "B": 1500,
+          "variant": "plain",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.021999061206721432,
+          "F_at_root": 0.025,
+          "F_se": 0.0007794953626855309,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002624354709494118,
+          "B_used": 1500
+        },
+        "anti": {
+          "B": 1500,
+          "variant": "anti",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.021874784340944822,
+          "F_at_root": 0.025,
+          "F_se": 0.0007776623117245208,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002684033460669025,
+          "B_used": 1500
+        },
+        "vr": {
+          "B": 1500,
+          "variant": "vr",
+          "seed": 22,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.02178260266265012,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.000342808083239117,
+          "control_r2": 0.8048207180312167,
+          "F_lo_at_zero": 0.0027096053250457728,
+          "B_used": 1500
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 1500,
+      "seed": 33,
+      "diag": {
+        "plain": {
+          "B": 1500,
+          "variant": "plain",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.021181891896249486,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0008174717372184885,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0030008115893452613,
+          "B_used": 1500
+        },
+        "anti": {
+          "B": 1500,
+          "variant": "anti",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.021351718193587575,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0007864805859102894,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002813827608786237,
+          "B_used": 1500
+        },
+        "vr": {
+          "B": 1500,
+          "variant": "vr",
+          "seed": 33,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.02141379651969106,
+          "F_at_root": 0.025,
+          "F_se": 0.0003498392015329856,
+          "control_r2": 0.8027693068714263,
+          "F_lo_at_zero": 0.002793303043772708,
+          "B_used": 1500
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 1500,
+      "seed": 44,
+      "diag": {
+        "plain": {
+          "B": 1500,
+          "variant": "plain",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.021520237816688263,
+          "F_at_root": 0.02499999999999999,
+          "F_se": 0.0008057572458437371,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0028473378564069897,
+          "B_used": 1500
+        },
+        "anti": {
+          "B": 1500,
+          "variant": "anti",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.021650345507666834,
+          "F_at_root": 0.025,
+          "F_se": 0.0007974415197650835,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002889241423150556,
+          "B_used": 1500
+        },
+        "vr": {
+          "B": 1500,
+          "variant": "vr",
+          "seed": 44,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.02217178572911231,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.0003323479271737021,
+          "control_r2": 0.8302888787094427,
+          "F_lo_at_zero": 0.0027317293841353533,
+          "B_used": 1500
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 3000,
+      "seed": 11,
+      "diag": {
+        "plain": {
+          "B": 3000,
+          "variant": "plain",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.021409873427453492,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0005699618837650116,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0028542094674031894,
+          "B_used": 3000
+        },
+        "anti": {
+          "B": 3000,
+          "variant": "anti",
+          "seed": 11,
+          "controls": [],
+          "a_star": 0.02249885410465742,
+          "F_at_root": 0.02499999999999999,
+          "F_se": 0.0005407696336765933,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0024751728868208744,
+          "B_used": 3000
+        },
+        "vr": {
+          "B": 3000,
+          "variant": "vr",
+          "seed": 11,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.02230929060644636,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.00022135702753745513,
+          "control_r2": 0.8310066361345066,
+          "F_lo_at_zero": 0.0025270515131483964,
+          "B_used": 3000
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 3000,
+      "seed": 22,
+      "diag": {
+        "plain": {
+          "B": 3000,
+          "variant": "plain",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.022216553386201675,
+          "F_at_root": 0.025,
+          "F_se": 0.0005600510636348264,
+          "control_r2": null,
+          "F_lo_at_zero": 0.002672047785964857,
+          "B_used": 3000
+        },
+        "anti": {
+          "B": 3000,
+          "variant": "anti",
+          "seed": 22,
+          "controls": [],
+          "a_star": 0.021754063258236526,
+          "F_at_root": 0.025,
+          "F_se": 0.0005538062828224984,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0027354856376565237,
+          "B_used": 3000
+        },
+        "vr": {
+          "B": 3000,
+          "variant": "vr",
+          "seed": 22,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.021779891394533284,
+          "F_at_root": 0.025,
+          "F_se": 0.0002460454943664485,
+          "control_r2": 0.8028582654902174,
+          "F_lo_at_zero": 0.0027263226442319956,
+          "B_used": 3000
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 3000,
+      "seed": 33,
+      "diag": {
+        "plain": {
+          "B": 3000,
+          "variant": "plain",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.021068185904666366,
+          "F_at_root": 0.024999999999999994,
+          "F_se": 0.0005664735946014032,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0029680699873599987,
+          "B_used": 3000
+        },
+        "anti": {
+          "B": 3000,
+          "variant": "anti",
+          "seed": 33,
+          "controls": [],
+          "a_star": 0.021059227275226793,
+          "F_at_root": 0.025,
+          "F_se": 0.0005674936521132566,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0029581702591813977,
+          "B_used": 3000
+        },
+        "vr": {
+          "B": 3000,
+          "variant": "vr",
+          "seed": 33,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.021531801071548166,
+          "F_at_root": 0.024999999999999998,
+          "F_se": 0.00023838026356212596,
+          "control_r2": 0.8277319564733546,
+          "F_lo_at_zero": 0.00282146105839614,
+          "B_used": 3000
+        }
+      }
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sig": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "B": 3000,
+      "seed": 44,
+      "diag": {
+        "plain": {
+          "B": 3000,
+          "variant": "plain",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.021600163763221117,
+          "F_at_root": 0.025,
+          "F_se": 0.0005668733366681098,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0027813617533364657,
+          "B_used": 3000
+        },
+        "anti": {
+          "B": 3000,
+          "variant": "anti",
+          "seed": 44,
+          "controls": [],
+          "a_star": 0.02169224559738609,
+          "F_at_root": 0.025,
+          "F_se": 0.0005643293528504757,
+          "control_r2": null,
+          "F_lo_at_zero": 0.0028794035611419103,
+          "B_used": 3000
+        },
+        "vr": {
+          "B": 3000,
+          "variant": "vr",
+          "seed": 44,
+          "controls": [
+            "z0",
+            "w0",
+            "zbar"
+          ],
+          "a_star": 0.02188536564729479,
+          "F_at_root": 0.025,
+          "F_se": 0.00023704118920368772,
+          "control_r2": 0.8251230034147486,
+          "F_lo_at_zero": 0.00282023126777437,
+          "B_used": 3000
+        }
+      }
+    }
+  ],
+  "seconds": 1036.388323545456,
+  "sd_across_seeds": [
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 600,
+      "variant": "plain",
+      "sd_a_star": 0.0006462877194289658,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 600,
+      "variant": "anti",
+      "sd_a_star": 0.00022243128068910004,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 600,
+      "variant": "vr",
+      "sd_a_star": 0.00037597153561053976,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 1500,
+      "variant": "plain",
+      "sd_a_star": 0.00025668365882970245,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 1500,
+      "variant": "anti",
+      "sd_a_star": 0.00027443621146144213,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 1500,
+      "variant": "vr",
+      "sd_a_star": 0.00043802381057780166,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 3000,
+      "variant": "plain",
+      "sd_a_star": 0.0004780742963391255,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 3000,
+      "variant": "anti",
+      "sd_a_star": 0.0003549537513200268,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 3000,
+      "variant": "vr",
+      "sd_a_star": 0.0003398039210093421,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 600,
+      "variant": "plain",
+      "sd_a_star": 0.0007010110383460579,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 600,
+      "variant": "anti",
+      "sd_a_star": 0.0005359555750987397,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 600,
+      "variant": "vr",
+      "sd_a_star": 0.00032228198454959344,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 1500,
+      "variant": "plain",
+      "sd_a_star": 0.00033529485183794825,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 1500,
+      "variant": "anti",
+      "sd_a_star": 0.00021456665857916998,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 1500,
+      "variant": "vr",
+      "sd_a_star": 0.0003679458999033507,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 3000,
+      "variant": "plain",
+      "sd_a_star": 0.00048178295709092294,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 3000,
+      "variant": "anti",
+      "sd_a_star": 0.0005891509964629053,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 3000,
+      "variant": "vr",
+      "sd_a_star": 0.00032431304437474797,
+      "n_seeds": 4
+    }
+  ],
+  "paired_noise_ratios": [
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 600,
+      "median_se_ratio_vr": 2.2756448938017417,
+      "median_se_ratio_anti": 1.0334975730353286,
+      "median_r2_vr": 0.8008893226604874,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 1500,
+      "median_se_ratio_vr": 2.1476101315826277,
+      "median_se_ratio_anti": 0.9928202071965067,
+      "median_r2_vr": 0.7872955350051284,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "B": 3000,
+      "median_se_ratio_vr": 2.1336011273179643,
+      "median_se_ratio_anti": 0.9944234252963566,
+      "median_r2_vr": 0.7910089473301342,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 600,
+      "median_se_ratio_vr": 2.444463148332474,
+      "median_se_ratio_anti": 1.033994361089018,
+      "median_r2_vr": 0.8289842967677477,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 1500,
+      "median_se_ratio_vr": 2.3805729916511558,
+      "median_se_ratio_anti": 1.0136934536263245,
+      "median_r2_vr": 0.8175547983703297,
+      "n_seeds": 4
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "B": 3000,
+      "median_se_ratio_vr": 2.3838996785079374,
+      "median_se_ratio_anti": 1.007892043790444,
+      "median_r2_vr": 0.8264274799440516,
+      "n_seeds": 4
+    }
+  ],
+  "notes": {
+    "control_r2": "null where the arm uses no control variates (plain/antithetic); not applicable, not a failed measurement"
+  }
+}

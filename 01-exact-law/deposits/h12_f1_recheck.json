@@ -1,0 +1,102 @@
+{
+  "alpha": 0.025,
+  "b_big": 600,
+  "draws": 500,
+  "cases": [
+    {
+      "case": "k2 S1",
+      "n": [
+        10,
+        10,
+        10
+      ],
+      "sigma": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "alpha_star": 0.02562325218603579,
+      "F_at_alpha_star": 0.02500000000000007,
+      "F_at_alpha": 0.02438558321828289,
+      "h2h_uncalibrated": 0.02407,
+      "F_alpha_minus_h2h": 0.0003155832182828895,
+      "dFWER_dalphastar": 0.9924705876622814,
+      "oracle_cal_fwer": 0.024698572487742553,
+      "oracle_cal_mcse": 7.901917189162182e-05,
+      "oracle_cal_z": -3.8146123914189958
+    },
+    {
+      "case": "k2 S4",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sigma": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "alpha_star": 0.022211782131907665,
+      "F_at_alpha_star": 0.025000000000000175,
+      "F_at_alpha": 0.027790274410221832,
+      "h2h_uncalibrated": 0.02842,
+      "F_alpha_minus_h2h": -0.0006297255897781684,
+      "dFWER_dalphastar": 0.9984502036685331,
+      "oracle_cal_fwer": 0.025300466612029986,
+      "oracle_cal_mcse": 0.00021559443068523053,
+      "oracle_cal_z": 1.393665926689305
+    },
+    {
+      "case": "k2 S5",
+      "n": [
+        13,
+        13,
+        4
+      ],
+      "sigma": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "alpha_star": 0.020145842865376892,
+      "F_at_alpha_star": 0.025000000000000112,
+      "F_at_alpha": 0.029607581295981237,
+      "h2h_uncalibrated": 0.02884,
+      "F_alpha_minus_h2h": 0.0007675812959812359,
+      "dFWER_dalphastar": 0.9477919509694064,
+      "oracle_cal_fwer": 0.02442525731875142,
+      "oracle_cal_mcse": 0.00029540042564180915,
+      "oracle_cal_z": -1.9456393131453766
+    },
+    {
+      "case": "k2 S6",
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "sigma": [
+        50.0,
+        10.0,
+        10.0
+      ],
+      "alpha_star": 0.02153042637098912,
+      "F_at_alpha_star": 0.025000000000000144,
+      "F_at_alpha": 0.028167507484458842,
+      "h2h_uncalibrated": 0.02752,
+      "F_alpha_minus_h2h": 0.0006475074844588431,
+      "dFWER_dalphastar": 0.9151093006973159,
+      "oracle_cal_fwer": 0.024437861047814927,
+      "oracle_cal_mcse": 0.00019772695198464946,
+      "oracle_cal_z": -2.843006209030703
+    }
+  ],
+  "summary": {
+    "worst_abs_F_minus_alpha": 1.734723475976807e-16,
+    "worst_abs_F_vs_headtohead": 0.0007675812959812359,
+    "worst_abs_z_end_to_end": 3.8146123914189958,
+    "f1a_passes": true,
+    "f1b_passes": false
+  }
+}

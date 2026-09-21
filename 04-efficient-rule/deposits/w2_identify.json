@@ -1,0 +1,103 @@
+{
+ "counts": [
+  {
+   "K": 1,
+   "series": 2,
+   "parameters": 4,
+   "covariance_entries": 3,
+   "identified": 0
+  },
+  {
+   "K": 2,
+   "series": 3,
+   "parameters": 6,
+   "covariance_entries": 6,
+   "identified": 1
+  },
+  {
+   "K": 3,
+   "series": 4,
+   "parameters": 8,
+   "covariance_entries": 10,
+   "identified": 1
+  },
+  {
+   "K": 5,
+   "series": 6,
+   "parameters": 12,
+   "covariance_entries": 21,
+   "identified": 1
+  }
+ ],
+ "identified_from_K": 2,
+ "under_identified_at_K1": 1,
+ "exact_recovery": [
+  {
+   "case": "K=2",
+   "beta": [
+    1.0,
+    -0.8,
+    1.5
+   ],
+   "max_abs_error": 0.0
+  },
+  {
+   "case": "K=3",
+   "beta": [
+    0.9,
+    1.4,
+    0.3,
+    1.1
+   ],
+   "max_abs_error": 0.0
+  },
+  {
+   "case": "K=5",
+   "beta": [
+    0.5,
+    2.5,
+    1.8,
+    0.4,
+    1.2,
+    0.9
+   ],
+   "max_abs_error": 0.0
+  }
+ ],
+ "worst_population_error": 0.0,
+ "sampling": [
+  {
+   "n": 36,
+   "draws": 4000,
+   "median_abs_error": 0.383639125590017,
+   "p90_abs_error": 0.7102949743428482,
+   "corr_xbar_with_cov": 0.0018720298075015052,
+   "corr_z": 0.11835315337537892,
+   "independent_at_3se": 1
+  },
+  {
+   "n": 120,
+   "draws": 4000,
+   "median_abs_error": 0.20286651984495208,
+   "p90_abs_error": 0.3507419688904191,
+   "corr_xbar_with_cov": -0.013142733821036747,
+   "corr_z": -0.8309077053473634,
+   "independent_at_3se": 1
+  },
+  {
+   "n": 360,
+   "draws": 4000,
+   "median_abs_error": 0.11658724641842216,
+   "p90_abs_error": 0.19995729513951993,
+   "corr_xbar_with_cov": 0.02025254023328151,
+   "corr_z": 1.2804026895649054,
+   "independent_at_3se": 1
+  }
+ ],
+ "worst_corr_z": 1.2804026895649054,
+ "mean_and_covariance_independent": 1,
+ "what_the_rule_sees": "the rule of Section 10 reads the data only through T and lambda_hat, so the loadings are not a function of what it sees at any candidate count; that is a separate statement from whether they are knowable from the data",
+ "consequence": "a confidence region for the loadings is constructible at two or more candidates and is not constructible at one, where a declared box is the only route",
+ "seconds": 0.42277026176452637,
+ "tier": "exact_in_model"
+}

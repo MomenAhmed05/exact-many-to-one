@@ -1,0 +1,14 @@
+{
+  "alpha": 0.025,
+  "df": 70,
+  "design": "K=1, n_i = n_0 = 36, lambda = 1 (the statistic reduces to the pooled two-sample t)",
+  "naive_reference_c": 1.994437111771186,
+  "source": "Student t quantile t_{0.975,70}; the value the desk rule's plug-in law returns at K=1",
+  "used_for": "the required-factor column of STAGE4-FRONTIER.md section 2",
+  "required_factors": {
+    "0.25": 1.291,
+    "0.5": 1.732,
+    "0.75": 2.644
+  },
+  "note": "deposited after the Stage-4 verifier flagged that this reference existed only in prose"
+}

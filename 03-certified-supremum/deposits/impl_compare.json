@@ -1,0 +1,121 @@
+{
+  "alpha0": 0.0245,
+  "tol": 0.0001,
+  "i_k1_closed_form": {
+    "rows": [
+      {
+        "n": [
+          13.0,
+          13.0
+        ],
+        "lam": [
+          1.0
+        ],
+        "c_exact": 2.411913701040256,
+        "c_L": 2.4119135909746037,
+        "c_U": 2.4119140338152647,
+        "width": 4.4284066103017494e-07,
+        "contains": true,
+        "abs_diff_to_mid": 1.1135467836709267e-07
+      },
+      {
+        "n": [
+          4.0,
+          7.0
+        ],
+        "lam": [
+          1.0
+        ],
+        "c_exact": 3.271995428381524,
+        "c_L": 3.2719948103425933,
+        "c_U": 3.271995469927788,
+        "width": 6.595851944624087e-07,
+        "contains": true,
+        "abs_diff_to_mid": 2.882463334685781e-07
+      },
+      {
+        "n": [
+          30.0,
+          4.0
+        ],
+        "lam": [
+          25.0
+        ],
+        "c_exact": 2.47661366300383,
+        "c_L": 2.476613236354856,
+        "c_U": 2.4766136948019266,
+        "width": 4.5844707052822287e-07,
+        "contains": true,
+        "abs_diff_to_mid": 1.974254386638563e-07
+      },
+      {
+        "n": [
+          13.0,
+          13.0
+        ],
+        "lam": [
+          0.04
+        ],
+        "c_exact": 2.8227208000395385,
+        "c_L": 2.8227205892374525,
+        "c_U": 2.8227213844656944,
+        "width": 7.952282419232404e-07,
+        "contains": true,
+        "abs_diff_to_mid": 1.868120347303659e-07
+      }
+    ],
+    "all_contain": true,
+    "max_width": 7.952282419232404e-07
+  },
+  "ii_population_route": {
+    "c_production": 2.4632607824237978,
+    "c_draw_average": 2.4639204837382964,
+    "abs_diff": 0.0006597013144986619,
+    "bracket_width": 9.103828801926284e-14,
+    "draws": 3000,
+    "agree": true
+  },
+  "iii_vanishing_ratio": {
+    "rows": [
+      {
+        "n": [
+          13.0,
+          13.0
+        ],
+        "lam": [
+          1e-08
+        ],
+        "c_exact": 2.4745786532246585,
+        "c_L": 1.9890059530735016,
+        "c_U": 3.1495636999607086,
+        "width": 1.160557746887207,
+        "contains": true,
+        "n_eval": 49
+      },
+      {
+        "n": [
+          4.0,
+          13.0
+        ],
+        "lam": [
+          1e-08
+        ],
+        "c_exact": 3.618380810070324,
+        "c_L": 3.139420263469219,
+        "c_U": 4.607005827128887,
+        "width": 1.467585563659668,
+        "contains": true,
+        "n_eval": 49
+      }
+    ],
+    "all_contain": true
+  },
+  "seconds": 885.8850951194763,
+  "verdict": "PASS",
+  "note": "three implementation classes compared like-for-like: an exact K=1 closed form, an independent population route (draw-average identity), and a vanishing-ratio limit; widths are recorded with every comparison.  A homoscedastic comparison against published Dunnett tables is NOT included: scipy has no Dunnett routine and the w26 kernel regression already covers the population solver against an independent transformation/panel architecture.",
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "analytic limits and cross-implementation comparisons with widths"
+  ]
+}

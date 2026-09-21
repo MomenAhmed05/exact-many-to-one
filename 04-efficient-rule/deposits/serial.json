@@ -1,0 +1,205 @@
+{
+ "abar": 0.025,
+ "n": [
+  36.0,
+  36.0
+ ],
+ "alpha0_iid": 0.024943847656250004,
+ "draws": 40000,
+ "rows": [
+  {
+   "phi": 0.0,
+   "naive": {
+    "fwer": 0.025425,
+    "mcse": 0.0007870605023598885
+   },
+   "whitened_correct": {
+    "fwer": 0.025425,
+    "mcse": 0.0007870605023598885
+   }
+  },
+  {
+   "phi": 0.05,
+   "naive": {
+    "fwer": 0.03085,
+    "mcse": 0.0008645559192440937
+   },
+   "whitened_correct": {
+    "fwer": 0.0249,
+    "mcse": 0.0007791018867901681
+   }
+  },
+  {
+   "phi": 0.1,
+   "naive": {
+    "fwer": 0.03935,
+    "mcse": 0.0009721313890107653
+   },
+   "whitened_correct": {
+    "fwer": 0.025175,
+    "mcse": 0.0007832818677685575
+   }
+  },
+  {
+   "phi": 0.2,
+   "naive": {
+    "fwer": 0.05465,
+    "mcse": 0.0011364789648295299
+   },
+   "whitened_correct": {
+    "fwer": 0.024775,
+    "mcse": 0.0007771936595051454
+   }
+  },
+  {
+   "phi": 0.3,
+   "naive": {
+    "fwer": 0.074775,
+    "mcse": 0.0013151397204764974
+   },
+   "whitened_correct": {
+    "fwer": 0.0243,
+    "mcse": 0.0007698946356482814
+   }
+  },
+  {
+   "phi": 0.4,
+   "naive": {
+    "fwer": 0.1,
+    "mcse": 0.0015
+   },
+   "whitened_correct": {
+    "fwer": 0.02485,
+    "mcse": 0.0007783392175009557
+   }
+  }
+ ],
+ "bound_rule": [
+  {
+   "phi_max": 0.05,
+   "alpha0": 0.024943847656250004,
+   "worst_fwer": 0.024666666666666667,
+   "valid": 1,
+   "level_price_vs_iid_pct": 0.0
+  },
+  {
+   "phi_max": 0.1,
+   "alpha0": 0.024943847656250004,
+   "worst_fwer": 0.024416666666666666,
+   "valid": 1,
+   "level_price_vs_iid_pct": 0.0
+  },
+  {
+   "phi_max": 0.2,
+   "alpha0": 0.024943847656250004,
+   "worst_fwer": 0.0235,
+   "valid": 1,
+   "level_price_vs_iid_pct": 0.0
+  }
+ ],
+ "iid_reference": {
+  "fwer": 0.02725,
+  "mcse": 0.0018202828592007343
+ },
+ "misspecification": [
+  {
+   "declared": 0.0,
+   "true": 0.0,
+   "fwer": 0.022916666666666665,
+   "mcse": 0.0013660006422508114
+  },
+  {
+   "declared": 0.0,
+   "true": 0.1,
+   "fwer": 0.035333333333333335,
+   "mcse": 0.0016853508262102011
+  },
+  {
+   "declared": 0.0,
+   "true": 0.2,
+   "fwer": 0.05333333333333334,
+   "mcse": 0.00205119657941588
+  },
+  {
+   "declared": 0.0,
+   "true": 0.3,
+   "fwer": 0.06966666666666667,
+   "mcse": 0.0023240270764024787
+  },
+  {
+   "declared": 0.1,
+   "true": 0.0,
+   "fwer": 0.0145,
+   "mcse": 0.0010912435566820086
+  },
+  {
+   "declared": 0.1,
+   "true": 0.1,
+   "fwer": 0.023583333333333335,
+   "mcse": 0.0013852544808993948
+  },
+  {
+   "declared": 0.1,
+   "true": 0.2,
+   "fwer": 0.04016666666666667,
+   "mcse": 0.0017924216755448375
+  },
+  {
+   "declared": 0.1,
+   "true": 0.3,
+   "fwer": 0.05725,
+   "mcse": 0.0021207788958304916
+  },
+  {
+   "declared": 0.2,
+   "true": 0.0,
+   "fwer": 0.006166666666666667,
+   "mcse": 0.0007146467011100012
+  },
+  {
+   "declared": 0.2,
+   "true": 0.1,
+   "fwer": 0.013583333333333333,
+   "mcse": 0.0010566782224219163
+  },
+  {
+   "declared": 0.2,
+   "true": 0.2,
+   "fwer": 0.0255,
+   "mcse": 0.0014390317925605397
+  },
+  {
+   "declared": 0.2,
+   "true": 0.3,
+   "fwer": 0.0405,
+   "mcse": 0.0017995311889489442
+  },
+  {
+   "declared": 0.3,
+   "true": 0.0,
+   "fwer": 0.0019166666666666666,
+   "mcse": 0.00039926944281144653
+  },
+  {
+   "declared": 0.3,
+   "true": 0.1,
+   "fwer": 0.00675,
+   "mcse": 0.0007474644640382578
+  },
+  {
+   "declared": 0.3,
+   "true": 0.2,
+   "fwer": 0.014,
+   "mcse": 0.0010725359356838974
+  },
+  {
+   "declared": 0.3,
+   "true": 0.3,
+   "fwer": 0.02525,
+   "mcse": 0.0014321440075402102
+  }
+ ],
+ "seconds": 51.22690510749817,
+ "status": "The whitened problem is the iid problem, so with a DECLARED and correct coefficient every certificate in this repository transfers unchanged.  Everything else here is measured: the misspecification surface and the declared-bound rule are simulation estimates with their standard errors, and neither is a theorem.",
+ "tier": "unconditional_candidate_measured"
+}

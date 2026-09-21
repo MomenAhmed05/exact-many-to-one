@@ -1,0 +1,74 @@
+{
+  "rows": [
+    {
+      "K": 1,
+      "grid": "fast",
+      "cdf_probe_max_abs_diff": 0.0,
+      "c_new": 2.4413352561688533,
+      "c_orig": 2.4413352561688533,
+      "abs_diff": 0.0
+    },
+    {
+      "K": 1,
+      "grid": "boot",
+      "cdf_probe_max_abs_diff": 0.0,
+      "c_new": 2.441508235092097,
+      "c_orig": 2.441508235092097,
+      "abs_diff": 0.0
+    },
+    {
+      "K": 2,
+      "grid": "fast",
+      "cdf_probe_max_abs_diff": 0.0,
+      "c_new": 2.70027730606346,
+      "c_orig": 2.70027730606346,
+      "abs_diff": 0.0
+    },
+    {
+      "K": 2,
+      "grid": "boot",
+      "cdf_probe_max_abs_diff": 0.0,
+      "c_new": 2.700595223872713,
+      "c_orig": 2.700595223872713,
+      "abs_diff": 0.0
+    },
+    {
+      "K": 5,
+      "grid": "fast",
+      "cdf_probe_max_abs_diff": 0.0,
+      "c_new": 3.0510264989332607,
+      "c_orig": 3.0510264989332607,
+      "abs_diff": 0.0
+    },
+    {
+      "K": 5,
+      "grid": "boot",
+      "cdf_probe_max_abs_diff": 0.0,
+      "c_new": 3.0517877658686614,
+      "c_orig": 3.0517877658686614,
+      "abs_diff": 0.0
+    },
+    {
+      "K": 8,
+      "grid": "fast",
+      "cdf_probe_max_abs_diff": 0.0,
+      "c_new": 3.2434869793838095,
+      "c_orig": 3.2434869793838095,
+      "abs_diff": 0.0
+    },
+    {
+      "K": 8,
+      "grid": "boot",
+      "cdf_probe_max_abs_diff": 0.0,
+      "c_new": 3.24469271973206,
+      "c_orig": 3.24469271973206,
+      "abs_diff": 0.0
+    }
+  ],
+  "worst_abs_diff_vs_backup": 0.0,
+  "bit_identical": true,
+  "deposit_cells_checked": 12,
+  "worst_abs_diff_vs_deposits": 0.0,
+  "deposits_identical": true,
+  "note": "sweep was lint-only: guarded float()/int() wrappers and f-string formatting; float(x) is returned unchanged on success, and no numeric expression was reordered."
+}

@@ -1,0 +1,86 @@
+{
+  "n": [
+    8.0,
+    13.0,
+    13.0
+  ],
+  "lam_true": [
+    0.04,
+    0.04
+  ],
+  "alpha": 0.025,
+  "D": 75,
+  "B": 25,
+  "B_cal": 120,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "c_oracle": 2.4467669468238213,
+  "nan_draws": 225,
+  "rules": {
+    "plugin": {
+      "fwer": 0.02467660229180406,
+      "seed_se_pct": 0.2238314009503807,
+      "rel_err_pct": -1.2935908327837697,
+      "mean_c": 2.447405604222126,
+      "power_cost_pct": 0.02610209358654479
+    },
+    "cb0.9": {
+      "fwer": 0.02534262449089497,
+      "seed_se_pct": 0.059273330301269564,
+      "rel_err_pct": 1.3704979635798809,
+      "mean_c": 2.4270259468768782,
+      "power_cost_pct": -0.8068197901957583
+    },
+    "cb0.8": {
+      "fwer": 0.02508416451658707,
+      "seed_se_pct": 0.12326645046148714,
+      "rel_err_pct": 0.33665806634827766,
+      "mean_c": 2.4342317912440277,
+      "power_cost_pct": -0.5123150611489876
+    },
+    "deb": {
+      "fwer": 0.024800989818553932,
+      "seed_se_pct": 0.22533563697956804,
+      "rel_err_pct": -0.7960407257842778,
+      "mean_c": 2.443275409107747,
+      "power_cost_pct": -0.14270005243477124
+    },
+    "cq0.8": {
+      "fwer": 0.02430333376237064,
+      "seed_se_pct": 0.2760880672433129,
+      "rel_err_pct": -2.7866649505174506,
+      "mean_c": 2.4597673999492775,
+      "power_cost_pct": 0.5313318925749025
+    },
+    "smooth": {
+      "fwer": 0.02429415164473735,
+      "seed_se_pct": 0.28608778567214904,
+      "rel_err_pct": -2.8233934210506044,
+      "mean_c": 2.4587974692972705,
+      "power_cost_pct": 0.4916905751512676
+    },
+    "oracle_cal": {
+      "fwer": null,
+      "seed_se_pct": null,
+      "rel_err_pct": null,
+      "mean_c": null,
+      "power_cost_pct": null
+    },
+    "m3": {
+      "fwer": 0.02416977767027882,
+      "seed_se_pct": 0.4663415119041079,
+      "rel_err_pct": -3.3208893188847313,
+      "mean_c": 2.4597578132272058,
+      "power_cost_pct": 0.5309400807562826
+    }
+  },
+  "seconds": 833.2690966129303,
+  "family": "A",
+  "benchmark_df": 7,
+  "notes": {
+    "oracle_cal": "oracle_cal is computed only when the benchmark group has n[0] <= 6 (calibrator cost); it is null at larger benchmark df by design, and the other rules in this file are unaffected"
+  }
+}

@@ -1,0 +1,138 @@
+{
+ "alpha": 0.05,
+ "cells": {
+  "K5/T60/rho0.0": {
+   "c_dunnett": 2.3187,
+   "c_exact": 2.3836,
+   "penalty_pct": 2.802,
+   "c_plug_mean": 2.3173,
+   "c_plug_sd": 0.0021,
+   "size_dunnett": 0.0563,
+   "size_exact": 0.047,
+   "size_plug": 0.0568,
+   "mcse": 0.0034
+  },
+  "K5/T60/rho0.5": {
+   "c_dunnett": 2.2344,
+   "c_exact": 2.2904,
+   "penalty_pct": 2.505,
+   "c_plug_mean": 2.229,
+   "c_plug_sd": 0.021,
+   "size_dunnett": 0.0595,
+   "size_exact": 0.0528,
+   "size_plug": 0.06,
+   "mcse": 0.0034
+  },
+  "K5/T250/rho0.0": {
+   "c_dunnett": 2.3187,
+   "c_exact": 2.3337,
+   "penalty_pct": 0.649,
+   "c_plug_mean": 2.3179,
+   "c_plug_sd": 0.001,
+   "size_dunnett": 0.056,
+   "size_exact": 0.0535,
+   "size_plug": 0.0565,
+   "mcse": 0.0034
+  },
+  "K5/T250/rho0.5": {
+   "c_dunnett": 2.2344,
+   "c_exact": 2.2454,
+   "penalty_pct": 0.491,
+   "c_plug_mean": 2.2296,
+   "c_plug_sd": 0.0103,
+   "size_dunnett": 0.0553,
+   "size_exact": 0.054,
+   "size_plug": 0.0558,
+   "mcse": 0.0034
+  },
+  "K5/T1000/rho0.0": {
+   "c_dunnett": 2.3187,
+   "c_exact": 2.3219,
+   "penalty_pct": 0.137,
+   "c_plug_mean": 2.3183,
+   "c_plug_sd": 0.0005,
+   "size_dunnett": 0.0535,
+   "size_exact": 0.0525,
+   "size_plug": 0.0535,
+   "mcse": 0.0034
+  },
+  "K5/T1000/rho0.5": {
+   "c_dunnett": 2.2344,
+   "c_exact": 2.2382,
+   "penalty_pct": 0.17,
+   "c_plug_mean": 2.2299,
+   "c_plug_sd": 0.0052,
+   "size_dunnett": 0.0495,
+   "size_exact": 0.049,
+   "size_plug": 0.0513,
+   "mcse": 0.0034
+  },
+  "K10/T60/rho0.0": {
+   "c_dunnett": 2.5679,
+   "c_exact": 2.6493,
+   "penalty_pct": 3.171,
+   "c_plug_mean": 2.5671,
+   "c_plug_sd": 0.0012,
+   "size_dunnett": 0.0643,
+   "size_exact": 0.0525,
+   "size_plug": 0.0643,
+   "mcse": 0.0034
+  },
+  "K10/T60/rho0.5": {
+   "c_dunnett": 2.449,
+   "c_exact": 2.5308,
+   "penalty_pct": 3.341,
+   "c_plug_mean": 2.444,
+   "c_plug_sd": 0.0256,
+   "size_dunnett": 0.0593,
+   "size_exact": 0.0503,
+   "size_plug": 0.059,
+   "mcse": 0.0034
+  },
+  "K10/T250/rho0.0": {
+   "c_dunnett": 2.5679,
+   "c_exact": 2.5851,
+   "penalty_pct": 0.67,
+   "c_plug_mean": 2.5675,
+   "c_plug_sd": 0.0006,
+   "size_dunnett": 0.0548,
+   "size_exact": 0.0533,
+   "size_plug": 0.055,
+   "mcse": 0.0034
+  },
+  "K10/T250/rho0.5": {
+   "c_dunnett": 2.449,
+   "c_exact": 2.4662,
+   "penalty_pct": 0.704,
+   "c_plug_mean": 2.4443,
+   "c_plug_sd": 0.0127,
+   "size_dunnett": 0.05,
+   "size_exact": 0.0485,
+   "size_plug": 0.0503,
+   "mcse": 0.0034
+  },
+  "K10/T1000/rho0.0": {
+   "c_dunnett": 2.5679,
+   "c_exact": 2.5721,
+   "penalty_pct": 0.165,
+   "c_plug_mean": 2.5677,
+   "c_plug_sd": 0.0003,
+   "size_dunnett": 0.048,
+   "size_exact": 0.0475,
+   "size_plug": 0.048,
+   "mcse": 0.0034
+  },
+  "K10/T1000/rho0.5": {
+   "c_dunnett": 2.449,
+   "c_exact": 2.4536,
+   "penalty_pct": 0.187,
+   "c_plug_mean": 2.4442,
+   "c_plug_sd": 0.0062,
+   "size_dunnett": 0.0473,
+   "size_exact": 0.0473,
+   "size_plug": 0.0483,
+   "mcse": 0.0034
+  }
+ },
+ "falsified": []
+}

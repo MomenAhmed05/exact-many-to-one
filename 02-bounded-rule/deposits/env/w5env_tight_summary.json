@@ -1,0 +1,25 @@
+{
+  "tag": "tight",
+  "n_rows": 18,
+  "gamma": 0.0005,
+  "tight": true,
+  "violations": [],
+  "conditional_violations": [
+    {
+      "K": 8,
+      "shape": "bench_small",
+      "vol": "noisy_bench",
+      "alpha": 0.025,
+      "m": 4,
+      "power_cost_pct": 1.6056078931383602,
+      "fwer_est": 0.022800388137724566,
+      "max_excess_vs_oracle_inside": 4.052075704974456e-07,
+      "n_outside": 0,
+      "fwer_bound": 0.022800388137724566,
+      "plugin_fwer": 0.03205390736492721,
+      "passes_bound": true,
+      "passes_pointwise": false
+    }
+  ],
+  "all_pass": false
+}

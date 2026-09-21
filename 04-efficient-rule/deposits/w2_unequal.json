@@ -1,0 +1,284 @@
+{
+ "abar": 0.025,
+ "n_overlap": 24,
+ "prehistory_lengths": [
+  0,
+  12,
+  36,
+  120,
+  360
+ ],
+ "delta": 0.62,
+ "rows": [
+  {
+   "design": "paired",
+   "n_pre": 0,
+   "shift": 0.0,
+   "fwer": 0.024486666666666667,
+   "mcse": 0.0002821764803701295,
+   "z": -1.8191924878359726,
+   "power": 0.5558733333333333,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 12,
+   "shift": 0.0,
+   "fwer": 0.024386666666666668,
+   "mcse": 0.0002816141400069461,
+   "z": -2.1779209428837834,
+   "power": 0.5566166666666666,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 12,
+   "shift": 0.5,
+   "fwer": 0.02086,
+   "mcse": 0.00026092693996596056,
+   "z": -15.866510374666902,
+   "power": 0.5439433333333333,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 12,
+   "shift": -0.5,
+   "fwer": 0.02419,
+   "mcse": 0.00028050456859024595,
+   "z": -2.887653502653746,
+   "power": 0.54383,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 36,
+   "shift": 0.0,
+   "fwer": 0.02368666666666667,
+   "mcse": 0.0002776425068854365,
+   "z": -4.73030354057152,
+   "power": 0.5549566666666667,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 36,
+   "shift": 0.5,
+   "fwer": 0.020146666666666667,
+   "mcse": 0.00025652016482717875,
+   "z": -18.919890124829344,
+   "power": 0.5444166666666667,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 36,
+   "shift": -0.5,
+   "fwer": 0.02333,
+   "mcse": 0.0002755945760230657,
+   "z": -6.059625788354527,
+   "power": 0.5419333333333334,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 120,
+   "shift": 0.0,
+   "fwer": 0.023083333333333334,
+   "mcse": 0.0002741683974953809,
+   "z": -6.990837325439591,
+   "power": 0.5545166666666667,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 120,
+   "shift": 0.5,
+   "fwer": 0.021313333333333333,
+   "mcse": 0.00026368589366615447,
+   "z": -13.981281347322494,
+   "power": 0.5485166666666667,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 120,
+   "shift": -0.5,
+   "fwer": 0.023786666666666668,
+   "mcse": 0.000278213713749913,
+   "z": -4.361155735205785,
+   "power": 0.5473866666666667,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 360,
+   "shift": 0.0,
+   "fwer": 0.023106666666666668,
+   "mcse": 0.0002743036554758383,
+   "z": -6.902326292549556,
+   "power": 0.55403,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 360,
+   "shift": 0.5,
+   "fwer": 0.022563333333333335,
+   "mcse": 0.000271134833137944,
+   "z": -8.986918569134845,
+   "power": 0.5503566666666667,
+   "breach": 0
+  },
+  {
+   "design": "two_window",
+   "n_pre": 360,
+   "shift": -0.5,
+   "fwer": 0.023056666666666666,
+   "mcse": 0.00027401372708247597,
+   "z": -7.092102114827288,
+   "power": 0.5517466666666667,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 12,
+   "shift": 0.0,
+   "fwer": 0.025043333333333334,
+   "mcse": 0.00028528444746071064,
+   "z": 0.1518951829272102,
+   "power": 0.63428,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 12,
+   "shift": 0.5,
+   "fwer": 0.0047866666666666665,
+   "mcse": 0.00012601262488191265,
+   "z": -160.40720802598466,
+   "power": 0.38138666666666665,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 12,
+   "shift": -0.5,
+   "fwer": 0.08594333333333333,
+   "mcse": 0.0005117195742099667,
+   "z": 119.09517713373089,
+   "power": 0.8271266666666667,
+   "breach": 1
+  },
+  {
+   "design": "full_history",
+   "n_pre": 36,
+   "shift": 0.0,
+   "fwer": 0.02546,
+   "mcse": 0.00028758644149774054,
+   "z": 1.5995190788701095,
+   "power": 0.7064366666666667,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 36,
+   "shift": 0.5,
+   "fwer": 0.0007233333333333333,
+   "mcse": 4.908530405400454e-05,
+   "z": -494.5811609918325,
+   "power": 0.24737,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 36,
+   "shift": -0.5,
+   "fwer": 0.22296,
+   "mcse": 0.0007599316600853,
+   "z": 260.4971083554797,
+   "power": 0.9595733333333333,
+   "breach": 1
+  },
+  {
+   "design": "full_history",
+   "n_pre": 120,
+   "shift": 0.0,
+   "fwer": 0.02487,
+   "mcse": 0.00028432072910711243,
+   "z": -0.45723011617287534,
+   "power": 0.77711,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 120,
+   "shift": 0.5,
+   "fwer": 7.666666666666667e-05,
+   "mcse": 1.5985492265268625e-05,
+   "z": -1559.1220413952337,
+   "power": 0.14242666666666667,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 120,
+   "shift": -0.5,
+   "fwer": 0.4460133333333333,
+   "mcse": 0.0009075340945335005,
+   "z": 463.9091091665781,
+   "power": 0.9951766666666667,
+   "breach": 1
+  },
+  {
+   "design": "full_history",
+   "n_pre": 360,
+   "shift": 0.0,
+   "fwer": 0.024893333333333333,
+   "mcse": 0.00028445067111240274,
+   "z": -0.37499179119362314,
+   "power": 0.8082966666666667,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 360,
+   "shift": 0.5,
+   "fwer": 2.3333333333333332e-05,
+   "mcse": 8.819068145953003e-06,
+   "z": -2832.120837860659,
+   "power": 0.10136666666666666,
+   "breach": 0
+  },
+  {
+   "design": "full_history",
+   "n_pre": 360,
+   "shift": -0.5,
+   "fwer": 0.5712,
+   "mcse": 0.0009035680383900263,
+   "z": 604.4923866200678,
+   "power": 0.99857,
+   "breach": 1
+  }
+ ],
+ "paired_fwer": 0.024486666666666667,
+ "paired_power": 0.5558733333333333,
+ "two_window_max_power_gain_pp": 0.07433333333333181,
+ "full_history_max_power_gain_pp": 25.242333333333335,
+ "full_history_power_gain_by_pre": {
+  "12": 7.840666666666662,
+  "36": 15.056333333333338,
+  "120": 22.123666666666665,
+  "360": 25.242333333333335
+ },
+ "saturates_at_prehistory": "it does not saturate by 360",
+ "two_window_worst_fwer": 0.024386666666666668,
+ "full_history_worst_fwer": 0.02546,
+ "broken_stationarity_worst_fwer": 0.5712,
+ "broken_stationarity_worst_design": "full_history",
+ "broken_ratio_to_abar": 22.848,
+ "n_breaches": 4,
+ "note": "The two-window design uses the prehistory for the benchmark's VARIANCE only and so needs constant variance but not a constant mean; full-history uses it for the mean too and needs both.  The shift rows break exactly that assumption and price it in BOTH directions: a prehistory ABOVE the later mean makes the test powerless, one BELOW it makes the test liberal, and only the second is dangerous.",
+ "seconds": 304.49591159820557,
+ "tier": "measured"
+}

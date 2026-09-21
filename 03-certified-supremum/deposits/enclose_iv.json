@@ -1,0 +1,213 @@
+{
+  "n_points": 5,
+  "dps_set": [
+    30,
+    40,
+    50
+  ],
+  "all_contained": true,
+  "max_width": 8.382183835919932e-14,
+  "max_convergence": 0.0,
+  "note": "independent mpmath evaluation (kink-split dense Gauss-Legendre at 30/40/50 digits) checked for containment inside the Arb enclosure.  This is a FALSIFIER, not a certificate: it catches shared conceptual bugs and would fail loudly on one.",
+  "seconds": 10.307400226593018,
+  "rows": [
+    {
+      "point": "desk_B_df35",
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "c": 2.6,
+      "K": 2,
+      "enclosure": [
+        0.9895374515594003,
+        0.9895374515594841
+      ],
+      "width": 8.382183835919932e-14,
+      "mpmath_refs": [
+        {
+          "dps": 30,
+          "F": 0.9895374515594423
+        },
+        {
+          "dps": 40,
+          "F": 0.9895374515594423
+        },
+        {
+          "dps": 50,
+          "F": 0.9895374515594423
+        }
+      ],
+      "convergence_abs": 0.0,
+      "contains": true,
+      "margin_lo": 4.196643033083092e-14,
+      "margin_hi": 4.18554080283684e-14
+    },
+    {
+      "point": "desk_A_df3",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "c": 2.4,
+      "K": 2,
+      "enclosure": [
+        0.7968191531995301,
+        0.7968191531996015
+      ],
+      "width": 7.138734048339757e-14,
+      "mpmath_refs": [
+        {
+          "dps": 30,
+          "F": 0.7968191531995659
+        },
+        {
+          "dps": 40,
+          "F": 0.7968191531995659
+        },
+        {
+          "dps": 50,
+          "F": 0.7968191531995659
+        }
+      ],
+      "convergence_abs": 0.0,
+      "contains": true,
+      "margin_lo": 3.574918139293004e-14,
+      "margin_hi": 3.5638159090467525e-14
+    },
+    {
+      "point": "sharp_A_df3_lo",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "c": 5.0,
+      "K": 2,
+      "enclosure": [
+        0.9637152799179856,
+        0.9637152799180677
+      ],
+      "width": 8.215650382226158e-14,
+      "mpmath_refs": [
+        {
+          "dps": 30,
+          "F": 0.9637152799180266
+        },
+        {
+          "dps": 40,
+          "F": 0.9637152799180266
+        },
+        {
+          "dps": 50,
+          "F": 0.9637152799180266
+        }
+      ],
+      "convergence_abs": 0.0,
+      "contains": true,
+      "margin_lo": 4.107825191113079e-14,
+      "margin_hi": 4.107825191113079e-14
+    },
+    {
+      "point": "K3_mixed",
+      "n": [
+        8.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      "lam": [
+        0.25,
+        1.0,
+        4.0
+      ],
+      "c": 3.0,
+      "K": 3,
+      "enclosure": [
+        0.9603733602292971,
+        0.960373360229379
+      ],
+      "width": 8.193445921733655e-14,
+      "mpmath_refs": [
+        {
+          "dps": 30,
+          "F": 0.9603733602293382
+        },
+        {
+          "dps": 40,
+          "F": 0.9603733602293382
+        },
+        {
+          "dps": 50,
+          "F": 0.9603733602293382
+        }
+      ],
+      "convergence_abs": 0.0,
+      "contains": true,
+      "margin_lo": 4.107825191113079e-14,
+      "margin_hi": 4.085620730620576e-14
+    },
+    {
+      "point": "K5_balanced",
+      "n": [
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        0.5,
+        0.25,
+        2.0,
+        4.0
+      ],
+      "c": 3.0,
+      "K": 5,
+      "enclosure": [
+        0.9698068887984767,
+        0.9698068887985591
+      ],
+      "width": 8.248957072964913e-14,
+      "mpmath_refs": [
+        {
+          "dps": 30,
+          "F": 0.969806888798518
+        },
+        {
+          "dps": 40,
+          "F": 0.969806888798518
+        },
+        {
+          "dps": 50,
+          "F": 0.969806888798518
+        }
+      ],
+      "convergence_abs": 0.0,
+      "contains": true,
+      "margin_lo": 4.1300296516055823e-14,
+      "margin_hi": 4.118927421359331e-14
+    }
+  ],
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "independent mpmath cross-check of certificate points (falsifier)"
+  ]
+}

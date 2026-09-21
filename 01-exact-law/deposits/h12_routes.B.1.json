@@ -1,0 +1,43 @@
+{
+  "part": "B",
+  "scenario": "S4 control smallest n and sd",
+  "n": [
+    4,
+    13,
+    13
+  ],
+  "sigma": [
+    10.0,
+    10.0,
+    50.0
+  ],
+  "alpha": 0.025,
+  "m_post": 200,
+  "datasets": 800,
+  "rules": {
+    "oracle": {
+      "fwer": 0.035,
+      "mcse": 0.006501660517656899,
+      "diff_vs_uncal": 0.00125,
+      "diff_mcse": 0.0033089625892069206
+    },
+    "uncalibrated": {
+      "fwer": 0.03375,
+      "mcse": 0.006388637588547126,
+      "diff_vs_uncal": 0.0,
+      "diff_mcse": 0.0
+    },
+    "postmean_p": {
+      "fwer": 0.03875,
+      "mcse": 0.006827797624454069,
+      "diff_vs_uncal": 0.005,
+      "diff_mcse": 0.003058667079853859
+    },
+    "t3": {
+      "fwer": 0.0375,
+      "mcse": 0.006721134916679643,
+      "diff_vs_uncal": 0.00375,
+      "diff_mcse": 0.002162352095110562
+    }
+  }
+}

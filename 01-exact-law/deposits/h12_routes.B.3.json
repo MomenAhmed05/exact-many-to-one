@@ -1,0 +1,43 @@
+{
+  "part": "B",
+  "scenario": "S6 control smallest n, largest sd",
+  "n": [
+    4,
+    13,
+    13
+  ],
+  "sigma": [
+    50.0,
+    10.0,
+    10.0
+  ],
+  "alpha": 0.025,
+  "m_post": 200,
+  "datasets": 800,
+  "rules": {
+    "oracle": {
+      "fwer": 0.02625,
+      "mcse": 0.0056560729155512605,
+      "diff_vs_uncal": -0.00375,
+      "diff_mcse": 0.002162352095110562
+    },
+    "uncalibrated": {
+      "fwer": 0.03,
+      "mcse": 0.006034942059131251,
+      "diff_vs_uncal": 0.0,
+      "diff_mcse": 0.0
+    },
+    "postmean_p": {
+      "fwer": 0.04,
+      "mcse": 0.006932537421021782,
+      "diff_vs_uncal": 0.01,
+      "diff_mcse": 0.003520012515622305
+    },
+    "t3": {
+      "fwer": 0.02,
+      "mcse": 0.004952843963740574,
+      "diff_vs_uncal": -0.01,
+      "diff_mcse": 0.0035200125156223047
+    }
+  }
+}

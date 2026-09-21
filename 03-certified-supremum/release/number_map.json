@@ -1,0 +1,150 @@
+{
+  "entries": [
+    {
+      "number": "12/12",
+      "claim": "desk cells inside alpha + gamma (envelope); the desk sweep summary records all_pass=True over twelve rows",
+      "deposit": "../02-bounded-rule/deposits/env/sweep_summary.json",
+      "field": "all_pass",
+      "script": "w26/w5_env.py",
+      "report": "w26/REPORT-PROVEN-BOUNDARY.md",
+      "tier": "envelope_measured"
+    },
+    {
+      "number": "4.05e-07",
+      "claim": "the K=8 pointwise artifact (quadrature level), carried forward rather than suppressed",
+      "deposit": "../02-bounded-rule/deposits/env/w5env_tight_summary.json",
+      "field": "conditional_violations.0.max_excess_vs_oracle_inside",
+      "script": "w26/w5_env.py",
+      "report": "w26/REPORT-PROVEN-BOUNDARY.md",
+      "tier": "envelope_measured"
+    },
+    {
+      "number": "0.0000",
+      "claim": "worst corner deficit vs dense-grid sup (12/12 cells)",
+      "deposit": "../02-bounded-rule/deposits/cert/sup_falsifier.json",
+      "field": "worst_corner_deficit",
+      "script": "w26/cert_falsify.py",
+      "report": "w26/REPORT-PROVEN-BOUNDARY.md",
+      "tier": "envelope_measured"
+    },
+    {
+      "number": "+0.01180",
+      "claim": "the one dominance violation (a gamma event)",
+      "deposit": "../02-bounded-rule/deposits/cert/leak_probe.json",
+      "field": "worst_excess_rej",
+      "script": "w26/cert_leak.py",
+      "report": "w26/REPORT-PROVEN-BOUNDARY.md",
+      "tier": "envelope_measured"
+    },
+    {
+      "number": "4.96e-04",
+      "claim": "observed region miss rate (pooled 240k draws)",
+      "deposit": "../02-bounded-rule/deposits/cert/miss_probe.json",
+      "field": "pooled_miss_observed",
+      "script": "w26/miss_probe.py",
+      "report": "w26/REPORT-PROVEN-BOUNDARY.md",
+      "tier": "envelope_measured"
+    },
+    {
+      "number": "+422%",
+      "claim": "max price of the proven (whole-region) tier",
+      "deposit": "../02-bounded-rule/deposits/cert/certified_rule.json",
+      "field": "max_price_of_proof_pct",
+      "script": "w26/cert_rule.py",
+      "report": "w26/REPORT-PROVEN-BOUNDARY.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "0.024964",
+      "claim": "worst conditional rejection at the certified constant",
+      "deposit": "../02-bounded-rule/deposits/cert/rigorous.json",
+      "field": "worst_falsify_rej",
+      "script": "w26/cert_sup.py",
+      "report": "w26/STAGE1-CERTIFICATE.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "12/17",
+      "claim": "desk cells certified at tol = 1e-4 by the branch-and-bound",
+      "deposit": "deposits/bnb.json",
+      "field": "n_certified_at_tol",
+      "script": "cert_bnb.py",
+      "report": "PHASE2-CERTIFIED-SUP.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "3.17e-03",
+      "claim": "largest achieved branch-and-bound gap (family A df11)",
+      "deposit": "deposits/bnb.json",
+      "field": "max_gap",
+      "script": "cert_bnb.py",
+      "report": "PHASE2-CERTIFIED-SUP.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "91/91",
+      "claim": "point root certificates passing the independent check",
+      "deposit": "deposits/rootcert.json",
+      "field": "n_brackets",
+      "script": "rootcert.py",
+      "report": "PHASE2-CERTIFIED-SUP.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "16/20",
+      "claim": "adversarial designs certified at tol",
+      "deposit": "deposits/adversarial.json",
+      "field": "n_certified",
+      "script": "adversarial.py",
+      "report": "PHASE2-CERTIFIED-SUP.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "2.88e-02",
+      "claim": "structural box slack at a factor-3 box (c-units)",
+      "deposit": "deposits/box_slack.json",
+      "field": "slack_max",
+      "script": "box_slack.py",
+      "report": "PHASE2-CERTIFIED-SUP.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "8.38e-14",
+      "claim": "largest measured Delta p across the error-budget points",
+      "deposit": "deposits/error_budget.json",
+      "field": "max_Delta_p",
+      "script": "error_budget.py",
+      "report": "PHASE3-NUMERICAL-CORE.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "5/5",
+      "claim": "mpmath cross-check points contained in the Arb enclosure",
+      "deposit": "deposits/enclose_iv.json",
+      "field": "n_points",
+      "script": "enclose_iv.py",
+      "report": "PHASE3-NUMERICAL-CORE.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "9",
+      "claim": "verification gates defined (the PASS COUNT is read from the gate's own run; mapping it here would be self-referential)",
+      "deposit": "deposits/gates.json",
+      "field": "n_gates",
+      "script": "tests_gates.py",
+      "report": "REPORT.md",
+      "tier": "region_sup_certified"
+    },
+    {
+      "number": "0.0245",
+      "claim": "the hard-ceiling internal level alpha0 = abar - gamma",
+      "deposit": "deposits/rule_certified.json",
+      "field": "alpha0",
+      "script": "rule_certified.py",
+      "report": "PHASE4-RULE.md",
+      "tier": "region_sup_certified"
+    }
+  ],
+  "n": 16,
+  "note": "number -> deposit -> script traceability (gate E5)"
+}

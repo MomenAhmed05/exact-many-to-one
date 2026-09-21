@@ -1,0 +1,123 @@
+{
+ "alpha": 0.05,
+ "cells": [
+  [
+   5,
+   60
+  ],
+  [
+   5,
+   250
+  ],
+  [
+   10,
+   60
+  ],
+  [
+   10,
+   250
+  ],
+  [
+   20,
+   60
+  ]
+ ],
+ "R_s": 300,
+ "repeats": 200,
+ "size_R": 40000,
+ "band": [
+  0.035,
+  0.065
+ ],
+ "closed_equals_sidak": true,
+ "rows": [
+  {
+   "K": 5,
+   "T": 60,
+   "closed": 2.382979,
+   "sidak": 2.382979,
+   "diff": 0.0,
+   "sim_mean": 2.44779,
+   "sim_sd": 0.00608,
+   "sim_bias": 0.06481
+  },
+  {
+   "K": 5,
+   "T": 250,
+   "closed": 2.333615,
+   "sidak": 2.333615,
+   "diff": 0.0,
+   "sim_mean": 2.34841,
+   "sim_sd": 0.00291,
+   "sim_bias": 0.01479
+  },
+  {
+   "K": 10,
+   "T": 60,
+   "closed": 2.653068,
+   "sidak": 2.653068,
+   "diff": 0.0,
+   "sim_mean": 2.73857,
+   "sim_sd": 0.00497,
+   "sim_bias": 0.08551
+  },
+  {
+   "K": 10,
+   "T": 250,
+   "closed": 2.587595,
+   "sidak": 2.587595,
+   "diff": 0.0,
+   "sim_mean": 2.60732,
+   "sim_sd": 0.00243,
+   "sim_bias": 0.01973
+  },
+  {
+   "K": 20,
+   "T": 60,
+   "closed": 2.907756,
+   "sidak": 2.907756,
+   "diff": 0.0,
+   "sim_mean": 3.01634,
+   "sim_sd": 0.00455,
+   "sim_bias": 0.10858
+  }
+ ],
+ "skew": [
+  {
+   "label": "gaussian",
+   "skewness": -0.007,
+   "size": 0.0495,
+   "in_band": true
+  },
+  {
+   "label": "t5 (symmetric, heavy)",
+   "skewness": 0.095,
+   "size": 0.0461,
+   "in_band": true
+  },
+  {
+   "label": "skew-normal a=4",
+   "skewness": 0.788,
+   "size": 0.0283,
+   "in_band": false
+  },
+  {
+   "label": "skew-normal a=10",
+   "skewness": 0.958,
+   "size": 0.0252,
+   "in_band": false
+  },
+  {
+   "label": "lognormal",
+   "skewness": 6.19,
+   "size": 0.0025,
+   "in_band": false
+  },
+  {
+   "label": "chi2_1",
+   "skewness": 2.805,
+   "size": 0.0068,
+   "in_band": false
+  }
+ ]
+}

@@ -1,0 +1,169 @@
+{
+  "alpha": 0.025,
+  "gamma": 0.0005,
+  "draws_per_case": 200,
+  "seed": 20260918,
+  "rows": [
+    {
+      "case": "S1 balanced, equal sd",
+      "n": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": [
+        30.0,
+        30.0,
+        30.0
+      ],
+      "lam_true": [
+        1.0,
+        1.0
+      ],
+      "alpha": 0.025,
+      "gamma": 0.0005,
+      "draws": 200,
+      "c_oracle": 2.408901901605679,
+      "c_plug_mean": 2.42343162637524,
+      "c_env_mean": 2.6271127205717812,
+      "fwer_oracle": 0.025,
+      "fwer_plug": 0.024098012711504933,
+      "fwer_env": 0.016013422817196966,
+      "mcse_oracle": 0.0,
+      "mcse_plug": 0.00012689322934928172,
+      "mcse_env": 0.0003854165863312053,
+      "env_excess_over_oracle": -0.008986577182803036,
+      "plug_excess_over_oracle": -0.000901987288495068,
+      "cost_env_pct": 9.058518274266433,
+      "cost_plug_pct": 0.6031679729206026,
+      "region_miss_frac": 0.0,
+      "region_scale": 31.62154746528234,
+      "coverage_exact": 0.9995010000000001,
+      "guarantee_holds": true,
+      "dominance_holds": true
+    },
+    {
+      "case": "S4 control smallest n and sd",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "sigma": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "alpha": 0.025,
+      "gamma": 0.0005,
+      "draws": 200,
+      "c_oracle": 2.7002746086892913,
+      "c_plug_mean": 2.692747014505983,
+      "c_env_mean": 3.32043991463802,
+      "fwer_oracle": 0.025,
+      "fwer_plug": 0.028331407561434457,
+      "fwer_env": 0.0098608100498564,
+      "mcse_oracle": 0.0,
+      "mcse_plug": 0.00043584193345053634,
+      "mcse_env": 0.0009690095879657188,
+      "env_excess_over_oracle": -0.015139189950143602,
+      "plug_excess_over_oracle": 0.003331407561434456,
+      "cost_env_pct": 22.966749528106543,
+      "cost_plug_pct": -0.278771431582741,
+      "region_miss_frac": 0.0,
+      "region_scale": 12.715994030059314,
+      "coverage_exact": 0.9995010000000001,
+      "guarantee_holds": true,
+      "dominance_holds": true
+    },
+    {
+      "case": "S5 trt smallest n, largest sd",
+      "n": [
+        13.0,
+        13.0,
+        4.0
+      ],
+      "sigma": [
+        10.0,
+        10.0,
+        50.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "alpha": 0.025,
+      "gamma": 0.0005,
+      "draws": 200,
+      "c_oracle": 3.185582047412902,
+      "c_plug_mean": 3.1342724869503114,
+      "c_env_mean": 3.3230907840300796,
+      "fwer_oracle": 0.025,
+      "fwer_plug": 0.028813222427661708,
+      "fwer_env": 0.02180305579078771,
+      "mcse_oracle": 0.0,
+      "mcse_plug": 0.0005356842739906219,
+      "mcse_env": 0.0002323776854702243,
+      "env_excess_over_oracle": -0.00319694420921229,
+      "plug_excess_over_oracle": 0.003813222427661706,
+      "cost_env_pct": 4.316596922338008,
+      "cost_plug_pct": -1.6106808645616495,
+      "region_miss_frac": 0.0,
+      "region_scale": 21.323952544308078,
+      "coverage_exact": 0.9995010000000001,
+      "guarantee_holds": true,
+      "dominance_holds": true
+    },
+    {
+      "case": "S6 control smallest n, largest sd",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "sigma": [
+        50.0,
+        10.0,
+        10.0
+      ],
+      "lam_true": [
+        0.04000000000000001,
+        0.04000000000000001
+      ],
+      "alpha": 0.025,
+      "gamma": 0.0005,
+      "draws": 200,
+      "c_oracle": 3.220149977669285,
+      "c_plug_mean": 3.1847567590380477,
+      "c_env_mean": 3.270782081293211,
+      "fwer_oracle": 0.025,
+      "fwer_plug": 0.027468137760728387,
+      "fwer_env": 0.02382808315337232,
+      "mcse_oracle": 0.0,
+      "mcse_plug": 0.00041469918332147213,
+      "mcse_env": 0.00011559896830736563,
+      "env_excess_over_oracle": -0.0011719168466276797,
+      "plug_excess_over_oracle": 0.0024681377607283853,
+      "cost_env_pct": 1.5723523430599085,
+      "cost_plug_pct": -1.099117086989048,
+      "region_miss_frac": 0.0,
+      "region_scale": 12.715994030059314,
+      "coverage_exact": 0.9995010000000001,
+      "guarantee_holds": true,
+      "dominance_holds": true
+    }
+  ],
+  "n_cases": 4,
+  "worst_fwer_env": 0.02382808315337232,
+  "worst_fwer_plug": 0.028813222427661708,
+  "all_guarantees_hold": true,
+  "all_dominance_holds": true,
+  "mean_cost_env_pct": 9.478554266942725,
+  "mean_cost_plug_pct": -0.596350352553209,
+  "seconds": 456.01859307289124,
+  "note": "the envelope's guarantee is alpha + gamma by construction; the plug-in has no such guarantee and its excess over the oracle is the estimation error"
+}

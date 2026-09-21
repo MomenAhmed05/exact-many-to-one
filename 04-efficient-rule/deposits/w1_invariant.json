@@ -1,0 +1,155 @@
+{
+ "abar": 0.025,
+ "group": "x -> a + b x applied to both groups, b > 0 (affine group)",
+ "sufficient_dim": 4,
+ "group_dim": 2,
+ "maximal_invariant_dim": 2,
+ "maximal_invariant": [
+  "T",
+  "lambda_hat"
+ ],
+ "pairs_per_design": 200000,
+ "recovery_formula": "b = sqrt(w0^2/s0^2), a = Ybar_0 - b Xbar_0",
+ "checks": [
+  {
+   "design": "df35",
+   "n": [
+    36.0,
+    13.0
+   ],
+   "max_abs_T_drift": 4.2543746303636e-12,
+   "max_rel_lamhat_drift": 8.208989044078407e-13,
+   "max_recovery_error": 1.4551915228366852e-11,
+   "b_range": [
+    0.021896297150040777,
+    49.64113405090563
+   ]
+  },
+  {
+   "design": "df11",
+   "n": [
+    12.0,
+    13.0
+   ],
+   "max_abs_T_drift": 1.8872681195603036e-12,
+   "max_rel_lamhat_drift": 5.568878691519785e-13,
+   "max_recovery_error": 1.4551915228366852e-11,
+   "b_range": [
+    0.021896297150040777,
+    49.64113405090563
+   ]
+  },
+  {
+   "design": "df3",
+   "n": [
+    4.0,
+    13.0
+   ],
+   "max_abs_T_drift": 3.150368854676344e-12,
+   "max_rel_lamhat_drift": 7.301936832959655e-13,
+   "max_recovery_error": 1.4551915228366852e-11,
+   "b_range": [
+    0.021896297150040777,
+    49.64113405090563
+   ]
+  }
+ ],
+ "worst_invariance_drift": 4.2543746303636e-12,
+ "worst_recovery_error": 1.4551915228366852e-11,
+ "bin_resolution": [
+  {
+   "design": "df35",
+   "n": [
+    36.0,
+    13.0
+   ],
+   "rows": [
+    {
+     "nbins": 36,
+     "mean_power": 0.7564043428940164,
+     "shrink_scale": 1.004,
+     "mean_loss_pp": 4.359565710598368,
+     "sup_fwer": 0.024807497833229813,
+     "lam_worst": 36.517412725483744,
+     "valid": 1,
+     "seconds": 13.29005765914917
+    },
+    {
+     "nbins": 72,
+     "mean_power": 0.7564509820363732,
+     "shrink_scale": 1.004,
+     "mean_loss_pp": 4.354901796362687,
+     "sup_fwer": 0.02482968766761957,
+     "lam_worst": 36.517412725483744,
+     "valid": 1,
+     "seconds": 25.527191877365112
+    },
+    {
+     "nbins": 144,
+     "mean_power": 0.7564394364325848,
+     "shrink_scale": 1.004,
+     "mean_loss_pp": 4.356056356741522,
+     "sup_fwer": 0.02482595017439795,
+     "lam_worst": 36.517412725483744,
+     "valid": 1,
+     "seconds": 27.9003484249115
+    }
+   ],
+   "hidden_pp": 0.0035093538568453653
+  },
+  {
+   "design": "df3",
+   "n": [
+    4.0,
+    13.0
+   ],
+   "rows": [
+    {
+     "nbins": 36,
+     "mean_power": 0.5905354277631508,
+     "shrink_scale": 1.004,
+     "mean_loss_pp": 20.946457223684924,
+     "sup_fwer": 0.02479540180545229,
+     "lam_worst": 0.013335214321633242,
+     "valid": 1,
+     "seconds": 18.36635184288025
+    },
+    {
+     "nbins": 72,
+     "mean_power": 0.5907067134030649,
+     "shrink_scale": 1.004,
+     "mean_loss_pp": 20.929328659693514,
+     "sup_fwer": 0.024816022896162936,
+     "lam_worst": 0.013335214321633242,
+     "valid": 1,
+     "seconds": 27.18368148803711
+    },
+    {
+     "nbins": 144,
+     "mean_power": 0.590702879654531,
+     "shrink_scale": 1.004,
+     "mean_loss_pp": 20.9297120345469,
+     "sup_fwer": 0.024850389119249975,
+     "lam_worst": 0.015399265260594912,
+     "valid": 1,
+     "seconds": 28.352811574935913
+    }
+   ],
+   "hidden_pp": 0.016745189138024585
+  }
+ ],
+ "max_hidden_pp": 0.016745189138024585,
+ "hunt_stein": {
+  "group_is_solvable": 1,
+  "reason": "translations form a normal abelian subgroup of the affine group with abelian quotient, so the group is solvable and therefore amenable",
+  "consequence": "a minimax test may be taken invariant, so a bound over (T, lambda_hat)-measurable tests bounds all tests for a worst-case criterion",
+  "conditions_still_to_discharge": [
+   "the loss (regret against the known-ratio oracle) must be invariant under the group, which it is because both power and oracle power are invariant functions of lambda",
+   "the usual measurability and topological conditions of the Hunt-Stein theorem for the affine group",
+   "the extension from K = 1 to K > 1, where the group is the same but the invariant is (T_1..T_K, lambda_hat_1..K)"
+  ],
+  "status": "derivation, not computation; not verified numerically"
+ },
+ "seconds": 141.0671157836914,
+ "tier": "exact_in_model"
+}

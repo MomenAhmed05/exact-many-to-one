@@ -1,0 +1,91 @@
+{
+  "fields": {
+    "bnb.json": {
+      "n_cells": 17,
+      "n_certified_at_tol": 12,
+      "max_gap": 0.00316619873046875,
+      "tol": 0.0001,
+      "alpha0": 0.0245
+    },
+    "bnb_checks.json": {
+      "verdict": "PASS"
+    },
+    "rootcert.json": {
+      "n_brackets": 91,
+      "all_independent_check_pass": true,
+      "max_width": 1.6036011416531437e-06,
+      "max_dp": 8.034040099857975e-11
+    },
+    "adversarial.json": {
+      "n_designs": 20,
+      "n_certified": 16,
+      "all_coverage_ok": true,
+      "all_witness_checks_pass": true,
+      "max_gap": 0.09009361267089844
+    },
+    "box_slack.json": {
+      "slack_max": 0.028827667236328125,
+      "slack_at_factor_1p001": 5.340576171875e-05,
+      "tol": 0.0001
+    },
+    "error_budget.json": {
+      "n_points": 4,
+      "max_Delta_p": 8.382183835919932e-14,
+      "all_dp_under_target": true
+    },
+    "enclose_iv.json": {
+      "n_points": 5,
+      "all_contained": true,
+      "max_convergence": 0.0
+    },
+    "impl_compare.json": {
+      "verdict": "PASS"
+    },
+    "rule_certified.json": {
+      "n_families": 4,
+      "all_coverage_certified": true,
+      "all_under_runtime_target": true,
+      "alpha0": 0.0245
+    },
+    "region_shapes_cert.json": {
+      "n_cells": 4,
+      "all_coverage_equal": true,
+      "max_c_U_spread": 5.160867353051618
+    },
+    "desk_map_alpha0.json": {
+      "n_cells": 12,
+      "n_certified_at_tol": 7,
+      "max_gap": 0.00316619873046875,
+      "alpha0": 0.0245
+    },
+    "gates.json": {
+      "n_gates": 8,
+      "n_pass": 8,
+      "all_pass": true
+    },
+    "enclose_falsifiers.json": {
+      "verdict": "PASS"
+    }
+  },
+  "hashes": {
+    "bnb.json": "0430b4a2beae343974b5f30d3820ebfac65f16607033f60ae5dfed6ed8435a5d",
+    "bnb_checks.json": "6955845d7f7236af4f3df449d345a4a40835adbf6e7c6169157137c0521c514c",
+    "rootcert.json": "246229a2ca56c963c82caa7021973a336cc51e7304e23f1b574d823ecb5bba8f",
+    "adversarial.json": "c497f7a2714b2d1a979a97104f0eafa11716528aac86ef024da370ae319268ca",
+    "box_slack.json": "fdc9c26095fb3bc71a47904ed647dfd45533893a7ec5f584ddfd4372a2d09b5b",
+    "error_budget.json": "11cd4924189fb6f843eed176dae33d109be6b0bf93a485077d244978366d7325",
+    "enclose_iv.json": "3884fb096ded50cf2d4da098c10e4117620d5a820ee1cb1d140ed3ca99b9832a",
+    "impl_compare.json": "4ef158991792be841afd493534ce295303961bbf1632b2daf923fe9b23f828c6",
+    "rule_certified.json": "9af7de455b986e0cd901c19992aa1ae4d5942b709dd5bbe6ef7614abdde1f17d",
+    "region_shapes_cert.json": "bdc4d779852113dc08ddefb4c19add1f26b206d7c59d12cec5f5fc0c0ceafada",
+    "desk_map_alpha0.json": "7bd4331d897c5858a0fce2f8551f724264854b6e3512a967a2028820f107a65b",
+    "gates.json": "a69928edc4eae02477519296f53c20184d7fb9923dfcc93fb0077023a45544bc",
+    "enclose_falsifiers.json": "abdcc8a72cf166c1d461acd993cfdf1a80ca34e69ffa9a02f09c1f83fcbbddd2"
+  },
+  "note": "canonical fields + deposit hashes for a blind replica",
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "expected canonical values and hashes; used by the blind replication kit"
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "rows": [
+    {
+      "family": "A",
+      "df0": 3,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 3.2730660187131857,
+      "argmax_lam": [
+        4.427598836875843,
+        9.48598591918471e-05
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 3.2730660187131857,
+      "c_candidate_mean": 3.2707323576448544,
+      "c_rigorous_mean": 4.053812692552456,
+      "deficit_candidate": -0.0023336610683313275,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 0.7807466738392703,
+      "candidate_covers_sup": false,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "B",
+      "df0": 3,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 3.3052272774651366,
+      "argmax_lam": [
+        0.015147742478071718,
+        433.2343198500058
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 3.3052272774651366,
+      "c_candidate_mean": 3.3194388582006162,
+      "c_rigorous_mean": 13.634919876481144,
+      "deficit_candidate": 0.014211580735479679,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 10.329692599016006,
+      "candidate_covers_sup": true,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "A",
+      "df0": 5,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.7720418967937426,
+      "argmax_lam": [
+        9.134040045174157,
+        0.00978286054191316
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.7720418967937426,
+      "c_candidate_mean": 2.7109571271808086,
+      "c_rigorous_mean": 3.3934546055451937,
+      "deficit_candidate": -0.061084769612933965,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 0.6214127087514512,
+      "candidate_covers_sup": false,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "B",
+      "df0": 5,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.6992861702995636,
+      "argmax_lam": [
+        0.27751535525617754,
+        5031.086470405758
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.6992861702995636,
+      "c_candidate_mean": 2.8169661783662048,
+      "c_rigorous_mean": 9.924613389430743,
+      "deficit_candidate": 0.11768000806664114,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 7.225327219131179,
+      "candidate_covers_sup": true,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "A",
+      "df0": 7,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.4946132690416327,
+      "argmax_lam": [
+        0.30736016972388147,
+        0.0009433340086367482
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.4946132690416327,
+      "c_candidate_mean": 2.5275361653402113,
+      "c_rigorous_mean": 2.9015618729525157,
+      "deficit_candidate": 0.032922896298578586,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 0.40694860391088294,
+      "candidate_covers_sup": true,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "B",
+      "df0": 7,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.6748888844847003,
+      "argmax_lam": [
+        0.024590641317897954,
+        184.23122925394003
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.6748888844847003,
+      "c_candidate_mean": 2.660144574503432,
+      "c_rigorous_mean": 8.201216192551655,
+      "deficit_candidate": -0.014744309981268522,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 5.526327308066955,
+      "candidate_covers_sup": false,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "A",
+      "df0": 11,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.4065774363738477,
+      "argmax_lam": [
+        0.9194693790401004,
+        0.0030548513288053383
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.4065774363738477,
+      "c_candidate_mean": 2.3912770165258292,
+      "c_rigorous_mean": 2.965122006987513,
+      "deficit_candidate": -0.015300419848018443,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 0.5585445706136651,
+      "candidate_covers_sup": false,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "B",
+      "df0": 11,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.536629407890851,
+      "argmax_lam": [
+        22.98673447600251,
+        243.93539526791156
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.536629407890851,
+      "c_candidate_mean": 2.5400272184027055,
+      "c_rigorous_mean": 7.301827882595243,
+      "deficit_candidate": 0.0033978105118546154,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 4.765198474704393,
+      "candidate_covers_sup": true,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "A",
+      "df0": 19,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.286316794729152,
+      "argmax_lam": [
+        0.1922356766358243,
+        0.3279343343811781
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.286316794729152,
+      "c_candidate_mean": 2.3043808729972257,
+      "c_rigorous_mean": 2.730743666393537,
+      "deficit_candidate": 0.018064078268073658,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 0.4444268716643851,
+      "candidate_covers_sup": true,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "B",
+      "df0": 19,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.512704678384462,
+      "argmax_lam": [
+        4.805891915895607,
+        204.9589589882363
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.512704678384462,
+      "c_candidate_mean": 2.5237875265409544,
+      "c_rigorous_mean": 6.2078181437739115,
+      "deficit_candidate": 0.011082848156492187,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 3.6951134653894493,
+      "candidate_covers_sup": true,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "A",
+      "df0": 35,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.3008651639952507,
+      "argmax_lam": [
+        0.35008765591110896,
+        0.32217118093743946
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.3008651639952507,
+      "c_candidate_mean": 2.303623267211968,
+      "c_rigorous_mean": 2.97785950323072,
+      "deficit_candidate": 0.0027581032167174335,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 0.6769943392354691,
+      "candidate_covers_sup": true,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    },
+    {
+      "family": "B",
+      "df0": 35,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "grid_points": 121,
+      "draws": 20,
+      "sup_pop_grid": 2.5394139683398333,
+      "argmax_lam": [
+        8.752191397777723,
+        201.35698808589967
+      ],
+      "argmax_is_corner": true,
+      "corners_max": 2.5394139683398333,
+      "c_candidate_mean": 2.5376497754727674,
+      "c_rigorous_mean": 6.017509783890128,
+      "deficit_candidate": -0.0017641928670659723,
+      "deficit_corners_only": 0.0,
+      "margin_certified": 3.478095815550295,
+      "candidate_covers_sup": false,
+      "corners_cover_sup": true,
+      "certified_covers_sup": true
+    }
+  ],
+  "alpha": 0.025,
+  "gamma": 0.0005,
+  "grid_per_axis": 11,
+  "draws_per_cell": 20,
+  "all_corners_cover_sup": true,
+  "all_certified_cover_sup": true,
+  "worst_corner_deficit": 0.0,
+  "n_argmax_at_corner": 12,
+  "seconds": 547.9263646602631,
+  "note": "A negative deficit means an interior grid point beat every corner, which is the leak class the certificate exists to remove; the certified column must never be negative."
+}

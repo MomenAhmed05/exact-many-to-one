@@ -1,0 +1,7214 @@
+{
+  "n_cells": 17,
+  "n_certified_at_tol": 12,
+  "all_certified_at_tol": false,
+  "max_gap": 0.00316619873046875,
+  "median_gap": 9.5367431640625e-07,
+  "max_seconds": 131.70960021018982,
+  "total_seconds": 835.9521043300629,
+  "tol": 0.0001,
+  "alpha0": 0.0245,
+  "gamma": 0.0005,
+  "note": "c_U = max over ALL boxes of c_ub (SPEC section 7 step 7); pruned boxes are included because each has c_ub <= L_lo + tol <= c_U.  A cell whose gap exceeds tol is reported as a failure to certify at the declared tolerance.",
+  "cells": [
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 12.500376833972904,
+      "c_U": 12.50041498094556,
+      "gap": 3.814697265625e-05,
+      "certified_at_tol": true,
+      "n_boxes": 1,
+      "n_pruned": 2,
+      "n_splits": 1,
+      "n_cub": 3,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.1579279100736688,
+          "level": 0,
+          "c_ub_of_parent": 12.503129138050053
+        },
+        {
+          "lo": [
+            0.0010852533383054613,
+            0.0018474755865957612
+          ],
+          "hi": [
+            7.930334215400132,
+            0.1579279100736688
+          ],
+          "level": 1,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.1579279100736688,
+          "c_ub": 9.910623206195805,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 12.500376833972904
+        },
+        {
+          "lo": [
+            0.0010852533383054613,
+            0.1579279100736688
+          ],
+          "hi": [
+            7.930334215400132,
+            13.500164744365907
+          ],
+          "level": 1,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.1579279100736688,
+          "c_ub": 12.50041498094556,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 12.500376833972904
+        }
+      ],
+      "seconds": 24.041479349136353,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.00108525,
+            0.00184748
+          ],
+          "c_lb": 5.3396070922902705
+        },
+        {
+          "lambda": [
+            0.00108525,
+            13.50016474
+          ],
+          "c_lb": 11.799182108670944
+        },
+        {
+          "lambda": [
+            7.93033422,
+            0.00184748
+          ],
+          "c_lb": 9.902966470910853
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c_lb": 12.500376833972904
+        },
+        {
+          "lambda": [
+            0.0927708,
+            0.15792791
+          ],
+          "c_lb": 5.635166941100023
+        },
+        {
+          "lambda": [
+            5.58625233,
+            0.00398834
+          ],
+          "c_lb": 8.814163612354553
+        },
+        {
+          "lambda": [
+            3.13090425,
+            7.30464926
+          ],
+          "c_lb": 9.751062713946894
+        },
+        {
+          "lambda": [
+            6.29781696,
+            11.35436105
+          ],
+          "c_lb": 11.627172558853925
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          7.93033422,
+          13.50016474
+        ],
+        "c_lb": 12.500376833972904
+      },
+      "L_lo_initial": 12.500376833972904,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "A_df3",
+      "lambda_hat": [
+        0.27455172,
+        0.46738174
+      ],
+      "region_lo": [
+        0.00108525,
+        0.00184748
+      ],
+      "region_hi": [
+        7.93033422,
+        13.50016474
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 6.856746111045765,
+      "c_U": 6.858222398887562,
+      "gap": 0.001476287841796875,
+      "certified_at_tol": false,
+      "n_boxes": 1390,
+      "n_pruned": 12,
+      "n_splits": 64,
+      "n_cub": 129,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "tree": [
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.15165098307161973,
+          "level": 0,
+          "c_ub_of_parent": 6.858223352561878
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            0.005286731802176683
+          ],
+          "hi": [
+            2.5553806574881808,
+            0.15165098307161973
+          ],
+          "level": 1,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.15165098307161973,
+          "c_ub": 5.629478845725941,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.8122209839328188,
+          "level": 1,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            0.15165098307161973
+          ],
+          "hi": [
+            2.5553806574881808,
+            0.8122209839328188
+          ],
+          "level": 2,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.8122209839328188,
+          "c_ub": 5.74593678487389,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.8797006566246601,
+          "level": 2,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            0.8122209839328188
+          ],
+          "hi": [
+            2.5553806574881808,
+            1.8797006566246601
+          ],
+          "level": 3,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.8797006566246601,
+          "c_ub": 6.03205886853783,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.8595384266374455,
+          "level": 3,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            1.8797006566246601
+          ],
+          "hi": [
+            2.5553806574881808,
+            2.8595384266374455
+          ],
+          "level": 4,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 2.8595384266374455,
+          "c_ub": 6.3457800484999884,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 3.5269520791284683,
+          "level": 4,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            2.8595384266374455
+          ],
+          "hi": [
+            2.5553806574881808,
+            3.5269520791284683
+          ],
+          "level": 5,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 3.5269520791284683,
+          "c_ub": 6.572044763694691,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 3.9169801428268096,
+          "level": 5,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            3.5269520791284683
+          ],
+          "hi": [
+            2.5553806574881808,
+            3.9169801428268096
+          ],
+          "level": 6,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 3.9169801428268096,
+          "c_ub": 6.706919107566761,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.127882012923263,
+          "level": 6,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            3.9169801428268096
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.127882012923263
+          ],
+          "level": 7,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 4.127882012923263,
+          "c_ub": 6.780420694480823,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.237553829921889,
+          "level": 7,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.127882012923263
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.237553829921889
+          ],
+          "level": 8,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 4.237553829921889,
+          "c_ub": 6.818771753440784,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.2934776302061675,
+          "level": 8,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.237553829921889
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.2934776302061675
+          ],
+          "level": 9,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 4.2934776302061675,
+          "c_ub": 6.8383573628768195,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.321715688458513,
+          "level": 9,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.2934776302061675
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.321715688458513
+          ],
+          "level": 10,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 4.321715688458513,
+          "c_ub": 6.8482555486068,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.335904286715372,
+          "level": 10,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.321715688458513
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.335904286715372
+          ],
+          "level": 11,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 4.335904286715372,
+          "c_ub": 6.853229913841175,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.343016044734581,
+          "level": 11,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.335904286715372
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.343016044734581
+          ],
+          "level": 12,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 4.343016044734581,
+          "c_ub": 6.855723772178577,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 6.856746111045765
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.346576296818506,
+          "level": 12,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.348357517174607,
+          "level": 13,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.349248401061987,
+          "level": 14,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.349693911449365,
+          "level": 15,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.349916683756021,
+          "level": 16,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350028074187846,
+          "level": 17,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350083770473415,
+          "level": 18,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350111618883618,
+          "level": 19,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350125543155574,
+          "level": 20,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350132505308266,
+          "level": 21,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350135986388791,
+          "level": 22,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350137726930098,
+          "level": 23,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.3501385972010125,
+          "level": 24,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138162065533,
+          "level": 25,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139032336535,
+          "level": 25,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138379633267,
+          "level": 26,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138814768768,
+          "level": 26,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139249904312,
+          "level": 26,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138270849399,
+          "level": 27,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138488417139,
+          "level": 27,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138705984889,
+          "level": 27,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138923552651,
+          "level": 27,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139141120422,
+          "level": 27,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139358688205,
+          "level": 27,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138325241333,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138434025203,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138542809075,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.3501386515929505,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138760376828,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138869160709,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138977944592,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139086728478,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139195512367,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139304296258,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139413080153,
+          "level": 28,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.3501383524373,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138406829235,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138461221171,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138515613107,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.3501385700050434,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.3501386243969815,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.35013867878892,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138733180858,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.3501387875727975,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350138841964738,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.35013889635668,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.3501389507486214,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139005140563,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.3501390595325065,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139113924451,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139168316394,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 4.350139222708339,
+          "level": 29,
+          "c_ub_of_parent": 6.858222398887562
+        }
+      ],
+      "seconds": 131.70960021018982,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.00310556,
+            0.00528673
+          ],
+          "c_lb": 3.799153431335164
+        },
+        {
+          "lambda": [
+            0.00310556,
+            4.35013947
+          ],
+          "c_lb": 6.432194452179779
+        },
+        {
+          "lambda": [
+            2.55538066,
+            0.00528673
+          ],
+          "c_lb": 5.605518586760978
+        },
+        {
+          "lambda": [
+            2.55538066,
+            4.35013947
+          ],
+          "c_lb": 6.856746111045765
+        },
+        {
+          "lambda": [
+            0.08908358,
+            0.15165098
+          ],
+          "c_lb": 4.063960717649371
+        },
+        {
+          "lambda": [
+            2.07772344,
+            0.01322985
+          ],
+          "c_lb": 5.329963015147607
+        },
+        {
+          "lambda": [
+            0.00746921,
+            2.65827857
+          ],
+          "c_lb": 5.565579143297665
+        },
+        {
+          "lambda": [
+            0.11245902,
+            0.01371644
+          ],
+          "c_lb": 3.972075033004829
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          2.55538066,
+          4.35013947
+        ],
+        "c_lb": 6.856746111045765
+      },
+      "L_lo_initial": 6.856746111045765,
+      "n_unpruned": 53,
+      "unpruned": [
+        {
+          "lo": [
+            0.003105558405570033,
+            4.350139249904312
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.350139304296258
+          ],
+          "c_ub": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.350139304296258
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.350139358688205
+          ],
+          "c_ub": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.350139358688205
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.350139413080153
+          ],
+          "c_ub": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.350139413080153
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.350139467472101
+          ],
+          "c_ub": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.350138325241333
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.3501383524373
+          ],
+          "c_ub": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.3501383524373
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.350138379633267
+          ],
+          "c_ub": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.350138379633267
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.350138406829235
+          ],
+          "c_ub": 6.858222398887562
+        },
+        {
+          "lo": [
+            0.003105558405570033,
+            4.350138406829235
+          ],
+          "hi": [
+            2.5553806574881808,
+            4.350138434025203
+          ],
+          "c_ub": 6.858222398887562
+        }
+      ],
+      "cell": "A_df5",
+      "lambda_hat": [
+        0.13474272,
+        0.2293786
+      ],
+      "region_lo": [
+        0.00310556,
+        0.00528673
+      ],
+      "region_hi": [
+        2.55538066,
+        4.35013947
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 5.490279484370511,
+      "c_U": 5.493036556819241,
+      "gap": 0.0027570724487304688,
+      "certified_at_tol": false,
+      "n_boxes": 1442,
+      "n_pruned": 11,
+      "n_splits": 64,
+      "n_cub": 129,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "tree": [
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.1438737241851392,
+          "level": 0,
+          "c_ub_of_parent": 5.4932492261918
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            0.008139029359483421
+          ],
+          "hi": [
+            1.4939731014764293,
+            0.1438737241851392
+          ],
+          "level": 1,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.1438737241851392,
+          "c_ub": 4.596409845927518,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.6049032539521559,
+          "level": 1,
+          "c_ub_of_parent": 5.493039417842191
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            0.1438737241851392
+          ],
+          "hi": [
+            1.4939731014764293,
+            0.6049032539521559
+          ],
+          "level": 2,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.6049032539521559,
+          "c_ub": 4.722102451899808,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.240332542264954,
+          "level": 2,
+          "c_ub_of_parent": 5.493037510493558
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            0.6049032539521559
+          ],
+          "hi": [
+            1.4939731014764293,
+            1.240332542264954
+          ],
+          "level": 3,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.240332542264954,
+          "c_ub": 4.950369167903226,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.7760870475775488,
+          "level": 3,
+          "c_ub_of_parent": 5.493037510493558
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            1.240332542264954
+          ],
+          "hi": [
+            1.4939731014764293,
+            1.7760870475775488
+          ],
+          "level": 4,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.7760870475775488,
+          "c_ub": 5.1667874341996125,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.125334546245136,
+          "level": 4,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            1.7760870475775488
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.125334546245136
+          ],
+          "level": 5,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 2.125334546245136,
+          "c_ub": 5.313735294917386,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.324924364113246,
+          "level": 5,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.125334546245136
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.324924364113246
+          ],
+          "level": 6,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 2.324924364113246,
+          "c_ub": 5.398999500850003,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.4316417552355043,
+          "level": 6,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.324924364113246
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.4316417552355043
+          ],
+          "level": 7,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 2.4316417552355043,
+          "c_ub": 5.444876957515042,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.486823565297719,
+          "level": 7,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.4316417552355043
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.486823565297719
+          ],
+          "level": 8,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 2.486823565297719,
+          "c_ub": 5.46866540966348,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.514882304272122,
+          "level": 8,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.486823565297719
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.514882304272122
+          ],
+          "level": 9,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 2.514882304272122,
+          "c_ub": 5.480777073481839,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.529030171092652,
+          "level": 9,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.514882304272122
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.529030171092652
+          ],
+          "level": 10,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 2.529030171092652,
+          "c_ub": 5.48688821850137,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5361339232228786,
+          "level": 10,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.529030171092652
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.5361339232228786
+          ],
+          "level": 11,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 2.5361339232228786,
+          "c_ub": 5.489958096125882,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 5.490279484370511
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.539693278394335,
+          "level": 11,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5414748288179796,
+          "level": 12,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5423660726224506,
+          "level": 13,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5428118117207763,
+          "level": 14,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5430347105749544,
+          "level": 15,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5431461673290467,
+          "level": 16,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543201897537937,
+          "level": 17,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543229763100355,
+          "level": 18,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543243695996059,
+          "level": 19,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432506624725346,
+          "level": 20,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432541457179285,
+          "level": 21,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543255887342414,
+          "level": 22,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432567581551044,
+          "level": 23,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256322748722,
+          "level": 24,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543257193561561,
+          "level": 24,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432561050455584,
+          "level": 25,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256540451904,
+          "level": 25,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432569758583234,
+          "level": 25,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543257411264818,
+          "level": 25,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432562138971377,
+          "level": 26,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432564316003106,
+          "level": 26,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256649303502,
+          "level": 26,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432568670067117,
+          "level": 26,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.54325708470994,
+          "level": 26,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543257302413187,
+          "level": 26,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543257520116453,
+          "level": 26,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432561594713476,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256268322929,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432563771745156,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256486026107,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432565948777026,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256703729303,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432568125809074,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256921432517,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543257030284131,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.54325713913575,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432572479873734,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543257356839002,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543257465690635,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432575745422725,
+          "level": 27,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432561866842427,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432562411100332,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432562955358256,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432563499616188,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256404387413,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432564588132087,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432565132390055,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256567664803,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.543256622090602,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432566765164024,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432567309422036,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432567853680057,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 2.5432568397938096,
+          "level": 28,
+          "c_ub_of_parent": 5.493036556819241
+        }
+      ],
+      "seconds": 121.82472968101501,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.00478107,
+            0.00813903
+          ],
+          "c_lb": 3.299743052330225
+        },
+        {
+          "lambda": [
+            0.00478107,
+            2.54325763
+          ],
+          "c_lb": 5.143553192457348
+        },
+        {
+          "lambda": [
+            1.4939731,
+            0.00813903
+          ],
+          "c_lb": 4.56064923944451
+        },
+        {
+          "lambda": [
+            1.4939731,
+            2.54325763
+          ],
+          "c_lb": 5.490279484370511
+        },
+        {
+          "lambda": [
+            0.08451502,
+            0.14387372
+          ],
+          "c_lb": 3.5543195168559407
+        },
+        {
+          "lambda": [
+            0.00609007,
+            0.03188616
+          ],
+          "c_lb": 3.3458383328637478
+        },
+        {
+          "lambda": [
+            1.1939632,
+            0.01228922
+          ],
+          "c_lb": 4.352129205924921
+        },
+        {
+          "lambda": [
+            0.91619319,
+            0.20486741
+          ],
+          "c_lb": 4.213674582116883
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          1.4939731,
+          2.54325763
+        ],
+        "c_lb": 5.490279484370511
+      },
+      "L_lo_initial": 5.490279484370511,
+      "n_unpruned": 54,
+      "unpruned": [
+        {
+          "lo": [
+            0.004781069285587392,
+            2.5432568670067117
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.543256921432517
+          ],
+          "c_ub": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.543256921432517
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.5432569758583234
+          ],
+          "c_ub": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.5432569758583234
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.543257030284131
+          ],
+          "c_ub": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.543257030284131
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.54325708470994
+          ],
+          "c_ub": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.54325708470994
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.54325713913575
+          ],
+          "c_ub": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.54325713913575
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.543257193561561
+          ],
+          "c_ub": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.543257193561561
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.5432572479873734
+          ],
+          "c_ub": 5.493036556819241
+        },
+        {
+          "lo": [
+            0.004781069285587392,
+            2.5432572479873734
+          ],
+          "hi": [
+            1.4939731014764293,
+            2.543257302413187
+          ],
+          "c_ub": 5.493036556819241
+        }
+      ],
+      "cell": "A_df7",
+      "lambda_hat": [
+        0.10054204,
+        0.17115723
+      ],
+      "region_lo": [
+        0.00478107,
+        0.00813903
+      ],
+      "region_hi": [
+        1.4939731,
+        2.54325763
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 4.579515057094379,
+      "c_U": 4.5826812558248475,
+      "gap": 0.00316619873046875,
+      "certified_at_tol": false,
+      "n_boxes": 1495,
+      "n_pruned": 10,
+      "n_splits": 64,
+      "n_cub": 129,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "tree": [
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.13146396008190483,
+          "level": 0,
+          "c_ub_of_parent": 4.582731800563617
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            0.011630659672232346
+          ],
+          "hi": [
+            0.8728939735272406,
+            0.13146396008190483
+          ],
+          "level": 1,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.13146396008190483,
+          "c_ub": 3.8904460244253114,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.4419853673966277,
+          "level": 1,
+          "c_ub_of_parent": 4.582693653590961
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            0.13146396008190483
+          ],
+          "hi": [
+            0.8728939735272406,
+            0.4419853673966277
+          ],
+          "level": 2,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.4419853673966277,
+          "c_ub": 4.01780016947536,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.8104168873606482,
+          "level": 2,
+          "c_ub_of_parent": 4.582685070522113
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            0.4419853673966277
+          ],
+          "hi": [
+            0.8728939735272406,
+            0.8104168873606482
+          ],
+          "level": 3,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.8104168873606482,
+          "c_ub": 4.203586178310199,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.0973843883443193,
+          "level": 3,
+          "c_ub_of_parent": 4.58268316317348
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            0.8104168873606482
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.0973843883443193
+          ],
+          "level": 4,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.0973843883443193,
+          "c_ub": 4.361039715297504,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.2769794994411563,
+          "level": 4,
+          "c_ub_of_parent": 4.582682209499164
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.0973843883443193
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.2769794994411563
+          ],
+          "level": 5,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.2769794994411563,
+          "c_ub": 4.462631779201312,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.3775155149458893,
+          "level": 5,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.2769794994411563
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.3775155149458893
+          ],
+          "level": 6,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.3775155149458893,
+          "c_ub": 4.52018316317348,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4307138650423563,
+          "level": 6,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.3775155149458893
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4307138650423563
+          ],
+          "level": 7,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.4307138650423563,
+          "c_ub": 4.550792294032855,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.458078577984756,
+          "level": 7,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4307138650423563
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.458078577984756
+          ],
+          "level": 8,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.458078577984756,
+          "c_ub": 4.566573696620746,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4719565860995634,
+          "level": 8,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.458078577984756
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4719565860995634
+          ],
+          "level": 9,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.4719565860995634,
+          "c_ub": 4.574586468227191,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4789450459966766,
+          "level": 9,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4719565860995634
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4789450459966766
+          ],
+          "level": 10,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 1.4789450459966766,
+          "c_ub": 4.578623371608539,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.579515057094379
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4824517083758335,
+          "level": 10,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4842081562699598,
+          "level": 11,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4850871604701599,
+          "level": 12,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4855268577683187,
+          "level": 13,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.485746755233769,
+          "level": 14,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4858567161726945,
+          "level": 15,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859116996939707,
+          "level": 16,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859391922175953,
+          "level": 17,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859529386701582,
+          "level": 18,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.485959811944128,
+          "level": 19,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.485963248593035,
+          "level": 20,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859649669204689,
+          "level": 21,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859658260849309,
+          "level": 22,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859662556673483,
+          "level": 23,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859664704586035,
+          "level": 24,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665778542428,
+          "level": 25,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665241564222,
+          "level": 26,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666315520654,
+          "level": 26,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859664973075126,
+          "level": 27,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665510053321,
+          "level": 27,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.485966604703154,
+          "level": 27,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666584009774,
+          "level": 27,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.485966483883058,
+          "level": 28,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665107319675,
+          "level": 28,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.485966537580877,
+          "level": 28,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665644297875,
+          "level": 28,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665912786983,
+          "level": 28,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666181276097,
+          "level": 28,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666449765214,
+          "level": 28,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666718254336,
+          "level": 28,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859664771708307,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859664905952854,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.48596650401974,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.485966517444195,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665308686496,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665442931045,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665577175598,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665711420151,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665845664705,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665979909262,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666114153818,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666248398375,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666382642933,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666516887493,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666651132055,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859666785376617,
+          "level": 29,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859664738147171,
+          "level": 30,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859664805269444,
+          "level": 30,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859664872391716,
+          "level": 30,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.485966493951399,
+          "level": 30,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665006636262,
+          "level": 30,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665073758537,
+          "level": 30,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665140880811,
+          "level": 30,
+          "c_ub_of_parent": 4.5826812558248475
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 1.4859665208003086,
+          "level": 30,
+          "c_ub_of_parent": 4.5826812558248475
+        }
+      ],
+      "seconds": 123.98929572105408,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.00683214,
+            0.01163066
+          ],
+          "c_lb": 2.8851625647677928
+        },
+        {
+          "lambda": [
+            0.00683214,
+            1.48596669
+          ],
+          "c_lb": 4.287058795305528
+        },
+        {
+          "lambda": [
+            0.87289397,
+            0.01163066
+          ],
+          "c_lb": 3.8449625860673864
+        },
+        {
+          "lambda": [
+            0.87289397,
+            1.48596669
+          ],
+          "c_lb": 4.579515057094379
+        },
+        {
+          "lambda": [
+            0.07722522,
+            0.13146396
+          ],
+          "c_lb": 3.1394812977905877
+        },
+        {
+          "lambda": [
+            0.86821207,
+            0.05441571
+          ],
+          "c_lb": 3.852399092877169
+        },
+        {
+          "lambda": [
+            0.33457559,
+            0.03473525
+          ],
+          "c_lb": 3.3344157886079544
+        },
+        {
+          "lambda": [
+            0.01759951,
+            0.01487757
+          ],
+          "c_lb": 2.9157656381967785
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          0.87289397,
+          1.48596669
+        ],
+        "c_lb": 4.579515057094379
+      },
+      "L_lo_initial": 4.579515057094379,
+      "n_unpruned": 55,
+      "unpruned": [
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4859665241564222
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4859665308686496
+          ],
+          "c_ub": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4859665308686496
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.485966537580877
+          ],
+          "c_ub": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.485966537580877
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4859665442931045
+          ],
+          "c_ub": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4859665442931045
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4859665510053321
+          ],
+          "c_ub": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4859665510053321
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4859665577175598
+          ],
+          "c_ub": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4859665577175598
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4859665644297875
+          ],
+          "c_ub": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4859665644297875
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4859665711420151
+          ],
+          "c_ub": 4.5826812558248475
+        },
+        {
+          "lo": [
+            0.006832140206649817,
+            1.4859665711420151
+          ],
+          "hi": [
+            0.8728939735272406,
+            1.4859665778542428
+          ],
+          "c_ub": 4.5826812558248475
+        }
+      ],
+      "cell": "A_df11",
+      "lambda_hat": [
+        0.07623131,
+        0.129772
+      ],
+      "region_lo": [
+        0.00683214,
+        0.01163066
+      ],
+      "region_hi": [
+        0.87289397,
+        1.48596669
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 4.1169203272917265,
+      "c_U": 4.119035576925516,
+      "gap": 0.0021152496337890625,
+      "certified_at_tol": false,
+      "n_boxes": 1495,
+      "n_pruned": 10,
+      "n_splits": 64,
+      "n_cub": 129,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "tree": [
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.11835317667210575,
+          "level": 0,
+          "c_ub_of_parent": 4.1190870753386015
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.014540720845217691
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.11835317667210575
+          ],
+          "level": 1,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.11835317667210575,
+          "c_ub": 3.503830050573587,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.33765789623829356,
+          "level": 1,
+          "c_ub_of_parent": 4.119049882040262
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.11835317667210575
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.33765789623829356
+          ],
+          "level": 2,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.33765789623829356,
+          "c_ub": 3.6347263804533476,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.5703289353565478,
+          "level": 2,
+          "c_ub_of_parent": 4.119041298971414
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.33765789623829356
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.5703289353565478
+          ],
+          "level": 3,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.5703289353565478,
+          "c_ub": 3.8043364039518828,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.741224308581675,
+          "level": 3,
+          "c_ub_of_parent": 4.119037484274148
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.5703289353565478
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.741224308581675
+          ],
+          "level": 4,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.741224308581675,
+          "c_ub": 3.9385517588713164,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.8450098619281492,
+          "level": 4,
+          "c_ub_of_parent": 4.119036530599832
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.741224308581675
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.8450098619281492
+          ],
+          "level": 5,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.8450098619281492,
+          "c_ub": 4.022272919759988,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9022311961596702,
+          "level": 5,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.8450098619281492
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9022311961596702
+          ],
+          "level": 6,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.9022311961596702,
+          "c_ub": 4.068923806295633,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9322789330279094,
+          "level": 6,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9022311961596702
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9322789330279094
+          ],
+          "level": 7,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.9322789330279094,
+          "c_ub": 4.0935343257048125,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9476760081486656,
+          "level": 7,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9322789330279094
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9476760081486656
+          ],
+          "level": 8,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.9476760081486656,
+          "c_ub": 4.106171464071512,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9554696438738728,
+          "level": 8,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9476760081486656
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9554696438738728
+          ],
+          "level": 9,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.9554696438738728,
+          "c_ub": 4.11257538710618,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9593904643062715,
+          "level": 9,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9554696438738728
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9593904643062715
+          ],
+          "level": 10,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.9593904643062715,
+          "c_ub": 4.115797852621316,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.1169203272917265
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9613569038879386,
+          "level": 10,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.962341634624319,
+          "level": 11,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9628343781802837,
+          "level": 12,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9630808445616874,
+          "level": 13,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9632041014103077,
+          "level": 14,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9632657357499805,
+          "level": 15,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.963296554398768,
+          "level": 16,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633119640929133,
+          "level": 17,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633196690324256,
+          "level": 18,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633235215252919,
+          "level": 19,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633254477775025,
+          "level": 20,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633264109050522,
+          "level": 21,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633268924691882,
+          "level": 22,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633271332513464,
+          "level": 23,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270128602598,
+          "level": 24,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633272536424482,
+          "level": 24,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269526647221,
+          "level": 25,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270730558012,
+          "level": 25,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633271934468954,
+          "level": 25,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633273138380047,
+          "level": 25,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269225669547,
+          "level": 26,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269827624905,
+          "level": 26,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270429580301,
+          "level": 26,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633271031535734,
+          "level": 26,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633271633491205,
+          "level": 26,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633272235446714,
+          "level": 26,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.963327283740226,
+          "level": 26,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633273439357843,
+          "level": 26,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269376158383,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269677136063,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269978113751,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270279091448,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270580069155,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270881046871,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633271182024598,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633271483002334,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633271783980079,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633272084957833,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633272385935597,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.963327268691337,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633272987891153,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633273288868944,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633273589846745,
+          "level": 27,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269300913965,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269451402802,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269601891642,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269752380483,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633269902869328,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270053358174,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270203847023,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270354335874,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270504824728,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270655313584,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.9633270805802442,
+          "level": 28,
+          "c_ub_of_parent": 4.119035576925516
+        }
+      ],
+      "seconds": 126.6591284275055,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.00854158,
+            0.01454072
+          ],
+          "c_lb": 2.5771403470666465
+        },
+        {
+          "lambda": [
+            0.00854158,
+            0.96332737
+          ],
+          "c_lb": 3.8469525635996273
+        },
+        {
+          "lambda": [
+            0.56588258,
+            0.01454072
+          ],
+          "c_lb": 3.4529743018686867
+        },
+        {
+          "lambda": [
+            0.56588258,
+            0.96332737
+          ],
+          "c_lb": 4.1169203272917265
+        },
+        {
+          "lambda": [
+            0.06952361,
+            0.11835318
+          ],
+          "c_lb": 2.8529834159063165
+        },
+        {
+          "lambda": [
+            0.07424846,
+            0.08057444
+          ],
+          "c_lb": 2.809954005039873
+        },
+        {
+          "lambda": [
+            0.05682623,
+            0.06432751
+          ],
+          "c_lb": 2.76026911296535
+        },
+        {
+          "lambda": [
+            0.03913087,
+            0.07795342
+          ],
+          "c_lb": 2.751488854932341
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          0.56588258,
+          0.96332737
+        ],
+        "c_lb": 4.1169203272917265
+      },
+      "L_lo_initial": 4.1169203272917265,
+      "n_unpruned": 55,
+      "unpruned": [
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9633270881046871
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9633271031535734
+          ],
+          "c_ub": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9633271031535734
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9633271182024598
+          ],
+          "c_ub": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9633271182024598
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9633271332513464
+          ],
+          "c_ub": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9633271332513464
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9633271483002334
+          ],
+          "c_ub": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9633271483002334
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9633271633491205
+          ],
+          "c_ub": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9633271633491205
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9633271783980079
+          ],
+          "c_ub": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9633271783980079
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9633271934468954
+          ],
+          "c_ub": 4.119035576925516
+        },
+        {
+          "lo": [
+            0.008541582878352345,
+            0.9633271934468954
+          ],
+          "hi": [
+            0.5658825784417317,
+            0.9633272084957833
+          ],
+          "c_ub": 4.119035576925516
+        }
+      ],
+      "cell": "A_df19",
+      "lambda_hat": [
+        0.06077133,
+        0.10345377
+      ],
+      "region_lo": [
+        0.00854158,
+        0.01454072
+      ],
+      "region_hi": [
+        0.56588258,
+        0.96332737
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 4.010041808521342,
+      "c_U": 4.010752295887064,
+      "gap": 0.0007104873657226562,
+      "certified_at_tol": false,
+      "n_boxes": 1390,
+      "n_pruned": 12,
+      "n_splits": 64,
+      "n_cub": 129,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "tree": [
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.1081499652532168,
+          "level": 0,
+          "c_ub_of_parent": 4.010768508350443
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.016305020350301833
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.1081499652532168
+          ],
+          "level": 1,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.1081499652532168,
+          "c_ub": 3.3769093507881873,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.27853444105929914,
+          "level": 1,
+          "c_ub_of_parent": 4.010757064258646
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.1081499652532168
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.27853444105929914
+          ],
+          "level": 2,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.27853444105929914,
+          "c_ub": 3.518359755909037,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.4469975713805943,
+          "level": 2,
+          "c_ub_of_parent": 4.010754203235697
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.27853444105929914
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.4469975713805943
+          ],
+          "level": 3,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.4469975713805943,
+          "c_ub": 3.696087455188822,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.5662631407596,
+          "level": 3,
+          "c_ub_of_parent": 4.010753249561381
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.4469975713805943
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.5662631407596
+          ],
+          "level": 4,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.5662631407596,
+          "c_ub": 3.8322349542732947,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.6373454039578359,
+          "level": 4,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.5662631407596
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.6373454039578359
+          ],
+          "level": 5,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.6373454039578359,
+          "c_ub": 3.9156108850594276,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.6761657068354461,
+          "level": 5,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.6373454039578359
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.6761657068354461
+          ],
+          "level": 6,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.6761657068354461,
+          "c_ub": 3.961632346546244,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.6964537514657915,
+          "level": 6,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.6761657068354461
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.6964537514657915
+          ],
+          "level": 7,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.6964537514657915,
+          "c_ub": 3.9857946390267127,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7068249199709583,
+          "level": 7,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.6964537514657915
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7068249199709583
+          ],
+          "level": 8,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.7068249199709583,
+          "c_ub": 3.9981723779793494,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7120682767208779,
+          "level": 8,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7068249199709583
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7120682767208779
+          ],
+          "level": 9,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.7120682767208779,
+          "c_ub": 4.004437064563822,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7147045231799984,
+          "level": 9,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7120682767208779
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7147045231799984
+          ],
+          "level": 10,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.7147045231799984,
+          "c_ub": 4.007588004505228,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7160263041590662,
+          "level": 10,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7147045231799984
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7160263041590662
+          ],
+          "level": 11,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.7160263041590662,
+          "c_ub": 4.0091682428475135,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7166881110588549,
+          "level": 11,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7160263041590662
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7166881110588549
+          ],
+          "level": 12,
+          "parent": -1,
+          "split_axis": 1,
+          "split_value": 0.7166881110588549,
+          "c_ub": 4.009959792530131,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 4.010041808521342
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7170192438583501,
+          "level": 12,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7171848676264043,
+          "level": 13,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.717267693856373,
+          "level": 14,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.717309110558326,
+          "level": 15,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173298198061051,
+          "level": 16,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173401746542029,
+          "level": 17,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173453521343047,
+          "level": 18,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.717347940888369,
+          "level": 19,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173492352689045,
+          "level": 20,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.717349882460048,
+          "level": 21,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502060558389,
+          "level": 22,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173500442579251,
+          "level": 23,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.717350367853789,
+          "level": 23,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173501251568775,
+          "level": 24,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502869548094,
+          "level": 24,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504487527778,
+          "level": 24,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.717350165606357,
+          "level": 25,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502465053231,
+          "level": 25,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503274042982,
+          "level": 25,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504083032822,
+          "level": 25,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504892022755,
+          "level": 25,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173501858310977,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502262805808,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.717350266730066,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503071795535,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503476290433,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503880785354,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504285280298,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504689775263,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173505094270253,
+          "level": 26,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173501959434682,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502161682098,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502363929518,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502566176945,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502768424377,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502970671813,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503172919258,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503375166707,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503577414161,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503779661622,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173503981909087,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504184156559,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504386404037,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504588651519,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504790899009,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173504993146503,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173505195394003,
+          "level": 27,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173501908872829,
+          "level": 28,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502009996535,
+          "level": 28,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502111120243,
+          "level": 28,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502212243953,
+          "level": 28,
+          "c_ub_of_parent": 4.010752295887064
+        },
+        {
+          "split": true,
+          "axis": 1,
+          "value": 0.7173502313367663,
+          "level": 28,
+          "c_ub_of_parent": 4.010752295887064
+        }
+      ],
+      "seconds": 130.24083495140076,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.00957798,
+            0.01630502
+          ],
+          "c_lb": 2.352281704092025
+        },
+        {
+          "lambda": [
+            0.00957798,
+            0.71735053
+          ],
+          "c_lb": 3.736228354449672
+        },
+        {
+          "lambda": [
+            0.42138963,
+            0.01630502
+          ],
+          "c_lb": 3.327481300276211
+        },
+        {
+          "lambda": [
+            0.42138963,
+            0.71735053
+          ],
+          "c_lb": 4.010041808521342
+        },
+        {
+          "lambda": [
+            0.06352999,
+            0.10814997
+          ],
+          "c_lb": 2.683381916998989
+        },
+        {
+          "lambda": [
+            0.01253097,
+            0.33915667
+          ],
+          "c_lb": 3.05665765145468
+        },
+        {
+          "lambda": [
+            0.33921081,
+            0.09582229
+          ],
+          "c_lb": 3.208479182446127
+        },
+        {
+          "lambda": [
+            0.02846071,
+            0.10193768
+          ],
+          "c_lb": 2.6023687526032897
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          0.42138963,
+          0.71735053
+        ],
+        "c_lb": 4.010041808521342
+      },
+      "L_lo_initial": 4.010041808521342,
+      "n_unpruned": 53,
+      "unpruned": [
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7173502363929518
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7173502465053231
+          ],
+          "c_ub": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7173502465053231
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7173502566176945
+          ],
+          "c_ub": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7173502566176945
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.717350266730066
+          ],
+          "c_ub": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.717350266730066
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7173502768424377
+          ],
+          "c_ub": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7173502768424377
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7173502869548094
+          ],
+          "c_ub": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7173502869548094
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7173502970671813
+          ],
+          "c_ub": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7173502970671813
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7173503071795535
+          ],
+          "c_ub": 4.010752295887064
+        },
+        {
+          "lo": [
+            0.009577976507342795,
+            0.7173503071795535
+          ],
+          "hi": [
+            0.42138963171594124,
+            0.7173503172919258
+          ],
+          "c_ub": 4.010752295887064
+        }
+      ],
+      "cell": "A_df35",
+      "lambda_hat": [
+        0.05130472,
+        0.08733834
+      ],
+      "region_lo": [
+        0.00957798,
+        0.01630502
+      ],
+      "region_hi": [
+        0.42138963,
+        0.71735053
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 31.512090557639343,
+      "c_U": 31.512091511313656,
+      "gap": 9.536743128535363e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.02713133345763653,
+            1.1546722416223507
+          ],
+          "hi": [
+            198.25835538500328,
+            8437.60296522869
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 31.512091511313656,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 31.512090557639343
+        }
+      ],
+      "seconds": 10.478760957717896,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.02713133,
+            1.15467224
+          ],
+          "c_lb": 3.1640129172145794
+        },
+        {
+          "lambda": [
+            0.02713133,
+            8437.60296523
+          ],
+          "c_lb": 29.714135272478455
+        },
+        {
+          "lambda": [
+            198.25835539,
+            1.15467224
+          ],
+          "c_lb": 24.81063654771939
+        },
+        {
+          "lambda": [
+            198.25835539,
+            8437.60296523
+          ],
+          "c_lb": 31.512090557639343
+        },
+        {
+          "lambda": [
+            2.31927005,
+            98.7049438
+          ],
+          "c_lb": 4.30373364721371
+        },
+        {
+          "lambda": [
+            39.7831467,
+            46.4972028
+          ],
+          "c_lb": 11.465497837894386
+        },
+        {
+          "lambda": [
+            124.62538662,
+            9.19275791
+          ],
+          "c_lb": 19.76445537530706
+        },
+        {
+          "lambda": [
+            0.32410975,
+            67.01250874
+          ],
+          "c_lb": 3.4788172637653276
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          198.25835539,
+          8437.60296523
+        ],
+        "c_lb": 31.512090557639343
+      },
+      "L_lo_initial": 31.512090557639343,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "B_df3",
+      "lambda_hat": [
+        6.86379294,
+        292.11358842
+      ],
+      "region_lo": [
+        0.02713133,
+        1.15467224
+      ],
+      "region_hi": [
+        198.25835539,
+        8437.60296523
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 17.627024809576923,
+      "c_U": 17.62702576325124,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.07763896013925081,
+            3.304207376360427
+          ],
+          "hi": [
+            63.88451643720451,
+            2718.837167170063
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 17.62702576325124,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 17.627024809576923
+        }
+      ],
+      "seconds": 9.282508373260498,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.07763896,
+            3.30420738
+          ],
+          "c_lb": 2.4794871271610255
+        },
+        {
+          "lambda": [
+            0.07763896,
+            2718.83716717
+          ],
+          "c_lb": 16.837586532995097
+        },
+        {
+          "lambda": [
+            63.88451644,
+            3.30420738
+          ],
+          "c_lb": 13.45120701866561
+        },
+        {
+          "lambda": [
+            63.88451644,
+            2718.83716717
+          ],
+          "c_lb": 17.627024809576923
+        },
+        {
+          "lambda": [
+            2.22708945,
+            94.78186442
+          ],
+          "c_lb": 3.801306354437366
+        },
+        {
+          "lambda": [
+            9.58636359,
+            150.47582968
+          ],
+          "c_lb": 5.782647238747574
+        },
+        {
+          "lambda": [
+            0.26536634,
+            126.45436639
+          ],
+          "c_lb": 3.7313427624354896
+        },
+        {
+          "lambda": [
+            0.24328679,
+            44.57948609
+          ],
+          "c_lb": 2.7445338655456646
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          63.88451644,
+          2718.83716717
+        ],
+        "c_lb": 17.627024809576923
+      },
+      "L_lo_initial": 17.627024809576923,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "B_df5",
+      "lambda_hat": [
+        3.36856808,
+        143.36162512
+      ],
+      "region_lo": [
+        0.07763896,
+        3.30420738
+      ],
+      "region_hi": [
+        63.88451644,
+        2718.83716717
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 13.491792692740834,
+      "c_U": 13.49179364641515,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.11952673213968477,
+            5.086893349677139
+          ],
+          "hi": [
+            37.34932753691073,
+            1589.536018105058
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 13.49179364641515,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 13.491792692740834
+        }
+      ],
+      "seconds": 8.956665515899658,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.11952673,
+            5.08689335
+          ],
+          "c_lb": 2.183860327816009
+        },
+        {
+          "lambda": [
+            0.11952673,
+            1589.53601811
+          ],
+          "c_lb": 12.875252662795656
+        },
+        {
+          "lambda": [
+            37.34932754,
+            5.08689335
+          ],
+          "c_lb": 10.322272378759724
+        },
+        {
+          "lambda": [
+            37.34932754,
+            1589.53601811
+          ],
+          "c_lb": 13.491792692740834
+        },
+        {
+          "lambda": [
+            2.11287554,
+            89.92107762
+          ],
+          "c_lb": 3.585459678816358
+        },
+        {
+          "lambda": [
+            11.82997761,
+            51.24884611
+          ],
+          "c_lb": 6.064962945047065
+        },
+        {
+          "lambda": [
+            0.3910475,
+            55.13877567
+          ],
+          "c_lb": 2.724474447453512
+        },
+        {
+          "lambda": [
+            15.93971595,
+            175.72958032
+          ],
+          "c_lb": 6.971916029263415
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          37.34932754,
+          1589.53601811
+        ],
+        "c_lb": 13.491792692740834
+      },
+      "L_lo_initial": 13.491792692740834,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "B_df7",
+      "lambda_hat": [
+        2.51355095,
+        106.97327183
+      ],
+      "region_lo": [
+        0.11952673,
+        5.08689335
+      ],
+      "region_hi": [
+        37.34932754,
+        1589.53601811
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 10.400810470616523,
+      "c_U": 10.40081142429084,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.1708035051662454,
+            7.269162295145216
+          ],
+          "hi": [
+            21.822349338181013,
+            928.7291782811812
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 10.40081142429084,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 10.400810470616523
+        }
+      ],
+      "seconds": 8.791155338287354,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.17080351,
+            7.2691623
+          ],
+          "c_lb": 2.0
+        },
+        {
+          "lambda": [
+            0.17080351,
+            928.72917828
+          ],
+          "c_lb": 9.85119748399509
+        },
+        {
+          "lambda": [
+            21.82234934,
+            7.2691623
+          ],
+          "c_lb": 8.107804176481096
+        },
+        {
+          "lambda": [
+            21.82234934,
+            928.72917828
+          ],
+          "c_lb": 10.400810470616523
+        },
+        {
+          "lambda": [
+            1.9306304,
+            82.16497505
+          ],
+          "c_lb": 3.3585171714831246
+        },
+        {
+          "lambda": [
+            9.72839478,
+            99.88306994
+          ],
+          "c_lb": 5.587178025159173
+        },
+        {
+          "lambda": [
+            1.67382013,
+            130.24353558
+          ],
+          "c_lb": 3.8274621331149774
+        },
+        {
+          "lambda": [
+            2.17602064,
+            406.1939942
+          ],
+          "c_lb": 6.52058607920188
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          21.82234934,
+          928.72917828
+        ],
+        "c_lb": 10.400810470616523
+      },
+      "L_lo_initial": 10.400810470616523,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "B_df11",
+      "lambda_hat": [
+        1.90578287,
+        81.10749804
+      ],
+      "region_lo": [
+        0.17080351,
+        7.2691623
+      ],
+      "region_hi": [
+        21.82234934,
+        928.72917828
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 8.506309414737999,
+      "c_U": 8.506310368412315,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.2135395719588086,
+            9.087950528261057
+          ],
+          "hi": [
+            14.147064461043291,
+            602.0796087709782
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 8.506310368412315,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 8.506309414737999
+        }
+      ],
+      "seconds": 7.492459058761597,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.21353957,
+            9.08795053
+          ],
+          "c_lb": 2.0
+        },
+        {
+          "lambda": [
+            0.21353957,
+            602.07960877
+          ],
+          "c_lb": 7.9444115155810895
+        },
+        {
+          "lambda": [
+            14.14706446,
+            9.08795053
+          ],
+          "c_lb": 6.829915745504389
+        },
+        {
+          "lambda": [
+            14.14706446,
+            602.07960877
+          ],
+          "c_lb": 8.506309414737999
+        },
+        {
+          "lambda": [
+            1.73809036,
+            73.97073542
+          ],
+          "c_lb": 3.1601532213663024
+        },
+        {
+          "lambda": [
+            1.35723638,
+            53.6273314
+          ],
+          "c_lb": 2.7976938570437953
+        },
+        {
+          "lambda": [
+            1.02018427,
+            15.33524003
+          ],
+          "c_lb": 2.2990713119983672
+        },
+        {
+          "lambda": [
+            1.14386933,
+            499.59934716
+          ],
+          "c_lb": 7.237585965503537
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          14.14706446,
+          602.07960877
+        ],
+        "c_lb": 8.506309414737999
+      },
+      "L_lo_initial": 8.506309414737999,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "B_df19",
+      "lambda_hat": [
+        1.51928323,
+        64.65860485
+      ],
+      "region_lo": [
+        0.21353957,
+        9.08795053
+      ],
+      "region_hi": [
+        14.14706446,
+        602.07960877
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 7.480058443514344,
+      "c_U": 7.48005939718866,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.2394494126835698,
+            10.190637718938646
+          ],
+          "hi": [
+            10.534740792898528,
+            448.34408103235967
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 7.48005939718866,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 7.480058443514344
+        }
+      ],
+      "seconds": 7.673248052597046,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.23944941,
+            10.19063772
+          ],
+          "c_lb": 2.0
+        },
+        {
+          "lambda": [
+            0.23944941,
+            448.34408103
+          ],
+          "c_lb": 6.866276514547472
+        },
+        {
+          "lambda": [
+            10.53474079,
+            10.19063772
+          ],
+          "c_lb": 6.186292511286238
+        },
+        {
+          "lambda": [
+            10.53474079,
+            448.34408103
+          ],
+          "c_lb": 7.480058443514344
+        },
+        {
+          "lambda": [
+            1.58824982,
+            67.59372828
+          ],
+          "c_lb": 3.017880880900382
+        },
+        {
+          "lambda": [
+            1.54470613,
+            73.07447251
+          ],
+          "c_lb": 3.0669580380836683
+        },
+        {
+          "lambda": [
+            0.43913892,
+            346.74402373
+          ],
+          "c_lb": 6.039086157120049
+        },
+        {
+          "lambda": [
+            1.63202078,
+            16.90367516
+          ],
+          "c_lb": 2.6470904518669665
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          10.53474079,
+          448.34408103
+        ],
+        "c_lb": 7.480058443514344
+      },
+      "L_lo_initial": 7.480058443514344,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "B_df35",
+      "lambda_hat": [
+        1.28261804,
+        54.58645981
+      ],
+      "region_lo": [
+        0.23944941,
+        10.19063772
+      ],
+      "region_hi": [
+        10.53474079,
+        448.34408103
+      ]
+    },
+    {
+      "K": 1,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 37.026829645958614,
+      "c_U": 37.02683059963293,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 7,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.025761098924406072
+          ],
+          "hi": [
+            350.4102842360357
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 37.02683059963293,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 37.026829645958614
+        }
+      ],
+      "seconds": 5.503416299819946,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.0257611
+          ],
+          "c_lb": 2.6292905083478475
+        },
+        {
+          "lambda": [
+            350.41028424
+          ],
+          "c_lb": 37.026829645958614
+        },
+        {
+          "lambda": [
+            3.00448897
+          ],
+          "c_lb": 4.302275642943845
+        },
+        {
+          "lambda": [
+            30.2354278
+          ],
+          "c_lb": 11.158926233361377
+        },
+        {
+          "lambda": [
+            0.20526267
+          ],
+          "c_lb": 2.758982081121216
+        },
+        {
+          "lambda": [
+            8.76339639
+          ],
+          "c_lb": 6.397611214633149
+        },
+        {
+          "lambda": [
+            0.20462658
+          ],
+          "c_lb": 2.758533237513338
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          350.41028424
+        ],
+        "c_lb": 37.026829645958614
+      },
+      "L_lo_initial": 37.026829645958614,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "K1_df3",
+      "lambda_hat": [
+        6.18604525
+      ],
+      "region_lo": [
+        0.0257611
+      ],
+      "region_hi": [
+        350.41028424
+      ]
+    },
+    {
+      "K": 3,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 20.375703964426613,
+      "c_U": 20.37570491810093,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.01580237658265341,
+            0.1465075941919639,
+            0.2177229820958981
+          ],
+          "hi": [
+            33.73055170376387,
+            161.33015168830198,
+            157.14698316360537
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 20.37570491810093,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 20.375703964426613
+        }
+      ],
+      "seconds": 19.081242322921753,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "c_lb": 2.8142611999537195
+        },
+        {
+          "lambda": [
+            0.01580238,
+            0.14650759,
+            157.14698316
+          ],
+          "c_lb": 15.416511306335138
+        },
+        {
+          "lambda": [
+            0.01580238,
+            161.33015169,
+            0.21772298
+          ],
+          "c_lb": 17.93892659520621
+        },
+        {
+          "lambda": [
+            0.01580238,
+            161.33015169,
+            157.14698316
+          ],
+          "c_lb": 19.20498494868203
+        },
+        {
+          "lambda": [
+            33.7305517,
+            0.14650759,
+            0.21772298
+          ],
+          "c_lb": 16.455656695971037
+        },
+        {
+          "lambda": [
+            33.7305517,
+            0.14650759,
+            157.14698316
+          ],
+          "c_lb": 18.216307684944965
+        },
+        {
+          "lambda": [
+            33.7305517,
+            161.33015169,
+            0.21772298
+          ],
+          "c_lb": 19.682797993980678
+        },
+        {
+          "lambda": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_lb": 20.375703964426613
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          33.7305517,
+          161.33015169,
+          157.14698316
+        ],
+        "c_lb": 20.375703964426613
+      },
+      "L_lo_initial": 20.375703964426613,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "K3_df6",
+      "lambda_hat": [
+        0.64009409,
+        5.17614557,
+        6.96827132
+      ],
+      "region_lo": [
+        0.01580238,
+        0.14650759,
+        0.21772298
+      ],
+      "region_hi": [
+        33.7305517,
+        161.33015169,
+        157.14698316
+      ]
+    },
+    {
+      "K": 5,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 12.87400655868831,
+      "c_U": 12.874007512362626,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.028994061474046803,
+            0.12635508985139463,
+            0.0931990865937415,
+            0.2753505542440316,
+            0.8431146274013551
+          ],
+          "hi": [
+            5.978114060299788,
+            26.052408694353105,
+            19.216168472011574,
+            56.77290231694594,
+            173.83681872317473
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 12.874007512362626,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 12.87400655868831
+        }
+      ],
+      "seconds": 31.26485013961792,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "c_lb": 2.546162043785137
+        },
+        {
+          "lambda": [
+            0.02899406,
+            0.12635509,
+            19.21616847,
+            0.27535055,
+            0.84311463
+          ],
+          "c_lb": 8.851937265524601
+        },
+        {
+          "lambda": [
+            0.02899406,
+            26.05240869,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "c_lb": 9.36710044822882
+        },
+        {
+          "lambda": [
+            0.02899406,
+            26.05240869,
+            19.21616847,
+            0.27535055,
+            173.83681872
+          ],
+          "c_lb": 12.180803940966733
+        },
+        {
+          "lambda": [
+            5.97811406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            173.83681872
+          ],
+          "c_lb": 11.229668729658846
+        },
+        {
+          "lambda": [
+            5.97811406,
+            0.12635509,
+            19.21616847,
+            56.77290232,
+            0.84311463
+          ],
+          "c_lb": 11.128969044283588
+        },
+        {
+          "lambda": [
+            5.97811406,
+            26.05240869,
+            0.09319909,
+            56.77290232,
+            0.84311463
+          ],
+          "c_lb": 11.352151162099798
+        },
+        {
+          "lambda": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_lb": 12.87400655868831
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          5.97811406,
+          26.05240869,
+          19.21616847,
+          56.77290232,
+          173.83681872
+        ],
+        "c_lb": 12.87400655868831
+      },
+      "L_lo_initial": 12.87400655868831,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "K5_df11",
+      "lambda_hat": [
+        0.37743621,
+        1.64485359,
+        1.21323844,
+        3.58443295,
+        10.97541952
+      ],
+      "region_lo": [
+        0.02899406,
+        0.12635509,
+        0.09319909,
+        0.27535055,
+        0.84311463
+      ],
+      "region_hi": [
+        5.97811406,
+        26.05240869,
+        19.21616847,
+        56.77290232,
+        173.83681872
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 37.15369347068676,
+      "c_U": 37.15369442436108,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            8.082208472905317e-05,
+            4.633235265264464
+          ],
+          "hi": [
+            45.69990277544406,
+            15203.122786151383
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 37.15369442436108,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 37.15369347068676
+        }
+      ],
+      "seconds": 32.134507179260254,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            8.082e-05,
+            4.63323527
+          ],
+          "c_lb": 5.423697450108769
+        },
+        {
+          "lambda": [
+            8.082e-05,
+            15203.12278615
+          ],
+          "c_lb": 21.220643349718834
+        },
+        {
+          "lambda": [
+            45.69990278,
+            4.63323527
+          ],
+          "c_lb": 37.06260205776417
+        },
+        {
+          "lambda": [
+            45.69990278,
+            15203.12278615
+          ],
+          "c_lb": 37.15369347068676
+        },
+        {
+          "lambda": [
+            0.06077468,
+            265.40468088
+          ],
+          "c_lb": 5.588290286776208
+        },
+        {
+          "lambda": [
+            8.689e-05,
+            298.68871502
+          ],
+          "c_lb": 5.432161054596345
+        },
+        {
+          "lambda": [
+            0.296193,
+            80.39222748
+          ],
+          "c_lb": 6.174655218740762
+        },
+        {
+          "lambda": [
+            9.09126179,
+            9600.56075432
+          ],
+          "c_lb": 19.458600087296062
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          45.69990278,
+          15203.12278615
+        ],
+        "c_lb": 37.15369347068676
+      },
+      "L_lo_initial": 37.15369347068676,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "K2_extreme",
+      "lambda_hat": [
+        0.05036678,
+        1036.08232082
+      ],
+      "region_lo": [
+        8.082e-05,
+        4.63323527
+      ],
+      "region_hi": [
+        45.69990278,
+        15203.12278615
+      ]
+    },
+    {
+      "K": 2,
+      "tol": 0.0001,
+      "alpha0": 0.0245,
+      "c_L": 48.30288713182367,
+      "c_U": 48.30288808549798,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "tree": [
+        {
+          "lo": [
+            0.0672062050336665,
+            0.20251698778044763
+          ],
+          "hi": [
+            317.4013520567692,
+            956.4468891492694
+          ],
+          "level": 0,
+          "parent": -1,
+          "c_ub": 48.30288808549798,
+          "c_ub_settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          },
+          "pruned_at_L": 48.30288713182367
+        }
+      ],
+      "seconds": 8.310292482376099,
+      "error": null,
+      "witnesses": [
+        {
+          "lambda": [
+            0.06720621,
+            0.20251699
+          ],
+          "c_lb": 2.0
+        },
+        {
+          "lambda": [
+            0.06720621,
+            956.44688915
+          ],
+          "c_lb": 43.16832899499293
+        },
+        {
+          "lambda": [
+            317.40135206,
+            0.20251699
+          ],
+          "c_lb": 41.418404534066205
+        },
+        {
+          "lambda": [
+            317.40135206,
+            956.44688915
+          ],
+          "c_lb": 48.30288713182367
+        },
+        {
+          "lambda": [
+            4.6185864,
+            13.91749773
+          ],
+          "c_lb": 5.878714934405682
+        },
+        {
+          "lambda": [
+            0.11638487,
+            185.05582653
+          ],
+          "c_lb": 18.99382009875023
+        },
+        {
+          "lambda": [
+            0.18675142,
+            61.94027069
+          ],
+          "c_lb": 10.996589457545682
+        },
+        {
+          "lambda": [
+            1.18894583,
+            7.02003693
+          ],
+          "c_lb": 3.815672352021657
+        }
+      ],
+      "argmax_witness": {
+        "lambda": [
+          317.40135206,
+          956.44688915
+        ],
+        "c_lb": 48.30288713182367
+      },
+      "L_lo_initial": 48.30288713182367,
+      "n_unpruned": 0,
+      "unpruned": [],
+      "cell": "K2_quiet",
+      "lambda_hat": [
+        0.98458159,
+        2.96690608
+      ],
+      "region_lo": [
+        0.06720621,
+        0.20251699
+      ],
+      "region_hi": [
+        317.40135206,
+        956.44688915
+      ]
+    }
+  ],
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "branch-and-bound certificate for the CONTINUOUS supremum over each region; c_U = max over all boxes, gap reported honestly"
+  ]
+}

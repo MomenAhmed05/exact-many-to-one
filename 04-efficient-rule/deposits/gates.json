@@ -1,0 +1,79 @@
+{
+ "gates": [
+  {
+   "pass": 1,
+   "coarse_reference": 1.7296164500635314e-12,
+   "fine_reference": 1.3322676295501878e-15,
+   "finer_reference": 1.3322676295501878e-15,
+   "refinement_reduces_residual": 1,
+   "gate": "X1 K=1 closed form"
+  },
+  {
+   "pass": 1,
+   "x2_corner_substitution_violations": 0,
+   "x2_trials": 1800,
+   "gate": "X2 corner substitution"
+  },
+  {
+   "pass": 1,
+   "n_points": 5,
+   "max_width": 0.0003191153309760886,
+   "gate": "X3 bracket containment"
+  },
+  {
+   "pass": 1,
+   "worst_abs_diff": 2.5743296383495817e-15,
+   "gate": "X4 per-candidate vs exact law"
+  },
+  {
+   "pass": 1,
+   "abs_diff": 3.0531133177191805e-15,
+   "gate": "X5 per-candidate vs K=1"
+  },
+  {
+   "pass": 1,
+   "checked": 10,
+   "violations": [],
+   "gate": "X6 deposited rules on a finer grid"
+  },
+  {
+   "pass": 1,
+   "violations": [],
+   "gate": "X7 tier discipline"
+  },
+  {
+   "pass": 1,
+   "violations": [],
+   "gate": "X8 certificate consistency"
+  },
+  {
+   "pass": 1,
+   "rows": 10,
+   "not_dominating": [],
+   "above_ceiling": [],
+   "worst_slack": 0.0022530146766020463,
+   "gate": "X9 any-K union bound dominates"
+  },
+  {
+   "pass": 1,
+   "worst_inversion_vs_rootfind": 6.297800635124418e-05,
+   "worst_inversion_linear_vs_rootfind": 0.0009139911062474582,
+   "log_scale_gain_x": 14.512861857676153,
+   "worst_parallel_vs_serial": 0.0,
+   "c_grid_step": 0.2851851851851852,
+   "workers": 10,
+   "gate_tolerance": 0.001,
+   "scale_note": "the linear-scale figure is what the same grid gives if the rejection probability is interpolated directly; it is measured here so that the choice of scale is not an assertion",
+   "gate": "X10 speed layer changes no number"
+  },
+  {
+   "pass": 1,
+   "rows": 4,
+   "violations": [],
+   "gate": "X11 joint certificate dominates"
+  }
+ ],
+ "n_pass": 11,
+ "n_gates": 11,
+ "tier": "frontier_measured"
+}

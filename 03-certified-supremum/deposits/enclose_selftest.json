@@ -1,0 +1,190 @@
+{
+  "n": [
+    13.0,
+    13.0,
+    13.0
+  ],
+  "lam": [
+    1.0,
+    25.0
+  ],
+  "d_row": [
+    0.32013797977895214,
+    1.6896131752215553
+  ],
+  "alpha": 0.0245,
+  "target": 1e-06,
+  "prec": 64,
+  "containment": [
+    {
+      "c": 2.0,
+      "nodes": 7267,
+      "F_lo": 0.9411102313866291,
+      "F_hi": 0.9411537879768952,
+      "F_ref": 0.9411320145620453,
+      "width": 4.3556590266113915e-05,
+      "lo_le_ref": true,
+      "ref_le_hi": true,
+      "ref_inside": true
+    },
+    {
+      "c": 2.5,
+      "nodes": 7267,
+      "F_lo": 0.9780068697382212,
+      "F_hi": 0.9780266304861222,
+      "F_ref": 0.9780167536108153,
+      "width": 1.9760747900998687e-05,
+      "lo_le_ref": true,
+      "ref_le_hi": true,
+      "ref_inside": true
+    },
+    {
+      "c": 2.75,
+      "nodes": 7267,
+      "F_lo": 0.9871054054741665,
+      "F_hi": 0.9871179310086737,
+      "F_ref": 0.9871116709278419,
+      "width": 1.2525534507257241e-05,
+      "lo_le_ref": true,
+      "ref_le_hi": true,
+      "ref_inside": true
+    },
+    {
+      "c": 3.0,
+      "nodes": 7267,
+      "F_lo": 0.9926606733226611,
+      "F_hi": 0.9926683123341649,
+      "F_ref": 0.9926644947338666,
+      "width": 7.63901150380164e-06,
+      "lo_le_ref": true,
+      "ref_le_hi": true,
+      "ref_inside": true
+    }
+  ],
+  "box_containment": {
+    "box": [
+      [
+        0.75,
+        18.75
+      ],
+      [
+        1.25,
+        31.25
+      ]
+    ],
+    "c": 2.75,
+    "F_lo": 0.9812757308710911,
+    "F_hi": 0.9917438782592324,
+    "corners": [
+      {
+        "lam": [
+          0.75,
+          18.75
+        ],
+        "F_ref": 0.9917130937968812
+      },
+      {
+        "lam": [
+          0.75,
+          31.25
+        ],
+        "F_ref": 0.9902402274343589
+      },
+      {
+        "lam": [
+          1.25,
+          18.75
+        ],
+        "F_ref": 0.9827581888733388
+      },
+      {
+        "lam": [
+          1.25,
+          31.25
+        ],
+        "F_ref": 0.9813100717902434
+      }
+    ],
+    "F_lo_le_min_corner": true,
+    "F_hi_ge_max_corner": true,
+    "width": 0.01046814738814128
+  },
+  "width_vs_nodes": [
+    {
+      "nodes": 100,
+      "width": 0.004168045447295987
+    },
+    {
+      "nodes": 400,
+      "width": 0.001036789317842901
+    },
+    {
+      "nodes": 1600,
+      "width": 0.00025911571592218685
+    },
+    {
+      "nodes": 3200,
+      "width": 0.00012955581855345066
+    }
+  ],
+  "collapse": [
+    {
+      "mult": 1.05,
+      "width": 0.00210764284513254,
+      "lo": 0.9860331627530383,
+      "hi": 0.9881408055981709
+    },
+    {
+      "mult": 1.01,
+      "width": 0.0004346480557936294,
+      "lo": 0.9868932841466446,
+      "hi": 0.9873279322024382
+    },
+    {
+      "mult": 1.001,
+      "width": 5.5013363135070215e-05,
+      "lo": 0.9870841424024782,
+      "hi": 0.9871391557656133
+    },
+    {
+      "mult": 1.0,
+      "width": 1.2525534507257241e-05,
+      "lo": 0.9871054054741665,
+      "hi": 0.9871179310086737
+    }
+  ],
+  "mass_floor": {
+    "width_floor_0": 0.0005182640742453781,
+    "width_floor_1e-4": 0.00604034956973154,
+    "wider_or_equal": true,
+    "dropped_up": 0.002767026670774881
+  },
+  "arb_vs_float": {
+    "F_lo_arb": 0.9868494841274039,
+    "F_lo_float": 0.9868494841274044,
+    "F_hi_arb": 0.9873677482016493,
+    "F_hi_float": 0.987367748201649,
+    "abs_diff_lo": 4.440892098500626e-16,
+    "abs_diff_hi": 3.3306690738754696e-16,
+    "consistent": true
+  },
+  "bracket": {
+    "c_oracle_independent": 2.4632607824237978,
+    "c_L": 2.4473345004018494,
+    "c_U": 2.4478192012757063,
+    "width": 0.0004847008738568803,
+    "dp": 2.4374511364499973e-05,
+    "slope_hi": 0.0,
+    "c_equiv": null,
+    "n_arb": 50,
+    "warm_start": 2.465239016339183,
+    "contains_oracle": false
+  },
+  "verdict": "PASS",
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "Riemann-path self-test; independent cross-check path (the certificate path is enclose_gl.py)",
+    "non-finite values replaced by null at: bracket.c_equiv"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "selftest": {
+  "worst_inversion_vs_rootfind": 6.297800635124418e-05,
+  "worst_inversion_linear_vs_rootfind": 0.0009139911062474582,
+  "log_scale_gain_x": 14.512861857676153,
+  "worst_parallel_vs_serial": 0.0,
+  "c_grid_step": 0.2851851851851852,
+  "workers": 10,
+  "gate_tolerance": 0.001,
+  "scale_note": "the linear-scale figure is what the same grid gives if the rejection probability is interpolated directly; it is measured here so that the choice of scale is not an assertion",
+  "pass": 1
+ },
+ "bench": {
+  "cells": 144,
+  "levels": 8,
+  "workers": 10,
+  "old_sweep_seconds_est": 255.14545440673828,
+  "new_sweep_seconds": 9.946483135223389,
+  "speedup_x": 25.651825970849337,
+  "per_cell_serial_rootfind_s": 0.22148042917251587,
+  "note": "old = one root-find per cell per level on one core; new = one tabulated row per cell, in parallel, serving every level by inversion"
+ },
+ "tier": "frontier_measured"
+}

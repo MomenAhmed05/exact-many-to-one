@@ -1,0 +1,5968 @@
+{
+  "n_cells": 17,
+  "n_brackets": 91,
+  "all_independent_check_pass": true,
+  "all_widths_under_tol": true,
+  "all_dp_under_target": true,
+  "max_width": 1.6036011416531437e-06,
+  "median_width": 8.791685104370117e-07,
+  "max_dp": 8.034040099857975e-11,
+  "median_dp": 2.4646951146678475e-14,
+  "max_c_equiv": 1.5071224856721232e-08,
+  "tol_predeclared": 0.0001,
+  "dp_target": 1e-06,
+  "alpha0": 0.0245,
+  "gamma": 0.0005,
+  "seconds": 277.0453464984894,
+  "cells": [
+    {
+      "name": "A_df3",
+      "region_scale": 12.715994030059314,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "A_df3",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00108525,
+            0.00184748
+          ],
+          "region_lo": [
+            0.00108525,
+            0.00184748
+          ],
+          "region_hi": [
+            7.93033422,
+            13.50016474
+          ],
+          "c_L": 5.33960717235188,
+          "c_U": 5.3396077156066895,
+          "width": 5.432548091377498e-07,
+          "dp": 2.4313884239290928e-14,
+          "c_equiv": 1.1462199011499736e-12,
+          "slope_hi": 0.021212233546893944,
+          "n_eval": 57,
+          "noreject_at_c_L": 0.9754999934605967,
+          "noreject_at_c_U": 0.9755000049839443,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df3",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00108525,
+            13.50016474
+          ],
+          "region_lo": [
+            0.00108525,
+            0.00184748
+          ],
+          "region_hi": [
+            7.93033422,
+            13.50016474
+          ],
+          "c_L": 11.799182310804218,
+          "c_U": 11.79918272793293,
+          "width": 4.17128712015824e-07,
+          "dp": 2.4202861936828413e-14,
+          "c_equiv": 2.5232573491511055e-12,
+          "slope_hi": 0.00959191179804586,
+          "n_eval": 71,
+          "noreject_at_c_L": 0.975499999606632,
+          "noreject_at_c_U": 0.9755000036076725,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df3",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            7.93033422,
+            0.00184748
+          ],
+          "region_lo": [
+            0.00108525,
+            0.00184748
+          ],
+          "region_hi": [
+            7.93033422,
+            13.50016474
+          ],
+          "c_L": 9.902966058931067,
+          "c_U": 9.90296708792448,
+          "width": 1.028993413143553e-06,
+          "dp": 2.4313884239290928e-14,
+          "c_equiv": 2.120195206721818e-12,
+          "slope_hi": 0.011467757384889254,
+          "n_eval": 67,
+          "noreject_at_c_L": 0.9754999930939534,
+          "noreject_at_c_U": 0.9755000048941064,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df3",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            7.93033422,
+            13.50016474
+          ],
+          "region_lo": [
+            0.00108525,
+            0.00184748
+          ],
+          "region_hi": [
+            7.93033422,
+            13.50016474
+          ],
+          "c_L": 12.500376592736071,
+          "c_U": 12.500377252697945,
+          "width": 6.599618735947388e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 2.282592230940993e-12,
+          "slope_hi": 0.01079778981658841,
+          "n_eval": 73,
+          "noreject_at_c_L": 0.9754999952970401,
+          "noreject_at_c_U": 0.9755000024231154,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df3",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.0927708,
+            0.15792791
+          ],
+          "region_lo": [
+            0.00108525,
+            0.00184748
+          ],
+          "region_hi": [
+            7.93033422,
+            13.50016474
+          ],
+          "c_L": 5.635167047099001,
+          "c_U": 5.635167971253395,
+          "width": 9.24154393899812e-07,
+          "dp": 2.4868995751603507e-14,
+          "c_equiv": 1.1746080873882491e-12,
+          "slope_hi": 0.02117216458716875,
+          "n_eval": 58,
+          "noreject_at_c_L": 0.9754999926692768,
+          "noreject_at_c_U": 0.9755000122351222,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.27455172,
+        0.46738174
+      ],
+      "d_row": [
+        0.18441129,
+        0.18938873
+      ]
+    },
+    {
+      "name": "A_df5",
+      "region_scale": 20.3321373197153,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "A_df5",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00310556,
+            0.00528673
+          ],
+          "region_lo": [
+            0.00310556,
+            0.00528673
+          ],
+          "region_hi": [
+            2.55538066,
+            4.35013947
+          ],
+          "c_L": 3.7991535644901395,
+          "c_U": 3.799154356122017,
+          "width": 7.916318773837361e-07,
+          "dp": 2.4313884239290928e-14,
+          "c_equiv": 8.082826391707862e-13,
+          "slope_hi": 0.030080918556205094,
+          "n_eval": 54,
+          "noreject_at_c_L": 0.9754999933473022,
+          "noreject_at_c_U": 0.9755000171590695,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df5",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00310556,
+            4.35013947
+          ],
+          "region_lo": [
+            0.00310556,
+            0.00528673
+          ],
+          "region_hi": [
+            2.55538066,
+            4.35013947
+          ],
+          "c_L": 6.432194530039697,
+          "c_U": 6.432195030152798,
+          "width": 5.001131002657644e-07,
+          "dp": 2.4313884239290928e-14,
+          "c_equiv": 1.362665850895884e-12,
+          "slope_hi": 0.017842880720395082,
+          "n_eval": 59,
+          "noreject_at_c_L": 0.975499991544391,
+          "noreject_at_c_U": 0.9755000004676624,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df5",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            2.55538066,
+            0.00528673
+          ],
+          "region_lo": [
+            0.00310556,
+            0.00528673
+          ],
+          "region_hi": [
+            2.55538066,
+            4.35013947
+          ],
+          "c_L": 5.605518500265049,
+          "c_U": 5.605519413948059,
+          "width": 9.136830101397209e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 1.1716415998606091e-12,
+          "slope_hi": 0.02084673892140676,
+          "n_eval": 58,
+          "noreject_at_c_L": 0.9754999889775963,
+          "noreject_at_c_U": 0.9755000080243509,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df5",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            2.55538066,
+            4.35013947
+          ],
+          "region_lo": [
+            0.00310556,
+            0.00528673
+          ],
+          "region_hi": [
+            2.55538066,
+            4.35013947
+          ],
+          "c_L": 6.856745759486051,
+          "c_U": 6.856746882200241,
+          "width": 1.122714190060492e-06,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 1.2504767307533312e-12,
+          "slope_hi": 0.0196212598289891,
+          "n_eval": 60,
+          "noreject_at_c_L": 0.9754999844202069,
+          "noreject_at_c_U": 0.9755000064487425,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df5",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.08908358,
+            0.15165098
+          ],
+          "region_lo": [
+            0.00310556,
+            0.00528673
+          ],
+          "region_hi": [
+            2.55538066,
+            4.35013947
+          ],
+          "c_L": 4.063960849202762,
+          "c_U": 4.0639613494277,
+          "width": 5.002249379160162e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 8.308217602579646e-13,
+          "slope_hi": 0.029665750616625353,
+          "n_eval": 55,
+          "noreject_at_c_L": 0.9754999948996803,
+          "noreject_at_c_U": 0.9755000097384736,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.13474272,
+        0.2293786
+      ],
+      "d_row": [
+        0.21271197,
+        0.21704135
+      ]
+    },
+    {
+      "name": "A_df7",
+      "region_scale": 26.928423981240005,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "A_df7",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00478107,
+            0.00813903
+          ],
+          "region_lo": [
+            0.00478107,
+            0.00813903
+          ],
+          "region_hi": [
+            1.4939731,
+            2.54325763
+          ],
+          "c_L": 3.29974255623809,
+          "c_U": 3.2997438311576843,
+          "width": 1.2749195943406733e-06,
+          "dp": 2.4313884239290928e-14,
+          "c_equiv": 6.977942211280392e-13,
+          "slope_hi": 0.0348439174517462,
+          "n_eval": 52,
+          "noreject_at_c_L": 0.9754999760096107,
+          "noreject_at_c_U": 0.9755000204296964,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df7",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00478107,
+            2.54325763
+          ],
+          "region_lo": [
+            0.00478107,
+            0.00813903
+          ],
+          "region_hi": [
+            1.4939731,
+            2.54325763
+          ],
+          "c_L": 5.143553045671307,
+          "c_U": 5.143554039299488,
+          "width": 9.936281815114967e-07,
+          "dp": 2.4313884239290928e-14,
+          "c_equiv": 1.0755874140843635e-12,
+          "slope_hi": 0.02260521452827624,
+          "n_eval": 57,
+          "noreject_at_c_L": 0.9754999929280533,
+          "noreject_at_c_U": 0.9755000153884565,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df7",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            1.4939731,
+            0.00813903
+          ],
+          "region_lo": [
+            0.00478107,
+            0.00813903
+          ],
+          "region_hi": [
+            1.4939731,
+            2.54325763
+          ],
+          "c_L": 4.560648880848596,
+          "c_U": 4.560649409890175,
+          "width": 5.290415785452751e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 9.406205238466568e-13,
+          "slope_hi": 0.02596680161928433,
+          "n_eval": 56,
+          "noreject_at_c_L": 0.9754999870386883,
+          "noreject_at_c_U": 0.9755000007755836,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df7",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            1.4939731,
+            2.54325763
+          ],
+          "region_lo": [
+            0.00478107,
+            0.00813903
+          ],
+          "region_hi": [
+            1.4939731,
+            2.54325763
+          ],
+          "c_L": 5.490279822748346,
+          "c_U": 5.490280605852604,
+          "width": 7.831042578843039e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 1.0086607695489617e-12,
+          "slope_hi": 0.02443532245008373,
+          "n_eval": 58,
+          "noreject_at_c_L": 0.9754999925207074,
+          "noreject_at_c_U": 0.9755000116554043,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df7",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.08451502,
+            0.14387372
+          ],
+          "region_lo": [
+            0.00478107,
+            0.00813903
+          ],
+          "region_hi": [
+            1.4939731,
+            2.54325763
+          ],
+          "c_L": 3.554319166282033,
+          "c_U": 3.554320104420185,
+          "width": 9.381381520512377e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 7.2137213740769e-13,
+          "slope_hi": 0.03416676340626257,
+          "n_eval": 53,
+          "noreject_at_c_L": 0.975499969365649,
+          "noreject_at_c_U": 0.9755000014166368,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.10054204,
+        0.17115723
+      ],
+      "d_row": [
+        0.21322424,
+        0.21754343
+      ]
+    },
+    {
+      "name": "A_df11",
+      "region_scale": 34.82767350039109,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "A_df11",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00683214,
+            0.01163066
+          ],
+          "region_lo": [
+            0.00683214,
+            0.01163066
+          ],
+          "region_hi": [
+            0.87289397,
+            1.48596669
+          ],
+          "c_L": 2.88516275646829,
+          "c_U": 2.8851630464196205,
+          "width": 2.8995133050102595e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 6.07765051145957e-13,
+          "slope_hi": 0.040188073492708476,
+          "n_eval": 51,
+          "noreject_at_c_L": 0.9754999885348877,
+          "noreject_at_c_U": 0.97550000018638,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df11",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00683214,
+            1.48596669
+          ],
+          "region_lo": [
+            0.00683214,
+            0.01163066
+          ],
+          "region_hi": [
+            0.87289397,
+            1.48596669
+          ],
+          "c_L": 4.2870585257162555,
+          "c_U": 4.287058986723423,
+          "width": 4.6100716755148596e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 8.92189824440918e-13,
+          "slope_hi": 0.027376356323116635,
+          "n_eval": 55,
+          "noreject_at_c_L": 0.9754999902995631,
+          "noreject_at_c_U": 0.9755000029196124,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df11",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.87289397,
+            0.01163066
+          ],
+          "region_lo": [
+            0.00683214,
+            0.01163066
+          ],
+          "region_hi": [
+            0.87289397,
+            1.48596669
+          ],
+          "c_L": 3.8449626246502957,
+          "c_U": 3.8449634462594986,
+          "width": 8.216092028945354e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 7.877103036146432e-13,
+          "slope_hi": 0.03100747372437873,
+          "n_eval": 54,
+          "noreject_at_c_L": 0.9754999914304644,
+          "noreject_at_c_U": 0.9755000169048617,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df11",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.87289397,
+            1.48596669
+          ],
+          "region_lo": [
+            0.00683214,
+            0.01163066
+          ],
+          "region_hi": [
+            0.87289397,
+            1.48596669
+          ],
+          "c_L": 4.579515117312887,
+          "c_U": 4.57951544970274,
+          "width": 3.3238985253092324e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 8.426072418561703e-13,
+          "slope_hi": 0.029250818082673935,
+          "n_eval": 56,
+          "noreject_at_c_L": 0.9754999963702957,
+          "noreject_at_c_U": 0.9755000060924574,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df11",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.07722522,
+            0.13146396
+          ],
+          "region_lo": [
+            0.00683214,
+            0.01163066
+          ],
+          "region_hi": [
+            0.87289397,
+            1.48596669
+          ],
+          "c_L": 3.1394817124216665,
+          "c_U": 3.1394823789596558,
+          "width": 6.665379892467627e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 6.30399803452138e-13,
+          "slope_hi": 0.03909733317128128,
+          "n_eval": 52,
+          "noreject_at_c_L": 0.9754999873599429,
+          "noreject_at_c_U": 0.9755000134174968,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.07623131,
+        0.129772
+      ],
+      "d_row": [
+        0.20073746,
+        0.2053195
+      ]
+    },
+    {
+      "name": "A_df19",
+      "region_scale": 37.762877069169285,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "A_df19",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00854158,
+            0.01454072
+          ],
+          "region_lo": [
+            0.00854158,
+            0.01454072
+          ],
+          "region_hi": [
+            0.56588258,
+            0.96332737
+          ],
+          "c_L": 2.5771404105293163,
+          "c_U": 2.5771414488554,
+          "width": 1.0383260837798503e-06,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 5.369081799897075e-13,
+          "slope_hi": 0.04549177578598573,
+          "n_eval": 51,
+          "noreject_at_c_L": 0.9754999854694595,
+          "noreject_at_c_U": 0.9755000326991032,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df19",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00854158,
+            0.96332737
+          ],
+          "region_lo": [
+            0.00854158,
+            0.01454072
+          ],
+          "region_hi": [
+            0.56588258,
+            0.96332737
+          ],
+          "c_L": 3.846952115356844,
+          "c_U": 3.846952974796295,
+          "width": 8.594394511618475e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 8.020400004420129e-13,
+          "slope_hi": 0.03045347679453969,
+          "n_eval": 54,
+          "noreject_at_c_L": 0.9754999847570781,
+          "noreject_at_c_U": 0.9755000109283376,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df19",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.56588258,
+            0.01454072
+          ],
+          "region_lo": [
+            0.00854158,
+            0.01454072
+          ],
+          "region_hi": [
+            0.56588258,
+            0.96332737
+          ],
+          "c_L": 3.4529741166824306,
+          "c_U": 3.4529749751091003,
+          "width": 8.584266697475584e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 7.095776435876888e-13,
+          "slope_hi": 0.03442175322528329,
+          "n_eval": 52,
+          "noreject_at_c_L": 0.9754999729156696,
+          "noreject_at_c_U": 0.9755000024618755,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df19",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.56588258,
+            0.96332737
+          ],
+          "region_lo": [
+            0.00854158,
+            0.01454072
+          ],
+          "region_hi": [
+            0.56588258,
+            0.96332737
+          ],
+          "c_L": 4.116920259770236,
+          "c_U": 4.116920612752438,
+          "width": 3.5298220169011074e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 7.586073978313017e-13,
+          "slope_hi": 0.03263608227380699,
+          "n_eval": 55,
+          "noreject_at_c_L": 0.9754999934332711,
+          "noreject_at_c_U": 0.9755000049524689,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df19",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.06952361,
+            0.11835318
+          ],
+          "region_lo": [
+            0.00854158,
+            0.01454072
+          ],
+          "region_hi": [
+            0.56588258,
+            0.96332737
+          ],
+          "c_L": 2.8529834895244783,
+          "c_U": 2.852984569966793,
+          "width": 1.080442314727037e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 5.64113616485424e-13,
+          "slope_hi": 0.04369146644648547,
+          "n_eval": 51,
+          "noreject_at_c_L": 0.9754999804307641,
+          "noreject_at_c_U": 0.9755000276316664,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.06077133,
+        0.10345377
+      ],
+      "d_row": [
+        0.17602049,
+        0.18122853
+      ]
+    },
+    {
+      "name": "A_df35",
+      "region_scale": 32.52771668079244,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "A_df35",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00957798,
+            0.01630502
+          ],
+          "region_lo": [
+            0.00957798,
+            0.01630502
+          ],
+          "region_hi": [
+            0.42138963,
+            0.71735053
+          ],
+          "c_L": 2.352281540762718,
+          "c_U": 2.3522822465747595,
+          "width": 7.058120417013924e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 4.831311233438873e-13,
+          "slope_hi": 0.05055544004845258,
+          "n_eval": 50,
+          "noreject_at_c_L": 0.9754999888942977,
+          "noreject_at_c_U": 0.9755000245716401,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df35",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.00957798,
+            0.71735053
+          ],
+          "region_lo": [
+            0.00957798,
+            0.01630502
+          ],
+          "region_hi": [
+            0.42138963,
+            0.71735053
+          ],
+          "c_L": 3.7362286598535333,
+          "c_U": 3.7362290546298027,
+          "width": 3.947762694522794e-07,
+          "dp": 2.4424906541753444e-14,
+          "c_equiv": 7.893323444789187e-13,
+          "slope_hi": 0.030943754823423153,
+          "n_eval": 54,
+          "noreject_at_c_L": 0.9754999979777533,
+          "noreject_at_c_U": 0.9755000101928204,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df35",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.42138963,
+            0.01630502
+          ],
+          "region_lo": [
+            0.00957798,
+            0.01630502
+          ],
+          "region_hi": [
+            0.42138963,
+            0.71735053
+          ],
+          "c_L": 3.327481253700769,
+          "c_U": 3.3274819552898407,
+          "width": 7.015890717276818e-07,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 6.971670520558181e-13,
+          "slope_hi": 0.03519375847132189,
+          "n_eval": 52,
+          "noreject_at_c_L": 0.9754999907947774,
+          "noreject_at_c_U": 0.9755000154842556,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df35",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.42138963,
+            0.71735053
+          ],
+          "region_lo": [
+            0.00957798,
+            0.01630502
+          ],
+          "region_hi": [
+            0.42138963,
+            0.71735053
+          ],
+          "c_L": 4.010041718312406,
+          "c_U": 4.010043002665043,
+          "width": 1.2843526366879132e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 7.301767148325691e-13,
+          "slope_hi": 0.03375477558515416,
+          "n_eval": 55,
+          "noreject_at_c_L": 0.9754999832071151,
+          "noreject_at_c_U": 0.9755000265570829,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "A_df35",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.06352999,
+            0.10814997
+          ],
+          "region_lo": [
+            0.00957798,
+            0.01630502
+          ],
+          "region_hi": [
+            0.42138963,
+            0.71735053
+          ],
+          "c_L": 2.683381766116502,
+          "c_U": 2.683382697403431,
+          "width": 9.312869289068715e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 5.195105818592252e-13,
+          "slope_hi": 0.0474426354482943,
+          "n_eval": 51,
+          "noreject_at_c_L": 0.9754999902852634,
+          "noreject_at_c_U": 0.9755000344621975,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.05130472,
+        0.08733834
+      ],
+      "d_row": [
+        0.14592733,
+        0.15216884
+      ]
+    },
+    {
+      "name": "B_df3",
+      "region_scale": 12.715994030059314,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "B_df3",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.02713133,
+            1.15467224
+          ],
+          "region_lo": [
+            0.02713133,
+            1.15467224
+          ],
+          "region_hi": [
+            198.25835539,
+            8437.60296523
+          ],
+          "c_L": 3.1640131323803673,
+          "c_U": 3.1640133410692215,
+          "width": 2.0868885419744743e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 6.893278594226482e-13,
+          "slope_hi": 0.03575504864596901,
+          "n_eval": 52,
+          "noreject_at_c_L": 0.975499993291066,
+          "noreject_at_c_U": 0.9755000007521933,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df3",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.02713133,
+            8437.60296523
+          ],
+          "region_lo": [
+            0.02713133,
+            1.15467224
+          ],
+          "region_hi": [
+            198.25835539,
+            8437.60296523
+          ],
+          "c_L": 29.71413514763117,
+          "c_U": 29.714136190712452,
+          "width": 1.043081283569336e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 6.4741464255897965e-12,
+          "slope_hi": 0.003806980801246418,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999988765355,
+          "noreject_at_c_U": 0.975500002847523,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df3",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            198.25835539,
+            1.15467224
+          ],
+          "region_lo": [
+            0.02713133,
+            1.15467224
+          ],
+          "region_hi": [
+            198.25835539,
+            8437.60296523
+          ],
+          "c_L": 24.81063660234213,
+          "c_U": 24.81063748151064,
+          "width": 8.791685104370117e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 5.430115529907917e-12,
+          "slope_hi": 0.004559382450111671,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999996165821,
+          "noreject_at_c_U": 0.9755000036250429,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df3",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            198.25835539,
+            8437.60296523
+          ],
+          "region_lo": [
+            0.02713133,
+            1.15467224
+          ],
+          "region_hi": [
+            198.25835539,
+            8437.60296523
+          ],
+          "c_L": 31.51209007203579,
+          "c_U": 31.512091398239136,
+          "width": 1.3262033462524414e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 5.685821588236512e-12,
+          "slope_hi": 0.004334809097364389,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999974295163,
+          "noreject_at_c_U": 0.9755000031783476,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df3",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            4.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            2.31927005,
+            98.7049438
+          ],
+          "region_lo": [
+            0.02713133,
+            1.15467224
+          ],
+          "region_hi": [
+            198.25835539,
+            8437.60296523
+          ],
+          "c_L": 4.303733839392337,
+          "c_U": 4.303734764456749,
+          "width": 9.250644117386742e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 7.996334020213986e-13,
+          "slope_hi": 0.030822813409711602,
+          "n_eval": 55,
+          "noreject_at_c_L": 0.9754999964707092,
+          "noreject_at_c_U": 0.9755000249818924,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        6.86379294,
+        292.11358842
+      ],
+      "d_row": [
+        0.31238674,
+        1.68816167
+      ]
+    },
+    {
+      "name": "B_df5",
+      "region_scale": 20.3321373197153,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "B_df5",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.07763896,
+            3.30420738
+          ],
+          "region_lo": [
+            0.07763896,
+            3.30420738
+          ],
+          "region_hi": [
+            63.88451644,
+            2718.83716717
+          ],
+          "c_L": 2.479487626910325,
+          "c_U": 2.4794878736138344,
+          "width": 2.467035091768821e-07,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 5.377354001539211e-13,
+          "slope_hi": 0.04562825664293779,
+          "n_eval": 51,
+          "noreject_at_c_L": 0.9754999951780865,
+          "noreject_at_c_U": 0.9755000064333798,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df5",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.07763896,
+            2718.83716717
+          ],
+          "region_lo": [
+            0.07763896,
+            3.30420738
+          ],
+          "region_hi": [
+            63.88451644,
+            2718.83716717
+          ],
+          "c_L": 16.837586415210602,
+          "c_U": 16.837587244808674,
+          "width": 8.295980720163243e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 3.685109390574589e-12,
+          "slope_hi": 0.006718382231057918,
+          "n_eval": 82,
+          "noreject_at_c_L": 0.9754999973738894,
+          "noreject_at_c_U": 0.9755000029474322,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df5",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            63.88451644,
+            3.30420738
+          ],
+          "region_lo": [
+            0.07763896,
+            3.30420738
+          ],
+          "region_hi": [
+            63.88451644,
+            2718.83716717
+          ],
+          "c_L": 13.451206570682025,
+          "c_U": 13.451207682490349,
+          "width": 1.1118083236283383e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 2.9307533751154153e-12,
+          "slope_hi": 0.008409766361083815,
+          "n_eval": 74,
+          "noreject_at_c_L": 0.9754999939828966,
+          "noreject_at_c_U": 0.9755000033329078,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df5",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            63.88451644,
+            2718.83716717
+          ],
+          "region_lo": [
+            0.07763896,
+            3.30420738
+          ],
+          "region_hi": [
+            63.88451644,
+            2718.83716717
+          ],
+          "c_L": 17.62702472179287,
+          "c_U": 17.627025112509727,
+          "width": 3.907168562022889e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 3.241972996714509e-12,
+          "slope_hi": 0.007602454175792417,
+          "n_eval": 84,
+          "noreject_at_c_L": 0.9754999992065335,
+          "noreject_at_c_U": 0.9755000021769282,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df5",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            6.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            2.22708945,
+            94.78186442
+          ],
+          "region_lo": [
+            0.07763896,
+            3.30420738
+          ],
+          "region_hi": [
+            63.88451644,
+            2718.83716717
+          ],
+          "c_L": 3.801306324750837,
+          "c_U": 3.8013067543506622,
+          "width": 4.295998250469779e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 6.700576321890352e-13,
+          "slope_hi": 0.03678333021319147,
+          "n_eval": 54,
+          "noreject_at_c_L": 0.9754999976909217,
+          "noreject_at_c_U": 0.9755000134916627,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        3.36856808,
+        143.36162512
+      ],
+      "d_row": [
+        0.32988533,
+        1.69148712
+      ]
+    },
+    {
+      "name": "B_df7",
+      "region_scale": 26.928423981240005,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "B_df7",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.11952673,
+            5.08689335
+          ],
+          "region_lo": [
+            0.11952673,
+            5.08689335
+          ],
+          "region_hi": [
+            37.34932754,
+            1589.53601811
+          ],
+          "c_L": 2.183860479099453,
+          "c_U": 2.183861019089818,
+          "width": 5.399903648672932e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 4.757443973978454e-13,
+          "slope_hi": 0.05180712853685432,
+          "n_eval": 50,
+          "noreject_at_c_L": 0.9754999794349102,
+          "noreject_at_c_U": 0.9755000074059148,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df7",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.11952673,
+            1589.53601811
+          ],
+          "region_lo": [
+            0.11952673,
+            5.08689335
+          ],
+          "region_hi": [
+            37.34932754,
+            1589.53601811
+          ],
+          "c_L": 12.875252527322175,
+          "c_U": 12.87525349110365,
+          "width": 9.637814741836337e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 2.8052632186653757e-12,
+          "slope_hi": 0.008785967385407933,
+          "n_eval": 73,
+          "noreject_at_c_L": 0.975499994557178,
+          "noreject_at_c_U": 0.9755000030248939,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df7",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            37.34932754,
+            5.08689335
+          ],
+          "region_lo": [
+            0.11952673,
+            5.08689335
+          ],
+          "region_hi": [
+            37.34932754,
+            1589.53601811
+          ],
+          "c_L": 10.322272479115401,
+          "c_U": 10.322273172438145,
+          "width": 6.933227432170952e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 2.2490137590697334e-12,
+          "slope_hi": 0.010959004162283681,
+          "n_eval": 68,
+          "noreject_at_c_L": 0.9754999969407728,
+          "noreject_at_c_U": 0.9755000045388477,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df7",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            37.34932754,
+            1589.53601811
+          ],
+          "region_lo": [
+            0.11952673,
+            5.08689335
+          ],
+          "region_hi": [
+            37.34932754,
+            1589.53601811
+          ],
+          "c_L": 13.491792427579178,
+          "c_U": 13.491793170571327,
+          "width": 7.42992149582733e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 2.4775052220444636e-12,
+          "slope_hi": 0.009948294327444263,
+          "n_eval": 75,
+          "noreject_at_c_L": 0.9754999940943717,
+          "noreject_at_c_U": 0.975500001485825,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df7",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            8.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            2.11287554,
+            89.92107762
+          ],
+          "region_lo": [
+            0.11952673,
+            5.08689335
+          ],
+          "region_hi": [
+            37.34932754,
+            1589.53601811
+          ],
+          "c_L": 3.5854597201536786,
+          "c_U": 3.5854609981179237,
+          "width": 1.2779642450944095e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 6.26498403873638e-13,
+          "slope_hi": 0.039340804372822724,
+          "n_eval": 53,
+          "noreject_at_c_L": 0.9754999777198293,
+          "noreject_at_c_U": 0.9755000279910817,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        2.51355095,
+        106.97327183
+      ],
+      "d_row": [
+        0.33021588,
+        1.69155162
+      ]
+    },
+    {
+      "name": "B_df11",
+      "region_scale": 34.82767350039109,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "B_df11",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.17080351,
+            7.2691623
+          ],
+          "region_lo": [
+            0.17080351,
+            7.2691623
+          ],
+          "region_hi": [
+            21.82234934,
+            928.72917828
+          ],
+          "c_L": 1.8975420438341972,
+          "c_U": 1.8975429832935333,
+          "width": 9.394593361022885e-07,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 4.103557602327146e-13,
+          "slope_hi": 0.059791847031223644,
+          "n_eval": 49,
+          "noreject_at_c_L": 0.9754999698602976,
+          "noreject_at_c_U": 0.9755000260200143,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df11",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.17080351,
+            928.72917828
+          ],
+          "region_lo": [
+            0.17080351,
+            7.2691623
+          ],
+          "region_hi": [
+            21.82234934,
+            928.72917828
+          ],
+          "c_L": 9.851197254784447,
+          "c_U": 9.851198680698872,
+          "width": 1.4259144247574795e-06,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 2.1560434105543934e-12,
+          "slope_hi": 0.011483058888306363,
+          "n_eval": 67,
+          "noreject_at_c_L": 0.9754999941894279,
+          "noreject_at_c_U": 0.9755000105631666,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df11",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            21.82234934,
+            7.2691623
+          ],
+          "region_lo": [
+            0.17080351,
+            7.2691623
+          ],
+          "region_hi": [
+            21.82234934,
+            928.72917828
+          ],
+          "c_L": 8.10780398787346,
+          "c_U": 8.107805036008358,
+          "width": 1.0481348979851646e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 1.7665187845018083e-12,
+          "slope_hi": 0.013952272323913828,
+          "n_eval": 64,
+          "noreject_at_c_L": 0.9754999970476684,
+          "noreject_at_c_U": 0.9755000116713705,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df11",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            21.82234934,
+            928.72917828
+          ],
+          "region_lo": [
+            0.17080351,
+            7.2691623
+          ],
+          "region_hi": [
+            21.82234934,
+            928.72917828
+          ],
+          "c_L": 10.400810357420532,
+          "c_U": 10.400811664760113,
+          "width": 1.3073395805918153e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 1.8880805047271866e-12,
+          "slope_hi": 0.013053972584839424,
+          "n_eval": 68,
+          "noreject_at_c_L": 0.9754999931146546,
+          "noreject_at_c_U": 0.9755000101804312,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df11",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            12.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            1.9306304,
+            82.16497505
+          ],
+          "region_lo": [
+            0.17080351,
+            7.2691623
+          ],
+          "region_hi": [
+            21.82234934,
+            928.72917828
+          ],
+          "c_L": 3.3585168936679066,
+          "c_U": 3.35851813852787,
+          "width": 1.2448599635561663e-06,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 5.879848370907485e-13,
+          "slope_hi": 0.042106482833195735,
+          "n_eval": 52,
+          "noreject_at_c_L": 0.9754999766431156,
+          "noreject_at_c_U": 0.9755000290539488,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        1.90578287,
+        81.10749804
+      ],
+      "d_row": [
+        0.32229408,
+        1.69002303
+      ]
+    },
+    {
+      "name": "B_df19",
+      "region_scale": 37.762877069169285,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "B_df19",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.21353957,
+            9.08795053
+          ],
+          "region_lo": [
+            0.21353957,
+            9.08795053
+          ],
+          "region_hi": [
+            14.14706446,
+            602.07960877
+          ],
+          "c_L": 1.6579835887280798,
+          "c_U": 1.6579846888780594,
+          "width": 1.1001499795604275e-06,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 3.45897649211013e-13,
+          "slope_hi": 0.07093407226149706,
+          "n_eval": 49,
+          "noreject_at_c_L": 0.9754999881987247,
+          "noreject_at_c_U": 0.9755000662077037,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df19",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.21353957,
+            602.07960877
+          ],
+          "region_lo": [
+            0.21353957,
+            9.08795053
+          ],
+          "region_hi": [
+            14.14706446,
+            602.07960877
+          ],
+          "c_L": 7.944411567265238,
+          "c_U": 7.944412335753441,
+          "width": 7.684882028513584e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 1.7387148474635092e-12,
+          "slope_hi": 0.014239237379987113,
+          "n_eval": 63,
+          "noreject_at_c_L": 0.9754999951094069,
+          "noreject_at_c_U": 0.9755000060519662,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df19",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            14.14706446,
+            9.08795053
+          ],
+          "region_lo": [
+            0.21353957,
+            9.08795053
+          ],
+          "region_hi": [
+            14.14706446,
+            602.07960877
+          ],
+          "c_L": 6.829915037002346,
+          "c_U": 6.829916097223759,
+          "width": 1.0602214128851983e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 1.488086768170465e-12,
+          "slope_hi": 0.016562845442796847,
+          "n_eval": 60,
+          "noreject_at_c_L": 0.97549998792644,
+          "noreject_at_c_U": 0.9755000054864491,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df19",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            14.14706446,
+            602.07960877
+          ],
+          "region_lo": [
+            0.21353957,
+            9.08795053
+          ],
+          "region_hi": [
+            14.14706446,
+            602.07960877
+          ],
+          "c_L": 8.506309588597137,
+          "c_U": 8.506309896707535,
+          "width": 3.0811039763989356e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 1.5253721761342801e-12,
+          "slope_hi": 0.016230775568415456,
+          "n_eval": 65,
+          "noreject_at_c_L": 0.9754999986233752,
+          "noreject_at_c_U": 0.975500003624157,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df19",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            20.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            1.73809036,
+            73.97073542
+          ],
+          "region_lo": [
+            0.21353957,
+            9.08795053
+          ],
+          "region_hi": [
+            14.14706446,
+            602.07960877
+          ],
+          "c_L": 3.1601535738142825,
+          "c_U": 3.1601540744304657,
+          "width": 5.006161831744294e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 5.50413887586881e-13,
+          "slope_hi": 0.04477894127042359,
+          "n_eval": 52,
+          "noreject_at_c_L": 0.9754999875093723,
+          "noreject_at_c_U": 0.975500009923584,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        1.51928323,
+        64.65860485
+      ],
+      "d_row": [
+        0.30750799,
+        1.68726569
+      ]
+    },
+    {
+      "name": "B_df35",
+      "region_scale": 32.52771668079244,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "B_df35",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.23944941,
+            10.19063772
+          ],
+          "region_lo": [
+            0.23944941,
+            10.19063772
+          ],
+          "region_hi": [
+            10.53474079,
+            448.34408103
+          ],
+          "c_L": 1.4868763154184803,
+          "c_U": 1.4868768230080605,
+          "width": 5.075895801454067e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 2.884796602732379e-13,
+          "slope_hi": 0.0854373966030525,
+          "n_eval": 47,
+          "noreject_at_c_L": 0.9754999762957517,
+          "noreject_at_c_U": 0.9755000196390822,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df35",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            0.23944941,
+            448.34408103
+          ],
+          "region_lo": [
+            0.23944941,
+            10.19063772
+          ],
+          "region_hi": [
+            10.53474079,
+            448.34408103
+          ],
+          "c_L": 6.866276074877201,
+          "c_U": 6.866277478635311,
+          "width": 1.403758109752573e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 1.4960097230159241e-12,
+          "slope_hi": 0.016475127646223275,
+          "n_eval": 60,
+          "noreject_at_c_L": 0.9754999920148061,
+          "noreject_at_c_U": 0.9755000151415448,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df35",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            10.53474079,
+            10.19063772
+          ],
+          "region_lo": [
+            0.23944941,
+            10.19063772
+          ],
+          "region_hi": [
+            10.53474079,
+            448.34408103
+          ],
+          "c_L": 6.186292148867418,
+          "c_U": 6.186293080449104,
+          "width": 9.315816864585713e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 1.3539224137347209e-12,
+          "slope_hi": 0.018286109453530264,
+          "n_eval": 59,
+          "noreject_at_c_L": 0.9754999907715554,
+          "noreject_at_c_U": 0.9755000078062342,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df35",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            10.53474079,
+            448.34408103
+          ],
+          "region_lo": [
+            0.23944941,
+            10.19063772
+          ],
+          "region_hi": [
+            10.53474079,
+            448.34408103
+          ],
+          "c_L": 7.480058798693315,
+          "c_U": 7.480059318244457,
+          "width": 5.195511425526433e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 1.3167986264784808e-12,
+          "slope_hi": 0.018717327502529302,
+          "n_eval": 61,
+          "noreject_at_c_L": 0.9754999933980549,
+          "noreject_at_c_U": 0.9755000031224412,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "B_df35",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            36.0,
+            13.0,
+            13.0
+          ],
+          "lambda_witness": [
+            1.58824982,
+            67.59372828
+          ],
+          "region_lo": [
+            0.23944941,
+            10.19063772
+          ],
+          "region_hi": [
+            10.53474079,
+            448.34408103
+          ],
+          "c_L": 3.017880450114632,
+          "c_U": 3.0178819447755814,
+          "width": 1.494660949230564e-06,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 5.275941170043332e-13,
+          "slope_hi": 0.04692617421459544,
+          "n_eval": 52,
+          "noreject_at_c_L": 0.9754999638220796,
+          "noreject_at_c_U": 0.9755000339510334,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        1.28261804,
+        54.58645981
+      ],
+      "d_row": [
+        0.29132926,
+        1.6843922
+      ]
+    },
+    {
+      "name": "K1_df3",
+      "region_scale": 18.451928580144397,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "K1_df3",
+          "witness": 0,
+          "K": 1,
+          "n": [
+            4.0,
+            7.0
+          ],
+          "lambda_witness": [
+            0.0257611
+          ],
+          "region_lo": [
+            0.0257611
+          ],
+          "region_hi": [
+            350.41028424
+          ],
+          "c_L": 2.629290671372623,
+          "c_U": 2.629290796816349,
+          "width": 1.2544372607337095e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 5.728115029148169e-13,
+          "slope_hi": 0.043028031073502615,
+          "n_eval": 51,
+          "noreject_at_c_L": 0.9754999974919085,
+          "noreject_at_c_U": 0.9755000028889256,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K1_df3",
+          "witness": 1,
+          "K": 1,
+          "n": [
+            4.0,
+            7.0
+          ],
+          "lambda_witness": [
+            350.41028424
+          ],
+          "region_lo": [
+            0.0257611
+          ],
+          "region_hi": [
+            350.41028424
+          ],
+          "c_L": 37.02682965993881,
+          "c_U": 37.02682985365391,
+          "width": 1.9371509552001953e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 8.067445510035263e-12,
+          "slope_hi": 0.0030551121933231062,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999997347871,
+          "noreject_at_c_U": 0.9755000003266079,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K1_df3",
+          "witness": 2,
+          "K": 1,
+          "n": [
+            4.0,
+            7.0
+          ],
+          "lambda_witness": [
+            3.00448897
+          ],
+          "region_lo": [
+            0.0257611
+          ],
+          "region_hi": [
+            350.41028424
+          ],
+          "c_L": 4.302275656499997,
+          "c_U": 4.302276849746704,
+          "width": 1.1932467067765629e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 9.373481463001847e-13,
+          "slope_hi": 0.026294340308841146,
+          "n_eval": 55,
+          "noreject_at_c_L": 0.9754999920766175,
+          "noreject_at_c_U": 0.9755000234510102,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        6.18604525
+      ],
+      "d_row": [
+        0.37710326
+      ]
+    },
+    {
+      "name": "K3_df6",
+      "region_scale": 23.307503269470324,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "K3_df6",
+          "witness": 0,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 2.8142618377221873,
+          "c_U": 2.8142619132995605,
+          "width": 7.557737324859204e-08,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 6.103407644941586e-13,
+          "slope_hi": 0.04020037702143486,
+          "n_eval": 51,
+          "noreject_at_c_L": 0.9754999991380091,
+          "noreject_at_c_U": 0.9755000021759628,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K3_df6",
+          "witness": 1,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            0.01580238,
+            0.14650759,
+            157.14698316
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 15.416510855915384,
+          "c_U": 15.416512459516525,
+          "width": 1.6036011416531437e-06,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 3.343827634524584e-12,
+          "slope_hi": 0.007337677513902241,
+          "n_eval": 78,
+          "noreject_at_c_L": 0.9754999937221874,
+          "noreject_at_c_U": 0.9755000054888612,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K3_df6",
+          "witness": 2,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            0.01580238,
+            161.33015169,
+            0.21772298
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 17.93892645548339,
+          "c_U": 17.938927091658115,
+          "width": 6.361747253436079e-07,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 3.890939906393624e-12,
+          "slope_hi": 0.006305913078713532,
+          "n_eval": 84,
+          "noreject_at_c_L": 0.9754999977932921,
+          "noreject_at_c_U": 0.9755000018049457,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K3_df6",
+          "witness": 3,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            0.01580238,
+            161.33015169,
+            157.14698316
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 19.204984835724556,
+          "c_U": 19.204985573887825,
+          "width": 7.381632691760842e-07,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 3.413769138168652e-12,
+          "slope_hi": 0.007187342743797398,
+          "n_eval": 87,
+          "noreject_at_c_L": 0.9754999964408071,
+          "noreject_at_c_U": 0.9755000017462214,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K3_df6",
+          "witness": 4,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            33.7305517,
+            0.14650759,
+            0.21772298
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 16.455656567455613,
+          "c_U": 16.45565754175186,
+          "width": 9.742962490122409e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 3.6015190884790022e-12,
+          "slope_hi": 0.006874314099386547,
+          "n_eval": 81,
+          "noreject_at_c_L": 0.9754999970234992,
+          "noreject_at_c_U": 0.9755000037211002,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K3_df6",
+          "witness": 5,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            33.7305517,
+            0.14650759,
+            157.14698316
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 18.21630738383728,
+          "c_U": 18.216308653354645,
+          "width": 1.2695173658983094e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 3.183277027856614e-12,
+          "slope_hi": 0.007742634690915962,
+          "n_eval": 85,
+          "noreject_at_c_L": 0.9754999972393118,
+          "noreject_at_c_U": 0.9755000070686849,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K3_df6",
+          "witness": 6,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            33.7305517,
+            161.33015169,
+            0.21772298
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 19.68279788102624,
+          "c_U": 19.68279906362295,
+          "width": 1.1825967121126268e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 3.4524740648098268e-12,
+          "slope_hi": 0.007138924343530473,
+          "n_eval": 88,
+          "noreject_at_c_L": 0.9754999981672569,
+          "noreject_at_c_U": 0.9755000066096985,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K3_df6",
+          "witness": 7,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 20.375704101796035,
+          "c_U": 20.375705286860466,
+          "width": 1.1850644305866354e-06,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 3.2421946556596382e-12,
+          "slope_hi": 0.007636177367056907,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999963540217,
+          "noreject_at_c_U": 0.9755000054033486,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K3_df6",
+          "witness": 8,
+          "K": 3,
+          "n": [
+            7.0,
+            7.0,
+            9.0,
+            11.0
+          ],
+          "lambda_witness": [
+            0.73008416,
+            4.86169645,
+            5.84931704
+          ],
+          "region_lo": [
+            0.01580238,
+            0.14650759,
+            0.21772298
+          ],
+          "region_hi": [
+            33.7305517,
+            161.33015169,
+            157.14698316
+          ],
+          "c_L": 4.244475951587333,
+          "c_U": 4.244477331638336,
+          "width": 1.3800510032524471e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 6.863868726727717e-13,
+          "slope_hi": 0.03590824960084671,
+          "n_eval": 55,
+          "noreject_at_c_L": 0.9754999822663185,
+          "noreject_at_c_U": 0.9755000318175022,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.64009409,
+        5.17614557,
+        6.96827132
+      ],
+      "d_row": [
+        0.26646933,
+        0.46646535,
+        0.48505037
+      ]
+    },
+    {
+      "name": "K5_df11",
+      "region_scale": 30.846179707146867,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "K5_df11",
+          "witness": 0,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 2.546162216495755,
+          "c_U": 2.5461635291576385,
+          "width": 1.3126618836345472e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 5.376593066717922e-13,
+          "slope_hi": 0.045841206207788976,
+          "n_eval": 51,
+          "noreject_at_c_L": 0.9754999791850977,
+          "noreject_at_c_U": 0.9755000393508569,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K5_df11",
+          "witness": 1,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            0.02899406,
+            0.12635509,
+            19.21616847,
+            0.27535055,
+            0.84311463
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 8.851937554535294,
+          "c_U": 8.851938277482986,
+          "width": 7.229476928216627e-07,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 1.9199652526756922e-12,
+          "slope_hi": 0.012779360881673418,
+          "n_eval": 65,
+          "noreject_at_c_L": 0.9754999969575535,
+          "noreject_at_c_U": 0.975500006196277,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K5_df11",
+          "witness": 2,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            0.02899406,
+            26.05240869,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 9.367100505584368,
+          "c_U": 9.367101050913334,
+          "width": 5.453289659840266e-07,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 2.0317049213747617e-12,
+          "slope_hi": 0.012076521834486487,
+          "n_eval": 66,
+          "noreject_at_c_L": 0.9754999991171519,
+          "noreject_at_c_U": 0.9755000057027741,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K5_df11",
+          "witness": 3,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            0.02899406,
+            26.05240869,
+            19.21616847,
+            0.27535055,
+            173.83681872
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 12.18080339591464,
+          "c_U": 12.180804669857025,
+          "width": 1.2739423844720932e-06,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 1.9945004344881505e-12,
+          "slope_hi": 0.012301791676727625,
+          "n_eval": 72,
+          "noreject_at_c_L": 0.9754999914701062,
+          "noreject_at_c_U": 0.9755000071417074,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K5_df11",
+          "witness": 4,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            5.97811406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            173.83681872
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 11.229668408693087,
+          "c_U": 11.229669384658337,
+          "width": 9.759652499496951e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 2.3835926799343705e-12,
+          "slope_hi": 0.010386830626540888,
+          "n_eval": 70,
+          "noreject_at_c_L": 0.9754999957635924,
+          "noreject_at_c_U": 0.9755000059006982,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K5_df11",
+          "witness": 5,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            5.97811406,
+            0.12635509,
+            19.21616847,
+            56.77290232,
+            0.84311463
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 11.128969320346886,
+          "c_U": 11.128970213234425,
+          "width": 8.928875381286616e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 1.948389658246888e-12,
+          "slope_hi": 0.012649908627032636,
+          "n_eval": 70,
+          "noreject_at_c_L": 0.9754999966561408,
+          "noreject_at_c_U": 0.975500007950952,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K5_df11",
+          "witness": 6,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            5.97811406,
+            26.05240869,
+            0.09319909,
+            56.77290232,
+            0.84311463
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 11.352151554177876,
+          "c_U": 11.35215175151825,
+          "width": 1.9734037337570953e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 1.9705554055820646e-12,
+          "slope_hi": 0.012563957034147921,
+          "n_eval": 70,
+          "noreject_at_c_L": 0.9754999995292446,
+          "noreject_at_c_U": 0.9755000020085921,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K5_df11",
+          "witness": 7,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 12.874006590237322,
+          "c_U": 12.874007448554039,
+          "width": 8.583167172560024e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 1.9447205782536307e-12,
+          "slope_hi": 0.01273086412824087,
+          "n_eval": 73,
+          "noreject_at_c_L": 0.975499998720791,
+          "noreject_at_c_U": 0.9755000096477721,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K5_df11",
+          "witness": 8,
+          "K": 5,
+          "n": [
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0,
+            12.0
+          ],
+          "lambda_witness": [
+            0.41632896,
+            1.81434684,
+            1.33825609,
+            3.95378934,
+            12.10637702
+          ],
+          "region_lo": [
+            0.02899406,
+            0.12635509,
+            0.09319909,
+            0.27535055,
+            0.84311463
+          ],
+          "region_hi": [
+            5.97811406,
+            26.05240869,
+            19.21616847,
+            56.77290232,
+            173.83681872
+          ],
+          "c_L": 3.9192489794811953,
+          "c_U": 3.9192493557929993,
+          "width": 3.7631180394015473e-07,
+          "dp": 2.475797344914099e-14,
+          "c_equiv": 5.647768999779796e-13,
+          "slope_hi": 0.04383673172558278,
+          "n_eval": 54,
+          "noreject_at_c_L": 0.9754999995445838,
+          "noreject_at_c_U": 0.9755000160388339,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.37743621,
+        1.64485359,
+        1.21323844,
+        3.58443295,
+        10.97541952
+      ],
+      "d_row": [
+        0.2277182,
+        0.31554609,
+        0.28865301,
+        0.41543664,
+        0.67144023
+      ]
+    },
+    {
+      "name": "K2_extreme",
+      "region_scale": 9.767493938283618,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "K2_extreme",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            4.0,
+            4.0,
+            30.0
+          ],
+          "lambda_witness": [
+            8.082e-05,
+            4.63323527
+          ],
+          "region_lo": [
+            8.082e-05,
+            4.63323527
+          ],
+          "region_hi": [
+            45.69990278,
+            15203.12278615
+          ],
+          "c_L": 5.423696946805217,
+          "c_U": 5.423697933554649,
+          "width": 9.867494323856363e-07,
+          "dp": 2.4091839634365897e-14,
+          "c_equiv": 1.1550774359829185e-12,
+          "slope_hi": 0.02085733725190886,
+          "n_eval": 57,
+          "noreject_at_c_L": 0.9754999859432292,
+          "noreject_at_c_U": 0.9755000065236824,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K2_extreme",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            4.0,
+            4.0,
+            30.0
+          ],
+          "lambda_witness": [
+            8.082e-05,
+            15203.12278615
+          ],
+          "region_lo": [
+            8.082e-05,
+            4.63323527
+          ],
+          "region_hi": [
+            45.69990278,
+            15203.12278615
+          ],
+          "c_L": 21.220643118023872,
+          "c_U": 21.220643788576126,
+          "width": 6.705522537231445e-07,
+          "dp": 8.034040099857975e-11,
+          "c_equiv": 1.5071224856721232e-08,
+          "slope_hi": 0.005330714773507661,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999977038703,
+          "noreject_at_c_U": 0.9755000012783888,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K2_extreme",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            4.0,
+            4.0,
+            30.0
+          ],
+          "lambda_witness": [
+            45.69990278,
+            4.63323527
+          ],
+          "region_lo": [
+            8.082e-05,
+            4.63323527
+          ],
+          "region_hi": [
+            45.69990278,
+            15203.12278615
+          ],
+          "c_L": 37.06260176002979,
+          "c_U": 37.062603026628494,
+          "width": 1.2665987014770508e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 8.075240303366515e-12,
+          "slope_hi": 0.003052163182859502,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999988357002,
+          "noreject_at_c_U": 0.9755000027015642,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K2_extreme",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            4.0,
+            4.0,
+            30.0
+          ],
+          "lambda_witness": [
+            45.69990278,
+            15203.12278615
+          ],
+          "region_lo": [
+            8.082e-05,
+            4.63323527
+          ],
+          "region_hi": [
+            45.69990278,
+            15203.12278615
+          ],
+          "c_L": 37.15369328856468,
+          "c_U": 37.153694316744804,
+          "width": 1.0281801223754883e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 7.906437233250573e-12,
+          "slope_hi": 0.0031173271120177315,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999985240794,
+          "noreject_at_c_U": 0.9755000017292511,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K2_extreme",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            4.0,
+            4.0,
+            30.0
+          ],
+          "lambda_witness": [
+            0.06077468,
+            265.40468088
+          ],
+          "region_lo": [
+            8.082e-05,
+            4.63323527
+          ],
+          "region_hi": [
+            45.69990278,
+            15203.12278615
+          ],
+          "c_L": 5.588289846612113,
+          "c_U": 5.588290832936764,
+          "width": 9.863246503982737e-07,
+          "dp": 2.453592884421596e-14,
+          "c_equiv": 1.2053684951870077e-12,
+          "slope_hi": 0.020355541846486802,
+          "n_eval": 58,
+          "noreject_at_c_L": 0.9754999854446317,
+          "noreject_at_c_U": 0.975500005521278,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.05036678,
+        1036.08232082
+      ],
+      "d_row": [
+        0.18148792,
+        2.08886303
+      ]
+    },
+    {
+      "name": "K2_quiet",
+      "region_scale": 10.55401633258575,
+      "coverage_exact": 0.9995010000000001,
+      "rows": [
+        {
+          "cell": "K2_quiet",
+          "witness": 0,
+          "K": 2,
+          "n": [
+            30.0,
+            4.0,
+            4.0
+          ],
+          "lambda_witness": [
+            0.06720621,
+            0.20251699
+          ],
+          "region_lo": [
+            0.06720621,
+            0.20251699
+          ],
+          "region_hi": [
+            317.40135206,
+            956.44688915
+          ],
+          "c_L": 1.0729328849346498,
+          "c_U": 1.0729334559291601,
+          "width": 5.709945103404834e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 2.0807450307495107e-13,
+          "slope_hi": 0.11845252917797588,
+          "n_eval": 47,
+          "noreject_at_c_L": 0.9754999685928419,
+          "noreject_at_c_U": 0.9755000361645381,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K2_quiet",
+          "witness": 1,
+          "K": 2,
+          "n": [
+            30.0,
+            4.0,
+            4.0
+          ],
+          "lambda_witness": [
+            0.06720621,
+            956.44688915
+          ],
+          "region_lo": [
+            0.06720621,
+            0.20251699
+          ],
+          "region_hi": [
+            317.40135206,
+            956.44688915
+          ],
+          "c_L": 43.168329015374184,
+          "c_U": 43.168329909443855,
+          "width": 8.940696716308594e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 9.40556374938028e-12,
+          "slope_hi": 0.0026204650570044175,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.975499999049772,
+          "noreject_at_c_U": 0.9755000013926496,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K2_quiet",
+          "witness": 2,
+          "K": 2,
+          "n": [
+            30.0,
+            4.0,
+            4.0
+          ],
+          "lambda_witness": [
+            317.40135206,
+            0.20251699
+          ],
+          "region_lo": [
+            0.06720621,
+            0.20251699
+          ],
+          "region_hi": [
+            317.40135206,
+            956.44688915
+          ],
+          "c_L": 41.41840426623821,
+          "c_U": 41.41840501129627,
+          "width": 7.450580596923828e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 9.024287685715908e-12,
+          "slope_hi": 0.0027311796792217624,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999986192008,
+          "noreject_at_c_U": 0.9755000006540874,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K2_quiet",
+          "witness": 3,
+          "K": 2,
+          "n": [
+            30.0,
+            4.0,
+            4.0
+          ],
+          "lambda_witness": [
+            317.40135206,
+            956.44688915
+          ],
+          "region_lo": [
+            0.06720621,
+            0.20251699
+          ],
+          "region_hi": [
+            317.40135206,
+            956.44688915
+          ],
+          "c_L": 48.30288750678301,
+          "c_U": 48.302888475358486,
+          "width": 9.685754776000977e-07,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 8.408625456070623e-12,
+          "slope_hi": 0.0029311510276491815,
+          "n_eval": 89,
+          "noreject_at_c_L": 0.9754999998379433,
+          "noreject_at_c_U": 0.975500002676983,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        },
+        {
+          "cell": "K2_quiet",
+          "witness": 4,
+          "K": 2,
+          "n": [
+            30.0,
+            4.0,
+            4.0
+          ],
+          "lambda_witness": [
+            4.6185864,
+            13.91749773
+          ],
+          "region_lo": [
+            0.06720621,
+            0.20251699
+          ],
+          "region_hi": [
+            317.40135206,
+            956.44688915
+          ],
+          "c_L": 5.878714646328166,
+          "c_U": 5.87871577590704,
+          "width": 1.129578873992898e-06,
+          "dp": 2.4646951146678475e-14,
+          "c_equiv": 1.023226360767245e-12,
+          "slope_hi": 0.024087486495361077,
+          "n_eval": 58,
+          "noreject_at_c_L": 0.9754999838885909,
+          "noreject_at_c_U": 0.9755000110963087,
+          "target": 0.9755,
+          "c_L_below": true,
+          "c_U_above": true,
+          "width_ok": true,
+          "dp_ok": true,
+          "settings": {
+            "gl_n": 16,
+            "gl_safety": 2.0,
+            "gl_eps": 1e-15,
+            "prec": 64,
+            "z_max": 9.0,
+            "n_panels": 30,
+            "edges_first_last": [
+              -9.0,
+              9.0
+            ],
+            "t_grid": [
+              0.25,
+              0.4,
+              0.6,
+              0.8,
+              1.0,
+              1.3,
+              1.7,
+              2.2,
+              2.8
+            ],
+            "mass_floor": null,
+            "note": "GL certificate path: no mass floor; the ellipse remainder bounds the quadrature error and GL_EPS bounds float64 node/weight rounding"
+          }
+        }
+      ],
+      "lambda_hat": [
+        0.98458159,
+        2.96690608
+      ],
+      "d_row": [
+        0.42347509,
+        0.70521429
+      ]
+    }
+  ],
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "point root certificates c* in [c_L, c_U] over the design suite, each verified against the independent solver core.cond_noreject (c_L below the crossing, c_U at or above it)"
+  ]
+}

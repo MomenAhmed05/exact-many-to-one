@@ -1,0 +1,299 @@
+{
+  "B": 3000,
+  "D": 1200,
+  "outer_seeds": [
+    7,
+    8
+  ],
+  "rows": [
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "variant": "plain",
+      "a_star": 0.026499328039611067,
+      "B": 3000,
+      "outer_seed": 7,
+      "D": 1200,
+      "F_se": 0.0003734255238433824,
+      "control_r2": null,
+      "fwer": 0.0255343510575701,
+      "mcse": 4.794647406274226e-05,
+      "residual": 0.0005343510575701003,
+      "z": 11.144741464635212
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "variant": "plain",
+      "a_star": 0.026499328039611067,
+      "B": 3000,
+      "outer_seed": 8,
+      "D": 1200,
+      "F_se": 0.0003734255238433824,
+      "control_r2": null,
+      "fwer": 0.02555234338777883,
+      "mcse": 4.9422629033411305e-05,
+      "residual": 0.0005523433877788302,
+      "z": 11.17592079946674
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "variant": "vr",
+      "a_star": 0.02583943196658619,
+      "B": 3000,
+      "outer_seed": 7,
+      "D": 1200,
+      "F_se": 0.00016636482280965142,
+      "control_r2": 0.7984581606939969,
+      "fwer": 0.024855761734084585,
+      "mcse": 4.911194891615479e-05,
+      "residual": -0.00014423826591541608,
+      "z": -2.936928163076229
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "variant": "vr",
+      "a_star": 0.02583943196658619,
+      "B": 3000,
+      "outer_seed": 8,
+      "D": 1200,
+      "F_se": 0.00016636482280965142,
+      "control_r2": 0.7984581606939969,
+      "fwer": 0.024894134969287267,
+      "mcse": 5.0407347304406e-05,
+      "residual": -0.00010586503071273456,
+      "z": -2.1001904756745873
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "variant": "plain",
+      "a_star": 0.021871376341100757,
+      "B": 3000,
+      "outer_seed": 7,
+      "D": 1200,
+      "F_se": 0.000555251384036872,
+      "control_r2": null,
+      "fwer": 0.02535794993895311,
+      "mcse": 0.00013803090492148806,
+      "residual": 0.0003579499389531095,
+      "z": 2.593259380257713
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "variant": "plain",
+      "a_star": 0.021871376341100757,
+      "B": 3000,
+      "outer_seed": 8,
+      "D": 1200,
+      "F_se": 0.000555251384036872,
+      "control_r2": null,
+      "fwer": 0.025376564565883792,
+      "mcse": 0.00013369494137181195,
+      "residual": 0.0003765645658837906,
+      "z": 2.816595467412239
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "variant": "vr",
+      "a_star": 0.021720731492841303,
+      "B": 3000,
+      "outer_seed": 7,
+      "D": 1200,
+      "F_se": 0.00022903852520988498,
+      "control_r2": 0.8289456694047608,
+      "fwer": 0.025196219974648788,
+      "mcse": 0.00013607747113839993,
+      "residual": 0.00019621997464878624,
+      "z": 1.4419725249686433
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "variant": "vr",
+      "a_star": 0.021720731492841303,
+      "B": 3000,
+      "outer_seed": 8,
+      "D": 1200,
+      "F_se": 0.00022903852520988498,
+      "control_r2": 0.8289456694047608,
+      "fwer": 0.025219927394179036,
+      "mcse": 0.00013177199068095246,
+      "residual": 0.00021992739417903487,
+      "z": 1.668999557815933
+    },
+    {
+      "case": "k2 S5 trt smallest n, largest sd",
+      "variant": "plain",
+      "a_star": 0.021384515136122655,
+      "B": 3000,
+      "outer_seed": 7,
+      "D": 1200,
+      "F_se": 0.0009912046042852033,
+      "control_r2": null,
+      "fwer": 0.025446186222479385,
+      "mcse": 0.00019955117374239454,
+      "residual": 0.00044618622247938333,
+      "z": 2.2359488752262413
+    },
+    {
+      "case": "k2 S5 trt smallest n, largest sd",
+      "variant": "plain",
+      "a_star": 0.021384515136122655,
+      "B": 3000,
+      "outer_seed": 8,
+      "D": 1200,
+      "F_se": 0.0009912046042852033,
+      "control_r2": null,
+      "fwer": 0.02507365765992275,
+      "mcse": 0.00018120391547359388,
+      "residual": 7.365765992274967e-05,
+      "z": 0.4064904432679519
+    },
+    {
+      "case": "k2 S5 trt smallest n, largest sd",
+      "variant": "vr",
+      "a_star": 0.022847271864320527,
+      "B": 3000,
+      "outer_seed": 7,
+      "D": 1200,
+      "F_se": 0.0008295212923198367,
+      "control_r2": 0.20230692490580426,
+      "fwer": 0.02684468733603725,
+      "mcse": 0.00022025605528693115,
+      "residual": 0.0018446873360372477,
+      "z": 8.37519465076292
+    },
+    {
+      "case": "k2 S5 trt smallest n, largest sd",
+      "variant": "vr",
+      "a_star": 0.022847271864320527,
+      "B": 3000,
+      "outer_seed": 8,
+      "D": 1200,
+      "F_se": 0.0008295212923198367,
+      "control_r2": 0.20230692490580426,
+      "fwer": 0.026442465449726626,
+      "mcse": 0.00019976137861650405,
+      "residual": 0.0014424654497266244,
+      "z": 7.220942605206118
+    },
+    {
+      "case": "k2 S6 control smallest n, largest sd",
+      "variant": "plain",
+      "a_star": 0.02264890308016114,
+      "B": 3000,
+      "outer_seed": 7,
+      "D": 1200,
+      "F_se": 0.0010279161107682423,
+      "control_r2": null,
+      "fwer": 0.025472595907510647,
+      "mcse": 0.00015426987167845783,
+      "residual": 0.00047259590751064576,
+      "z": 3.063436187304736
+    },
+    {
+      "case": "k2 S6 control smallest n, largest sd",
+      "variant": "plain",
+      "a_star": 0.02264890308016114,
+      "B": 3000,
+      "outer_seed": 8,
+      "D": 1200,
+      "F_se": 0.0010279161107682423,
+      "control_r2": null,
+      "fwer": 0.02552456831118387,
+      "mcse": 0.00015502711555891662,
+      "residual": 0.0005245683111838699,
+      "z": 3.383719740205787
+    },
+    {
+      "case": "k2 S6 control smallest n, largest sd",
+      "variant": "vr",
+      "a_star": 0.022164890433202272,
+      "B": 3000,
+      "outer_seed": 7,
+      "D": 1200,
+      "F_se": 0.00028370769452291814,
+      "control_r2": 0.9114735820426261,
+      "fwer": 0.02499302776057337,
+      "mcse": 0.0001498454952650382,
+      "residual": -6.972239426632221e-06,
+      "z": -0.04652952305506495
+    },
+    {
+      "case": "k2 S6 control smallest n, largest sd",
+      "variant": "vr",
+      "a_star": 0.022164890433202272,
+      "B": 3000,
+      "outer_seed": 8,
+      "D": 1200,
+      "F_se": 0.00028370769452291814,
+      "control_r2": 0.9114735820426261,
+      "fwer": 0.025063289133309317,
+      "mcse": 0.0001505661753935471,
+      "residual": 6.328913330931607e-05,
+      "z": 0.42034097727389363
+    }
+  ],
+  "aggregate": [
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "variant": "plain",
+      "mean_residual": 0.0005433472226744653,
+      "max_abs_z": 11.17592079946674,
+      "n_outer": 2
+    },
+    {
+      "case": "k2 S1 balanced, equal sd",
+      "variant": "vr",
+      "mean_residual": -0.00012505164831407532,
+      "max_abs_z": 2.936928163076229,
+      "n_outer": 2
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "variant": "plain",
+      "mean_residual": 0.00036725725241845003,
+      "max_abs_z": 2.816595467412239,
+      "n_outer": 2
+    },
+    {
+      "case": "k2 S4 control smallest n and sd",
+      "variant": "vr",
+      "mean_residual": 0.00020807368441391055,
+      "max_abs_z": 1.668999557815933,
+      "n_outer": 2
+    },
+    {
+      "case": "k2 S5 trt smallest n, largest sd",
+      "variant": "plain",
+      "mean_residual": 0.0002599219412010665,
+      "max_abs_z": 2.2359488752262413,
+      "n_outer": 2
+    },
+    {
+      "case": "k2 S5 trt smallest n, largest sd",
+      "variant": "vr",
+      "mean_residual": 0.001643576392881936,
+      "max_abs_z": 8.37519465076292,
+      "n_outer": 2
+    },
+    {
+      "case": "k2 S6 control smallest n, largest sd",
+      "variant": "plain",
+      "mean_residual": 0.0004985821093472578,
+      "max_abs_z": 3.383719740205787,
+      "n_outer": 2
+    },
+    {
+      "case": "k2 S6 control smallest n, largest sd",
+      "variant": "vr",
+      "mean_residual": 2.8158446941341925e-05,
+      "max_abs_z": 0.42034097727389363,
+      "n_outer": 2
+    }
+  ],
+  "vr_cases_passing_z3": 3,
+  "n_cases": 4,
+  "all_vr_pass": false,
+  "note": "plain and vr use the same B and the same outer seeds; the comparison is paired in B, so a smaller |z| at the same B is the variance-reduction effect",
+  "notes": {
+    "control_r2": "null where the arm uses no control variates (plain); not applicable, not a failed measurement"
+  }
+}

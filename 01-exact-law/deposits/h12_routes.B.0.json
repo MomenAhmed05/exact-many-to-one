@@ -1,0 +1,43 @@
+{
+  "part": "B",
+  "scenario": "S1 balanced, equal sd",
+  "n": [
+    10,
+    10,
+    10
+  ],
+  "sigma": [
+    30.0,
+    30.0,
+    30.0
+  ],
+  "alpha": 0.025,
+  "m_post": 200,
+  "datasets": 800,
+  "rules": {
+    "oracle": {
+      "fwer": 0.03125,
+      "mcse": 0.006155416990172447,
+      "diff_vs_uncal": 0.0,
+      "diff_mcse": 0.0
+    },
+    "uncalibrated": {
+      "fwer": 0.03125,
+      "mcse": 0.006155416990172447,
+      "diff_vs_uncal": 0.0,
+      "diff_mcse": 0.0
+    },
+    "postmean_p": {
+      "fwer": 0.01625,
+      "mcse": 0.004472966707226306,
+      "diff_vs_uncal": -0.015,
+      "diff_mcse": 0.004300216835351305
+    },
+    "t3": {
+      "fwer": 0.03,
+      "mcse": 0.00603494205913125,
+      "diff_vs_uncal": -0.00125,
+      "diff_mcse": 0.0012500000000000005
+    }
+  }
+}

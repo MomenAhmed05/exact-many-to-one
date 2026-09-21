@@ -1,0 +1,598 @@
+{
+  "n_cells": 12,
+  "alpha0": 0.0245,
+  "abar": 0.025,
+  "gamma": 0.0005,
+  "tol": 0.0001,
+  "n_certified_at_tol": 7,
+  "max_gap": 0.00316619873046875,
+  "median_gap": 1.9550323486328125e-05,
+  "max_price_vs_measured_pct": null,
+  "median_price_vs_measured_pct": null,
+  "boundary": "the certified tier is the shipped rule; the measured envelope is the w26 rule; the oracle is a reference.  Cells whose gap exceeds tol are named in the deposit rather than hidden.",
+  "seconds": 1934.3093237876892,
+  "cells": [
+    {
+      "family": "A",
+      "df0": 3,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 3.245248620323189,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 3.3115816758892977,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 12.50041498094556,
+      "c_certified_L": 12.500376833972904,
+      "gap": 3.814697265625e-05,
+      "certified_at_tol": true,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 12.500377252697945,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 0.0003018168720283104,
+      "population_envelope_minus_certified_pct_informational": -277.4756658414194,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 285.19128866313685,
+      "n_splits": 1,
+      "n_pruned": 2,
+      "termination": "all boxes pruned",
+      "seconds": 42.00976324081421,
+      "lambda_hat": [
+        0.27455172,
+        0.46738174
+      ],
+      "region_lo": [
+        0.00108525,
+        0.00184748
+      ],
+      "region_hi": [
+        7.93033422,
+        13.50016474
+      ]
+    },
+    {
+      "family": "A",
+      "df0": 5,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.65832831428959,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.7655244736951685,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 6.858222398887562,
+      "c_certified_L": 6.856746111045765,
+      "gap": 0.001476287841796875,
+      "certified_at_tol": false,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 6.856746882200241,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 0.021519194344930014,
+      "population_envelope_minus_certified_pct_informational": -147.98993695846474,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 157.99004442084308,
+      "n_splits": 64,
+      "n_pruned": 12,
+      "termination": "split budget exhausted",
+      "seconds": 314.8483192920685,
+      "lambda_hat": [
+        0.13474272,
+        0.2293786
+      ],
+      "region_lo": [
+        0.00310556,
+        0.00528673
+      ],
+      "region_hi": [
+        2.55538066,
+        4.35013947
+      ]
+    },
+    {
+      "family": "A",
+      "df0": 7,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.460301244873587,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.583681119862733,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 5.493036556819241,
+      "c_certified_L": 5.490279484370511,
+      "gap": 0.0027570724487304688,
+      "certified_at_tol": false,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 5.490280605852604,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 0.05019690548602695,
+      "population_envelope_minus_certified_pct_informational": -112.6050507777476,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 123.26682833107618,
+      "n_splits": 64,
+      "n_pruned": 11,
+      "termination": "split budget exhausted",
+      "seconds": 261.4407079219818,
+      "lambda_hat": [
+        0.10054204,
+        0.17115723
+      ],
+      "region_lo": [
+        0.00478107,
+        0.00813903
+      ],
+      "region_hi": [
+        1.4939731,
+        2.54325763
+      ]
+    },
+    {
+      "family": "A",
+      "df0": 11,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.308624559730457,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.44132738569027,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 4.5826812558248475,
+      "c_certified_L": 4.579515057094379,
+      "gap": 0.00316619873046875,
+      "certified_at_tol": false,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 4.57951544970274,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 0.06912971813018585,
+      "population_envelope_minus_certified_pct_informational": -87.71268788799183,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 98.50266413001762,
+      "n_splits": 64,
+      "n_pruned": 10,
+      "termination": "split budget exhausted",
+      "seconds": 243.4575114250183,
+      "lambda_hat": [
+        0.07623131,
+        0.129772
+      ],
+      "region_lo": [
+        0.00683214,
+        0.01163066
+      ],
+      "region_hi": [
+        0.87289397,
+        1.48596669
+      ]
+    },
+    {
+      "family": "A",
+      "df0": 19,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.220064002315337,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.3571737840560085,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 4.119035576925516,
+      "c_certified_L": 4.1169203272917265,
+      "gap": 0.0021152496337890625,
+      "certified_at_tol": false,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 4.116920612752438,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 0.051372478899076895,
+      "population_envelope_minus_certified_pct_informational": -74.74467113060527,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 85.53679410276972,
+      "n_splits": 64,
+      "n_pruned": 10,
+      "termination": "split budget exhausted",
+      "seconds": 336.0085210800171,
+      "lambda_hat": [
+        0.06077133,
+        0.10345377
+      ],
+      "region_lo": [
+        0.00854158,
+        0.01454072
+      ],
+      "region_hi": [
+        0.56588258,
+        0.96332737
+      ]
+    },
+    {
+      "family": "A",
+      "df0": 35,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.185961674502624,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.3501205455622127,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 4.010752295887064,
+      "c_certified_L": 4.010041808521342,
+      "gap": 0.0007104873657226562,
+      "certified_at_tol": false,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 4.010043002665043,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 0.017687920592123582,
+      "population_envelope_minus_certified_pct_informational": -70.66155621083612,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 83.47770423741024,
+      "n_splits": 64,
+      "n_pruned": 12,
+      "termination": "split budget exhausted",
+      "seconds": 218.52867603302002,
+      "lambda_hat": [
+        0.05130472,
+        0.08733834
+      ],
+      "region_lo": [
+        0.00957798,
+        0.01630502
+      ],
+      "region_hi": [
+        0.42138963,
+        0.71735053
+      ]
+    },
+    {
+      "family": "B",
+      "df0": 3,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.7130274601841187,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 3.307746001351208,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 31.512091511313656,
+      "c_certified_L": 31.512090557639343,
+      "gap": 9.536743128535363e-07,
+      "certified_at_tol": true,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 31.512091398239136,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 3.588289935588531e-07,
+      "population_envelope_minus_certified_pct_informational": -852.6756739616955,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 1061.5102306843257,
+      "n_splits": 0,
+      "n_pruned": 1,
+      "termination": "all boxes pruned",
+      "seconds": 40.798131465911865,
+      "lambda_hat": [
+        6.86379294,
+        292.11358842
+      ],
+      "region_lo": [
+        0.02713133,
+        1.15467224
+      ],
+      "region_hi": [
+        198.25835539,
+        8437.60296523
+      ]
+    },
+    {
+      "family": "B",
+      "df0": 5,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.5509608600612643,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.8061903673456565,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 17.62702576325124,
+      "c_certified_L": 17.627024809576923,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 17.627025112509727,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 3.691726244660588e-06,
+      "population_envelope_minus_certified_pct_informational": -528.1478964637898,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 590.9955397288182,
+      "n_splits": 0,
+      "n_pruned": 1,
+      "termination": "all boxes pruned",
+      "seconds": 27.375077486038208,
+      "lambda_hat": [
+        3.36856808,
+        143.36162512
+      ],
+      "region_lo": [
+        0.07763896,
+        3.30420738
+      ],
+      "region_hi": [
+        63.88451644,
+        2718.83716717
+      ]
+    },
+    {
+      "family": "B",
+      "df0": 7,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.4979973764186196,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.648111166373043,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 13.49179364641515,
+      "c_certified_L": 13.491792692740834,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 13.491793170571327,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 3.5269131167024544e-06,
+      "population_envelope_minus_certified_pct_informational": -409.48743458130724,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 440.10439617668226,
+      "n_splits": 0,
+      "n_pruned": 1,
+      "termination": "all boxes pruned",
+      "seconds": 26.05442452430725,
+      "lambda_hat": [
+        2.51355095,
+        106.97327183
+      ],
+      "region_lo": [
+        0.11952673,
+        5.08689335
+      ],
+      "region_hi": [
+        37.34932754,
+        1589.53601811
+      ]
+    },
+    {
+      "family": "B",
+      "df0": 11,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.4658735277883603,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.5481812609593875,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 10.40081142429084,
+      "c_certified_L": 10.400810470616523,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 10.400811664760113,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": -2.3120241062847115e-06,
+      "population_envelope_minus_certified_pct_informational": -308.16607451131426,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 321.79014077900894,
+      "n_splits": 0,
+      "n_pruned": 1,
+      "termination": "all boxes pruned",
+      "seconds": 12.519761562347412,
+      "lambda_hat": [
+        1.90578287,
+        81.10749804
+      ],
+      "region_lo": [
+        0.17080351,
+        7.2691623
+      ],
+      "region_hi": [
+        21.82234934,
+        928.72917828
+      ]
+    },
+    {
+      "family": "B",
+      "df0": 19,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.462149003174918,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.5491402876107507,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 8.506310368412315,
+      "c_certified_L": 8.506309414737999,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 8.506309896707535,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 5.545351460891592e-06,
+      "population_envelope_minus_certified_pct_informational": -233.69330082594553,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 245.48316764921648,
+      "n_splits": 0,
+      "n_pruned": 1,
+      "termination": "all boxes pruned",
+      "seconds": 11.724526405334473,
+      "lambda_hat": [
+        1.51928323,
+        64.65860485
+      ],
+      "region_lo": [
+        0.21353957,
+        9.08795053
+      ],
+      "region_hi": [
+        14.14706446,
+        602.07960877
+      ]
+    },
+    {
+      "family": "B",
+      "df0": 35,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "coverage_exact": 0.9995010000000001,
+      "c_oracle_population": 2.4803513421185723,
+      "c_oracle_tier": "oracle_exact_law",
+      "c_env_measured": 2.5533066870839187,
+      "c_env_tier": "envelope_measured",
+      "c_certified": 7.48005939718866,
+      "c_certified_L": 7.480058443514344,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "c_certified_tier": "region_sup_certified",
+      "conditional_vertex_max": 7.480059318244457,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "price_vs_conditional_vertex_pct": 1.0553954162102272e-06,
+      "population_envelope_minus_certified_pct_informational": -192.9557751533361,
+      "price_vs_measured_pct": null,
+      "price_vs_oracle_pct": 201.5725744240583,
+      "n_splits": 0,
+      "n_pruned": 1,
+      "termination": "all boxes pruned",
+      "seconds": 27.320099592208862,
+      "lambda_hat": [
+        1.28261804,
+        54.58645981
+      ],
+      "region_lo": [
+        0.23944941,
+        10.19063772
+      ],
+      "region_hi": [
+        10.53474079,
+        448.34408103
+      ]
+    }
+  ],
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "desk map at alpha0 = abar - gamma: certified tier, measured tier and the price of the proof, per cell",
+    "non-finite values replaced by null at: max_price_vs_measured_pct, median_price_vs_measured_pct, cells[0].price_vs_measured_pct, cells[1].price_vs_measured_pct, cells[2].price_vs_measured_pct, cells[3].price_vs_measured_pct, cells[4].price_vs_measured_pct, cells[5].price_vs_measured_pct, cells[6].price_vs_measured_pct, cells[7].price_vs_measured_pct, cells[8].price_vs_measured_pct, cells[9].price_vs_measured_pct, cells[10].price_vs_measured_pct, cells[11].price_vs_measured_pct"
+  ]
+}

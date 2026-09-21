@@ -1,0 +1,133 @@
+{
+  "family": "B",
+  "df0": 19,
+  "lam": [
+    1.0,
+    25.0
+  ],
+  "n": [
+    20.0,
+    13.0,
+    13.0
+  ],
+  "alpha": 0.025,
+  "gamma": 0.0005,
+  "draws_per_seed": 50,
+  "seeds": [
+    101,
+    202,
+    303,
+    404
+  ],
+  "c_oracle": 2.4521114012262952,
+  "per_seed": [
+    {
+      "c_mean": 2.5275141449716685,
+      "rej_mean": 0.025444604031350328,
+      "excess_vs_oracle_max": -0.0012059732895564057,
+      "excess_vs_oracle_mean": -0.0038176043949431993,
+      "fwer_est": 0.021182395605056803,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "region_scale": 37.762877069169285,
+      "region_coverage": 0.9995010000000001,
+      "power_cost_pct": 3.075012974845454,
+      "seed": 6448,
+      "plugin_fwer": 0.025199191327292137,
+      "plugin_cost_pct": -0.02044014940721497,
+      "ub": {
+        "c_mean": 2.543745729549874,
+        "rej_mean": 0.024636430282959677,
+        "excess_vs_oracle_max": -0.0014483864806158486,
+        "excess_vs_oracle_mean": -0.00462577814333385,
+        "fwer_est": 0.020374221856666153,
+        "n_outside": 0,
+        "frac_outside": 0.0,
+        "region_scale": 1.0,
+        "region_coverage": 0.999997805914334,
+        "power_cost_pct": 3.7369561708229435
+      }
+    },
+    {
+      "c_mean": 2.527417084594331,
+      "rej_mean": 0.020245976172773402,
+      "excess_vs_oracle_max": -0.0006818691756040884,
+      "excess_vs_oracle_mean": -0.0033574182279660445,
+      "fwer_est": 0.02164258177203396,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "region_scale": 37.762877069169285,
+      "region_coverage": 0.9995010000000001,
+      "power_cost_pct": 3.0710547379852104,
+      "seed": 6549,
+      "plugin_fwer": 0.025215374802558914,
+      "plugin_cost_pct": -0.00030017031178926443,
+      "ub": {
+        "c_mean": 2.543719389235033,
+        "rej_mean": 0.019503375420811,
+        "excess_vs_oracle_max": -0.0008598524338883085,
+        "excess_vs_oracle_mean": -0.004100018979928448,
+        "fwer_est": 0.020899981020071554,
+        "n_outside": 0,
+        "frac_outside": 0.0,
+        "region_scale": 1.0,
+        "region_coverage": 0.999997805914334,
+        "power_cost_pct": 3.7358819816638333
+      }
+    },
+    {
+      "c_mean": 2.5254210754433233,
+      "rej_mean": 0.02383959310789161,
+      "excess_vs_oracle_max": -0.0011474669122383263,
+      "excess_vs_oracle_mean": -0.0037631353018675218,
+      "fwer_est": 0.02123686469813248,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "region_scale": 37.762877069169285,
+      "region_coverage": 0.9995010000000001,
+      "power_cost_pct": 2.9896551266131732,
+      "seed": 6650,
+      "plugin_fwer": 0.025115314079621524,
+      "plugin_cost_pct": -0.04137829290497663,
+      "ub": {
+        "c_mean": 2.542138256757837,
+        "rej_mean": 0.02300397817348276,
+        "excess_vs_oracle_max": -0.0014385948160551276,
+        "excess_vs_oracle_mean": -0.004598750236276372,
+        "fwer_est": 0.02040124976372363,
+        "n_outside": 0,
+        "frac_outside": 0.0,
+        "region_scale": 1.0,
+        "region_coverage": 0.999997805914334,
+        "power_cost_pct": 3.671401531207731
+      }
+    },
+    {
+      "c_mean": 2.526955718429875,
+      "rej_mean": 0.022681165500006418,
+      "excess_vs_oracle_max": -0.0011421761156498178,
+      "excess_vs_oracle_mean": -0.003506799707461614,
+      "fwer_est": 0.021493200292538386,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "region_scale": 37.762877069169285,
+      "region_coverage": 0.9995010000000001,
+      "power_cost_pct": 3.052239680715587,
+      "seed": 6751,
+      "plugin_fwer": 0.025152739009859197,
+      "plugin_cost_pct": 0.03674074068841346,
+      "ub": {
+        "c_mean": 2.5433725132714464,
+        "rej_mean": 0.021910047124017017,
+        "excess_vs_oracle_max": -0.0012540213074835327,
+        "excess_vs_oracle_mean": -0.0042779180834510155,
+        "fwer_est": 0.020722081916548986,
+        "n_outside": 0,
+        "frac_outside": 0.0,
+        "region_scale": 1.0,
+        "region_coverage": 0.999997805914334,
+        "power_cost_pct": 3.721735970050615
+      }
+    }
+  ]
+}

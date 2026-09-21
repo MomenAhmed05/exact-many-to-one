@@ -1,0 +1,43 @@
+{
+  "part": "B",
+  "scenario": "S5 trt smallest n, largest sd",
+  "n": [
+    13,
+    13,
+    4
+  ],
+  "sigma": [
+    10.0,
+    10.0,
+    50.0
+  ],
+  "alpha": 0.025,
+  "m_post": 200,
+  "datasets": 800,
+  "rules": {
+    "oracle": {
+      "fwer": 0.02625,
+      "mcse": 0.0056560729155512605,
+      "diff_vs_uncal": -0.005,
+      "diff_mcse": 0.002495302219463221
+    },
+    "uncalibrated": {
+      "fwer": 0.03125,
+      "mcse": 0.006155416990172447,
+      "diff_vs_uncal": 0.0,
+      "diff_mcse": 0.0
+    },
+    "postmean_p": {
+      "fwer": 0.0225,
+      "mcse": 0.005246579432800084,
+      "diff_vs_uncal": -0.00875,
+      "diff_mcse": 0.003294748257849642
+    },
+    "t3": {
+      "fwer": 0.03125,
+      "mcse": 0.006155416990172447,
+      "diff_vs_uncal": 0.0,
+      "diff_mcse": 0.005866687526037175
+    }
+  }
+}

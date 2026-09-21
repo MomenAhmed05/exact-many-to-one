@@ -1,0 +1,90 @@
+{
+ "schema": "manifest.schema.json",
+ "example_verdict": "CONDITIONAL",
+ "example_conditions": [
+  "family locked 2026-01-05, inside the evaluation window (2026-01-01 to 2028-12-31): valid only for the part of the window after the lock",
+  "cross-sectional model is independent_groups: this asserts the benchmark and candidates do not share dates or shocks, which for a panel observed on common dates is usually false"
+ ],
+ "probes": [
+  {
+   "probe": "locked after the window closed",
+   "verdict": "SCREEN",
+   "refusals": [
+    "family locked 2029-06-01, after the evaluation window closed 2028-12-31: the candidate set could have been chosen on the outcome"
+   ],
+   "refused": 1
+  },
+  {
+   "probe": "ratio domain from the tested returns",
+   "verdict": "SCREEN",
+   "refusals": [
+    "variance-ratio domain inferred from the same returns being tested: the domain is then a function of the data and the uniform bound over it is not a bound"
+   ],
+   "refused": 1
+  },
+  {
+   "probe": "research window overlaps evaluation",
+   "verdict": "SCREEN",
+   "refusals": [
+    "research window ends 2026-06-30, after the evaluation window opens 2026-01-01: hypotheses were generated on evaluation data"
+   ],
+   "refused": 1
+  },
+  {
+   "probe": "calibration overlaps evaluation",
+   "verdict": "SCREEN",
+   "refusals": [
+    "serial calibration window ends 2026-06-30, overlapping the evaluation window that opens 2026-01-01"
+   ],
+   "refused": 1
+  },
+  {
+   "probe": "prais-winsten whitening",
+   "verdict": "SCREEN",
+   "refusals": [
+    "serial transform is prais_winsten: it rescales the first observation, so the whitened mean depends on the group's length and the rule drifts off its ceiling at unequal lengths.  Use cochrane_orcutt"
+   ],
+   "refused": 1
+  },
+  {
+   "probe": "internal level above the target",
+   "verdict": "SCREEN",
+   "refusals": [
+    "internal level 0.05000 exceeds the familywise target 0.02500"
+   ],
+   "refused": 1
+  },
+  {
+   "probe": "benchmark listed as a candidate",
+   "verdict": "SCREEN",
+   "refusals": [
+    "the benchmark is also listed as a candidate"
+   ],
+   "refused": 1
+  },
+  {
+   "probe": "missing nuisance domain",
+   "verdict": "SCREEN",
+   "refusals": [
+    "missing required field: nuisance_domain"
+   ],
+   "refused": 1
+  }
+ ],
+ "n_probes": 8,
+ "n_refused": 8,
+ "all_probes_refused": 1,
+ "tier_c_verdict": "CONDITIONAL",
+ "tier_c_conditions": [
+  "family locked 2026-01-05, inside the evaluation window (2026-01-01 to 2028-12-31): valid only for the part of the window after the lock",
+  "cross_sectional nuisance estimated on the evaluation period: the result is a plug-in, not a certificate, and must be reported as such",
+  "residualising against an observed factor changes the estimand to a factor alpha; estimand is declared as raw_mean_difference"
+ ],
+ "verdict_labels": [
+  "GUARANTEED",
+  "CONDITIONAL",
+  "SCREEN"
+ ],
+ "seconds": 0.0,
+ "tier": "diagnostic"
+}

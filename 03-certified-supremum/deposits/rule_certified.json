@@ -1,0 +1,344 @@
+{
+  "abar": 0.025,
+  "gamma": 0.0005,
+  "alpha0": 0.0245,
+  "tol": 0.0001,
+  "runtime_target_s": 60.0,
+  "theorem_statement": "Under independent Gaussian samples across groups, with the stated sample sizes and the specified separate-variance Welch statistics, this decision uses internal level alpha0 = abar - gamma and a ratio-region miss budget gamma.  The certified region coverage is at least 1 - gamma, and the reported threshold is a certified upper bound on the oracle critical value throughout that region.  Therefore the familywise error rate is at most alpha0 + gamma = abar.",
+  "model_exclusions": [
+    "serial dependence",
+    "cross-group dependence beyond the model",
+    "factor exposure",
+    "non-Gaussianity",
+    "rolling re-estimation",
+    "research-process multiplicity"
+  ],
+  "families": [
+    {
+      "tier": "region_sup_certified",
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "alpha0": 0.0245,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "means": [
+        0.0,
+        0.12930637646176427,
+        -0.14758703072562568
+      ],
+      "variances": [
+        0.12543376784630997,
+        0.8609514096285978,
+        36.64090803483772
+      ],
+      "step": {},
+      "decisions": [
+        false,
+        false
+      ],
+      "lambda_hat": [
+        6.8637929356,
+        292.1135884217
+      ],
+      "region": {
+        "lo": [
+          0.0271313335,
+          1.1546722416
+        ],
+        "hi": [
+          198.258355385,
+          8437.6029652287
+        ],
+        "scale": 12.715994030059314,
+        "coverage_exact": 0.9995010000000001,
+        "coverage_ge_1_minus_gamma": true
+      },
+      "threshold": {
+        "c_hat": 31.512091511313656,
+        "c_L": 31.512090557639343,
+        "gap": 9.536743128535363e-07,
+        "certified_at_tol": true,
+        "tol": 0.0001,
+        "n_splits": 0,
+        "n_pruned": 1,
+        "termination": "all boxes pruned",
+        "bnb_settings": true
+      },
+      "bnb_certificate_id": "e7078c19302f55ce",
+      "statistics": [
+        0.41393,
+        -0.087425
+      ],
+      "n_promoted": 0,
+      "error_budget": {
+        "Delta_p": 9.536743128535363e-07,
+        "note": "the gap is the certified supremum enclosure; the numerical enclosure width is ~1e-13 (see deposits/error_budget.json)"
+      },
+      "software_version": "wAtoH P4 rule_certified.py",
+      "seconds": 15.5007963180542,
+      "runtime_under_target": true,
+      "family": "desk_B_df3",
+      "lambda_true": [
+        1.0,
+        25.0
+      ]
+    },
+    {
+      "tier": "region_sup_certified",
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "alpha0": 0.0245,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "means": [
+        0.0,
+        0.025861275292352853,
+        -0.005903481229025027
+      ],
+      "variances": [
+        0.12543376784630997,
+        0.03443805638514392,
+        0.058625452855740355
+      ],
+      "step": {},
+      "decisions": [
+        false,
+        false
+      ],
+      "lambda_hat": [
+        0.2745517174,
+        0.4673817415
+      ],
+      "region": {
+        "lo": [
+          0.0010852533,
+          0.0018474756
+        ],
+        "hi": [
+          7.9303342154,
+          13.5001647444
+        ],
+        "scale": 12.715994030059314,
+        "coverage_exact": 0.9995010000000001,
+        "coverage_ge_1_minus_gamma": true
+      },
+      "threshold": {
+        "c_hat": 12.50041498094556,
+        "c_L": 12.500376833972904,
+        "gap": 3.814697265625e-05,
+        "certified_at_tol": true,
+        "tol": 0.0001,
+        "n_splits": 1,
+        "n_pruned": 2,
+        "termination": "all boxes pruned",
+        "bnb_settings": true
+      },
+      "bnb_certificate_id": "135a159f46e28883",
+      "statistics": [
+        0.140237,
+        -0.031171
+      ],
+      "n_promoted": 0,
+      "error_budget": {
+        "Delta_p": 3.814697265625e-05,
+        "note": "the gap is the certified supremum enclosure; the numerical enclosure width is ~1e-13 (see deposits/error_budget.json)"
+      },
+      "software_version": "wAtoH P4 rule_certified.py",
+      "seconds": 26.35435461997986,
+      "runtime_under_target": true,
+      "family": "desk_A_df3",
+      "lambda_true": [
+        0.04,
+        0.04
+      ]
+    },
+    {
+      "tier": "region_sup_certified",
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "alpha0": 0.0245,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "means": [
+        0.0,
+        0.12930637646176427,
+        -0.14758703072562568
+      ],
+      "variances": [
+        0.6712453630531293,
+        0.8609514096285978,
+        36.64090803483772
+      ],
+      "step": {},
+      "decisions": [
+        false,
+        false
+      ],
+      "lambda_hat": [
+        1.2826180366,
+        54.5864598128
+      ],
+      "region": {
+        "lo": [
+          0.2394494127,
+          10.1906377189
+        ],
+        "hi": [
+          10.5347407929,
+          448.3440810324
+        ],
+        "scale": 32.52771668079244,
+        "coverage_exact": 0.9995010000000001,
+        "coverage_ge_1_minus_gamma": true
+      },
+      "threshold": {
+        "c_hat": 7.48005939718866,
+        "c_L": 7.480058443514344,
+        "gap": 9.5367431640625e-07,
+        "certified_at_tol": true,
+        "tol": 0.0001,
+        "n_splits": 0,
+        "n_pruned": 1,
+        "termination": "all boxes pruned",
+        "bnb_settings": true
+      },
+      "bnb_certificate_id": "2b61a875e2f4f4dd",
+      "statistics": [
+        0.44385,
+        -0.08762
+      ],
+      "n_promoted": 0,
+      "error_budget": {
+        "Delta_p": 9.5367431640625e-07,
+        "note": "the gap is the certified supremum enclosure; the numerical enclosure width is ~1e-13 (see deposits/error_budget.json)"
+      },
+      "software_version": "wAtoH P4 rule_certified.py",
+      "seconds": 9.559117078781128,
+      "runtime_under_target": true,
+      "family": "desk_B_df35",
+      "lambda_true": [
+        1.0,
+        25.0
+      ]
+    },
+    {
+      "tier": "region_sup_certified",
+      "abar": 0.025,
+      "gamma": 0.0005,
+      "alpha0": 0.0245,
+      "n": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "means": [
+        0.0,
+        0.06018884267006767,
+        -0.02172422270566844,
+        -0.9483717241638833,
+        -0.3570278219527244,
+        -0.6957583243418406
+      ],
+      "variances": [
+        0.4517573457569944,
+        0.17050957978560202,
+        0.7430746911266105,
+        0.5480893770514169,
+        1.619293914373062,
+        4.958226392600475
+      ],
+      "step": {},
+      "decisions": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "lambda_hat": [
+        0.3774362086,
+        1.6448535881,
+        1.2132384392,
+        3.5844329474,
+        10.9754195237
+      ],
+      "region": {
+        "lo": [
+          0.0289940615,
+          0.1263550899,
+          0.0931990866,
+          0.2753505542,
+          0.8431146274
+        ],
+        "hi": [
+          5.9781140603,
+          26.0524086944,
+          19.216168472,
+          56.7729023169,
+          173.8368187232
+        ],
+        "scale": 30.846179707146867,
+        "coverage_exact": 0.9995010000000001,
+        "coverage_ge_1_minus_gamma": true
+      },
+      "threshold": {
+        "c_hat": 12.874007512362626,
+        "c_L": 12.87400655868831,
+        "gap": 9.5367431640625e-07,
+        "certified_at_tol": true,
+        "tol": 0.0001,
+        "n_splits": 0,
+        "n_pruned": 1,
+        "termination": "all boxes pruned",
+        "bnb_settings": true
+      },
+      "bnb_certificate_id": "454f6dfbd2902368",
+      "statistics": [
+        0.264313,
+        -0.068846,
+        -3.285508,
+        -0.859404,
+        -1.036218
+      ],
+      "n_promoted": 0,
+      "error_budget": {
+        "Delta_p": 9.5367431640625e-07,
+        "note": "the gap is the certified supremum enclosure; the numerical enclosure width is ~1e-13 (see deposits/error_budget.json)"
+      },
+      "software_version": "wAtoH P4 rule_certified.py",
+      "seconds": 36.02033257484436,
+      "runtime_under_target": true,
+      "family": "K5_df11",
+      "lambda_true": [
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0
+      ]
+    }
+  ],
+  "n_families": 4,
+  "max_seconds": 36.02033257484436,
+  "all_under_runtime_target": true,
+  "all_coverage_certified": true,
+  "n_certified_at_tol": 4,
+  "seconds": 87.4356005191803,
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "shipped rule at alpha0 = abar - gamma with a decision certificate, the required theorem statement and the model exclusions"
+  ]
+}

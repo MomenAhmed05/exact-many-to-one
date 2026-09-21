@@ -1,0 +1,212 @@
+{
+  "n_cells": 3,
+  "factors": [
+    3.0,
+    2.0,
+    1.5,
+    1.1,
+    1.01,
+    1.001
+  ],
+  "slack_max": 0.028827667236328125,
+  "slack_at_factor_1p001": 5.340576171875e-05,
+  "tol": 0.0001,
+  "note": "structural box slack in C-SPACE = c_ub(box) - max over corners of c*(corner).  In probability space the analogous difference is necessarily negative (F_lo(box) <= min over corners F by construction), so the c-space excess is the meaningful quantity: it shrinks with the box width, not with quadrature effort, and it is what the branch-and-bound drives below tol by splitting (plan 2.4).  Report-only in PHASE1-ENCLOSURE.md before; now deposited.",
+  "seconds": 119.04655241966248,
+  "cells": [
+    {
+      "cell": "A_df3",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "c": 2.0,
+      "alpha0": 0.0245,
+      "d_row": [
+        0.18441129,
+        0.18938873
+      ],
+      "rows": [
+        {
+          "factor": 3.0,
+          "c_ub_box": 5.658761911094189,
+          "c_ub_max_corner": 5.629934243857861,
+          "slack_c": 0.028827667236328125,
+          "box_log_width": 3.1073447968483725
+        },
+        {
+          "factor": 2.0,
+          "c_ub_box": 5.5747567266225815,
+          "c_ub_max_corner": 5.555679425597191,
+          "slack_c": 0.019077301025390625,
+          "box_log_width": 1.960516286937094
+        },
+        {
+          "factor": 1.5,
+          "c_ub_box": 5.525325179100037,
+          "c_ub_max_corner": 5.513829588890076,
+          "slack_c": 0.011495590209960938,
+          "box_log_width": 1.1468285099112785
+        },
+        {
+          "factor": 1.1,
+          "c_ub_box": 5.479497112333775,
+          "c_ub_max_corner": 5.476711429655552,
+          "slack_c": 0.0027856826782226562,
+          "box_log_width": 0.2695778978229893
+        },
+        {
+          "factor": 1.01,
+          "c_ub_box": 5.468040555715561,
+          "c_ub_max_corner": 5.467746824026108,
+          "slack_c": 0.000293731689453125,
+          "box_log_width": 0.02814378568529955
+        },
+        {
+          "factor": 1.001,
+          "c_ub_box": 5.466865167021751,
+          "c_ub_max_corner": 5.466835603117943,
+          "slack_c": 2.956390380859375e-05,
+          "box_log_width": 0.002827013853285886
+        }
+      ]
+    },
+    {
+      "cell": "B_df3",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "c": 2.0,
+      "alpha0": 0.0245,
+      "d_row": [
+        0.31238674,
+        1.68816167
+      ],
+      "rows": [
+        {
+          "factor": 3.0,
+          "c_ub_box": 4.428208209574223,
+          "c_ub_max_corner": 4.4135244861245155,
+          "slack_c": 0.014683723449707031,
+          "box_log_width": 3.107344796848373
+        },
+        {
+          "factor": 2.0,
+          "c_ub_box": 4.036550767719746,
+          "c_ub_max_corner": 4.0176460817456245,
+          "slack_c": 0.018904685974121094,
+          "box_log_width": 1.9605162869370942
+        },
+        {
+          "factor": 1.5,
+          "c_ub_box": 3.8288966938853264,
+          "c_ub_max_corner": 3.81327074021101,
+          "slack_c": 0.015625953674316406,
+          "box_log_width": 1.1468285099112785
+        },
+        {
+          "factor": 1.1,
+          "c_ub_box": 3.6509358435869217,
+          "c_ub_max_corner": 3.646124556660652,
+          "slack_c": 0.004811286926269531,
+          "box_log_width": 0.26957789782298924
+        },
+        {
+          "factor": 1.01,
+          "c_ub_box": 3.6084245294332504,
+          "c_ub_max_corner": 3.6078914254903793,
+          "slack_c": 0.0005331039428710938,
+          "box_log_width": 0.02814378568529954
+        },
+        {
+          "factor": 1.001,
+          "c_ub_box": 3.604105867445469,
+          "c_ub_max_corner": 3.60405246168375,
+          "slack_c": 5.340576171875e-05,
+          "box_log_width": 0.002827013853285921
+        }
+      ]
+    },
+    {
+      "cell": "K3_df7",
+      "n": [
+        8.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      "lam": [
+        0.25,
+        1.0,
+        4.0
+      ],
+      "c": 2.2,
+      "alpha0": 0.0245,
+      "d_row": [
+        0.26034628,
+        0.44327148,
+        0.47488099
+      ],
+      "rows": [
+        {
+          "factor": 3.0,
+          "c_ub_box": 4.625921927392483,
+          "c_ub_max_corner": 4.624792777001858,
+          "slack_c": 0.001129150390625,
+          "box_log_width": 3.805704603585384
+        },
+        {
+          "factor": 2.0,
+          "c_ub_box": 3.999868370592594,
+          "c_ub_max_corner": 3.996729828417301,
+          "slack_c": 0.0031385421752929688,
+          "box_log_width": 2.401132267705887
+        },
+        {
+          "factor": 1.5,
+          "c_ub_box": 3.657363086938858,
+          "c_ub_max_corner": 3.653538852930069,
+          "slack_c": 0.0038242340087890625,
+          "box_log_width": 1.4045723358794964
+        },
+        {
+          "factor": 1.1,
+          "c_ub_box": 3.3658118322491646,
+          "c_ub_max_corner": 3.3641877248883247,
+          "slack_c": 0.0016241073608398438,
+          "box_log_width": 0.33016414779923176
+        },
+        {
+          "factor": 1.01,
+          "c_ub_box": 3.2977728992700577,
+          "c_ub_max_corner": 3.297578349709511,
+          "slack_c": 0.000194549560546875,
+          "box_log_width": 0.03446895717961464
+        },
+        {
+          "factor": 1.001,
+          "c_ub_box": 3.2909160554409027,
+          "c_ub_max_corner": 3.290896028280258,
+          "slack_c": 2.002716064453125e-05,
+          "box_log_width": 0.0034623707181648915
+        }
+      ]
+    }
+  ],
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "structural box slack vs box width factor, on fixed draws at fixed c"
+  ]
+}

@@ -1,0 +1,2284 @@
+{
+  "n_designs": 20,
+  "n_certified": 16,
+  "all_certified": false,
+  "all_gaps_under_tol": false,
+  "all_coverage_ok": true,
+  "all_witness_checks_pass": true,
+  "all_dominate_oracle": null,
+  "note_on_dominance": "`c_U_dominates_oracle` is deliberately None: the guarantee needs c_U >= sup over the region of the CONDITIONAL c*, not c_U >= the population oracle.  The load-bearing check is all_witness_checks_pass.",
+  "max_gap": 0.09009361267089844,
+  "max_seconds": 133.9170045852661,
+  "total_seconds": 876.4026336669922,
+  "tol": 0.0001,
+  "gamma": 0.0005,
+  "alpha0_set": [
+    0.0995,
+    0.0495,
+    0.0245,
+    0.0095
+  ],
+  "two_sided": "NOT COVERED - the exact-law engine is one-sided; the two-sided analogue needs the joint law of |T_i|, which is not implemented.  Recorded as an open item.",
+  "designs": [
+    {
+      "name": "K1_balanced",
+      "n": [
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.36787944117144233
+      ],
+      "K": 1,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000002,
+      "coverage_ok": true,
+      "region_scale": 38.59294927390121,
+      "lambda_hat": [
+        0.67188896
+      ],
+      "d_row": [
+        0.24622116
+      ],
+      "tail_draw_log_dev": 2.5482476562281815,
+      "tail_draw_index": 1464,
+      "c_L": 5.973260209795526,
+      "c_U": 5.9732621171441584,
+      "gap": 1.9073486328125e-06,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 7,
+      "termination": "all boxes pruned",
+      "seconds": 4.023862600326538,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.07215866
+          ],
+          "c": "c_U",
+          "noreject": 0.9999998482710477,
+          "ok": true
+        },
+        {
+          "lambda": [
+            6.25614151
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000263228111,
+          "ok": true
+        },
+        {
+          "lambda": [
+            6.25614151
+          ],
+          "c": "c_L",
+          "noreject": 0.975499990201629,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.67188896
+          ],
+          "c": "c_U",
+          "noreject": 0.9999794442705287,
+          "ok": true
+        },
+        {
+          "lambda": [
+            5.24782513
+          ],
+          "c": "c_U",
+          "noreject": 0.9830603615253025,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.10615152
+          ],
+          "c": "c_U",
+          "noreject": 0.9999997696328873,
+          "ok": true
+        },
+        {
+          "lambda": [
+            3.9251343
+          ],
+          "c": "c_U",
+          "noreject": 0.9915633957247332,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.0949332132407292,
+      "c_U_minus_oracle_population": 3.878328903903429,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "K2_balanced",
+      "n": [
+        13.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.36787944117144233,
+        2.718281828459045
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 35.87687107411332,
+      "lambda_hat": [
+        0.67188896,
+        8.45150482
+      ],
+      "d_row": [
+        0.24622116,
+        0.58542617
+      ],
+      "tail_draw_log_dev": 3.0233940543043905,
+      "tail_draw_index": 3141,
+      "c_L": 9.227953413937712,
+      "c_U": 9.227954367612028,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 9.147912740707397,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.06589483,
+            0.82887284
+          ],
+          "c": "c_U",
+          "noreject": 0.999999999999998,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.06589483,
+            92.93336826
+          ],
+          "c": "c_U",
+          "noreject": 0.9777705015872392,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.38814034,
+            0.82887284
+          ],
+          "c": "c_U",
+          "noreject": 0.9976623050173435,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.38814034,
+            92.93336826
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000065057606,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.38814034,
+            92.93336826
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999934654898,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.69773941,
+            8.7766705
+          ],
+          "c": "c_U",
+          "noreject": 0.999999999604573,
+          "ok": true
+        },
+        {
+          "lambda": [
+            6.53781126,
+            84.77960998
+          ],
+          "c": "c_U",
+          "noreject": 0.9808820391190918,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.4033825669086553,
+      "c_U_minus_oracle_population": 6.824571800703373,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "K3_balanced",
+      "n": [
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.36787944117144233,
+        1.0,
+        2.718281828459045
+      ],
+      "K": 3,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 34.196882652736484,
+      "lambda_hat": [
+        0.67188896,
+        3.10913487,
+        3.26291975
+      ],
+      "d_row": [
+        0.24622116,
+        0.38600848,
+        0.39316535
+      ],
+      "tail_draw_log_dev": 3.0233940543043905,
+      "tail_draw_index": 3141,
+      "c_L": 10.159575337458131,
+      "c_U": 10.159576291132447,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 14.68050217628479,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.06260308,
+            0.28969283,
+            0.3040217
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.06260308,
+            0.28969283,
+            39.50727224
+          ],
+          "c": "c_U",
+          "noreject": 0.9881775694071497,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.06260308,
+            37.64525245,
+            0.3040217
+          ],
+          "c": "c_U",
+          "noreject": 0.9885336188729162,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.06260308,
+            37.64525245,
+            39.50727224
+          ],
+          "c": "c_U",
+          "noreject": 0.9768717115612585,
+          "ok": true
+        },
+        {
+          "lambda": [
+            8.1351985,
+            0.28969283,
+            0.3040217
+          ],
+          "c": "c_U",
+          "noreject": 0.9985779396760316,
+          "ok": true
+        },
+        {
+          "lambda": [
+            8.1351985,
+            0.28969283,
+            39.50727224
+          ],
+          "c": "c_U",
+          "noreject": 0.9867811912311942,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.554726075549061,
+      "c_U_minus_oracle_population": 7.604850215583387,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "K5_balanced",
+      "n": [
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.36787944117144233,
+        0.6065306597126334,
+        1.0,
+        1.6487212707001282,
+        2.718281828459045
+      ],
+      "K": 5,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 32.09536243092836,
+      "lambda_hat": [
+        0.67188896,
+        1.88578562,
+        1.20036109,
+        2.86660954,
+        5.7350979
+      ],
+      "d_row": [
+        0.24622116,
+        0.32348466,
+        0.28246759,
+        0.37444394,
+        0.49418961
+      ],
+      "tail_draw_log_dev": 3.0233940543043905,
+      "tail_draw_index": 3141,
+      "c_L": 11.563344034155158,
+      "c_U": 11.563344987829474,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 28.030046939849854,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.05882184,
+            0.16509482,
+            0.10508798,
+            0.25096299,
+            0.50209046
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.05882184,
+            0.16509482,
+            16.38625972,
+            0.25096299,
+            0.50209046
+          ],
+          "c": "c_U",
+          "noreject": 0.9976312745625999,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.05882184,
+            25.74306445,
+            0.10508798,
+            0.25096299,
+            0.50209046
+          ],
+          "c": "c_U",
+          "noreject": 0.995446006510298,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.05882184,
+            25.74306445,
+            16.38625972,
+            0.25096299,
+            78.29044449
+          ],
+          "c": "c_U",
+          "noreject": 0.9828417064041786,
+          "ok": true
+        },
+        {
+          "lambda": [
+            9.17202913,
+            0.16509482,
+            0.10508798,
+            0.25096299,
+            78.29044449
+          ],
+          "c": "c_U",
+          "noreject": 0.9890276837533002,
+          "ok": true
+        },
+        {
+          "lambda": [
+            9.17202913,
+            0.16509482,
+            16.38625972,
+            39.13239827,
+            0.50209046
+          ],
+          "c": "c_U",
+          "noreject": 0.9901559973798149,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.747413188096036,
+      "c_U_minus_oracle_population": 8.815931799733438,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "K8_balanced",
+      "n": [
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.36787944117144233,
+        0.4895416595569531,
+        0.6514390575310556,
+        0.8668778997501816,
+        1.1535649948951077,
+        1.5350630092552096,
+        2.042727070266142,
+        2.718281828459045
+      ],
+      "K": 8,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 30.241847439119503,
+      "lambda_hat": [
+        0.67188896,
+        1.52205104,
+        0.7819621,
+        1.50722897,
+        2.43381981,
+        3.26956464,
+        3.29699833,
+        4.78698492
+      ],
+      "d_row": [
+        0.24622116,
+        0.3024117,
+        0.25419727,
+        0.30152175,
+        0.35286648,
+        0.39347165,
+        0.39473374,
+        0.45808685
+      ],
+      "tail_draw_log_dev": 3.0233940543043905,
+      "tail_draw_index": 3141,
+      "c_L": 12.95961647044151,
+      "c_U": 12.959617424115827,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 53.77540850639343,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.05567909,
+            0.12613157,
+            0.06480079,
+            0.12490327,
+            0.20168937,
+            0.27094711,
+            0.27322052,
+            0.39669493
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.05567909,
+            0.12613157,
+            11.90086334,
+            0.12490327,
+            0.20168937,
+            49.76026583,
+            0.27322052,
+            0.39669493
+          ],
+          "c": "c_U",
+          "noreject": 0.9945999269219211,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.05567909,
+            23.16444936,
+            0.06480079,
+            0.12490327,
+            37.04087063,
+            0.27094711,
+            0.27322052,
+            0.39669493
+          ],
+          "c": "c_U",
+          "noreject": 0.994232077834805,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.05567909,
+            23.16444936,
+            11.90086334,
+            0.12490327,
+            37.04087063,
+            49.76026583,
+            0.27322052,
+            72.85423842
+          ],
+          "c": "c_U",
+          "noreject": 0.9825807778665147,
+          "ok": true
+        },
+        {
+          "lambda": [
+            10.22563451,
+            0.12613157,
+            0.06480079,
+            22.9388687,
+            0.20168937,
+            0.27094711,
+            0.27322052,
+            72.85423842
+          ],
+          "c": "c_U",
+          "noreject": 0.9913566667630921,
+          "ok": true
+        },
+        {
+          "lambda": [
+            10.22563451,
+            0.12613157,
+            11.90086334,
+            22.9388687,
+            0.20168937,
+            49.76026583,
+            50.17778549,
+            0.39669493
+          ],
+          "c": "c_U",
+          "noreject": 0.9874118523369386,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.921677090691623,
+      "c_U_minus_oracle_population": 10.037940333424203,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "unbal_thin_bench",
+      "n": [
+        3.0,
+        40.0,
+        40.0,
+        3.0
+      ],
+      "lam": [
+        0.3,
+        1.0,
+        3.0
+      ],
+      "K": 3,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9999217893849782,
+      "coverage_ok": true,
+      "region_scale": 10.170784879753203,
+      "lambda_hat": [
+        0.24542528,
+        0.73758478,
+        1.56564411
+      ],
+      "d_row": [
+        0.71875137,
+        0.73166094,
+        1.14081764
+      ],
+      "tail_draw_log_dev": 9.005067613324668,
+      "tail_draw_index": 3178,
+      "c_L": 156.35212397848107,
+      "c_U": 156.3521249321554,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 83.65523076057434,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.0001616,
+            0.00048566,
+            0.00025646
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0001616,
+            0.00048566,
+            24628.18247839
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000003398592,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0001616,
+            0.00048566,
+            24628.18247839
+          ],
+          "c": "c_L",
+          "noreject": 0.975499999649874,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0001616,
+            11.94988356,
+            0.00025646
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0001616,
+            11.94988356,
+            24628.18247839
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000003398592,
+          "ok": true
+        },
+        {
+          "lambda": [
+            3.97622569,
+            0.00048566,
+            0.00025646
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            3.97622569,
+            0.00048566,
+            24628.18247839
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000003398592,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 4.37746472107941,
+      "c_U_minus_oracle_population": 151.97466021107599,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "unbal_fat_bench",
+      "n": [
+        40.0,
+        3.0,
+        3.0,
+        40.0
+      ],
+      "lam": [
+        0.3,
+        1.0,
+        3.0
+      ],
+      "K": 3,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000002,
+      "coverage_ok": true,
+      "region_scale": 10.423216102290576,
+      "lambda_hat": [
+        1.64311794,
+        2.47280613,
+        5.4919688
+      ],
+      "d_row": [
+        0.62737857,
+        0.76398773,
+        0.33398121
+      ],
+      "tail_draw_log_dev": 7.438124796304027,
+      "tail_draw_index": 145,
+      "c_L": 172.23408880753362,
+      "c_U": 172.23408976120794,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 11.037959575653076,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.09613661,
+            0.14468055,
+            1.28913691
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.09613661,
+            0.14468055,
+            24.24883721
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.09613661,
+            10365.10780564,
+            1.28913691
+          ],
+          "c": "c_U",
+          "noreject": 0.987409214505052,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.09613661,
+            10365.10780564,
+            24.24883721
+          ],
+          "c": "c_U",
+          "noreject": 0.987409214505052,
+          "ok": true
+        },
+        {
+          "lambda": [
+            6887.35537397,
+            0.14468055,
+            1.28913691
+          ],
+          "c": "c_U",
+          "noreject": 0.9879389183295391,
+          "ok": true
+        },
+        {
+          "lambda": [
+            6887.35537397,
+            0.14468055,
+            24.24883721
+          ],
+          "c": "c_U",
+          "noreject": 0.9879389183295391,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 3.7010447571038707,
+      "c_U_minus_oracle_population": 168.53304500410408,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "low_df_bench",
+      "n": [
+        2.0,
+        20.0,
+        20.0
+      ],
+      "lam": [
+        1.0,
+        4.0
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": false,
+      "error": null,
+      "coverage_exact": 0.999969322405799,
+      "coverage_ok": true,
+      "region_scale": 16.85135090983073,
+      "lambda_hat": [
+        0.41631343,
+        0.78979801
+      ],
+      "d_row": [
+        1.30931729,
+        1.33258384
+      ],
+      "tail_draw_log_dev": 15.016044357579526,
+      "tail_draw_index": 3470,
+      "c_L": 2.0867053728342055,
+      "c_U": 2.086879895234108,
+      "gap": 0.00017452239990234375,
+      "certified_at_tol": false,
+      "n_boxes": 52,
+      "n_pruned": 16,
+      "n_splits": 24,
+      "n_cub": 49,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "seconds": 133.9170045852661,
+      "witness_checks": [
+        {
+          "lambda": [
+            1.26e-06,
+            2.4e-06
+          ],
+          "c": "c_U",
+          "noreject": 0.9999442684589522,
+          "ok": true
+        },
+        {
+          "lambda": [
+            1.26e-06,
+            26.04933008
+          ],
+          "c": "c_U",
+          "noreject": 0.9808123884310049,
+          "ok": true
+        },
+        {
+          "lambda": [
+            13.73096131,
+            2.4e-06
+          ],
+          "c": "c_U",
+          "noreject": 0.9939194470672803,
+          "ok": true
+        },
+        {
+          "lambda": [
+            13.73096131,
+            26.04933008
+          ],
+          "c": "c_U",
+          "noreject": 0.9755110905065223,
+          "ok": true
+        },
+        {
+          "lambda": [
+            13.73096131,
+            26.04933008
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999779566761,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00416405,
+            0.00789971
+          ],
+          "c": "c_U",
+          "noreject": 0.9999440182091266,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.01831422,
+            23.95267277
+          ],
+          "c": "c_U",
+          "noreject": 0.9835677698035854,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 4.222375720299681,
+      "c_U_minus_oracle_population": -2.135495825065573,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "low_df_cand",
+      "n": [
+        30.0,
+        2.0,
+        2.0
+      ],
+      "lam": [
+        1.0,
+        4.0
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 5.719535321845628,
+      "lambda_hat": [
+        5.12978068,
+        0.21309315
+      ],
+      "d_row": [
+        1.29119475,
+        0.29959265
+      ],
+      "tail_draw_log_dev": 17.772160195055893,
+      "tail_draw_index": 2790,
+      "c_L": 8422.32309894582,
+      "c_U": 8422.323099899495,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 9.80254864692688,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.14726623,
+            0.0061175
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.14726623,
+            2177702.18718049
+          ],
+          "c": "c_U",
+          "noreject": 0.9921996475791792,
+          "ok": true
+        },
+        {
+          "lambda": [
+            52423715.94586278,
+            0.0061175
+          ],
+          "c": "c_U",
+          "noreject": 0.9831690651994078,
+          "ok": true
+        },
+        {
+          "lambda": [
+            52423715.94586278,
+            2177702.18718049
+          ],
+          "c": "c_U",
+          "noreject": 0.975500000007196,
+          "ok": true
+        },
+        {
+          "lambda": [
+            52423715.94586278,
+            2177702.18718049
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999999914494,
+          "ok": true
+        },
+        {
+          "lambda": [
+            2778.53255274,
+            115.42135669
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            28.91353259,
+            149448.42619258
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 7.436834121303857,
+      "c_U_minus_oracle_population": 8414.886265778192,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "low_df_both",
+      "n": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "lam": [
+        1.0,
+        1.0
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000002,
+      "coverage_ok": true,
+      "region_scale": 15.510333545334051,
+      "lambda_hat": [
+        0.0103851,
+        0.50459516
+      ],
+      "d_row": [
+        1.28952971,
+        1.5736122
+      ],
+      "tail_draw_log_dev": 16.70133271745819,
+      "tail_draw_index": 2292,
+      "c_L": 1603.017311810726,
+      "c_U": 1603.0173127644002,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 117.38437843322754,
+      "witness_checks": [
+        {
+          "lambda": [
+            1e-08,
+            2.7e-07
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            1e-08,
+            3283903.84133233
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000000489946,
+          "ok": true
+        },
+        {
+          "lambda": [
+            1e-08,
+            3283903.84133233
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999999816962,
+          "ok": true
+        },
+        {
+          "lambda": [
+            67586.20286414,
+            2.7e-07
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            67586.20286414,
+            3283903.84133233
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000000489946,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.01951233,
+            0.94807248
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            6.80501412,
+            0.00171251
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 6.077945149066863,
+      "c_U_minus_oracle_population": 1596.9393676153334,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "quiet_bench",
+      "n": [
+        25.0,
+        25.0,
+        25.0
+      ],
+      "lam": [
+        0.02,
+        0.05
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": false,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 43.89404717148763,
+      "lambda_hat": [
+        0.02991411,
+        0.1090444
+      ],
+      "d_row": [
+        0.1584705,
+        0.16444565
+      ],
+      "tail_draw_log_dev": 1.6654078029714088,
+      "tail_draw_index": 1475,
+      "c_L": 3.1338911051821543,
+      "c_U": 3.146143912799342,
+      "gap": 0.0122528076171875,
+      "certified_at_tol": false,
+      "n_boxes": 177,
+      "n_pruned": 6,
+      "n_splits": 24,
+      "n_cub": 49,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "seconds": 60.975345611572266,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.00627546,
+            0.02287563
+          ],
+          "c": "c_U",
+          "noreject": 0.9929093929085873,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00627546,
+            0.53886212
+          ],
+          "c": "c_U",
+          "noreject": 0.9788996928241324,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.14782584,
+            0.02287563
+          ],
+          "c": "c_U",
+          "noreject": 0.9887165889183697,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.14782584,
+            0.53886212
+          ],
+          "c": "c_U",
+          "noreject": 0.9759940556019394,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.14782584,
+            0.53886212
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999800639471,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.03045777,
+            0.11102618
+          ],
+          "c": "c_U",
+          "noreject": 0.990204587066264,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0223404,
+            0.28741079
+          ],
+          "c": "c_U",
+          "noreject": 0.9859623066438857,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.1687232385047657,
+      "c_U_minus_oracle_population": 0.9774206742945761,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "noisy_bench",
+      "n": [
+        25.0,
+        25.0,
+        25.0
+      ],
+      "lam": [
+        50.0,
+        200.0
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 43.89404717148763,
+      "lambda_hat": [
+        74.78527215,
+        436.17759205
+      ],
+      "d_row": [
+        1.3593783,
+        3.26495253
+      ],
+      "tail_draw_log_dev": 1.6654078029714088,
+      "tail_draw_index": 1475,
+      "c_L": 6.377345653931519,
+      "c_U": 6.377346607605835,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 6.729436635971069,
+      "witness_checks": [
+        {
+          "lambda": [
+            15.68866003,
+            91.50253465
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            15.68866003,
+            2155.44847993
+          ],
+          "c": "c_U",
+          "noreject": 0.9875162683059951,
+          "ok": true
+        },
+        {
+          "lambda": [
+            369.56460881,
+            91.50253465
+          ],
+          "c": "c_U",
+          "noreject": 0.9878306701543448,
+          "ok": true
+        },
+        {
+          "lambda": [
+            369.56460881,
+            2155.44847993
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000034724883,
+          "ok": true
+        },
+        {
+          "lambda": [
+            369.56460881,
+            2155.44847993
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999822570192,
+          "ok": true
+        },
+        {
+          "lambda": [
+            76.14442533,
+            444.10471651
+          ],
+          "c": "c_U",
+          "noreject": 0.9999991980151753,
+          "ok": true
+        },
+        {
+          "lambda": [
+            15.96210279,
+            465.05971172
+          ],
+          "c": "c_U",
+          "noreject": 0.9999992909082194,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.3929729772896704,
+      "c_U_minus_oracle_population": 3.9843736303161648,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "near_homo",
+      "n": [
+        13.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        1.02
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 35.87687107411332,
+      "lambda_hat": [
+        1.82638354,
+        3.17131757
+      ],
+      "d_row": [
+        0.32013798,
+        0.38891821
+      ],
+      "tail_draw_log_dev": 3.0233940543043905,
+      "tail_draw_index": 3141,
+      "c_L": 9.282841858854116,
+      "c_U": 9.282842812528433,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 8.801934957504272,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.17912073,
+            0.31102378
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999999989,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.17912073,
+            34.87204109
+          ],
+          "c": "c_U",
+          "noreject": 0.9851236166225734,
+          "ok": true
+        },
+        {
+          "lambda": [
+            20.08304763,
+            0.31102378
+          ],
+          "c": "c_U",
+          "noreject": 0.9901912056988698,
+          "ok": true
+        },
+        {
+          "lambda": [
+            20.08304763,
+            34.87204109
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000106061884,
+          "ok": true
+        },
+        {
+          "lambda": [
+            20.08304763,
+            34.87204109
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999961436648,
+          "ok": true
+        },
+        {
+          "lambda": [
+            1.89665236,
+            3.29333177
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999996800809,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.24332569,
+            13.94840063
+          ],
+          "c": "c_U",
+          "noreject": 0.9996197310373225,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.3665771227110577,
+      "c_U_minus_oracle_population": 6.916265689817375,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "spread_1e2",
+      "n": [
+        13.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.1,
+        10.0
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 35.87687107411332,
+      "lambda_hat": [
+        0.18263835,
+        31.09134872
+      ],
+      "d_row": [
+        0.20708452,
+        1.07873715
+      ],
+      "tail_draw_log_dev": 3.0233940543043905,
+      "tail_draw_index": 3141,
+      "c_L": 9.374374322319191,
+      "c_U": 9.374375275993508,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 9.794885396957397,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.01791207,
+            3.04925278
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999980047,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.01791207,
+            341.8827558
+          ],
+          "c": "c_U",
+          "noreject": 0.975526346605833,
+          "ok": true
+        },
+        {
+          "lambda": [
+            2.00830476,
+            3.04925278
+          ],
+          "c": "c_U",
+          "noreject": 0.999972760570758,
+          "ok": true
+        },
+        {
+          "lambda": [
+            2.00830476,
+            341.8827558
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000083848383,
+          "ok": true
+        },
+        {
+          "lambda": [
+            2.00830476,
+            341.8827558
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999968388296,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.18966524,
+            32.2875664
+          ],
+          "c": "c_U",
+          "noreject": 0.99999999979949,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.34376617,
+            130.8877835
+          ],
+          "c": "c_U",
+          "noreject": 0.9992505077609464,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.490908806641508,
+      "c_U_minus_oracle_population": 6.883466469351999,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "spread_1e3",
+      "n": [
+        13.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.03,
+        30.0
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 35.87687107411332,
+      "lambda_hat": [
+        0.05479151,
+        93.27404615
+      ],
+      "d_row": [
+        0.19557123,
+        1.84891832
+      ],
+      "tail_draw_log_dev": 3.0233940543043905,
+      "tail_draw_index": 3141,
+      "c_L": 9.461877221026143,
+      "c_U": 9.461878174700459,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 11.639155387878418,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.00537362,
+            9.14775835
+          ],
+          "c": "c_U",
+          "noreject": 0.999999999985749,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00537362,
+            1025.6482674
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000708420261,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.60249143,
+            9.14775835
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999319931029,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.60249143,
+            1025.6482674
+          ],
+          "c": "c_U",
+          "noreject": 0.9755000051112337,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.60249143,
+            1025.6482674
+          ],
+          "c": "c_L",
+          "noreject": 0.9754999937094524,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.05689957,
+            96.8626992
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999998662483,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.02907578,
+            33.38084624
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999999760038,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.5372996734529303,
+      "c_U_minus_oracle_population": 6.924578501247529,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "spread_1e4_mixed",
+      "n": [
+        9.0,
+        9.0,
+        30.0,
+        30.0
+      ],
+      "lam": [
+        0.01,
+        1.0,
+        100.0
+      ],
+      "K": 3,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 21.067197950678406,
+      "lambda_hat": [
+        0.02172398,
+        3.45700049,
+        189.91562293
+      ],
+      "d_row": [
+        0.20658567,
+        0.29170212,
+        1.55615408
+      ],
+      "tail_draw_log_dev": 3.231113962706587,
+      "tail_draw_index": 629,
+      "c_L": 9.270132622796421,
+      "c_U": 9.270153603631382,
+      "gap": 2.09808349609375e-05,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 31.15404224395752,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.00092012,
+            0.2389461,
+            13.1268706
+          ],
+          "c": "c_U",
+          "noreject": 0.9999999953383439,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00092012,
+            0.2389461,
+            1501.73867458
+          ],
+          "c": "c_U",
+          "noreject": 0.9791586336389433,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00092012,
+            27.33588342,
+            13.1268706
+          ],
+          "c": "c_U",
+          "noreject": 0.9962574897492519,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00092012,
+            27.33588342,
+            1501.73867458
+          ],
+          "c": "c_U",
+          "noreject": 0.9755031829727797,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.62083059,
+            0.2389461,
+            13.1268706
+          ],
+          "c": "c_U",
+          "noreject": 0.9999968001087509,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.62083059,
+            0.2389461,
+            1501.73867458
+          ],
+          "c": "c_U",
+          "noreject": 0.9791555380393523,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.6322002148330457,
+      "c_U_minus_oracle_population": 6.637953388798336,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "A_df3_alpha0.0995",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "K": 2,
+      "alpha0": 0.0995,
+      "certified": false,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 12.715994030059314,
+      "lambda_hat": [
+        0.27455172,
+        0.46738174
+      ],
+      "d_row": [
+        0.18441129,
+        0.18938873
+      ],
+      "tail_draw_log_dev": 7.869547154097674,
+      "tail_draw_index": 1844,
+      "c_L": 8.943850916924394,
+      "c_U": 9.033944529595292,
+      "gap": 0.09009361267089844,
+      "certified_at_tol": false,
+      "n_boxes": 160,
+      "n_pruned": 7,
+      "n_splits": 24,
+      "n_cub": 49,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "seconds": 73.71153116226196,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.00108525,
+            0.00184748
+          ],
+          "c": "c_U",
+          "noreject": 0.9995678799482606,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00108525,
+            13.50016474
+          ],
+          "c": "c_U",
+          "noreject": 0.933928584694218,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            0.00184748
+          ],
+          "c": "c_U",
+          "noreject": 0.9636572756576481,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c": "c_U",
+          "noreject": 0.903563160837932,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c": "c_L",
+          "noreject": 0.9004999989654877,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0927708,
+            0.15792791
+          ],
+          "c": "c_U",
+          "noreject": 0.9993594195013943,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.19335879,
+            0.06869538
+          ],
+          "c": "c_U",
+          "noreject": 0.9993143869850317,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 1.7146410769312577,
+      "c_U_minus_oracle_population": 7.319303452664034,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "A_df3_alpha0.0495",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "K": 2,
+      "alpha0": 0.0495,
+      "certified": false,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 12.715994030059314,
+      "lambda_hat": [
+        0.27455172,
+        0.46738174
+      ],
+      "d_row": [
+        0.18441129,
+        0.18938873
+      ],
+      "tail_draw_log_dev": 7.869547154097674,
+      "tail_draw_index": 1844,
+      "c_L": 10.82229888610556,
+      "c_U": 10.846423031613373,
+      "gap": 0.0241241455078125,
+      "certified_at_tol": false,
+      "n_boxes": 115,
+      "n_pruned": 10,
+      "n_splits": 24,
+      "n_cub": 49,
+      "n_clb": 8,
+      "termination": "split budget exhausted",
+      "seconds": 76.9808099269867,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.00108525,
+            0.00184748
+          ],
+          "c": "c_U",
+          "noreject": 0.999968293530343,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00108525,
+            13.50016474
+          ],
+          "c": "c_U",
+          "noreject": 0.9648124783637074,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            0.00184748
+          ],
+          "c": "c_U",
+          "noreject": 0.984482634630411,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c": "c_U",
+          "noreject": 0.9509723406382817,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c": "c_L",
+          "noreject": 0.9504999924691486,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0927708,
+            0.15792791
+          ],
+          "c": "c_U",
+          "noreject": 0.9999492559094387,
+          "ok": true
+        },
+        {
+          "lambda": [
+            3.3353137,
+            0.11018731
+          ],
+          "c": "c_U",
+          "noreject": 0.9975140603275685,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 2.4293965140335967,
+      "c_U_minus_oracle_population": 8.417026517579776,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "A_df3_alpha0.0245",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "K": 2,
+      "alpha0": 0.0245,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 12.715994030059314,
+      "lambda_hat": [
+        0.27455172,
+        0.46738174
+      ],
+      "d_row": [
+        0.18441129,
+        0.18938873
+      ],
+      "tail_draw_log_dev": 7.869547154097674,
+      "tail_draw_index": 1844,
+      "c_L": 12.500376833972904,
+      "c_U": 12.50041498094556,
+      "gap": 3.814697265625e-05,
+      "certified_at_tol": true,
+      "n_boxes": 1,
+      "n_pruned": 2,
+      "n_splits": 1,
+      "n_cub": 3,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 22.21232581138611,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.00108525,
+            0.00184748
+          ],
+          "c": "c_U",
+          "noreject": 0.999997983414119,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00108525,
+            13.50016474
+          ],
+          "c": "c_U",
+          "noreject": 0.9814936933385696,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            0.00184748
+          ],
+          "c": "c_U",
+          "noreject": 0.9935354707631047,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c": "c_U",
+          "noreject": 0.9755004098020098,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c": "c_L",
+          "noreject": 0.975499997905162,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0927708,
+            0.15792791
+          ],
+          "c": "c_U",
+          "noreject": 0.9999965237929149,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00433154,
+            0.12422484
+          ],
+          "c": "c_U",
+          "noreject": 0.9999974447812094,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 3.245248620323189,
+      "c_U_minus_oracle_population": 9.255166360622372,
+      "c_U_dominates_oracle": null
+    },
+    {
+      "name": "A_df3_alpha0.0095",
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "K": 2,
+      "alpha0": 0.0095,
+      "certified": true,
+      "error": null,
+      "coverage_exact": 0.9995010000000001,
+      "coverage_ok": true,
+      "region_scale": 12.715994030059314,
+      "lambda_hat": [
+        0.27455172,
+        0.46738174
+      ],
+      "d_row": [
+        0.18441129,
+        0.18938873
+      ],
+      "tail_draw_log_dev": 7.869547154097674,
+      "tail_draw_index": 1844,
+      "c_L": 14.533496097711817,
+      "c_U": 14.533514217523829,
+      "gap": 1.811981201171875e-05,
+      "certified_at_tol": true,
+      "n_boxes": 0,
+      "n_pruned": 1,
+      "n_splits": 0,
+      "n_cub": 1,
+      "n_clb": 8,
+      "termination": "all boxes pruned",
+      "seconds": 23.045151710510254,
+      "witness_checks": [
+        {
+          "lambda": [
+            0.00108525,
+            0.00184748
+          ],
+          "c": "c_U",
+          "noreject": 0.99999995824908,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00108525,
+            13.50016474
+          ],
+          "c": "c_U",
+          "noreject": 0.9923428624433631,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            0.00184748
+          ],
+          "c": "c_U",
+          "noreject": 0.998073969830133,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c": "c_U",
+          "noreject": 0.9905000828307096,
+          "ok": true
+        },
+        {
+          "lambda": [
+            7.93033422,
+            13.50016474
+          ],
+          "c": "c_L",
+          "noreject": 0.9904999983517196,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.0927708,
+            0.15792791
+          ],
+          "c": "c_U",
+          "noreject": 0.999999920624474,
+          "ok": true
+        },
+        {
+          "lambda": [
+            0.00310841,
+            1.39287907
+          ],
+          "c": "c_U",
+          "noreject": 0.999997924832669,
+          "ok": true
+        }
+      ],
+      "witness_check_pass": true,
+      "c_oracle_population": 4.552672465540529,
+      "c_U_minus_oracle_population": 9.980841751983299,
+      "c_U_dominates_oracle": null
+    }
+  ],
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "adversarial geometry suite: each design's continuous supremum certified, with the independent witness check and the region coverage; the population-oracle difference is recorded informationally only; two-sided levels are explicitly NOT COVERED"
+  ]
+}

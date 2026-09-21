@@ -1,0 +1,33 @@
+{
+  "versions": {
+    "numpy": "2.0.2",
+    "scipy": "1.16.3"
+  },
+  "det_tol": 1e-08,
+  "blocks": {
+    "hetero_exact": {
+      "law_values_maxdiff": 2.531308496145357e-14,
+      "f2_f3_f5_maxdiff": 7.771561172376096e-16,
+      "f4_bit_identical": true,
+      "f1_reference_shipped": 1.1146639167236572e-13,
+      "f1_reference_rerun": 7.87725440432041e-12,
+      "passes": true
+    },
+    "hetero_compare": {
+      "maxdiff_except_scipy_arm": 2.658762099372325e-09,
+      "c4_scipy_arm_shipped": 4.4293053432231666e-05,
+      "c4_scipy_arm_rerun": 3.757316210106776e-05,
+      "passes": true
+    },
+    "hetero_plugin": {
+      "maxdiff": 2.178701663524407e-12,
+      "passes": true
+    },
+    "numerics": {
+      "maxdiff_except_timings": 2.220446049250313e-12,
+      "where": "/worked_example/dunnett_budget_overshoot_pct",
+      "passes": true
+    }
+  },
+  "passes_all": true
+}

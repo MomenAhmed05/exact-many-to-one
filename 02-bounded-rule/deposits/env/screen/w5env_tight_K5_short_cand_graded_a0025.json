@@ -1,0 +1,92 @@
+{
+  "K": 5,
+  "shape": "short_cand",
+  "vol": "graded",
+  "alpha": 0.025,
+  "gamma": 0.0005,
+  "tight": true,
+  "rows": [
+    {
+      "m": 4,
+      "df": 3,
+      "n": [
+        36.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "lam": [
+        0.25,
+        4.0,
+        1.0,
+        9.0,
+        0.5
+      ],
+      "alpha": 0.025,
+      "gamma": 0.0005,
+      "draws": 12,
+      "c_oracle": 4.308992364966313,
+      "mean_c_env": 5.777886583516904,
+      "c_plugin_mean": 4.177703888783756,
+      "power_cost_pct": 34.08904203435677,
+      "plugin_cost_pct": -3.046848661185395,
+      "mean_rej_env": 0.0071036094065519235,
+      "mcse_rej_env": 0.0032483237159472438,
+      "max_excess_vs_oracle_inside": -4.6040746362385754e-05,
+      "mean_excess_vs_oracle": -0.020525457063148917,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "fwer_est": 0.004474542936851084,
+      "fwer_bound": 0.004474542936851084,
+      "plugin_fwer": 0.03339687932294929,
+      "region_scale": 9.872686383235314,
+      "region_coverage": 0.9995010000000002,
+      "guarantee": 0.025500000000000002,
+      "passes_bound": true,
+      "passes_pointwise": true
+    },
+    {
+      "m": 8,
+      "df": 7,
+      "n": [
+        36.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "lam": [
+        0.25,
+        4.0,
+        1.0,
+        9.0,
+        0.5
+      ],
+      "alpha": 0.025,
+      "gamma": 0.0005,
+      "draws": 12,
+      "c_oracle": 3.100776167450412,
+      "mean_c_env": 3.431240996194539,
+      "c_plugin_mean": 3.085994193246156,
+      "power_cost_pct": 10.657487380517672,
+      "plugin_cost_pct": -0.47671851839632934,
+      "mean_rej_env": 0.01359346905100503,
+      "mcse_rej_env": 0.0028379708602759286,
+      "max_excess_vs_oracle_inside": -0.0017319570061125056,
+      "mean_excess_vs_oracle": -0.011325121598241191,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "fwer_est": 0.01367487840175881,
+      "fwer_bound": 0.01367487840175881,
+      "plugin_fwer": 0.026032128482333966,
+      "region_scale": 21.081238028115738,
+      "region_coverage": 0.9995010000000001,
+      "guarantee": 0.025500000000000002,
+      "passes_bound": true,
+      "passes_pointwise": true
+    }
+  ]
+}

@@ -1,0 +1,542 @@
+{
+  "laguerre_overflow": {
+    "rows": [
+      {
+        "nu": 300,
+        "gamma_nu_over_2": 3.808922637630668e+260,
+        "finite": true
+      },
+      {
+        "nu": 340,
+        "gamma_nu_over_2": 4.2690680090044805e+304,
+        "finite": true
+      },
+      {
+        "nu": 342,
+        "gamma_nu_over_2": 7.257415615307569e+306,
+        "finite": true
+      },
+      {
+        "nu": 343,
+        "gamma_nu_over_2": 9.483367566824895e+307,
+        "finite": true
+      },
+      {
+        "nu": 344,
+        "gamma_nu_over_2": null,
+        "finite": false
+      },
+      {
+        "nu": 350,
+        "gamma_nu_over_2": null,
+        "finite": false
+      },
+      {
+        "nu": 400,
+        "gamma_nu_over_2": null,
+        "finite": false
+      }
+    ],
+    "last_finite_nu": 343,
+    "first_infinite_nu": 344
+  },
+  "laguerre_refinement": {
+    "design": "n=[6, 21, 6, 6] sigma=[1.0, 0.25, 4.0, 1.0]",
+    "rows": [
+      {
+        "nodes": 24,
+        "critical_value": 2.60312669894207,
+        "finite": true
+      },
+      {
+        "nodes": 48,
+        "critical_value": 2.6032046634904633,
+        "finite": true
+      },
+      {
+        "nodes": 96,
+        "critical_value": 2.6032093122850584,
+        "finite": true
+      },
+      {
+        "nodes": 192,
+        "critical_value": 2.603209496590847,
+        "finite": true
+      },
+      {
+        "nodes": 384,
+        "critical_value": null,
+        "finite": false
+      }
+    ],
+    "finite_values": [
+      2.60312669894207,
+      2.6032046634904633,
+      2.6032093122850584,
+      2.603209496590847
+    ],
+    "spread": 8.279764877716644e-05,
+    "monotone": true,
+    "first_nonfinite_nodes": 384
+  },
+  "step_geometry": {
+    "design": {
+      "n": [
+        10.0,
+        4000.0,
+        4000.0,
+        4000.0
+      ],
+      "sigma": [
+        1.0,
+        0.001,
+        0.001,
+        0.001
+      ]
+    },
+    "u_panels": 14,
+    "zmax": 8.0,
+    "benchmark_sd": 0.31622776601683794,
+    "panel_width_u": 0.3614031611621005,
+    "step_width_u": 1.5811388300841898e-05,
+    "ratio": 22857.142857142855,
+    "ratio_rounded_to_hundreds": 22900
+  },
+  "timings": {
+    "rows": [
+      {
+        "design": "balanced n=10, homoscedastic",
+        "critical_value": 2.2244344755760412,
+        "seconds": 2.0388584000174887
+      },
+      {
+        "design": "balanced n=20, sd 1:3:3:3",
+        "critical_value": 2.246805680936479,
+        "seconds": 1.641871200001333
+      },
+      {
+        "design": "small benchmark n0=6, sd 1:.25:4:1",
+        "critical_value": 2.603209500850558,
+        "seconds": 2.2423538000439294
+      },
+      {
+        "design": "large df n0=400, sd 1:2:.5:3",
+        "critical_value": 2.1493139079672856,
+        "seconds": 2.0527485000202432
+      }
+    ],
+    "min_seconds": 1.641871200001333,
+    "max_seconds": 2.2423538000439294
+  },
+  "worked_example": {
+    "n": [
+      36.0,
+      36.0,
+      36.0,
+      36.0,
+      36.0,
+      36.0
+    ],
+    "sigma_annualised": [
+      0.12,
+      0.08,
+      0.1,
+      0.15,
+      0.2,
+      0.3
+    ],
+    "alpha": 0.05,
+    "loadings": [
+      0.8320502943378437,
+      0.7682212795973757,
+      0.6246950475544243,
+      0.5144957554275265,
+      0.3713906763541037
+    ],
+    "homoscedastic_loading": 0.7071067811865476,
+    "welch_dfs": [
+      60.97938144329897,
+      67.79541905257679,
+      66.78206583427921,
+      57.30878186968838,
+      45.92043681747269
+    ],
+    "mean_welch_df": 59.7572170034632,
+    "pooled_df": 210.0,
+    "c_exact": 2.321879397660167,
+    "c_t3_smm": [
+      2.3780515143966374,
+      2.371974725185414,
+      2.3727982446219955,
+      2.3819355461224205,
+      2.398042879275779
+    ],
+    "c_dunnett_carried": 2.275288071515755,
+    "fwer_exact": 0.050000000000000044,
+    "fwer_t3_smm": 0.04368144493813442,
+    "fwer_dunnett_carried": 0.0554888021125719,
+    "t3_budget_shortfall_pct": 12.63711012373117,
+    "dunnett_budget_overshoot_pct": 10.977604225143795
+  },
+  "precision_study": {
+    "scenario": {
+      "n": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "sigma": [
+        30.0,
+        30.0,
+        30.0
+      ]
+    },
+    "alpha": 0.025,
+    "pool": 4000,
+    "reps": 400,
+    "target_alpha_star": 0.02578629214545538,
+    "rows": [
+      {
+        "replicates": 50,
+        "naive_sd": 0.027983572749530557,
+        "naive_mean": 0.04516798022121222,
+        "rb_sd": 0.0026739804622892913,
+        "rb_mean": 0.025892437994186127
+      },
+      {
+        "replicates": 100,
+        "naive_sd": 0.018665661451753125,
+        "naive_mean": 0.03456360825116818,
+        "rb_sd": 0.002161809343398663,
+        "rb_mean": 0.0258940513704529
+      },
+      {
+        "replicates": 200,
+        "naive_sd": 0.012188857783682124,
+        "naive_mean": 0.028079923504571305,
+        "rb_sd": 0.001438047808182496,
+        "rb_mean": 0.025767167913395454
+      },
+      {
+        "replicates": 1000,
+        "naive_sd": 0.004715378959865909,
+        "naive_mean": 0.023752004424751325,
+        "rb_sd": 0.0006507796517226048,
+        "rb_mean": 0.025698031558834825
+      },
+      {
+        "replicates": 4000,
+        "naive_sd": 0.0024700853905150564,
+        "naive_mean": 0.023523675929200613,
+        "rb_sd": 0.0003295871624022966,
+        "rb_mean": 0.02567977189040759
+      }
+    ],
+    "naive_sd_at_max": 0.0024700853905150564,
+    "rb_sd_at_min": 0.0026739804622892913,
+    "replicate_reduction": 40.0
+  },
+  "reimplementation_faithfulness": {
+    "cells": 42,
+    "published_sims": 100000,
+    "published_se": 0.0004937104414532875,
+    "recomputation_se_rms": 0.00022759605478346674,
+    "recomputation_se_mean": 0.00017929696088205842,
+    "recomputation_se_max": 0.000634375008936271,
+    "combined_se": 0.0005436450718557089,
+    "worst_abs_difference": 0.0013395092535672289,
+    "worst_in_combined_se": 2.4639407637686697,
+    "n_positive": 19,
+    "n_negative": 23
+  },
+  "cross_run_consistency": {
+    "headtohead_draws": 800,
+    "calibration_draws": 200,
+    "rows": [
+      {
+        "K": 2,
+        "scenario": "S1 balanced, equal sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.02407468270458972,
+        "calibration_fwer": 0.024282128204401086,
+        "difference": -0.00020744549981136645,
+        "combined_mcse": 0.00012444354999789772,
+        "z": -1.6669847478223734
+      },
+      {
+        "K": 2,
+        "scenario": "S1 balanced, equal sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.023806301659598128,
+        "calibration_fwer": 0.024056395751436924,
+        "difference": -0.0002500940918387963,
+        "combined_mcse": 0.00016745301652300247,
+        "z": -1.493517985114599
+      },
+      {
+        "K": 2,
+        "scenario": "S2 balanced, control largest sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.02460111369039233,
+        "calibration_fwer": 0.024611167866686674,
+        "difference": -1.0054176294342632e-05,
+        "combined_mcse": 6.682571520714723e-05,
+        "z": -0.1504537027875656
+      },
+      {
+        "K": 2,
+        "scenario": "S2 balanced, control largest sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.024156354860919882,
+        "calibration_fwer": 0.024057448649437218,
+        "difference": 9.890621148266401e-05,
+        "combined_mcse": 0.0001471201366110852,
+        "z": 0.672281944273369
+      },
+      {
+        "K": 2,
+        "scenario": "S3 balanced, one trt largest sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.024870776357103667,
+        "calibration_fwer": 0.024851851963012,
+        "difference": 1.8924394091665575e-05,
+        "combined_mcse": 0.00010256750722691975,
+        "z": 0.18450671760791998
+      },
+      {
+        "K": 2,
+        "scenario": "S3 balanced, one trt largest sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.024591920446405926,
+        "calibration_fwer": 0.024529413793172552,
+        "difference": 6.250665323337401e-05,
+        "combined_mcse": 0.00015018181938868203,
+        "z": 0.4162065254490093
+      },
+      {
+        "K": 2,
+        "scenario": "S4 control smallest n and sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.028424491036850824,
+        "calibration_fwer": 0.028576670139522725,
+        "difference": -0.00015217910267190105,
+        "combined_mcse": 0.0004661579710096031,
+        "z": -0.32645393222025604
+      },
+      {
+        "K": 2,
+        "scenario": "S4 control smallest n and sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.026098476053010394,
+        "calibration_fwer": 0.02655671310092894,
+        "difference": -0.00045823704791854783,
+        "combined_mcse": 0.0005052422652975257,
+        "z": -0.9069649936129204
+      },
+      {
+        "K": 2,
+        "scenario": "S5 trt smallest n, largest sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.028844750096680447,
+        "calibration_fwer": 0.0287903053713679,
+        "difference": 5.444472531254685e-05,
+        "combined_mcse": 0.0006959888169342824,
+        "z": 0.07822643695967273
+      },
+      {
+        "K": 2,
+        "scenario": "S5 trt smallest n, largest sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.026588903148585162,
+        "calibration_fwer": 0.026670482686798093,
+        "difference": -8.157953821293085e-05,
+        "combined_mcse": 0.0005090470366109458,
+        "z": -0.16025933233215225
+      },
+      {
+        "K": 2,
+        "scenario": "S6 control smallest n, largest sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.02751616703331614,
+        "calibration_fwer": 0.02750707976397908,
+        "difference": 9.087269337057502e-06,
+        "combined_mcse": 0.00047202918957115646,
+        "z": 0.019251498716241218
+      },
+      {
+        "K": 2,
+        "scenario": "S6 control smallest n, largest sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.024327414336489425,
+        "calibration_fwer": 0.024367609905095792,
+        "difference": -4.0195568606366666e-05,
+        "combined_mcse": 0.0002724112597913685,
+        "z": -0.14755472529715266
+      },
+      {
+        "K": 2,
+        "scenario": "S7 trt smallest n and sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.024522745346404473,
+        "calibration_fwer": 0.0248077463237349,
+        "difference": -0.00028500097733042545,
+        "combined_mcse": 0.00017491696885184183,
+        "z": -1.6293500807907721
+      },
+      {
+        "K": 2,
+        "scenario": "S7 trt smallest n and sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.02423279473578698,
+        "calibration_fwer": 0.024605164570520022,
+        "difference": -0.00037236983473304397,
+        "combined_mcse": 0.0002352568306623694,
+        "z": -1.5828226270184405
+      },
+      {
+        "K": 3,
+        "scenario": "S1 balanced, equal sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.02377276594100877,
+        "calibration_fwer": 0.023577118214695044,
+        "difference": 0.00019564772631372462,
+        "combined_mcse": 0.00023480960974583417,
+        "z": 0.8332185659926794
+      },
+      {
+        "K": 3,
+        "scenario": "S1 balanced, equal sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.02346043635291504,
+        "calibration_fwer": 0.023200121558116682,
+        "difference": 0.0002603147947983567,
+        "combined_mcse": 0.0002745075455988027,
+        "z": 0.9482974110256738
+      },
+      {
+        "K": 3,
+        "scenario": "S2 balanced, control largest sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.02398537978444191,
+        "calibration_fwer": 0.023815953614444618,
+        "difference": 0.00016942616999729085,
+        "combined_mcse": 0.0001809520449473756,
+        "z": 0.9363042570011479
+      },
+      {
+        "K": 3,
+        "scenario": "S2 balanced, control largest sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.023391499299253726,
+        "calibration_fwer": 0.023263947651438084,
+        "difference": 0.00012755164781564146,
+        "combined_mcse": 0.00023035586680818614,
+        "z": 0.5537156469379259
+      },
+      {
+        "K": 3,
+        "scenario": "S3 balanced, one trt largest sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.024634688978548838,
+        "calibration_fwer": 0.024500627807693152,
+        "difference": 0.00013406117085568506,
+        "combined_mcse": 0.00015461465567588532,
+        "z": 0.8670663868806461
+      },
+      {
+        "K": 3,
+        "scenario": "S3 balanced, one trt largest sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.024232872916396034,
+        "calibration_fwer": 0.024237177371258835,
+        "difference": -4.3044548628003165e-06,
+        "combined_mcse": 0.00021516073962819112,
+        "z": -0.02000576345962854
+      },
+      {
+        "K": 3,
+        "scenario": "S4 control smallest n and sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.02836688021500263,
+        "calibration_fwer": 0.02868464274265511,
+        "difference": -0.00031776252765247995,
+        "combined_mcse": 0.00048584816546865314,
+        "z": -0.6540366934306804
+      },
+      {
+        "K": 3,
+        "scenario": "S4 control smallest n and sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.025754627999620427,
+        "calibration_fwer": 0.02614579965954276,
+        "difference": -0.0003911716599223347,
+        "combined_mcse": 0.000540464136383314,
+        "z": -0.7237698740567378
+      },
+      {
+        "K": 3,
+        "scenario": "S5 trt smallest n, largest sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.027924878410410386,
+        "calibration_fwer": 0.028242966035598747,
+        "difference": -0.00031808762518836103,
+        "combined_mcse": 0.0005919082385837408,
+        "z": -0.5373934749572831
+      },
+      {
+        "K": 3,
+        "scenario": "S5 trt smallest n, largest sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.02582868491536232,
+        "calibration_fwer": 0.02626325643210213,
+        "difference": -0.00043457151673980884,
+        "combined_mcse": 0.00040466261653363916,
+        "z": -1.0739107073007408
+      },
+      {
+        "K": 3,
+        "scenario": "S6 control smallest n, largest sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.026475378632349462,
+        "calibration_fwer": 0.026510580638502063,
+        "difference": -3.52020061526008e-05,
+        "combined_mcse": 0.0003510742482437893,
+        "z": -0.10026940548529266
+      },
+      {
+        "K": 3,
+        "scenario": "S6 control smallest n, largest sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.023219363716261873,
+        "calibration_fwer": 0.023114254225664353,
+        "difference": 0.00010510949059752,
+        "combined_mcse": 0.0003132357591311356,
+        "z": 0.3355603168970121
+      },
+      {
+        "K": 3,
+        "scenario": "S7 trt smallest n and sd",
+        "arm": "uncalibrated",
+        "headtohead_fwer": 0.02426947569679473,
+        "calibration_fwer": 0.024524154964809825,
+        "difference": -0.00025467926801509347,
+        "combined_mcse": 0.00019587442778904243,
+        "z": -1.3002170364443086
+      },
+      {
+        "K": 3,
+        "scenario": "S7 trt smallest n and sd",
+        "arm": "method3",
+        "headtohead_fwer": 0.023832359013359863,
+        "calibration_fwer": 0.024241721635793047,
+        "difference": -0.0004093626224331848,
+        "combined_mcse": 0.0002382789471229685,
+        "z": -1.7179974453300113
+      }
+    ],
+    "n_comparisons": 28,
+    "worst_abs_z": 1.7179974453300113,
+    "mean_abs_z": 0.7155927941143647,
+    "fraction_within_3z": 1.0
+  }
+}

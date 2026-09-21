@@ -1,0 +1,230 @@
+{
+ "abar": 0.025,
+ "n": [
+  36.0,
+  36.0
+ ],
+ "iid_alpha0": 0.024932617187500002,
+ "mechanism": "the numerator carries (beta_1 - beta_0)^2 and the denominator carries beta_1^2 + beta_0^2; equal only when one loading is zero, conservative when the loadings share a sign, liberal when they do not",
+ "price_rows": [
+  {
+   "lam": 0.25,
+   "b0": 0.0,
+   "b1": 1.0,
+   "same_sign": 1,
+   "fwer": 0.02496,
+   "mcse": 0.00028482157221671253,
+   "z": -0.14043880064522288,
+   "liberal": 0
+  },
+  {
+   "lam": 0.25,
+   "b0": 1.0,
+   "b1": 1.0,
+   "same_sign": 1,
+   "fwer": 0.0011666666666666668,
+   "mcse": 6.232456860542119e-05,
+   "z": -382.406711616777,
+   "liberal": 0
+  },
+  {
+   "lam": 0.25,
+   "b0": 1.0,
+   "b1": 0.2,
+   "same_sign": 1,
+   "fwer": 0.016006666666666666,
+   "mcse": 0.00022913208191556887,
+   "z": -39.24955972183424,
+   "liberal": 0
+  },
+  {
+   "lam": 0.25,
+   "b0": 1.0,
+   "b1": -0.5,
+   "same_sign": 0,
+   "fwer": 0.048413333333333336,
+   "mcse": 0.0003918736296685829,
+   "z": 59.74715204269949,
+   "liberal": 1
+  },
+  {
+   "lam": 0.25,
+   "b0": 1.0,
+   "b1": -1.0,
+   "same_sign": 0,
+   "fwer": 0.06102666666666667,
+   "mcse": 0.00043704466828240114,
+   "z": 82.43245892519994,
+   "liberal": 1
+  },
+  {
+   "lam": 0.25,
+   "b0": 1.5,
+   "b1": -1.5,
+   "same_sign": 0,
+   "fwer": 0.07155333333333333,
+   "mcse": 0.00047057926651529605,
+   "z": 98.92771876259475,
+   "liberal": 1
+  },
+  {
+   "lam": 1.0,
+   "b0": 0.0,
+   "b1": 1.0,
+   "same_sign": 1,
+   "fwer": 0.02475,
+   "mcse": 0.0002836514145919248,
+   "z": -0.8813634875033597,
+   "liberal": 0
+  },
+  {
+   "lam": 1.0,
+   "b0": 1.0,
+   "b1": 1.0,
+   "same_sign": 1,
+   "fwer": 0.0031166666666666665,
+   "mcse": 0.00010176694053171287,
+   "z": -215.03381372179498,
+   "liberal": 0
+  },
+  {
+   "lam": 1.0,
+   "b0": 1.0,
+   "b1": 0.2,
+   "same_sign": 1,
+   "fwer": 0.01789666666666667,
+   "mcse": 0.00024204941636567307,
+   "z": -29.34662450332895,
+   "liberal": 0
+  },
+  {
+   "lam": 1.0,
+   "b0": 1.0,
+   "b1": -0.5,
+   "same_sign": 0,
+   "fwer": 0.042813333333333335,
+   "mcse": 0.0003695959587721986,
+   "z": 48.19677518257884,
+   "liberal": 1
+  },
+  {
+   "lam": 1.0,
+   "b0": 1.0,
+   "b1": -1.0,
+   "same_sign": 0,
+   "fwer": 0.0542,
+   "mcse": 0.000413369729580352,
+   "z": 70.63894114753755,
+   "liberal": 1
+  },
+  {
+   "lam": 1.0,
+   "b0": 1.5,
+   "b1": -1.5,
+   "same_sign": 0,
+   "fwer": 0.06543,
+   "mcse": 0.0004514750458220255,
+   "z": 89.55090735167184,
+   "liberal": 1
+  },
+  {
+   "lam": 4.0,
+   "b0": 0.0,
+   "b1": 1.0,
+   "same_sign": 1,
+   "fwer": 0.025403333333333333,
+   "mcse": 0.0002872745724267342,
+   "z": 1.4039994209240259,
+   "liberal": 0
+  },
+  {
+   "lam": 4.0,
+   "b0": 1.0,
+   "b1": 1.0,
+   "same_sign": 1,
+   "fwer": 0.010663333333333334,
+   "mcse": 0.00018752445756536716,
+   "z": -76.45224976410984,
+   "liberal": 0
+  },
+  {
+   "lam": 4.0,
+   "b0": 1.0,
+   "b1": 0.2,
+   "same_sign": 1,
+   "fwer": 0.02092,
+   "mcse": 0.0002612939187964389,
+   "z": -15.614599906469792,
+   "liberal": 0
+  },
+  {
+   "lam": 4.0,
+   "b0": 1.0,
+   "b1": -0.5,
+   "same_sign": 0,
+   "fwer": 0.03441333333333333,
+   "mcse": 0.0003328115373712387,
+   "z": 28.28427586280794,
+   "liberal": 1
+  },
+  {
+   "lam": 4.0,
+   "b0": 1.0,
+   "b1": -1.0,
+   "same_sign": 0,
+   "fwer": 0.04160666666666667,
+   "mcse": 0.00036457990416165084,
+   "z": 45.550142717969024,
+   "liberal": 1
+  },
+  {
+   "lam": 4.0,
+   "b0": 1.5,
+   "b1": -1.5,
+   "same_sign": 0,
+   "fwer": 0.05288333333333333,
+   "mcse": 0.0004086020329076892,
+   "z": 68.24080911910855,
+   "liberal": 1
+  }
+ ],
+ "n_liberal_cells": 9,
+ "n_cells": 18,
+ "n_opposite_sign_cells": 9,
+ "n_opposite_sign_liberal": 9,
+ "n_same_sign_liberal": 0,
+ "worst_fwer_iid_rule_on_aligned_data": 0.07155333333333333,
+ "worst_cell": {
+  "lam": 0.25,
+  "b0": 1.5,
+  "b1": -1.5
+ },
+ "worst_ratio_to_abar": 2.862133333333333,
+ "worst_same_sign_fwer": 0.025403333333333333,
+ "grid_gap_mid_vs_reference": 1.3677051926785921e-05,
+ "box": {
+  "lam": [
+   0.04000000000000001,
+   24.999999999999996
+  ],
+  "beta": [
+   -1.5,
+   1.5
+  ],
+  "points": 175
+ },
+ "certified_constant_over_box": 2.7366485595703125,
+ "sup_at_certified_constant": 0.02500041932991115,
+ "argsup": {
+  "lam": 0.04000000000000001,
+  "b0": -1.5,
+  "b1": 1.5
+ },
+ "oracle_constant_min": 0.9003047943115234,
+ "oracle_constant_max": 2.736661911010742,
+ "certificate_price_vs_worst_oracle_x": 0.9999951212678571,
+ "certificate_price_vs_best_oracle_x": 3.039691198871232,
+ "note": "The supremum is a GRID maximum over a 175-point box, not a continuum certificate.  The branch-and-bound construction of Section 9.11 applies in principle because the branch-fixed integrand is entire in the same way, but the enclosure is three-dimensional per candidate rather than one and has not been built.",
+ "seconds": 829.242223739624,
+ "tier": "measured"
+}

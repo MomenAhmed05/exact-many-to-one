@@ -1,0 +1,109 @@
+{
+  "K": 1,
+  "shape": "bench_small",
+  "vol": "graded",
+  "alpha": 0.05,
+  "gamma": 0.0005,
+  "tight": true,
+  "rows": [
+    {
+      "m": 4,
+      "df": 3,
+      "n": [
+        4.0,
+        13.0
+      ],
+      "lam": [
+        0.25
+      ],
+      "alpha": 0.05,
+      "gamma": 0.0005,
+      "draws": 60,
+      "c_oracle": 2.1653307729162523,
+      "mean_c_env": 2.350131204563226,
+      "c_plugin_mean": 2.1115649100757756,
+      "power_cost_pct": 8.534512784764328,
+      "plugin_cost_pct": -2.4830323160311067,
+      "mean_rej_env": 0.0507762710522052,
+      "mcse_rej_env": 0.007829207087943024,
+      "max_excess_vs_oracle_inside": -4.564124653971824e-05,
+      "mean_excess_vs_oracle": -0.010048879673662596,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "fwer_est": 0.03995112032633741,
+      "fwer_bound": 0.03995112032633741,
+      "plugin_fwer": 0.0690745813899594,
+      "region_scale": 14.897570407204075,
+      "region_coverage": 0.9995010000000001,
+      "guarantee": 0.0505,
+      "passes_bound": true,
+      "passes_pointwise": true
+    },
+    {
+      "m": 8,
+      "df": 7,
+      "n": [
+        8.0,
+        13.0
+      ],
+      "lam": [
+        0.25
+      ],
+      "alpha": 0.05,
+      "gamma": 0.0005,
+      "draws": 60,
+      "c_oracle": 1.8203584742070107,
+      "mean_c_env": 1.8874009224695125,
+      "c_plugin_mean": 1.8177725529897268,
+      "power_cost_pct": 3.68292560022866,
+      "plugin_cost_pct": -0.14205560354865457,
+      "mean_rej_env": 0.05008826621944688,
+      "mcse_rej_env": 0.0049934022045132545,
+      "max_excess_vs_oracle_inside": -0.0008953220017333674,
+      "mean_excess_vs_oracle": -0.005342031672835956,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "fwer_est": 0.044657968327164045,
+      "fwer_bound": 0.044657968327164045,
+      "plugin_fwer": 0.056424182798488404,
+      "region_scale": 30.991339128639602,
+      "region_coverage": 0.9995010000000001,
+      "guarantee": 0.0505,
+      "passes_bound": true,
+      "passes_pointwise": true
+    },
+    {
+      "m": 36,
+      "df": 35,
+      "n": [
+        36.0,
+        13.0
+      ],
+      "lam": [
+        0.25
+      ],
+      "alpha": 0.05,
+      "gamma": 0.0005,
+      "draws": 60,
+      "c_oracle": 1.6818278260909467,
+      "mean_c_env": 1.7306068208416427,
+      "c_plugin_mean": 1.6823067821094364,
+      "power_cost_pct": 2.900356028956453,
+      "plugin_cost_pct": 0.028478302657348502,
+      "mean_rej_env": 0.050350395544995305,
+      "mcse_rej_env": 0.0025859742251795295,
+      "max_excess_vs_oracle_inside": -0.002044758732629881,
+      "mean_excess_vs_oracle": -0.004697670023459024,
+      "n_outside": 0,
+      "frac_outside": 0.0,
+      "fwer_est": 0.045302329976540975,
+      "fwer_bound": 0.045302329976540975,
+      "plugin_fwer": 0.05503692974099938,
+      "region_scale": 31.95808253562199,
+      "region_coverage": 0.9995010000000001,
+      "guarantee": 0.0505,
+      "passes_bound": true,
+      "passes_pointwise": true
+    }
+  ]
+}

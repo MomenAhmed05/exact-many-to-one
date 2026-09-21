@@ -1,0 +1,258 @@
+{
+ "abar": 0.025,
+ "designs": [
+  {
+   "design": "df3",
+   "n": [
+    4.0,
+    13.0
+   ],
+   "alpha0_two_sided": 0.0048427734375,
+   "sup_fwer_2s": 0.024513725319375824,
+   "within_ceiling": 1,
+   "tightenings": 1,
+   "rows": [
+    {
+     "lam": 0.04,
+     "delta80": 1.5509691070319604,
+     "rule_power": 0.24197025842651262,
+     "loss_pp": 55.80297415734874
+    },
+    {
+     "lam": 1.0,
+     "delta80": 1.7627862872204787,
+     "rule_power": 0.44414418054646915,
+     "loss_pp": 35.58558194535309
+    },
+    {
+     "lam": 25.0,
+     "delta80": 4.544796318925364,
+     "rule_power": 0.549220787722735,
+     "loss_pp": 25.077921227726506
+    }
+   ],
+   "median_loss_pp": 35.58558194535309,
+   "max_loss_pp": 55.80297415734874
+  },
+  {
+   "design": "df5",
+   "n": [
+    6.0,
+    13.0
+   ],
+   "alpha0_two_sided": 0.009207031249999999,
+   "sup_fwer_2s": 0.02451552414622264,
+   "within_ceiling": 1,
+   "tightenings": 1,
+   "rows": [
+    {
+     "lam": 0.04,
+     "delta80": 1.2702042624996466,
+     "rule_power": 0.4813791182009201,
+     "loss_pp": 31.862088179907992
+    },
+    {
+     "lam": 1.0,
+     "delta80": 1.5216205808001178,
+     "rule_power": 0.6235760047085671,
+     "loss_pp": 17.642399529143294
+    },
+    {
+     "lam": 25.0,
+     "delta80": 4.456802360215079,
+     "rule_power": 0.6614192091513004,
+     "loss_pp": 13.858079084869967
+    }
+   ],
+   "median_loss_pp": 17.642399529143294,
+   "max_loss_pp": 31.862088179907992
+  },
+  {
+   "design": "df7",
+   "n": [
+    8.0,
+    13.0
+   ],
+   "alpha0_two_sided": 0.010982421875,
+   "sup_fwer_2s": 0.02499751216930064,
+   "within_ceiling": 1,
+   "tightenings": 0,
+   "rows": [
+    {
+     "lam": 0.04,
+     "delta80": 1.103347505196325,
+     "rule_power": 0.5993146177275164,
+     "loss_pp": 20.068538227248368
+    },
+    {
+     "lam": 1.0,
+     "delta80": 1.3853829942172524,
+     "rule_power": 0.6954777602273717,
+     "loss_pp": 10.45222397726283
+    },
+    {
+     "lam": 25.0,
+     "delta80": 4.412147337377974,
+     "rule_power": 0.6887376679307734,
+     "loss_pp": 11.126233206922665
+    }
+   ],
+   "median_loss_pp": 11.126233206922665,
+   "max_loss_pp": 20.068538227248368
+  },
+  {
+   "design": "df11",
+   "n": [
+    12.0,
+    13.0
+   ],
+   "alpha0_two_sided": 0.011961669921875001,
+   "sup_fwer_2s": 0.02499851967797064,
+   "within_ceiling": 1,
+   "tightenings": 0,
+   "rows": [
+    {
+     "lam": 0.04,
+     "delta80": 0.9062740015983763,
+     "rule_power": 0.688504560089997,
+     "loss_pp": 11.1495439910003
+    },
+    {
+     "lam": 1.0,
+     "delta80": 1.234197265196599,
+     "rule_power": 0.7386844323916459,
+     "loss_pp": 6.1315567608354105
+    },
+    {
+     "lam": 25.0,
+     "delta80": 4.3670357195114775,
+     "rule_power": 0.6993636805196871,
+     "loss_pp": 10.063631948031293
+    }
+   ],
+   "median_loss_pp": 10.063631948031293,
+   "max_loss_pp": 11.1495439910003
+  },
+  {
+   "design": "df19",
+   "n": [
+    20.0,
+    13.0
+   ],
+   "alpha0_two_sided": 0.011689453124999999,
+   "sup_fwer_2s": 0.024463389610575394,
+   "within_ceiling": 1,
+   "tightenings": 1,
+   "rows": [
+    {
+     "lam": 0.04,
+     "delta80": 0.7102802580498064,
+     "rule_power": 0.7352273900139741,
+     "loss_pp": 6.477260998602596
+    },
+    {
+     "lam": 1.0,
+     "delta80": 1.0983662269109118,
+     "rule_power": 0.7442185549198754,
+     "loss_pp": 5.578144508012461
+    },
+    {
+     "lam": 25.0,
+     "delta80": 4.330608092921466,
+     "rule_power": 0.691750853344414,
+     "loss_pp": 10.824914665558605
+    }
+   ],
+   "median_loss_pp": 6.477260998602596,
+   "max_loss_pp": 10.824914665558605
+  },
+  {
+   "design": "df35",
+   "n": [
+    36.0,
+    13.0
+   ],
+   "alpha0_two_sided": 0.01158935546875,
+   "sup_fwer_2s": 0.02449627920274051,
+   "within_ceiling": 1,
+   "tightenings": 1,
+   "rows": [
+    {
+     "lam": 0.04,
+     "delta80": 0.5415487337036211,
+     "rule_power": 0.763050087399021,
+     "loss_pp": 3.694991260097902
+    },
+    {
+     "lam": 1.0,
+     "delta80": 0.9975897726112635,
+     "rule_power": 0.7349762451811088,
+     "loss_pp": 6.502375481889122
+    },
+    {
+     "lam": 25.0,
+     "delta80": 4.306151813452743,
+     "rule_power": 0.6873479872606242,
+     "loss_pp": 11.265201273937587
+    }
+   ],
+   "median_loss_pp": 6.502375481889122,
+   "max_loss_pp": 11.265201273937587
+  },
+  {
+   "design": "balanced_df35",
+   "n": [
+    36.0,
+    36.0
+   ],
+   "alpha0_two_sided": 0.012443603515625002,
+   "sup_fwer_2s": 0.02499836239790129,
+   "within_ceiling": 1,
+   "tightenings": 0,
+   "rows": [
+    {
+     "lam": 0.04,
+     "delta80": 0.5240132805561188,
+     "rule_power": 0.7693588505075034,
+     "loss_pp": 3.0641149492496633
+    },
+    {
+     "lam": 1.0,
+     "delta80": 0.7266756738722506,
+     "rule_power": 0.7831520183195527,
+     "loss_pp": 1.6847981680447321
+    },
+    {
+     "lam": 25.0,
+     "delta80": 2.6200664027801395,
+     "rule_power": 0.7693588505073464,
+     "loss_pp": 3.064114949265362
+    }
+   ],
+   "median_loss_pp": 3.0641149492496633,
+   "max_loss_pp": 3.064114949265362
+  }
+ ],
+ "reduction": {
+  "worst_conditional_abs_diff": 0.0,
+  "worst_unconditional_abs_diff": 0.0,
+  "trials": 300,
+  "pass": 1
+ },
+ "k1_limit": {
+  "percand_vs_closed_form": 9.196242899134344e-10,
+  "pass": 1
+ },
+ "no_reduction_above_k1": {
+  "two_sided": 0.04800044002758752,
+  "one_sided": 0.024013958929887558,
+  "ratio": 1.9988557558431819,
+  "reduction_holds": 0,
+  "pass": 1
+ },
+ "all_within_ceiling": 1,
+ "certificate_transfer": "At K = 1 the two-sided FWER is exactly twice the one-sided FWER at the same threshold function (falsified to 1e-12 conditionally and unconditionally), so a certificate for sup_lambda FWER_1s <= abar/2 IS a certificate for sup_lambda FWER_2s <= abar over the same continuum.  No new enclosure is required and none is claimed.",
+ "k_gt_1_status": "MEASURED, and the obstruction is named: each two-sided factor Phi(s(x+cd)) - Phi(s(x-cd)) is non-monotone in s, so the monotone corner substitution behind wb_certify.py does not apply and the continuum enclosure is not available by that route.",
+ "seconds": 472.83823108673096,
+ "tier": "unconditional_candidate_measured"
+}

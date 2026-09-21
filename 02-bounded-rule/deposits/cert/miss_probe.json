@@ -1,0 +1,255 @@
+{
+  "gamma": 0.0005,
+  "draws_per_cell": 20000,
+  "seed": 20260917,
+  "seconds_note": "membership tests only; no critical values solved",
+  "rows": [
+    {
+      "family": "A",
+      "df0": 3,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "draws": 20000,
+      "miss_observed": 0.00044999999999995044,
+      "miss_observed_mcse": 0.0001499662462022622,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 12.715994030059314,
+      "abs_diff": 4.899999999996574e-05
+    },
+    {
+      "family": "A",
+      "df0": 5,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "draws": 20000,
+      "miss_observed": 0.0006000000000000449,
+      "miss_observed_mcse": 0.00017315311143609936,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 20.3321373197153,
+      "abs_diff": 0.00010100000000012876
+    },
+    {
+      "family": "A",
+      "df0": 7,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "draws": 20000,
+      "miss_observed": 0.00044999999999995044,
+      "miss_observed_mcse": 0.0001499662462022622,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 26.928423981240005,
+      "abs_diff": 4.899999999996574e-05
+    },
+    {
+      "family": "A",
+      "df0": 11,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "draws": 20000,
+      "miss_observed": 0.0004999999999999449,
+      "miss_observed_mcse": 0.00015807434959536366,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 34.82767350039109,
+      "abs_diff": 1.0000000000287557e-06
+    },
+    {
+      "family": "A",
+      "df0": 19,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "draws": 20000,
+      "miss_observed": 0.0006000000000000449,
+      "miss_observed_mcse": 0.00017315311143609936,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 37.762877069169285,
+      "abs_diff": 0.00010100000000012876
+    },
+    {
+      "family": "A",
+      "df0": 35,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "draws": 20000,
+      "miss_observed": 0.00034999999999996145,
+      "miss_observed_mcse": 0.00013226441320324253,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 32.52771668079244,
+      "abs_diff": 0.00014899999999995472
+    },
+    {
+      "family": "B",
+      "df0": 3,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "draws": 20000,
+      "miss_observed": 0.0006000000000000449,
+      "miss_observed_mcse": 0.00017315311143609936,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 12.715994030059314,
+      "abs_diff": 0.00010100000000012876
+    },
+    {
+      "family": "B",
+      "df0": 5,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "draws": 20000,
+      "miss_observed": 0.00034999999999996145,
+      "miss_observed_mcse": 0.00013226441320324253,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 20.3321373197153,
+      "abs_diff": 0.00014899999999995472
+    },
+    {
+      "family": "B",
+      "df0": 7,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "draws": 20000,
+      "miss_observed": 0.00044999999999995044,
+      "miss_observed_mcse": 0.0001499662462022622,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 26.928423981240005,
+      "abs_diff": 4.899999999996574e-05
+    },
+    {
+      "family": "B",
+      "df0": 11,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "draws": 20000,
+      "miss_observed": 0.0004999999999999449,
+      "miss_observed_mcse": 0.00015807434959536366,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 34.82767350039109,
+      "abs_diff": 1.0000000000287557e-06
+    },
+    {
+      "family": "B",
+      "df0": 19,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "draws": 20000,
+      "miss_observed": 0.0007000000000000339,
+      "miss_observed_mcse": 0.00018701737887159497,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 37.762877069169285,
+      "abs_diff": 0.00020100000000011775
+    },
+    {
+      "family": "B",
+      "df0": 35,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "draws": 20000,
+      "miss_observed": 0.00039999999999995595,
+      "miss_observed_mcse": 0.0001413930691370613,
+      "miss_designed_quadrature": 0.0004989999999999162,
+      "coverage_exact": 0.9995010000000001,
+      "region_scale": 32.52771668079244,
+      "abs_diff": 9.899999999996023e-05
+    }
+  ],
+  "n_cells": 12,
+  "total_draws": 240000,
+  "pooled_miss_observed": 0.0004958333333333157,
+  "worst_abs_diff": 0.00020100000000011775,
+  "max_abs_z": 1.126531289795961,
+  "verdict": "the observed miss rate matches the quadrature-certified designed rate in every cell within Monte-Carlo error",
+  "note": "the designed miss rate is 1 - coverage_exact, an exact quadrature value (the region is constructed so that P(lambda_true in Lambda) equals it); the observed column is an independent end-to-end check of that machinery"
+}

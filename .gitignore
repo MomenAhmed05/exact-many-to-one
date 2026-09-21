@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# run output that the scripts regenerate
+*.log
+harness_logs/
+
+# document build output: the renders and page images are produced from
+# paper/*.docx and are not kept in the repository
+pages/png/
+render_*/
+*.pdf
+~$*.docx
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# document authoring machinery: the paper is a deliverable here, not a build
+# target. The scripts that typeset and assemble it live outside this repository.
+*paper_build*.py
+*paper_content*.py
+h12_omml.py
+docx_edit.py
+prose_check.py
+_paper*.txt
+_expected*.txt
+_exp_paper*.txt
+
+# extracted full text of third-party published work, kept locally for the
+# prior-art analysis and not redistributable
+prior_art_src/

@@ -1,0 +1,1147 @@
+{
+ "abar": 0.025,
+ "draws_fast": 400000,
+ "draws_boot": 12000,
+ "boot_reps": 299,
+ "phis": [
+  0.0,
+  0.2,
+  0.4,
+  0.6
+ ],
+ "rows": [
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0248925,
+   "mcse": 0.00024633748924874385,
+   "z": -0.4363931788370622,
+   "breach": 0
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.187515,
+   "mcse": 0.0006171570399318961,
+   "z": 263.3284390921534,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0298775,
+   "mcse": 0.0002691878293763947,
+   "z": 18.119318437610286,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.0,
+   "method": "Newey-West, normal critical value",
+   "size": 0.0374725,
+   "mcse": 0.0003002844973677046,
+   "z": 41.535610760242356,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.0,
+   "method": "Newey-West, t critical value",
+   "size": 0.0328425,
+   "mcse": 0.0002817972240537067,
+   "z": 27.830295441467236,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.0,
+   "method": "moving-block bootstrap",
+   "size": 0.037,
+   "mcse": 0.0017231511831525402,
+   "z": 6.963985584854924,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.0,
+   "method": "stationary bootstrap",
+   "size": 0.03791666666666667,
+   "mcse": 0.0017435355138232668,
+   "z": 7.408318651532763,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.02479,
+   "mcse": 0.00024584271343686397,
+   "z": -0.8542046947994371,
+   "breach": 0
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.161715,
+   "mcse": 0.0005821581803406185,
+   "z": 234.84167124476133,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0344575,
+   "mcse": 0.0002884015459985868,
+   "z": 32.7928200497453,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.2,
+   "method": "Newey-West, normal critical value",
+   "size": 0.0473775,
+   "mcse": 0.0003359050181738508,
+   "z": 66.61853437514982,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.2,
+   "method": "Newey-West, t critical value",
+   "size": 0.0422075,
+   "mcse": 0.00031790732511122644,
+   "z": 54.12740959642752,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.2,
+   "method": "moving-block bootstrap",
+   "size": 0.0475,
+   "mcse": 0.0019417292550713654,
+   "z": 11.587609313314406,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.2,
+   "method": "stationary bootstrap",
+   "size": 0.04975,
+   "mcse": 0.0019848370525058223,
+   "z": 12.469537470974535,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0250775,
+   "mcse": 0.0002472277239396403,
+   "z": 0.3134761699255017,
+   "breach": 0
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.1439625,
+   "mcse": 0.0005550614799140497,
+   "z": 214.32310528632095,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0419525,
+   "mcse": 0.00031698772745861154,
+   "z": 53.479988439657966,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.4,
+   "method": "Newey-West, normal critical value",
+   "size": 0.0629225,
+   "mcse": 0.0003839376869810712,
+   "z": 98.77253858090167,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.4,
+   "method": "Newey-West, t critical value",
+   "size": 0.0567725,
+   "mcse": 0.00036588722047835315,
+   "z": 86.83686726872097,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.4,
+   "method": "moving-block bootstrap",
+   "size": 0.06516666666666666,
+   "mcse": 0.0022531454351310417,
+   "z": 17.826930317230318,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.4,
+   "method": "stationary bootstrap",
+   "size": 0.06833333333333333,
+   "mcse": 0.002303328911396302,
+   "z": 18.81335015547745,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0250125,
+   "mcse": 0.00024691534401364163,
+   "z": 0.05062463837528064,
+   "breach": 0
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.1410425,
+   "mcse": 0.0005503396978088851,
+   "z": 210.85613206172482,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.056875,
+   "mcse": 0.00036619746850230956,
+   "z": 87.04320139176212,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.6,
+   "method": "Newey-West, normal critical value",
+   "size": 0.0923,
+   "mcse": 0.0004576590160807498,
+   "z": 147.0527131232689,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.6,
+   "method": "Newey-West, t critical value",
+   "size": 0.0848825,
+   "mcse": 0.00044067408930452786,
+   "z": 135.8884069959879,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.6,
+   "method": "moving-block bootstrap",
+   "size": 0.08716666666666667,
+   "mcse": 0.0025750184285568537,
+   "z": 24.14222204285638,
+   "breach": 1
+  },
+  {
+   "design": "n36",
+   "n": [
+    36,
+    36
+   ],
+   "phi": 0.6,
+   "method": "stationary bootstrap",
+   "size": 0.09775,
+   "mcse": 0.0027110105357596825,
+   "z": 26.835011904376064,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0248775,
+   "mcse": 0.0002462651517863926,
+   "z": -0.4974313219365121,
+   "breach": 0
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.189015,
+   "mcse": 0.0006190483215690839,
+   "z": 264.94700701921926,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0266925,
+   "mcse": 0.0002548529499718906,
+   "z": 6.641084594809189,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.0,
+   "method": "Newey-West, normal critical value",
+   "size": 0.029525,
+   "mcse": 0.000267643766857179,
+   "z": 16.90680135440869,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.0,
+   "method": "Newey-West, t critical value",
+   "size": 0.0283125,
+   "mcse": 0.0002622541817767164,
+   "z": 12.630875807426655,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.0,
+   "method": "moving-block bootstrap",
+   "size": 0.035583333333333335,
+   "mcse": 0.001691083472270126,
+   "z": 6.2583151611825345,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.0,
+   "method": "stationary bootstrap",
+   "size": 0.034916666666666665,
+   "mcse": 0.0016757459298164194,
+   "z": 5.917762645410722,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0247025,
+   "mcse": 0.0002454194699578153,
+   "z": -1.2122102620918354,
+   "breach": 0
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.158645,
+   "mcse": 0.0005776607221695967,
+   "z": 231.35552560688535,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0278525,
+   "mcse": 0.00026017656621874115,
+   "z": 10.963708382567335,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.2,
+   "method": "Newey-West, normal critical value",
+   "size": 0.03566,
+   "mcse": 0.0002932079654443242,
+   "z": 36.35644749229765,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.2,
+   "method": "Newey-West, t critical value",
+   "size": 0.0342925,
+   "mcse": 0.00028773479301150737,
+   "z": 32.29536443174726,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.2,
+   "method": "moving-block bootstrap",
+   "size": 0.036583333333333336,
+   "mcse": 0.0017137919227927382,
+   "z": 6.758891309545631,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.2,
+   "method": "stationary bootstrap",
+   "size": 0.0435,
+   "mcse": 0.0018620720984967257,
+   "z": 9.935168469005728,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0251425,
+   "mcse": 0.00024753966699172684,
+   "z": 0.5756653134899904,
+   "breach": 0
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.13531,
+   "mcse": 0.0005408354738272999,
+   "z": 203.96221279528035,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0302875,
+   "mcse": 0.00027097125006054606,
+   "z": 19.5131402273066,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.4,
+   "method": "Newey-West, normal critical value",
+   "size": 0.0453675,
+   "mcse": 0.0003290489703059029,
+   "z": 61.8980815562656,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.4,
+   "method": "Newey-West, t critical value",
+   "size": 0.0437375,
+   "mcse": 0.0003233594404596455,
+   "z": 57.946352125564104,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.4,
+   "method": "moving-block bootstrap",
+   "size": 0.0455,
+   "mcse": 0.0019024052757846664,
+   "z": 10.775832185150225,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.4,
+   "method": "stationary bootstrap",
+   "size": 0.05075,
+   "mcse": 0.002003630818871913,
+   "z": 12.851668958904217,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0254475,
+   "mcse": 0.0002489976141640217,
+   "z": 1.7972059752557275,
+   "breach": 0
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.121355,
+   "mcse": 0.0005163040866945564,
+   "z": 186.62451544181417,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0355025,
+   "mcse": 0.00029258363117983037,
+   "z": 35.89571965338299,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.6,
+   "method": "Newey-West, normal critical value",
+   "size": 0.0654575,
+   "mcse": 0.0003910652621166639,
+   "z": 103.45459931936011,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.6,
+   "method": "Newey-West, t critical value",
+   "size": 0.0635,
+   "mcse": 0.00038557667849598997,
+   "z": 99.85043740242813,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.6,
+   "method": "moving-block bootstrap",
+   "size": 0.06916666666666667,
+   "mcse": 0.002316294434524119,
+   "z": 19.067811936326944,
+   "breach": 1
+  },
+  {
+   "design": "n120",
+   "n": [
+    120,
+    120
+   ],
+   "phi": 0.6,
+   "method": "stationary bootstrap",
+   "size": 0.07091666666666667,
+   "mcse": 0.0023432081472409354,
+   "z": 19.59564143745928,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.02488,
+   "mcse": 0.0002462772096642318,
+   "z": -0.4872558048047038,
+   "breach": 0
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.22693,
+   "mcse": 0.0006622551908063839,
+   "z": 304.9126723402852,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.0,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0339575,
+   "mcse": 0.0002863755759215073,
+   "z": 31.27885459916163,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.0,
+   "method": "Newey-West, normal critical value",
+   "size": 0.05123,
+   "mcse": 0.00034858817786895756,
+   "z": 75.2463843161671,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.0,
+   "method": "Newey-West, t critical value",
+   "size": 0.036285,
+   "mcse": 0.0002956704194495959,
+   "z": 38.16749751634791,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.0,
+   "method": "moving-block bootstrap",
+   "size": 0.037083333333333336,
+   "mcse": 0.001725015935245774,
+   "z": 7.004766209079539,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.0,
+   "method": "stationary bootstrap",
+   "size": 0.04108333333333333,
+   "mcse": 0.0018118934170170246,
+   "z": 8.876533896685718,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.02456,
+   "mcse": 0.00024472845359704295,
+   "z": -1.7979110868917754,
+   "breach": 0
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.2279525,
+   "mcse": 0.0006633064106123014,
+   "z": 305.97096116205716,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.2,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.041175,
+   "mcse": 0.00031416404701604543,
+   "z": 51.4858404506544,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.2,
+   "method": "Newey-West, normal critical value",
+   "size": 0.0659425,
+   "mcse": 0.0003924095013304023,
+   "z": 104.33615868420854,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.2,
+   "method": "Newey-West, t critical value",
+   "size": 0.0488425,
+   "mcse": 0.00034079653091599247,
+   "z": 69.96109947456377,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.2,
+   "method": "moving-block bootstrap",
+   "size": 0.05491666666666667,
+   "mcse": 0.002079679991186322,
+   "z": 14.385225993159246,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.2,
+   "method": "stationary bootstrap",
+   "size": 0.05616666666666666,
+   "mcse": 0.0021018240534954043,
+   "z": 14.828389947691123,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0249075,
+   "mcse": 0.00024640980319251706,
+   "z": -0.375390908971804,
+   "breach": 0
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.2455675,
+   "mcse": 0.0006805587831770118,
+   "z": 324.09764659907546,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.4,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.05402,
+   "mcse": 0.00035742775353908937,
+   "z": 81.19123294891617,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.4,
+   "method": "Newey-West, normal critical value",
+   "size": 0.0887375,
+   "mcse": 0.0004496197173549832,
+   "z": 141.75868526174543,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.4,
+   "method": "Newey-West, t critical value",
+   "size": 0.0686225,
+   "mcse": 0.0003997294475446799,
+   "z": 109.13006351658413,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.4,
+   "method": "moving-block bootstrap",
+   "size": 0.07233333333333333,
+   "mcse": 0.0023646920557481724,
+   "z": 20.016700787011096,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.4,
+   "method": "stationary bootstrap",
+   "size": 0.084,
+   "mcse": 0.0025321927256826246,
+   "z": 23.299964256905,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient declared",
+   "size": 0.0240525,
+   "mcse": 0.00024224975357959604,
+   "z": -3.9112526885963588,
+   "breach": 0
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient per group",
+   "size": 0.282415,
+   "mcse": 0.0007117878331620315,
+   "z": 361.64568710940864,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.6,
+   "method": "the exact rule, coefficient pooled",
+   "size": 0.0782975,
+   "mcse": 0.0004247558165986371,
+   "z": 125.47797562090176,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.6,
+   "method": "Newey-West, normal critical value",
+   "size": 0.12676,
+   "mcse": 0.0005260510963775287,
+   "z": 193.4412848879805,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.6,
+   "method": "Newey-West, t critical value",
+   "size": 0.1045925,
+   "mcse": 0.0004838721653075066,
+   "z": 164.49075955716117,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.6,
+   "method": "moving-block bootstrap",
+   "size": 0.11075,
+   "mcse": 0.0028647925681161163,
+   "z": 29.93235913635069,
+   "breach": 1
+  },
+  {
+   "design": "n36_13",
+   "n": [
+    36,
+    13
+   ],
+   "phi": 0.6,
+   "method": "stationary bootstrap",
+   "size": 0.12458333333333334,
+   "mcse": 0.003014718427826067,
+   "z": 33.032382863411726,
+   "breach": 1
+  }
+ ],
+ "methods": [
+  "the exact rule, coefficient declared",
+  "the exact rule, coefficient per group",
+  "the exact rule, coefficient pooled",
+  "Newey-West, normal critical value",
+  "Newey-West, t critical value",
+  "moving-block bootstrap",
+  "stationary bootstrap"
+ ],
+ "worst_size": {
+  "the exact rule, coefficient declared": 0.0254475,
+  "the exact rule, coefficient per group": 0.282415,
+  "the exact rule, coefficient pooled": 0.0782975,
+  "Newey-West, normal critical value": 0.12676,
+  "Newey-West, t critical value": 0.1045925,
+  "moving-block bootstrap": 0.11075,
+  "stationary bootstrap": 0.12458333333333334
+ },
+ "worst_ratio_to_abar": {
+  "the exact rule, coefficient declared": 1.0179,
+  "the exact rule, coefficient per group": 11.2966,
+  "the exact rule, coefficient pooled": 3.1319,
+  "Newey-West, normal critical value": 5.0704,
+  "Newey-West, t critical value": 4.1837,
+  "moving-block bootstrap": 4.43,
+  "stationary bootstrap": 4.983333333333333
+ },
+ "breaches": {
+  "the exact rule, coefficient declared": 0,
+  "the exact rule, coefficient per group": 12,
+  "the exact rule, coefficient pooled": 12,
+  "Newey-West, normal critical value": 12,
+  "Newey-West, t critical value": 12,
+  "moving-block bootstrap": 12,
+  "stationary bootstrap": 12
+ },
+ "cells_per_method": 12,
+ "mu": 2.0,
+ "note": "The declared-coefficient row is a REFERENCE, not a competitor: it is given something the others are not, and its job is to confirm the instrument reads correctly.  The contest is between the rows that all have to estimate the coefficient from the same data, and the common mean is set to 2.0 because the separate and pooled variants coincide when it is zero.",
+ "seconds": 265.7141628265381,
+ "tier": "measured"
+}

@@ -1,0 +1,86 @@
+{
+  "tol": 0.0001,
+  "alpha0": 0.0245,
+  "a_tiny_region": {
+    "tiny_box_c_U": 5.635192956149143,
+    "point_bracket_c_U": 5.635167971253395,
+    "point_bracket_c_L": 5.635167047099001,
+    "abs_diff": 2.498489574787044e-05,
+    "within_tol": true,
+    "certified_at_tol": true
+  },
+  "b_subdivide": {
+    "parent_c_U": 12.50041498094556,
+    "children_c_U": [
+      11.799373060235977,
+      12.50040162950513
+    ],
+    "child_max": 12.50040162950513,
+    "no_increase": true,
+    "improvement": 1.33514404296875e-05
+  },
+  "c_pruning": {
+    "n_leaves_checked": 2,
+    "rows": [
+      {
+        "c_ub_recomputed": 9.910623520612717,
+        "pruned_at_L": 12.500376833972904,
+        "bound": 12.500476833972904,
+        "holds": true
+      },
+      {
+        "c_ub_recomputed": 12.500415667891502,
+        "pruned_at_L": 12.500376833972904,
+        "bound": 12.500476833972904,
+        "holds": true
+      }
+    ],
+    "all_hold": true
+  },
+  "d_budget": {
+    "rows": [
+      {
+        "max_boxes": 1,
+        "gap": 3.814697265625e-05,
+        "splits": 1,
+        "c_U": 12.50041498094556,
+        "seconds": 23.338080406188965
+      },
+      {
+        "max_boxes": 2,
+        "gap": 3.814697265625e-05,
+        "splits": 1,
+        "c_U": 12.50041498094556,
+        "seconds": 25.12243103981018
+      },
+      {
+        "max_boxes": 4,
+        "gap": 3.814697265625e-05,
+        "splits": 1,
+        "c_U": 12.50041498094556,
+        "seconds": 24.944777011871338
+      },
+      {
+        "max_boxes": 8,
+        "gap": 3.814697265625e-05,
+        "splits": 1,
+        "c_U": 12.50041498094556,
+        "seconds": 25.352572679519653
+      }
+    ],
+    "gaps": [
+      3.814697265625e-05,
+      3.814697265625e-05,
+      3.814697265625e-05,
+      3.814697265625e-05
+    ],
+    "monotone_nonincreasing": true
+  },
+  "seconds": 213.98985767364502,
+  "verdict": "PASS",
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "branch-and-bound unit checks (a)-(d) of plan step 11"
+  ]
+}

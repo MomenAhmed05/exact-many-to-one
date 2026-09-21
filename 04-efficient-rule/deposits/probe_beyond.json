@@ -1,0 +1,117 @@
+{
+ "baseline_returncode": 0,
+ "baseline_failures": [],
+ "probes": [
+  {
+   "probe": "scalar: invariant hidden pp",
+   "deposit": "w1_invariant.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "max hidden -> 0.027 points"
+   ],
+   "n_new_failures": 1
+  },
+  {
+   "probe": "scalar: region max gain",
+   "deposit": "w1_region.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "max gain -> +0.50 points"
+   ],
+   "n_new_failures": 1
+  },
+  {
+   "probe": "scalar: stress breach count",
+   "deposit": "w3_stress.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "breaches -> 13 of"
+   ],
+   "n_new_failures": 1
+  },
+  {
+   "probe": "scalar: manifest refusals",
+   "deposit": "w4_manifest.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "probes refused -> 7 of"
+   ],
+   "n_new_failures": 1
+  },
+  {
+   "probe": "transposition: factor falsifier brute/exact",
+   "deposit": "w2_factor.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "row: falsifier unequal loadings and ratios   | unequal loadings and ratios | 0.01123 | 0.01118 | +0.82 | 0.03055 |"
+   ],
+   "n_new_failures": 1
+  },
+  {
+   "probe": "transposition: region monotone/det-floor",
+   "deposit": "w1_region.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "det-floor min -> -0.85 to",
+    "det-floor max -> 0.69 points",
+    "row: region df35   | df35 | 5.03 pp | 4.17 pp | 4.17 pp | +0.00 pp |"
+   ],
+   "n_new_failures": 3
+  },
+  {
+   "probe": "transposition: serial repair separate/pooled",
+   "deposit": "w3_serial_repair.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "row: repair mu0   | worst at a zero mean | 0.07818 | 0.08955 |"
+   ],
+   "n_new_failures": 1
+  },
+  {
+   "probe": "transposition: asymptotic two methods",
+   "deposit": "w3_asymptotic.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "row: asym Newey-West, normal critical value   | Newey-West, normal critical value | 0.10459 | 5.07 | 12 of 12 |",
+    "row: asym Newey-West, t critical value   | Newey-West, t critical value | 0.12676 | 4.18 | 12 of 12 |"
+   ],
+   "n_new_failures": 2
+  },
+  {
+   "probe": "nested: certificate box point count",
+   "deposit": "w2_cert.json",
+   "skipped": 0,
+   "caught": 1,
+   "returncode": 1,
+   "new_failures": [
+    "box points -> 177 points"
+   ],
+   "n_new_failures": 1
+  }
+ ],
+ "n_probes": 9,
+ "n_live": 9,
+ "n_caught": 9,
+ "all_caught": 1,
+ "n_transposition_probes": 4,
+ "n_transposition_caught": 4,
+ "note": "Each probe moves one deposit field and requires the verifier to fail on a check it was not already failing.  The transposition probes are the ones that matter: they leave every value present in the document and are invisible to substring containment, so they pass unless table rows are matched whole.",
+ "seconds": 11.554509162902832,
+ "tier": "diagnostic"
+}

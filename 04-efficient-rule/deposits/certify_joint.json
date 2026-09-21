@@ -1,0 +1,155 @@
+{
+ "abar": 0.025,
+ "lam_domain": [
+  0.001,
+  1000.0
+ ],
+ "nbins": 30,
+ "designs": [
+  {
+   "design": "K2_df35",
+   "n": [
+    36.0,
+    13.0,
+    13.0
+   ],
+   "K": 2,
+   "alpha0_certified_joint": 0.0133203125,
+   "per_candidate_bound": 0.012478883128049319,
+   "union_bound_total": 0.024957766256098638,
+   "certified": 1,
+   "projection_gap_abs": 0.1604072173638884,
+   "projection_gap_pct": 5.535124285932781,
+   "alpha0_certified_percand": 0.0115546875,
+   "alpha0_measured_joint": 0.024452697753906252,
+   "level_gain_vs_percand_x": 1.1528059499661933,
+   "level_vs_measured_pct": 45.52620478093417,
+   "exact_sup_over_patterns": 0.01368766260787438,
+   "nbins": 30,
+   "boxes": [
+    134,
+    134
+   ],
+   "seconds": 260.71026968955994,
+   "exact_sup_mcse": 0.00017676173410498126,
+   "exact_sup_worst_lam": [
+    1.0,
+    1.0
+   ],
+   "exact_sup_object": "the DEPLOYED joint step rule's own unconditional FWER, Rao-Blackwellised over 4000 draws; the previous value in this field was a per-candidate plug-in table at the same level, which is a different rule and rejects more often",
+   "bound_dominates_exact": 1
+  },
+  {
+   "design": "K2_df11",
+   "n": [
+    12.0,
+    13.0,
+    13.0
+   ],
+   "K": 2,
+   "alpha0_certified_joint": 0.012960937500000002,
+   "per_candidate_bound": 0.012495188944162162,
+   "union_bound_total": 0.024990377888324325,
+   "certified": 1,
+   "projection_gap_abs": 0.1086515396688621,
+   "projection_gap_pct": 3.7313759416440044,
+   "alpha0_certified_percand": 0.011767382812500001,
+   "alpha0_measured_joint": 0.02351734924316406,
+   "level_gain_vs_percand_x": 1.1014290693621471,
+   "level_vs_measured_pct": 44.88776194125093,
+   "exact_sup_over_patterns": 0.013409244763495492,
+   "nbins": 30,
+   "boxes": [
+    96,
+    96
+   ],
+   "seconds": 263.3706212043762,
+   "exact_sup_mcse": 0.0002297316343095979,
+   "exact_sup_worst_lam": [
+    10.0,
+    10.0
+   ],
+   "exact_sup_object": "the DEPLOYED joint step rule's own unconditional FWER, Rao-Blackwellised over 4000 draws; the previous value in this field was a per-candidate plug-in table at the same level, which is a different rule and rejects more often",
+   "bound_dominates_exact": 1
+  },
+  {
+   "design": "K3_df35",
+   "n": [
+    36.0,
+    13.0,
+    13.0,
+    13.0
+   ],
+   "K": 3,
+   "alpha0_certified_joint": 0.009277343750000002,
+   "per_candidate_bound": 0.008321221670628282,
+   "union_bound_total": 0.024963665011884847,
+   "certified": 1,
+   "projection_gap_abs": 0.370605469571343,
+   "projection_gap_pct": 11.192719877642613,
+   "alpha0_certified_percand": 0.007527604166666667,
+   "alpha0_measured_joint": 0.023292404174804687,
+   "level_gain_vs_percand_x": 1.2324430913997095,
+   "level_vs_measured_pct": 60.17008944042251,
+   "exact_sup_over_patterns": 0.00958592546011135,
+   "nbins": 16,
+   "boxes": [
+    139,
+    139,
+    139
+   ],
+   "seconds": 803.7664775848389,
+   "exact_sup_mcse": 0.00013115749172651526,
+   "exact_sup_worst_lam": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "exact_sup_object": "the DEPLOYED joint step rule's own unconditional FWER, Rao-Blackwellised over 4000 draws; the previous value in this field was a per-candidate plug-in table at the same level, which is a different rule and rejects more often",
+   "bound_dominates_exact": 1
+  },
+  {
+   "design": "K3_df11",
+   "n": [
+    12.0,
+    13.0,
+    13.0,
+    13.0
+   ],
+   "K": 3,
+   "alpha0_certified_joint": 0.008828125000000001,
+   "per_candidate_bound": 0.008327801700480393,
+   "union_bound_total": 0.024983405101441182,
+   "certified": 1,
+   "projection_gap_abs": 0.20265719385350733,
+   "projection_gap_pct": 6.073602169351858,
+   "alpha0_certified_percand": 0.007721289062500001,
+   "alpha0_measured_joint": 0.02369358825683594,
+   "level_gain_vs_percand_x": 1.1433485948448132,
+   "level_vs_measured_pct": 62.74044731298578,
+   "exact_sup_over_patterns": 0.008947549000764844,
+   "nbins": 16,
+   "boxes": [
+    96,
+    96,
+    96
+   ],
+   "seconds": 742.5888543128967,
+   "exact_sup_mcse": 0.00016128214680737892,
+   "exact_sup_worst_lam": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "exact_sup_object": "the DEPLOYED joint step rule's own unconditional FWER, Rao-Blackwellised over 4000 draws; the previous value in this field was a per-candidate plug-in table at the same level, which is a different rule and rejects more often",
+   "bound_dominates_exact": 1
+  }
+ ],
+ "all_certified": 1,
+ "note": "The deployed rule is the tabulated joint step function, so the projection psi_i - the minimum of the table over the other candidates' ratios - is exact rather than an approximation of some other object.  Rejection of candidate i implies T_i > psi_i, so the union of the per-candidate events bounds the FWER, and each term is a one-candidate supremum certified over the continuum by wb_certify.py.",
+ "seconds": 2070.452159881592,
+ "tier": "unconditional_valid_certified",
+ "all_bounds_dominate": 1,
+ "comparison_fix": "Gate X11 caught the comparison field measuring the wrong rule.  The certificates are unchanged - they never used it - and the field now carries the deployed rule's own FWER with its Monte-Carlo error.",
+ "seconds_recompare": 815.3416843414307
+}

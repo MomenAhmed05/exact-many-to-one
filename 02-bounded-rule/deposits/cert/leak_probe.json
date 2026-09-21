@@ -1,0 +1,45 @@
+{
+  "family": "B",
+  "df0": 3,
+  "n": [
+    4.0,
+    13.0,
+    13.0
+  ],
+  "lam_true": [
+    1.0,
+    25.0
+  ],
+  "slice_seed": 4896,
+  "draws": 200,
+  "c_oracle": 2.700274608689289,
+  "n_dominance_violations": 1,
+  "n_possible": 200,
+  "worst_excess_rej": 0.01179558906947431,
+  "worst_index": 190,
+  "worst_inside_region": false,
+  "worst_lambda_hat": [
+    806.367608774947,
+    54697.11819093887
+  ],
+  "region_lo": [
+    3.1874254786523144,
+    216.20782659601318
+  ],
+  "region_hi": [
+    23291.65775418227,
+    1579907.9020285502
+  ],
+  "region_scale": 12.715994030059314,
+  "corner_max_this_draw": 2.576256002818412,
+  "fine_grid_points": 625,
+  "sup_pop_fine": 2.576256002818412,
+  "argmax_lam": [
+    3.1874254786523144,
+    1579907.9020285502
+  ],
+  "argmax_is_corner": true,
+  "corner_deficit_c": 0.0,
+  "implied_rej_excess_at_argmax": 0.005030471178074536,
+  "explanation": "corner set attains the sup on this draw"
+}

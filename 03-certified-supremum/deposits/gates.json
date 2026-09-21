@@ -1,0 +1,83 @@
+{
+  "n_gates": 9,
+  "n_pass": 9,
+  "all_pass": true,
+  "gates": [
+    {
+      "pass": true,
+      "f1": 5,
+      "f2": 24,
+      "f2_contained": 24,
+      "gate": "E1",
+      "description": "enclosure containment"
+    },
+    {
+      "pass": true,
+      "leaves_checked": 68,
+      "violations": [],
+      "c_U_dominates_c_L": true,
+      "gate": "E2",
+      "description": "certificate-tree integrity"
+    },
+    {
+      "pass": true,
+      "n_brackets": 91,
+      "n_pass": 91,
+      "gate": "E3",
+      "description": "root certificates"
+    },
+    {
+      "pass": true,
+      "deposits": 19,
+      "non_strict": 0,
+      "report_violations": 0,
+      "gate": "E4",
+      "description": "tier / reserved-word gate"
+    },
+    {
+      "pass": true,
+      "entries": 16,
+      "bad": 0,
+      "not_comparable": 1,
+      "gate": "E5",
+      "description": "number -> deposit traceability"
+    },
+    {
+      "pass": true,
+      "points": 5,
+      "max_convergence": 0.0,
+      "gate": "E6",
+      "description": "Arb vs mpmath"
+    },
+    {
+      "pass": true,
+      "z": -1.185975244057353,
+      "draws": 4000,
+      "mean": 0.9751231499236278,
+      "target": 0.9755,
+      "gate": "E7",
+      "description": "stochastic falsifier"
+    },
+    {
+      "pass": true,
+      "falsifier_budget_ok": true,
+      "bnb_max_seconds": 131.70960021018982,
+      "bnb_budget_s": 600.0,
+      "gate": "E8",
+      "description": "runtime and node budgets"
+    },
+    {
+      "pass": true,
+      "documents_scanned": 5,
+      "violations": [],
+      "gate": "E9",
+      "description": "two-sided documentation gate"
+    }
+  ],
+  "note": "E1-E8 wired to the deposits; exit status is 0 iff every gate passes",
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem",
+  "notes": [
+    "verification gates E1-E8"
+  ]
+}

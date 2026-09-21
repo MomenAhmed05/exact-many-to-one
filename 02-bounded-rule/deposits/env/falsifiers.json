@@ -1,0 +1,206 @@
+{
+  "exact_coverage": [
+    {
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "gamma": 0.0005,
+      "coverage": 0.9999711930830584,
+      "quad_err": 5.561605290506841e-10,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "gamma": 0.0005,
+      "coverage": 0.9999873974240164,
+      "quad_err": 3.652678316814393e-09,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "gamma": 0.0005,
+      "coverage": 0.9999935747429026,
+      "quad_err": 3.0881049090343984e-09,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "gamma": 0.0005,
+      "coverage": 0.9999972356047506,
+      "quad_err": 1.3460589030555306e-09,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "gamma": 0.0005,
+      "coverage": 0.999997805914334,
+      "quad_err": 1.1686804253305144e-08,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "gamma": 0.0005,
+      "coverage": 0.9999961576913056,
+      "quad_err": 1.3191454963785746e-08,
+      "union_bound": 0.9995,
+      "passes": true
+    }
+  ],
+  "analytic_coverage": [
+    {
+      "n0": 4,
+      "nu0": 3.0,
+      "gamma": 0.0005,
+      "coverage_product": 0.9995000781210936,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n0": 6,
+      "nu0": 5.0,
+      "gamma": 0.0005,
+      "coverage_product": 0.9995000781210936,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n0": 8,
+      "nu0": 7.0,
+      "gamma": 0.0005,
+      "coverage_product": 0.9995000781210936,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n0": 12,
+      "nu0": 11.0,
+      "gamma": 0.0005,
+      "coverage_product": 0.9995000781210936,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n0": 20,
+      "nu0": 19.0,
+      "gamma": 0.0005,
+      "coverage_product": 0.9995000781210936,
+      "union_bound": 0.9995,
+      "passes": true
+    },
+    {
+      "n0": 36,
+      "nu0": 35.0,
+      "gamma": 0.0005,
+      "coverage_product": 0.9995000781210936,
+      "union_bound": 0.9995,
+      "passes": true
+    }
+  ],
+  "mc_coverage": {
+    "gamma": 0.1,
+    "coverage": 0.990155,
+    "mcse": 0.00022077223529012874,
+    "target": 0.9,
+    "passes": true,
+    "box_event_coverage": 0.927605,
+    "ratio_region_is_superset_of_box": true
+  },
+  "corner_max": [
+    {
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "gamma": 0.0005,
+      "draws": 20,
+      "interior_points": 12,
+      "max_c_star_excess_over_envelope": -0.0012294194286823767,
+      "passes": true,
+      "family": "A"
+    },
+    {
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "gamma": 0.0005,
+      "draws": 20,
+      "interior_points": 12,
+      "max_c_star_excess_over_envelope": -0.0051225115772357555,
+      "passes": true,
+      "family": "A"
+    },
+    {
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "gamma": 0.0005,
+      "draws": 20,
+      "interior_points": 12,
+      "max_c_star_excess_over_envelope": -0.003143559126249418,
+      "passes": true,
+      "family": "B"
+    },
+    {
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "gamma": 0.0005,
+      "draws": 20,
+      "interior_points": 12,
+      "max_c_star_excess_over_envelope": -0.00016595668958396814,
+      "passes": true,
+      "family": "B"
+    }
+  ],
+  "all_pass": true
+}

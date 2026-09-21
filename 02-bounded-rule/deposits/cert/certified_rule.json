@@ -1,0 +1,513 @@
+{
+  "rows": [
+    {
+      "family": "A",
+      "df0": 3,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": 0.0029293887997598085,
+        "mcse": 0.006850504637616096,
+        "mean_c": 4.435209920411289,
+        "c_oracle": 3.220149977669285,
+        "power_cost_pct": 37.733023342641125,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.02361727451830306,
+        "mcse": 0.0002518571524031779,
+        "mean_c": 3.2707610064055155,
+        "c_oracle": 3.220149977669285,
+        "power_cost_pct": 1.571697873925192,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 36.16132546871594,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "B",
+      "df0": 3,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": -0.0039933491756494605,
+        "mcse": 0.0046687544668881495,
+        "mean_c": 14.708265425750977,
+        "c_oracle": 2.7002746086892913,
+        "power_cost_pct": 444.69517205475427,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.00725848110064968,
+        "mcse": 0.002266185730922399,
+        "mean_c": 3.320217085774977,
+        "c_oracle": 2.7002746086892913,
+        "power_cost_pct": 22.958497446546914,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 421.73667460820735,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "A",
+      "df0": 5,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": 0.004521029182350356,
+        "mcse": 0.005300711364221021,
+        "mean_c": 3.3910479246294924,
+        "c_oracle": 2.6419998653037013,
+        "power_cost_pct": 28.3515555455824,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.02209986586252762,
+        "mcse": 0.0004392614049997155,
+        "mean_c": 2.715297078143192,
+        "c_oracle": 2.6419998653037013,
+        "power_cost_pct": 2.7743079703399243,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 25.577247575242474,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "B",
+      "df0": 5,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": -0.002211430764529263,
+        "mcse": 0.003567743266161835,
+        "mean_c": 10.301647307724235,
+        "c_oracle": 2.5399977022860782,
+        "power_cost_pct": 305.5770325481959,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.014092223881019546,
+        "mcse": 0.0010770774463128444,
+        "mean_c": 2.81921813238633,
+        "c_oracle": 2.5399977022860782,
+        "power_cost_pct": 10.992940263250816,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 294.5840922849451,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "A",
+      "df0": 7,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": 0.004753567933916805,
+        "mcse": 0.004560844699385296,
+        "mean_c": 3.1138100301762823,
+        "c_oracle": 2.4467669468238213,
+        "power_cost_pct": 27.26222389992467,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.021277035246093506,
+        "mcse": 0.000494937453857339,
+        "mean_c": 2.5301464179952853,
+        "c_oracle": 2.4467669468238213,
+        "power_cost_pct": 3.4077406219542024,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 23.854483277970466,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "B",
+      "df0": 7,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": -0.0016949736102192005,
+        "mcse": 0.0032399119724586724,
+        "mean_c": 8.709974333280261,
+        "c_oracle": 2.4875763097821917,
+        "power_cost_pct": 250.1389806225841,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.017502452791918203,
+        "mcse": 0.0006716623811126175,
+        "mean_c": 2.6574558620575552,
+        "c_oracle": 2.4875763097821917,
+        "power_cost_pct": 6.829119235752729,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 243.3098613868314,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "A",
+      "df0": 11,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": 0.004519815010131007,
+        "mcse": 0.003721399552420531,
+        "mean_c": 2.9460698798863447,
+        "c_oracle": 2.2972197580098834,
+        "power_cost_pct": 28.245017465746074,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.020575706659964405,
+        "mcse": 0.00049358157481532,
+        "mean_c": 2.387365465646355,
+        "c_oracle": 2.2972197580098834,
+        "power_cost_pct": 3.9241220750498154,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 24.320895390696258,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "B",
+      "df0": 11,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": -0.0012800119188072986,
+        "mcse": 0.0030733172140062167,
+        "mean_c": 7.4179194747001755,
+        "c_oracle": 2.455773989385022,
+        "power_cost_pct": 202.06034866253222,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.020975485585465636,
+        "mcse": 0.0003257036903135815,
+        "mean_c": 2.5399699403324454,
+        "c_oracle": 2.455773989385022,
+        "power_cost_pct": 3.428489401360087,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 198.63185926117214,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "A",
+      "df0": 19,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": 0.0034977561563285693,
+        "mcse": 0.0028712503787206114,
+        "mean_c": 2.924919900225723,
+        "c_oracle": 2.2100193008543747,
+        "power_cost_pct": 32.34816090044886,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.019941883708581278,
+        "mcse": 0.0004397209615245751,
+        "mean_c": 2.308272165336973,
+        "c_oracle": 2.2100193008543747,
+        "power_cost_pct": 4.445792145100936,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 27.902368755347926,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "B",
+      "df0": 19,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": -0.0009411672048675046,
+        "mcse": 0.003048994521471191,
+        "mean_c": 6.621418059848582,
+        "c_oracle": 2.4521114012262952,
+        "power_cost_pct": 170.0292513846323,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.021427183708712917,
+        "mcse": 0.00028643872242021916,
+        "mean_c": 2.5283062493814943,
+        "c_oracle": 2.4521114012262952,
+        "power_cost_pct": 3.1073159285134513,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 166.92193545611883,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "A",
+      "df0": 35,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": 0.0018323570676567272,
+        "mcse": 0.0020875933821362064,
+        "mean_c": 3.0655000284034033,
+        "c_oracle": 2.1767030179807687,
+        "power_cost_pct": 40.83225883736461,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.0185387138367287,
+        "mcse": 0.0004300083167024085,
+        "mean_c": 2.3014765013245624,
+        "c_oracle": 2.1767030179807687,
+        "power_cost_pct": 5.732223565323143,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 35.10003527204147,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    },
+    {
+      "family": "B",
+      "df0": 35,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        101,
+        202,
+        303,
+        404
+      ],
+      "draws_per_seed": 10,
+      "draws_total": 40,
+      "certified": {
+        "fwer": -0.0006689480604017001,
+        "mcse": 0.0031037796884481775,
+        "mean_c": 6.245413300945037,
+        "c_oracle": 2.4701762334964816,
+        "power_cost_pct": 152.83270141842422,
+        "passes_alpha": true
+      },
+      "candidate": {
+        "fwer": 0.021946359428033732,
+        "mcse": 0.00024518826612940315,
+        "mean_c": 2.5366533369213182,
+        "c_oracle": 2.4701762334964816,
+        "power_cost_pct": 2.691188690239306,
+        "passes_guarantee": true
+      },
+      "price_of_proof_pct": 150.14151272818492,
+      "n_region_miss": 0,
+      "miss_rate": 0.0,
+      "gamma": 0.0005
+    }
+  ],
+  "alpha": 0.025,
+  "gamma": 0.0005,
+  "seeds": [
+    101,
+    202,
+    303,
+    404
+  ],
+  "draws_per_seed": 10,
+  "all_certified_pass_alpha": true,
+  "all_candidate_pass_guarantee": true,
+  "total_draws": 480,
+  "total_region_misses": 0,
+  "max_price_of_proof_pct": 421.73667460820735,
+  "median_price_of_proof_pct": 93.15141909845043,
+  "seconds": 557.7050173282623,
+  "note": "The certified rule needs no gamma slack (its defining property is per-draw and per-lambda); the candidate rule is the desk rule and spends gamma on region misses."
+}

@@ -1,0 +1,948 @@
+{
+  "n_cells": 16,
+  "bnb_deposit_available": true,
+  "n_argmax_at_vertex": 16,
+  "n_measured_sup_above_vertex": 0,
+  "headline_continuous_minus_vertex": {
+    "max": 0.003165806122107817,
+    "median": 5.632926676213401e-07,
+    "min": -3.6875953668413786e-07,
+    "tier": "region_sup_certified (c_U) minus region_sup_certified (conditional vertex max)",
+    "note": "LIKE-FOR-LIKE: both objects are CONDITIONAL (one draw).  The population vertex/grid/local maxima are reported separately as evidence on sup attainment; comparing the conditional c_U against the POPULATION vertex maximum is an object mismatch and is NOT the headline."
+  },
+  "all_certified_dominate_measured": true,
+  "tol": 0.0001,
+  "gamma": 0.0005,
+  "alpha0": 0.0245,
+  "per_axis": 11,
+  "note": "the headline is how much the certified CONTINUOUS supremum exceeds the vertex maximum: it is the price of replacing the measured vertex rule by a certified one, and it must be non-negative.  Measured columns are labelled envelope_measured; the c_U column is region_sup_certified.",
+  "seconds": 1064.7289688587189,
+  "cells": [
+    {
+      "cell": "A_df3",
+      "K": 2,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.00108525,
+        0.00184748
+      ],
+      "region_hi": [
+        7.93033422,
+        13.50016474
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 3.3115816758892977,
+      "vertex_argmax": [
+        0.00108525,
+        13.50016474
+      ],
+      "dense_grid_max": 3.3115816758892977,
+      "dense_grid_argmax": [
+        0.00108525,
+        13.50016474
+      ],
+      "grid_points": 121,
+      "local_max": 3.3115816758892977,
+      "local_argmax": [
+        0.00108525,
+        13.50016474
+      ],
+      "conditional_vertex_max": 12.500377252697945,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 3.3115816758892977,
+      "c_U": 12.50041498094556,
+      "c_L": 12.500376833972904,
+      "gap": 3.814697265625e-05,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 3.772824761583138e-05,
+      "population_vertex_minus_conditional_c_U": -9.188833305056264,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "A_df5",
+      "K": 2,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.00310556,
+        0.00528673
+      ],
+      "region_hi": [
+        2.55538066,
+        4.35013947
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.7655244736951685,
+      "vertex_argmax": [
+        0.00310556,
+        4.35013947
+      ],
+      "dense_grid_max": 2.7655244736951685,
+      "dense_grid_argmax": [
+        0.00310556,
+        4.35013947
+      ],
+      "grid_points": 121,
+      "local_max": 2.7655244736951685,
+      "local_argmax": [
+        0.00310556,
+        4.35013947
+      ],
+      "conditional_vertex_max": 6.856746882200241,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.7655244736951685,
+      "c_U": 6.858222398887562,
+      "c_L": 6.856746111045765,
+      "gap": 0.001476287841796875,
+      "certified_at_tol": false,
+      "headline_continuous_minus_vertex": 0.0014755166873205994,
+      "population_vertex_minus_conditional_c_U": -4.092697925192393,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "A_df7",
+      "K": 2,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.00478107,
+        0.00813903
+      ],
+      "region_hi": [
+        1.4939731,
+        2.54325763
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.583681119862733,
+      "vertex_argmax": [
+        0.00478107,
+        2.54325763
+      ],
+      "dense_grid_max": 2.583681119862733,
+      "dense_grid_argmax": [
+        0.00478107,
+        2.54325763
+      ],
+      "grid_points": 121,
+      "local_max": 2.583681119862733,
+      "local_argmax": [
+        0.00478107,
+        2.54325763
+      ],
+      "conditional_vertex_max": 5.490280605852604,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.583681119862733,
+      "c_U": 5.493036556819241,
+      "c_L": 5.490279484370511,
+      "gap": 0.0027570724487304688,
+      "certified_at_tol": false,
+      "headline_continuous_minus_vertex": 0.0027559509666374993,
+      "population_vertex_minus_conditional_c_U": -2.9093554369565084,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "A_df11",
+      "K": 2,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.00683214,
+        0.01163066
+      ],
+      "region_hi": [
+        0.87289397,
+        1.48596669
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.44132738569027,
+      "vertex_argmax": [
+        0.00683214,
+        1.48596669
+      ],
+      "dense_grid_max": 2.44132738569027,
+      "dense_grid_argmax": [
+        0.00683214,
+        1.48596669
+      ],
+      "grid_points": 121,
+      "local_max": 2.44132738569027,
+      "local_argmax": [
+        0.00683214,
+        1.48596669
+      ],
+      "conditional_vertex_max": 4.57951544970274,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.44132738569027,
+      "c_U": 4.5826812558248475,
+      "c_L": 4.579515057094379,
+      "gap": 0.00316619873046875,
+      "certified_at_tol": false,
+      "headline_continuous_minus_vertex": 0.003165806122107817,
+      "population_vertex_minus_conditional_c_U": -2.1413538701345773,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "A_df19",
+      "K": 2,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.00854158,
+        0.01454072
+      ],
+      "region_hi": [
+        0.56588258,
+        0.96332737
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.3571737840560085,
+      "vertex_argmax": [
+        0.00854158,
+        0.96332737
+      ],
+      "dense_grid_max": 2.3571737840560085,
+      "dense_grid_argmax": [
+        0.00854158,
+        0.96332737
+      ],
+      "grid_points": 121,
+      "local_max": 2.3571737840560085,
+      "local_argmax": [
+        0.00854158,
+        0.96332737
+      ],
+      "conditional_vertex_max": 4.116920612752438,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.3571737840560085,
+      "c_U": 4.119035576925516,
+      "c_L": 4.1169203272917265,
+      "gap": 0.0021152496337890625,
+      "certified_at_tol": false,
+      "headline_continuous_minus_vertex": 0.0021149641730779933,
+      "population_vertex_minus_conditional_c_U": -1.761861792869507,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "A_df35",
+      "K": 2,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        0.04,
+        0.04
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.00957798,
+        0.01630502
+      ],
+      "region_hi": [
+        0.42138963,
+        0.71735053
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.3501205455622127,
+      "vertex_argmax": [
+        0.42138963,
+        0.71735053
+      ],
+      "dense_grid_max": 2.3501205455622127,
+      "dense_grid_argmax": [
+        0.42138963,
+        0.71735053
+      ],
+      "grid_points": 121,
+      "local_max": 2.3501205455622127,
+      "local_argmax": [
+        0.42138963,
+        0.71735053
+      ],
+      "conditional_vertex_max": 4.010043002665043,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.3501205455622127,
+      "c_U": 4.010752295887064,
+      "c_L": 4.010041808521342,
+      "gap": 0.0007104873657226562,
+      "certified_at_tol": false,
+      "headline_continuous_minus_vertex": 0.000709293222021401,
+      "population_vertex_minus_conditional_c_U": -1.6606317503248516,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "B_df3",
+      "K": 2,
+      "n": [
+        4.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.02713133,
+        1.15467224
+      ],
+      "region_hi": [
+        198.25835539,
+        8437.60296523
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 3.307746001351208,
+      "vertex_argmax": [
+        0.02713133,
+        8437.60296523
+      ],
+      "dense_grid_max": 3.307746001351208,
+      "dense_grid_argmax": [
+        0.02713133,
+        8437.60296523
+      ],
+      "grid_points": 121,
+      "local_max": 3.307746001351208,
+      "local_argmax": [
+        0.02713133,
+        8437.60296523
+      ],
+      "conditional_vertex_max": 31.512091398239136,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 3.307746001351208,
+      "c_U": 31.512091511313656,
+      "c_L": 31.512090557639343,
+      "gap": 9.536743128535363e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 1.130745204136474e-07,
+      "population_vertex_minus_conditional_c_U": -28.204345509962447,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "B_df5",
+      "K": 2,
+      "n": [
+        6.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.07763896,
+        3.30420738
+      ],
+      "region_hi": [
+        63.88451644,
+        2718.83716717
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.8061903673456565,
+      "vertex_argmax": [
+        0.07763896,
+        2718.83716717
+      ],
+      "dense_grid_max": 2.8061903673456565,
+      "dense_grid_argmax": [
+        0.07763896,
+        2718.83716717
+      ],
+      "grid_points": 121,
+      "local_max": 2.8061903673456565,
+      "local_argmax": [
+        0.07763896,
+        2718.83716717
+      ],
+      "conditional_vertex_max": 17.627025112509727,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.8061903673456565,
+      "c_U": 17.62702576325124,
+      "c_L": 17.627024809576923,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 6.507415122314342e-07,
+      "population_vertex_minus_conditional_c_U": -14.820835395905583,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "B_df7",
+      "K": 2,
+      "n": [
+        8.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.11952673,
+        5.08689335
+      ],
+      "region_hi": [
+        37.34932754,
+        1589.53601811
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.648111166373043,
+      "vertex_argmax": [
+        0.11952673,
+        1589.53601811
+      ],
+      "dense_grid_max": 2.648111166373043,
+      "dense_grid_argmax": [
+        0.11952673,
+        1589.53601811
+      ],
+      "grid_points": 121,
+      "local_max": 2.648111166373043,
+      "local_argmax": [
+        0.11952673,
+        1589.53601811
+      ],
+      "conditional_vertex_max": 13.491793170571327,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.648111166373043,
+      "c_U": 13.49179364641515,
+      "c_L": 13.491792692740834,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 4.7584382301124606e-07,
+      "population_vertex_minus_conditional_c_U": -10.843682480042107,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "B_df11",
+      "K": 2,
+      "n": [
+        12.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.17080351,
+        7.2691623
+      ],
+      "region_hi": [
+        21.82234934,
+        928.72917828
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.5481812609593875,
+      "vertex_argmax": [
+        21.82234934,
+        928.72917828
+      ],
+      "dense_grid_max": 2.5481812609593875,
+      "dense_grid_argmax": [
+        21.82234934,
+        928.72917828
+      ],
+      "grid_points": 121,
+      "local_max": 2.5481812609593875,
+      "local_argmax": [
+        21.82234934,
+        928.72917828
+      ],
+      "conditional_vertex_max": 10.400811664760113,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.5481812609593875,
+      "c_U": 10.40081142429084,
+      "c_L": 10.400810470616523,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": -2.4046927293852605e-07,
+      "population_vertex_minus_conditional_c_U": -7.852630163331453,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "B_df19",
+      "K": 2,
+      "n": [
+        20.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.21353957,
+        9.08795053
+      ],
+      "region_hi": [
+        14.14706446,
+        602.07960877
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.5491402876107507,
+      "vertex_argmax": [
+        14.14706446,
+        602.07960877
+      ],
+      "dense_grid_max": 2.5491402876107507,
+      "dense_grid_argmax": [
+        14.14706446,
+        602.07960877
+      ],
+      "grid_points": 121,
+      "local_max": 2.5491402876107507,
+      "local_argmax": [
+        14.14706446,
+        602.07960877
+      ],
+      "conditional_vertex_max": 8.506309896707535,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.5491402876107507,
+      "c_U": 8.506310368412315,
+      "c_L": 8.506309414737999,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 4.7170478012503736e-07,
+      "population_vertex_minus_conditional_c_U": -5.957170080801564,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "B_df35",
+      "K": 2,
+      "n": [
+        36.0,
+        13.0,
+        13.0
+      ],
+      "lam": [
+        1.0,
+        25.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.23944941,
+        10.19063772
+      ],
+      "region_hi": [
+        10.53474079,
+        448.34408103
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 2.5533066870839187,
+      "vertex_argmax": [
+        10.53474079,
+        448.34408103
+      ],
+      "dense_grid_max": 2.5533066870839187,
+      "dense_grid_argmax": [
+        10.53474079,
+        448.34408103
+      ],
+      "grid_points": 121,
+      "local_max": 2.5533066870839187,
+      "local_argmax": [
+        10.53474079,
+        448.34408103
+      ],
+      "conditional_vertex_max": 7.480059318244457,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 2.5533066870839187,
+      "c_U": 7.48005939718866,
+      "c_L": 7.480058443514344,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 7.894420317455797e-08,
+      "population_vertex_minus_conditional_c_U": -4.926752710104742,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "K1_df3",
+      "K": 1,
+      "n": [
+        4.0,
+        7.0
+      ],
+      "lam": [
+        1.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.0257611
+      ],
+      "region_hi": [
+        350.41028424
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 3.0984851616978992,
+      "vertex_argmax": [
+        0.0257611
+      ],
+      "dense_grid_max": 3.0984851616978992,
+      "dense_grid_argmax": [
+        0.0257611
+      ],
+      "grid_points": 11,
+      "local_max": 3.0984851616978992,
+      "local_argmax": [
+        0.0257611
+      ],
+      "conditional_vertex_max": 37.02682985365391,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 3.0984851616978992,
+      "c_U": 37.02683059963293,
+      "c_L": 37.026829645958614,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 7.459790225539109e-07,
+      "population_vertex_minus_conditional_c_U": -33.92834543793503,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "K3_df6",
+      "K": 3,
+      "n": [
+        7.0,
+        7.0,
+        9.0,
+        11.0
+      ],
+      "lam": [
+        0.25,
+        1.0,
+        4.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.01580238,
+        0.14650759,
+        0.21772298
+      ],
+      "region_hi": [
+        33.7305517,
+        161.33015169,
+        157.14698316
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 3.0622481192335584,
+      "vertex_argmax": [
+        33.7305517,
+        161.33015169,
+        0.21772298
+      ],
+      "dense_grid_max": 3.0622481192335584,
+      "dense_grid_argmax": [
+        33.7305517,
+        161.33015169,
+        0.21772298
+      ],
+      "grid_points": 1331,
+      "local_max": 3.0622481192335584,
+      "local_argmax": [
+        33.7305517,
+        161.33015169,
+        0.21772298
+      ],
+      "conditional_vertex_max": 20.375705286860466,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 3.0622481192335584,
+      "c_U": 20.37570491810093,
+      "c_L": 20.375703964426613,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": -3.6875953668413786e-07,
+      "population_vertex_minus_conditional_c_U": -17.31345679886737,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "K5_df11",
+      "K": 5,
+      "n": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ],
+      "lam": [
+        0.2,
+        0.5,
+        1.0,
+        2.0,
+        5.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        0.02899406,
+        0.12635509,
+        0.09319909,
+        0.27535055,
+        0.84311463
+      ],
+      "region_hi": [
+        5.97811406,
+        26.05240869,
+        19.21616847,
+        56.77290232,
+        173.83681872
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 3.066212944854936,
+      "vertex_argmax": [
+        0.02899406,
+        26.05240869,
+        19.21616847,
+        56.77290232,
+        173.83681872
+      ],
+      "dense_grid_max": 3.066212944854936,
+      "dense_grid_argmax": [
+        0.02899406,
+        26.05240869,
+        19.21616847,
+        56.77290232,
+        173.83681872
+      ],
+      "grid_points": 1024,
+      "local_max": 3.066212944854936,
+      "local_argmax": [
+        0.02899406,
+        26.05240869,
+        19.21616847,
+        56.77290232,
+        173.83681872
+      ],
+      "conditional_vertex_max": 12.874007448554039,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 3.066212944854936,
+      "c_U": 12.874007512362626,
+      "c_L": 12.87400655868831,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 6.380858685872681e-08,
+      "population_vertex_minus_conditional_c_U": -9.80779456750769,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    },
+    {
+      "cell": "K2_extreme",
+      "K": 2,
+      "n": [
+        4.0,
+        4.0,
+        30.0
+      ],
+      "lam": [
+        0.01,
+        100.0
+      ],
+      "alpha0": 0.0245,
+      "region_lo": [
+        8.082e-05,
+        4.63323527
+      ],
+      "region_hi": [
+        45.69990278,
+        15203.12278615
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "vertex_max_tier": "envelope_measured",
+      "dense_grid_max_tier": "envelope_measured",
+      "local_max_tier": "envelope_measured",
+      "c_U_tier": "region_sup_certified",
+      "vertex_max": 3.28068997208276,
+      "vertex_argmax": [
+        8.082e-05,
+        15203.12278615
+      ],
+      "dense_grid_max": 3.28068997208276,
+      "dense_grid_argmax": [
+        8.082e-05,
+        15203.12278615
+      ],
+      "grid_points": 121,
+      "local_max": 3.28068997208276,
+      "local_argmax": [
+        8.082e-05,
+        15203.12278615
+      ],
+      "conditional_vertex_max": 37.153694316744804,
+      "conditional_vertex_max_tier": "region_sup_certified",
+      "population_vertex_max_tier": "envelope_measured",
+      "argmax_is_vertex": true,
+      "measured_sup": 3.28068997208276,
+      "c_U": 37.15369442436108,
+      "c_L": 37.15369347068676,
+      "gap": 9.5367431640625e-07,
+      "certified_at_tol": true,
+      "headline_continuous_minus_vertex": 1.0761627322608547e-07,
+      "population_vertex_minus_conditional_c_U": -33.873004452278316,
+      "certified_dominates_measured": true,
+      "c_U_dominates_c_L": true
+    }
+  ],
+  "notes": [
+    "continuous supremum (certified) vs vertex / dense-grid / multi-start local maxima (measured); the headline difference is c_U - vertex_max.  Per-field tiers are recorded inside each cell.",
+    "the headline is how much the certified CONTINUOUS supremum exceeds the vertex maximum: it is the price of replacing the measured vertex rule by a certified one, and it must be non-negative.  Measured columns are labelled envelope_measured; the c_U column is region_sup_certified."
+  ],
+  "all_certified_dominate_c_L": true,
+  "all_certified_dominate_population_measured_informational": true,
+  "relabel_note": "regenerated labels only: the VALUES are unchanged (they were already the like-for-like ones); this closes the P2 fix-verify D1/D2 artefacts and the final round's D1",
+  "tier": "region_sup_certified",
+  "tier_claim": "carries the alpha_0 + gamma finite-sample theorem"
+}

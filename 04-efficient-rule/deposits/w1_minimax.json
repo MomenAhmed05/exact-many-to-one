@@ -1,0 +1,228 @@
+{
+ "abar": 0.025,
+ "oracle_power": 0.8,
+ "lam_domain": [
+  0.001,
+  1000.0
+ ],
+ "alt_lams": [
+  0.04,
+  0.25,
+  1.0,
+  4.0,
+  25.0
+ ],
+ "criterion": "worst-case regret against the known-ratio oracle over the declared alternatives, which is a risk with an invariant loss and is therefore the criterion the Hunt-Stein reduction covers",
+ "designs": [
+  {
+   "design": "df3",
+   "n": [
+    4.0,
+    13.0
+   ],
+   "oracle_power": 0.8,
+   "alpha0_deployed": 0.016060546874999998,
+   "minimax_regret_monotone_pp": 30.718809810551562,
+   "minimax_regret_unrestricted_pp": 30.718809489345933,
+   "deployed_worst_regret_pp": 40.023099590877884,
+   "gap_deployed_above_floor_pp": 9.304289780326325,
+   "monotonicity_costs_pp": 3.212056287615894e-07,
+   "regret_profile_monotone_pp": [
+    30.718802602194284,
+    30.718809810551562,
+    29.304967615860456,
+    30.71880788493917,
+    7.71758460407167
+   ],
+   "regret_profile_deployed_pp": [
+    40.023099590877884,
+    32.33543114694538,
+    23.676981767459527,
+    16.272473044498238,
+    13.63000981247694
+   ],
+   "sup_fwer_monotone": 0.025004837843798977,
+   "sup_fwer_unrestricted": 0.02500483165959881,
+   "sup_fwer_deployed": 0.02504354484627717,
+   "lp_status_monotone": 0,
+   "lp_status_unrestricted": 0,
+   "seconds": 76.09720540046692
+  },
+  {
+   "design": "df5",
+   "n": [
+    6.0,
+    13.0
+   ],
+   "oracle_power": 0.8,
+   "alpha0_deployed": 0.021788085937500003,
+   "minimax_regret_monotone_pp": 17.753875680142595,
+   "minimax_regret_unrestricted_pp": 17.75387651926943,
+   "deployed_worst_regret_pp": 20.51339759113532,
+   "gap_deployed_above_floor_pp": 2.759521910992724,
+   "monotonicity_costs_pp": -8.39126834684123e-07,
+   "regret_profile_monotone_pp": [
+    17.75387027689267,
+    17.753867251609044,
+    17.013197023326597,
+    17.753875680142595,
+    8.874131787330485
+   ],
+   "regret_profile_deployed_pp": [
+    20.51339759113532,
+    16.387996889663537,
+    11.044980411201688,
+    7.643285234522401,
+    8.27405211845209
+   ],
+   "sup_fwer_monotone": 0.02524968098555748,
+   "sup_fwer_unrestricted": 0.025249679470789755,
+   "sup_fwer_deployed": 0.025050648236748112,
+   "lp_status_monotone": 0,
+   "lp_status_unrestricted": 0,
+   "seconds": 76.01106548309326
+  },
+  {
+   "design": "df7",
+   "n": [
+    8.0,
+    13.0
+   ],
+   "oracle_power": 0.8,
+   "alpha0_deployed": 0.023427734375000002,
+   "minimax_regret_monotone_pp": 12.13649962444967,
+   "minimax_regret_unrestricted_pp": 12.136503588056314,
+   "deployed_worst_regret_pp": 13.178241432172822,
+   "gap_deployed_above_floor_pp": 1.041741807723151,
+   "monotonicity_costs_pp": -3.9636066428982986e-06,
+   "regret_profile_monotone_pp": [
+    12.13649793537941,
+    12.136495373770828,
+    12.136494446128953,
+    12.136497579599448,
+    12.13649962444967
+   ],
+   "regret_profile_deployed_pp": [
+    13.178241432172822,
+    10.245744878553575,
+    6.799522294901273,
+    5.694116681794559,
+    7.197332974977389
+   ],
+   "sup_fwer_monotone": 0.025214917605911175,
+   "sup_fwer_unrestricted": 0.02521491882677484,
+   "sup_fwer_deployed": 0.02498954174021144,
+   "lp_status_monotone": 0,
+   "lp_status_unrestricted": 0,
+   "seconds": 77.29450726509094
+  },
+  {
+   "design": "df11",
+   "n": [
+    12.0,
+    13.0
+   ],
+   "oracle_power": 0.8,
+   "alpha0_deployed": 0.024460937500000002,
+   "minimax_regret_monotone_pp": 7.224203849799649,
+   "minimax_regret_unrestricted_pp": 7.224211337234953,
+   "deployed_worst_regret_pp": 7.430806898431519,
+   "gap_deployed_above_floor_pp": 0.2066030486318704,
+   "monotonicity_costs_pp": -7.487435305097989e-06,
+   "regret_profile_monotone_pp": [
+    7.224203849799649,
+    7.224203680204222,
+    7.224200590937036,
+    6.992260573390641,
+    7.154646335448667
+   ],
+   "regret_profile_deployed_pp": [
+    7.430806898431519,
+    5.507688445235481,
+    4.0790888218693695,
+    4.926576039001818,
+    6.706071241884426
+   ],
+   "sup_fwer_monotone": 0.02524620510183112,
+   "sup_fwer_unrestricted": 0.025246205134254324,
+   "sup_fwer_deployed": 0.02500082322919571,
+   "lp_status_monotone": 0,
+   "lp_status_unrestricted": 0,
+   "seconds": 76.9987006187439
+  },
+  {
+   "design": "df19",
+   "n": [
+    20.0,
+    13.0
+   ],
+   "oracle_power": 0.8,
+   "alpha0_deployed": 0.024438476562500002,
+   "minimax_regret_monotone_pp": 6.683605156843275,
+   "minimax_regret_unrestricted_pp": 6.683610054083333,
+   "deployed_worst_regret_pp": 6.963244465084806,
+   "gap_deployed_above_floor_pp": 0.2796393082415305,
+   "monotonicity_costs_pp": -4.897240057921692e-06,
+   "regret_profile_monotone_pp": [
+    6.683605156843275,
+    6.68360299741172,
+    6.683601124862138,
+    6.683604722346859,
+    6.683602564482949
+   ],
+   "regret_profile_deployed_pp": [
+    4.102566059842195,
+    3.0954682554312996,
+    3.5164230974345956,
+    5.423585193504232,
+    6.963244465084806
+   ],
+   "sup_fwer_monotone": 0.02563112894888007,
+   "sup_fwer_unrestricted": 0.025148585651434453,
+   "sup_fwer_deployed": 0.024987176360732985,
+   "lp_status_monotone": 0,
+   "lp_status_unrestricted": 0,
+   "seconds": 80.41313672065735
+  },
+  {
+   "design": "df35",
+   "n": [
+    36.0,
+    13.0
+   ],
+   "oracle_power": 0.8,
+   "alpha0_deployed": 0.024326171875000004,
+   "minimax_regret_monotone_pp": 6.797458994192351,
+   "minimax_regret_unrestricted_pp": 6.7974558556743725,
+   "deployed_worst_regret_pp": 7.227472511289634,
+   "gap_deployed_above_floor_pp": 0.43001351709728297,
+   "monotonicity_costs_pp": 3.1385179788401274e-06,
+   "regret_profile_monotone_pp": [
+    6.797458994192351,
+    6.797457342301305,
+    6.797454873472186,
+    6.797456365863008,
+    6.797457703578114
+   ],
+   "regret_profile_deployed_pp": [
+    2.2491592329934917,
+    2.314824215295408,
+    4.133737971701191,
+    6.158336304321721,
+    7.227472511289634
+   ],
+   "sup_fwer_monotone": 0.025142453735264574,
+   "sup_fwer_unrestricted": 0.025145743673191744,
+   "sup_fwer_deployed": 0.0249974510957796,
+   "lp_status_monotone": 0,
+   "lp_status_unrestricted": 0,
+   "seconds": 80.6920850276947
+  }
+ ],
+ "gap_above_floor_low_pp": 0.2066030486318704,
+ "gap_above_floor_high_pp": 0.43001351709728297,
+ "worst_monotonicity_cost_pp": 7.487435305097989e-06,
+ "monotonicity_free": 1,
+ "seconds": 467.50670051574707,
+ "tier": "frontier_measured"
+}

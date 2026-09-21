@@ -1,0 +1,932 @@
+{
+  "n_scenarios": 17,
+  "reps": 2000,
+  "alpha0": 0.0245,
+  "nominal_fwer": 0.0245,
+  "max_fwer": {
+    "raw": 0.0135,
+    "paired": 0.0135,
+    "residual": 0.0045
+  },
+  "median_fwer": {
+    "raw": 0.0,
+    "paired": 0.0,
+    "residual": 0.0
+  },
+  "n_scenarios_fwer_above_nominal": {
+    "raw": 0,
+    "paired": 0,
+    "residual": 0
+  },
+  "max_power_paired": 0.0235,
+  "estimand_note": "raw, paired-difference and factor-residual statistics are formed SEPARATELY in every replication, and the null/alternative runs use the same threshold, so the comparison isolates the estimand rather than the calibration.",
+  "rule_note": "the threshold is the vertex maximum of the conditional law at the scenario's realised draw (the region-supremum primitive); the enclosure gap is at most 3.2e-03 in c, which shifts each measured FWER by well under 1e-3.",
+  "seconds": 698.1788356304169,
+  "scenarios": [
+    {
+      "c_hat": 3.4564441218972206,
+      "lambda_hat": [
+        0.64579,
+        0.895113,
+        1.184574
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.001
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "00_base"
+      }
+    },
+    {
+      "c_hat": 3.344260051846504,
+      "lambda_hat": [
+        0.713498,
+        0.904704,
+        1.188336
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0015
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0015
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": true,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "01_sector=True"
+      }
+    },
+    {
+      "c_hat": 3.3061727955937386,
+      "lambda_hat": [
+        0.498329,
+        0.629559,
+        0.796463
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0135,
+        "paired": 0.0135,
+        "residual": 0.0015
+      },
+      "power": {
+        "raw": 0.0235,
+        "paired": 0.0235,
+        "residual": 0.0025
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.7,
+        -0.8,
+        0.9
+      ],
+      "beta_hat": [
+        1.0,
+        0.7,
+        -0.8,
+        0.9
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "mixed",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "02_loadings=mixed"
+      }
+    },
+    {
+      "c_hat": 3.4720337837934494,
+      "lambda_hat": [
+        0.812675,
+        0.804967,
+        1.188937
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.011,
+        "paired": 0.011,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.017,
+        "paired": 0.017,
+        "residual": 0.001
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.9,
+        0.9,
+        -1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.9,
+        0.9,
+        -1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "one_negative",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "03_loadings=one_negative"
+      }
+    },
+    {
+      "c_hat": 2.8819523081183434,
+      "lambda_hat": [
+        0.724584,
+        0.916616,
+        1.124659
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.25,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "04_resid_corr=0.25"
+      }
+    },
+    {
+      "c_hat": 3.6262776106595993,
+      "lambda_hat": [
+        0.648827,
+        0.900341,
+        1.190442
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0005
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.2,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "05_phi=0.2"
+      }
+    },
+    {
+      "c_hat": 3.6261264383792877,
+      "lambda_hat": [
+        0.647743,
+        0.903073,
+        1.195421
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0005
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.4,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "06_phi=0.4"
+      }
+    },
+    {
+      "c_hat": 3.4430864974856377,
+      "lambda_hat": [
+        0.642456,
+        0.890135,
+        1.180947
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0015
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.001
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": true,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "07_garch=True"
+      }
+    },
+    {
+      "c_hat": 4.590699709951878,
+      "lambda_hat": [
+        0.655543,
+        0.901085,
+        1.169062
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0005
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "reps": 2000,
+      "n": [
+        30.0,
+        30.0,
+        30.0,
+        30.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.5,
+        "unequal": false,
+        "estimated": false,
+        "name": "08_overlap=0.5"
+      }
+    },
+    {
+      "c_hat": 3.8160309344530106,
+      "lambda_hat": [
+        0.64579,
+        0.895113,
+        1.184574
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        36.0,
+        42.0,
+        48.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": true,
+        "estimated": false,
+        "name": "09_unequal=True"
+      }
+    },
+    {
+      "c_hat": 3.4564441218972206,
+      "lambda_hat": [
+        0.64579,
+        0.895113,
+        1.184574
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.001
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0099,
+        0.8059,
+        0.955,
+        1.1073
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": true,
+        "name": "10_estimated=True"
+      }
+    },
+    {
+      "c_hat": 3.8849606961011887,
+      "lambda_hat": [
+        0.614506,
+        0.922561,
+        1.222319,
+        1.545164,
+        1.885313
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0005
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1,
+        1.25,
+        1.4
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1,
+        1.25,
+        1.4
+      ],
+      "design": {
+        "K": 5,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "11_K=5"
+      }
+    },
+    {
+      "c_hat": 2.9639168977737427,
+      "lambda_hat": [
+        0.645294,
+        0.866736,
+        1.212969
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0045
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.008
+      },
+      "reps": 2000,
+      "n": [
+        120.0,
+        120.0,
+        120.0,
+        120.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 120,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "12_T=120"
+      }
+    },
+    {
+      "c_hat": 3.362797327339649,
+      "lambda_hat": [
+        0.654363,
+        0.890716,
+        1.154086
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.001
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.002
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 2.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "13_spread=2.0"
+      }
+    },
+    {
+      "c_hat": 3.6261264383792877,
+      "lambda_hat": [
+        0.647743,
+        0.903073,
+        1.195421
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0,
+        "paired": 0.0,
+        "residual": 0.0005
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.8,
+        0.95,
+        1.1
+      ],
+      "beta_hat": [
+        1.0065,
+        0.8072,
+        0.9596,
+        1.1113
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": false,
+        "loadings": "positive",
+        "resid_corr": 0.0,
+        "phi": 0.4,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": true,
+        "name": "14_phi0.4+estimated"
+      }
+    },
+    {
+      "c_hat": 2.9477556124329567,
+      "lambda_hat": [
+        0.674998,
+        1.078316,
+        0.877728
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.002,
+        "paired": 0.002,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.0075,
+        "paired": 0.0075,
+        "residual": 0.0
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        60.0,
+        60.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.7,
+        -0.8,
+        0.9
+      ],
+      "beta_hat": [
+        1.0,
+        0.7,
+        -0.8,
+        0.9
+      ],
+      "design": {
+        "K": 3,
+        "T": 60,
+        "spread": 1.0,
+        "sector": true,
+        "loadings": "mixed",
+        "resid_corr": 0.25,
+        "phi": 0.0,
+        "garch": false,
+        "overlap": 0.0,
+        "unequal": false,
+        "estimated": false,
+        "name": "15_sector+mixed+resid0.25"
+      }
+    },
+    {
+      "c_hat": 4.178469195961952,
+      "lambda_hat": [
+        0.694967,
+        0.978759,
+        0.853352,
+        1.27293,
+        1.11326
+      ],
+      "coverage_exact": 0.9995010000000001,
+      "fwer": {
+        "raw": 0.009,
+        "paired": 0.009,
+        "residual": 0.0
+      },
+      "power": {
+        "raw": 0.018,
+        "paired": 0.018,
+        "residual": 0.0
+      },
+      "reps": 2000,
+      "n": [
+        60.0,
+        12.0,
+        24.0,
+        36.0,
+        48.0,
+        60.0
+      ],
+      "beta": [
+        1.0,
+        0.7,
+        -0.8,
+        0.9,
+        -1.0,
+        1.1
+      ],
+      "beta_hat": [
+        -0.5116,
+        -0.4531,
+        0.0595,
+        -0.4355,
+        0.0886,
+        -0.4855
+      ],
+      "design": {
+        "K": 5,
+        "T": 120,
+        "spread": 2.0,
+        "sector": true,
+        "loadings": "mixed",
+        "resid_corr": 0.25,
+        "phi": 0.4,
+        "garch": true,
+        "overlap": 0.5,
+        "unequal": true,
+        "estimated": true,
+        "name": "16_all_stress"
+      }
+    }
+  ],
+  "tier": "calibrated_measured",
+  "tier_claim": "measured; no finite-sample guarantee",
+  "notes": [
+    "paired/factor/serial simulation matrix: measured outcomes only.  No claim of the iid theorem is made for these processes; the matrix measures how far each estimand departs from it."
+  ]
+}

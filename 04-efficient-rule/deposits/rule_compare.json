@@ -1,0 +1,323 @@
+{
+ "abar": 0.025,
+ "designs": [
+  {
+   "design": "K2_df35",
+   "K": 2,
+   "n": [
+    36.0,
+    13.0,
+    13.0
+   ],
+   "nbins": 30,
+   "alpha0_joint_certified": 0.0133203125,
+   "alpha0_joint_measured": 0.024452697753906252,
+   "joint_certificate_costs_pct": 45.52620478093417,
+   "points": [
+    {
+     "lam_hat": [
+      1.0,
+      1.0
+     ],
+     "c_joint_certified": 2.6560331015764476,
+     "c_joint_measured": 2.3828116782109814,
+     "c_percand_certified": [
+      2.4383660670216214,
+      2.4383660670216214
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      0.25,
+      4.0
+     ],
+     "c_joint_certified": 2.6952854537262283,
+     "c_joint_measured": 2.412073483984089,
+     "c_percand_certified": [
+      2.357297644594142,
+      2.536417756840357
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      4.0,
+      0.25
+     ],
+     "c_joint_certified": 2.6952854537262283,
+     "c_joint_measured": 2.412073483984089,
+     "c_percand_certified": [
+      2.536417756840357,
+      2.357297644594142
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      0.04,
+      25.0
+     ],
+     "c_joint_certified": 2.731499701656859,
+     "c_joint_measured": 2.439523132025508,
+     "c_percand_certified": [
+      2.3581503118458844,
+      2.589961655456793
+     ],
+     "joint_certified_is_higher": 1
+    }
+   ],
+   "fwer_joint_certified": 0.01368766260787438,
+   "fwer_joint_certified_mcse": 0.00017676173410498126,
+   "alpha0_percand_certified": 0.0115546875,
+   "alpha0_percand_measured": 0.012236572265625002,
+   "percand_certificate_costs_pct": 5.572514514874016,
+   "fwer_percand_certified": 0.023652025081783545,
+   "percand_certificate_dominates": 1
+  },
+  {
+   "design": "K2_df11",
+   "K": 2,
+   "n": [
+    12.0,
+    13.0,
+    13.0
+   ],
+   "nbins": 30,
+   "alpha0_joint_certified": 0.012960937500000002,
+   "alpha0_joint_measured": 0.02351734924316406,
+   "joint_certificate_costs_pct": 44.88776194125093,
+   "points": [
+    {
+     "lam_hat": [
+      1.0,
+      1.0
+     ],
+     "c_joint_certified": 2.6647072109955436,
+     "c_joint_measured": 2.385576068139893,
+     "c_percand_certified": [
+      2.426645054428189,
+      2.426645054428189
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      0.25,
+      4.0
+     ],
+     "c_joint_certified": 2.755879963038708,
+     "c_joint_measured": 2.4638766895144144,
+     "c_percand_certified": [
+      2.4953942539428136,
+      2.4687108181545065
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      4.0,
+      0.25
+     ],
+     "c_joint_certified": 2.755879963038708,
+     "c_joint_measured": 2.4638766895144144,
+     "c_percand_certified": [
+      2.4687108181545065,
+      2.4953942539428136
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      0.04,
+      25.0
+     ],
+     "c_joint_certified": 2.880603426107228,
+     "c_joint_measured": 2.5634233164090157,
+     "c_percand_certified": [
+      2.5930046250910226,
+      2.558554930356777
+     ],
+     "joint_certified_is_higher": 1
+    }
+   ],
+   "fwer_joint_certified": 0.013409244763495492,
+   "fwer_joint_certified_mcse": 0.0002297316343095979,
+   "alpha0_percand_certified": 0.011767382812500001,
+   "alpha0_percand_measured": 0.012222534179687501,
+   "percand_certificate_costs_pct": 3.723870684231023,
+   "fwer_percand_certified": 0.024100681947571756,
+   "percand_certificate_dominates": 1
+  },
+  {
+   "design": "K3_df35",
+   "K": 3,
+   "n": [
+    36.0,
+    13.0,
+    13.0,
+    13.0
+   ],
+   "nbins": 16,
+   "alpha0_joint_certified": 0.009277343750000002,
+   "alpha0_joint_measured": 0.023292404174804687,
+   "joint_certificate_costs_pct": 60.17008944042251,
+   "points": [
+    {
+     "lam_hat": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "c_joint_certified": 2.949354725829981,
+     "c_joint_measured": 2.555826993444973,
+     "c_percand_certified": [
+      2.631437918158374,
+      2.631437918158374,
+      2.631437918158374
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      0.25,
+      4.0,
+      0.25
+     ],
+     "c_joint_certified": 2.9739601739172454,
+     "c_joint_measured": 2.567543161636817,
+     "c_percand_certified": [
+      2.5341654433483396,
+      2.751319905156902,
+      2.5341654433483396
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      4.0,
+      0.25,
+      4.0
+     ],
+     "c_joint_certified": 3.079732331399584,
+     "c_joint_measured": 2.650155539851221,
+     "c_percand_certified": [
+      2.751319905156902,
+      2.5341654433483396,
+      2.751319905156902
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      0.04,
+      25.0,
+      0.04
+     ],
+     "c_joint_certified": 2.9731082097113033,
+     "c_joint_measured": 2.545164298478577,
+     "c_percand_certified": [
+      2.5352705108079183,
+      2.8181794145822,
+      2.5352705108079183
+     ],
+     "joint_certified_is_higher": 1
+    }
+   ],
+   "fwer_joint_certified": 0.00958592546011135,
+   "fwer_joint_certified_mcse": 0.00013115749172651526,
+   "alpha0_percand_certified": 0.007527604166666667,
+   "alpha0_percand_measured": 0.008075683593749999,
+   "percand_certificate_costs_pct": 6.786786786786769,
+   "fwer_percand_certified": 0.023373181741042304,
+   "percand_certificate_dominates": 1
+  },
+  {
+   "design": "K3_df11",
+   "K": 3,
+   "n": [
+    12.0,
+    13.0,
+    13.0,
+    13.0
+   ],
+   "nbins": 16,
+   "alpha0_joint_certified": 0.008828125000000001,
+   "alpha0_joint_measured": 0.02369358825683594,
+   "joint_certificate_costs_pct": 62.74044731298578,
+   "points": [
+    {
+     "lam_hat": [
+      1.0,
+      1.0,
+      1.0
+     ],
+     "c_joint_certified": 2.9914164001425654,
+     "c_joint_measured": 2.530780961189842,
+     "c_percand_certified": [
+      2.617286364986064,
+      2.617286364986064,
+      2.617286364986064
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      0.25,
+      4.0,
+      0.25
+     ],
+     "c_joint_certified": 3.0542119661349147,
+     "c_joint_measured": 2.576695848273011,
+     "c_percand_certified": [
+      2.6998489281529503,
+      2.667718724709546,
+      2.6998489281529503
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      4.0,
+      0.25,
+      4.0
+     ],
+     "c_joint_certified": 3.090482616471918,
+     "c_joint_measured": 2.6255025893818154,
+     "c_percand_certified": [
+      2.667718724709546,
+      2.6998489281529503,
+      2.667718724709546
+     ],
+     "joint_certified_is_higher": 1
+    },
+    {
+     "lam_hat": [
+      0.04,
+      25.0,
+      0.04
+     ],
+     "c_joint_certified": 3.1510723073119773,
+     "c_joint_measured": 2.6258801374781036,
+     "c_percand_certified": [
+      2.8199213382192463,
+      2.777679808305222,
+      2.8199213382192463
+     ],
+     "joint_certified_is_higher": 1
+    }
+   ],
+   "fwer_joint_certified": 0.008947549000764844,
+   "fwer_joint_certified_mcse": 0.00016128214680737892,
+   "alpha0_percand_certified": 0.007721289062500001,
+   "alpha0_percand_measured": 0.008070068359374998,
+   "percand_certificate_costs_pct": 4.321887762819509,
+   "fwer_percand_certified": 0.02396528510545537,
+   "percand_certificate_dominates": 1
+  }
+ ],
+ "note": "the joint and per-candidate levels are levels on different statistics, so they do not compare; the threshold and the realised error rate do",
+ "percand_certificate_dominates_everywhere": 1,
+ "seconds": 1106.9342949390411,
+ "tier": "frontier_measured"
+}

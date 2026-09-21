@@ -1,0 +1,151 @@
+{
+ "abar": 0.025,
+ "n": [
+  36.0,
+  36.0
+ ],
+ "draws": 40000,
+ "lam": 1.0,
+ "rows": [
+  {
+   "exposure": "no exposure (beta = 0, 0)",
+   "arm": "raw returns",
+   "fwer": 0.023875,
+   "mcse": 0.0007632985060741309,
+   "z": -1.4738663721303575,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "no exposure (beta = 0, 0)",
+   "arm": "declared loadings",
+   "fwer": 0.023875,
+   "mcse": 0.0007632985060741309,
+   "z": -1.4738663721303575,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "no exposure (beta = 0, 0)",
+   "arm": "estimated loadings, df corrected",
+   "fwer": 0.025125,
+   "mcse": 0.0007825237117014411,
+   "z": 0.15973956843839612,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "no exposure (beta = 0, 0)",
+   "arm": "estimated loadings, df NOT corrected",
+   "fwer": 0.026975,
+   "mcse": 0.0008100516862367487,
+   "z": 2.4381160283428835,
+   "within_ceiling": 0
+  },
+  {
+   "exposure": "same sign (1.0, 0.8)",
+   "arm": "raw returns",
+   "fwer": 0.004775,
+   "mcse": 0.0003446809892857452,
+   "z": -58.677445605313615,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "same sign (1.0, 0.8)",
+   "arm": "declared loadings",
+   "fwer": 0.024925,
+   "mcse": 0.0007794829115349482,
+   "z": -0.09621763208678054,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "same sign (1.0, 0.8)",
+   "arm": "estimated loadings, df corrected",
+   "fwer": 0.02645,
+   "mcse": 0.0008023465195911302,
+   "z": 1.8071992145474864,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "same sign (1.0, 0.8)",
+   "arm": "estimated loadings, df NOT corrected",
+   "fwer": 0.02825,
+   "mcse": 0.0008284313112745076,
+   "z": 3.9230772132453655,
+   "within_ceiling": 0
+  },
+  {
+   "exposure": "opposite signs (1.0, -0.8)",
+   "arm": "raw returns",
+   "fwer": 0.05065,
+   "mcse": 0.001096409794511158,
+   "z": 23.39453745160698,
+   "within_ceiling": 0
+  },
+  {
+   "exposure": "opposite signs (1.0, -0.8)",
+   "arm": "declared loadings",
+   "fwer": 0.0239,
+   "mcse": 0.0007636882544598941,
+   "z": -1.4403783135017012,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "opposite signs (1.0, -0.8)",
+   "arm": "estimated loadings, df corrected",
+   "fwer": 0.02595,
+   "mcse": 0.0007949307752880122,
+   "z": 1.195072614537793,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "opposite signs (1.0, -0.8)",
+   "arm": "estimated loadings, df NOT corrected",
+   "fwer": 0.0281,
+   "mcse": 0.0008262927749895918,
+   "z": 3.7516968486612354,
+   "within_ceiling": 0
+  },
+  {
+   "exposure": "benchmark unexposed (0, 1.0)",
+   "arm": "raw returns",
+   "fwer": 0.02545,
+   "mcse": 0.0007874372594054716,
+   "z": 0.5714741011109337,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "benchmark unexposed (0, 1.0)",
+   "arm": "declared loadings",
+   "fwer": 0.02455,
+   "mcse": 0.0007737457188896103,
+   "z": -0.5815864165888892,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "benchmark unexposed (0, 1.0)",
+   "arm": "estimated loadings, df corrected",
+   "fwer": 0.026125,
+   "mcse": 0.0007975350207827867,
+   "z": 1.4105963633995677,
+   "within_ceiling": 1
+  },
+  {
+   "exposure": "benchmark unexposed (0, 1.0)",
+   "arm": "estimated loadings, df NOT corrected",
+   "fwer": 0.027875,
+   "mcse": 0.0008230732709637703,
+   "z": 3.493006153186755,
+   "within_ceiling": 0
+  }
+ ],
+ "alpha0_iid": 0.024943847656250004,
+ "alpha0_iid_one_df_less": 0.024932617187500002,
+ "pre_period_loadings": {
+  "fwer": 0.0242,
+  "mcse": 0.0007683482283444142,
+  "z": -1.0411945658074713,
+  "pre_periods": 60,
+  "within_ceiling": 1
+ },
+ "status": "With DECLARED loadings the factor-residual series is iid Gaussian and the certified rule applies unchanged to the factor-alpha estimand; that is the same structure as the whitening result for serial dependence.  With loadings estimated IN SAMPLE the guarantee is a plug-in: the degree of freedom lost to the regression must be given back to the rule, and the arm that does not do so is measured here to show the size of that mistake.  Loadings from a pre-period that is not reused restore the exact statement.",
+ "seconds": 89.67326164245605,
+ "tier": "unconditional_candidate_measured"
+}

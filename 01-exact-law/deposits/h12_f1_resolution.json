@@ -1,0 +1,16 @@
+{
+  "f1a_definition_exact_to": 1.73e-16,
+  "f1a_vs_independent_headtohead_worst": 0.00077,
+  "dFWER_dalphastar": [
+    0.99,
+    1.0,
+    0.95,
+    0.92
+  ],
+  "f1b_residual_rms_at_B600": 0.00113,
+  "f1b_residual_rms_at_B1200": 0.0006,
+  "predicted_sd_alphastar_B1200": 0.00069,
+  "insensitive_to_ngrid_11_21_31": true,
+  "insensitive_to_inner_grid_BOOT_vs_FAST": true,
+  "conclusion": "F1b residual is alpha* estimation noise, not a systematic defect: it is unchanged by refining the c-grid 11->31 or by switching the inner grid, its rms matches the predicted sd of alpha*, and its SIGN flips between seed families. The calibration definition itself is exact (F1a)."
+}

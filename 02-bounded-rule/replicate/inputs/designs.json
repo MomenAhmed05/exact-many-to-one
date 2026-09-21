@@ -1,0 +1,309 @@
+{
+  "kit": "desk-guarantee replication kit",
+  "method_spec": "METHOD.md",
+  "constants": {
+    "alpha": 0.025,
+    "gamma": 0.0005,
+    "margin_for_tight_scale": 1e-06,
+    "draws_per_cell": 200,
+    "draws_per_seed": 50,
+    "seed_offsets": [
+      101,
+      202,
+      303,
+      404
+    ],
+    "family_index": {
+      "A": 0,
+      "B": 1
+    },
+    "quadrature": {
+      "outer_panels": 40,
+      "outer_order": 10
+    },
+    "candidate_set": {
+      "K<=3": "3^K product of {lo, mid, hi}",
+      "K=5": "2^K corners",
+      "K=8": "3+2K (three lo/mid/hi axes, rest corners)"
+    }
+  },
+  "desk_cells": [
+    {
+      "family": "A",
+      "family_index": 0,
+      "df0": 3,
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        4765,
+        4866,
+        4967,
+        5068
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "A",
+      "family_index": 0,
+      "df0": 5,
+      "n": [
+        6,
+        13,
+        13
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        4959,
+        5060,
+        5161,
+        5262
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "A",
+      "family_index": 0,
+      "df0": 7,
+      "n": [
+        8,
+        13,
+        13
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        5153,
+        5254,
+        5355,
+        5456
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "A",
+      "family_index": 0,
+      "df0": 11,
+      "n": [
+        12,
+        13,
+        13
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        5541,
+        5642,
+        5743,
+        5844
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "A",
+      "family_index": 0,
+      "df0": 19,
+      "n": [
+        20,
+        13,
+        13
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        6317,
+        6418,
+        6519,
+        6620
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "A",
+      "family_index": 0,
+      "df0": 35,
+      "n": [
+        36,
+        13,
+        13
+      ],
+      "lam_true": [
+        0.04,
+        0.04
+      ],
+      "seeds": [
+        7869,
+        7970,
+        8071,
+        8172
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "B",
+      "family_index": 1,
+      "df0": 3,
+      "n": [
+        4,
+        13,
+        13
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        4896,
+        4997,
+        5098,
+        5199
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "B",
+      "family_index": 1,
+      "df0": 5,
+      "n": [
+        6,
+        13,
+        13
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        5090,
+        5191,
+        5292,
+        5393
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "B",
+      "family_index": 1,
+      "df0": 7,
+      "n": [
+        8,
+        13,
+        13
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        5284,
+        5385,
+        5486,
+        5587
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "B",
+      "family_index": 1,
+      "df0": 11,
+      "n": [
+        12,
+        13,
+        13
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        5672,
+        5773,
+        5874,
+        5975
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "B",
+      "family_index": 1,
+      "df0": 19,
+      "n": [
+        20,
+        13,
+        13
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        6448,
+        6549,
+        6650,
+        6751
+      ],
+      "draws_per_seed": 50
+    },
+    {
+      "family": "B",
+      "family_index": 1,
+      "df0": 35,
+      "n": [
+        36,
+        13,
+        13
+      ],
+      "lam_true": [
+        1.0,
+        25.0
+      ],
+      "seeds": [
+        8000,
+        8101,
+        8202,
+        8303
+      ],
+      "draws_per_seed": 50
+    }
+  ],
+  "seed_reconstruction": {
+    "note": "seeds are given EXPLICITLY per cell, copied from the original deposits' per_seed records; no formula is provided or needed."
+  },
+  "expected_outputs_withheld": true,
+  "report_template": {
+    "per_cell": [
+      "c_env_mean",
+      "c_plug_mean",
+      "c_oracle_population",
+      "cost_pct",
+      "fwer_envelope",
+      "fwer_plugin",
+      "paired_dominance_mean",
+      "paired_dominance_se",
+      "frac_lambda_true_outside_region",
+      "scale",
+      "coverage_exact"
+    ],
+    "falsifiers": [
+      "F1_worst_abs_dev_vs_student_t",
+      "F2_worst_abs_dev_vs_independent_t",
+      "F3_movement_32_to_48_panels",
+      "F4_monte_carlo_size_z"
+    ]
+  }
+}

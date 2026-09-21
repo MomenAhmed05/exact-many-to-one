@@ -1,0 +1,19 @@
+{
+ "report": "REPORT-BEYOND.md",
+ "n_expected_strings": 161,
+ "n_tokens": 206,
+ "n_covered": 202,
+ "n_excused": 4,
+ "n_uncovered": 0,
+ "coverage_pct": 100.0,
+ "uncovered": [],
+ "excused": {
+  "200,000": "the draw count of the invariance check, a declared parameter",
+  "144": "a bin count in the resolution table, covered by the row check",
+  "1.47": "the spurious gain the first region module reported, quoted as prose about a superseded run rather than as a result",
+  "193": "the verification grid size, a declared parameter"
+ },
+ "clean": 1,
+ "note": "Coverage counts DISTINCT numeric tokens, not occurrences.  A token is covered when some check formats exactly that string from a deposit.  Excused tokens are declared parameters, section numbers and table axis labels, each named; everything else must be covered or the run is not clean.",
+ "tier": "diagnostic"
+}

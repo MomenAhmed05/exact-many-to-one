@@ -1,0 +1,993 @@
+{
+  "alpha0": 0.0245,
+  "gamma": 0.0005,
+  "tol": 0.0001,
+  "fd_check": {
+    "rows": [
+      {
+        "family": "A",
+        "df0": 3,
+        "n": [
+          4.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          0.04,
+          0.04
+        ],
+        "c_conditional": 2.012491649211006,
+        "analytic": [
+          0.019488,
+          0.019581
+        ],
+        "finite_difference": [
+          0.019488,
+          0.019581
+        ],
+        "abs_dev": [
+          0.0,
+          2e-08
+        ],
+        "max_rel_dev": 1e-06,
+        "agree": true
+      },
+      {
+        "family": "A",
+        "df0": 5,
+        "n": [
+          6.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          0.04,
+          0.04
+        ],
+        "c_conditional": 7.080201404965917,
+        "analytic": [
+          0.079931,
+          0.091686
+        ],
+        "finite_difference": [
+          0.079931,
+          0.091686
+        ],
+        "abs_dev": [
+          3e-08,
+          2e-08
+        ],
+        "max_rel_dev": 0.0,
+        "agree": true
+      },
+      {
+        "family": "A",
+        "df0": 7,
+        "n": [
+          8.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          0.04,
+          0.04
+        ],
+        "c_conditional": 1.9121106161124777,
+        "analytic": [
+          0.02723,
+          0.028755
+        ],
+        "finite_difference": [
+          0.02723,
+          0.028755
+        ],
+        "abs_dev": [
+          1e-08,
+          1e-08
+        ],
+        "max_rel_dev": 0.0,
+        "agree": true
+      },
+      {
+        "family": "A",
+        "df0": 11,
+        "n": [
+          12.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          0.04,
+          0.04
+        ],
+        "c_conditional": 1.8729781480942624,
+        "analytic": [
+          0.035479,
+          0.03496
+        ],
+        "finite_difference": [
+          0.035479,
+          0.03496
+        ],
+        "abs_dev": [
+          2e-08,
+          2e-08
+        ],
+        "max_rel_dev": 0.0,
+        "agree": true
+      },
+      {
+        "family": "A",
+        "df0": 19,
+        "n": [
+          20.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          0.04,
+          0.04
+        ],
+        "c_conditional": 2.3059720227116487,
+        "analytic": [
+          0.058082,
+          0.06113
+        ],
+        "finite_difference": [
+          0.058082,
+          0.06113
+        ],
+        "abs_dev": [
+          3e-08,
+          4e-08
+        ],
+        "max_rel_dev": 1e-06,
+        "agree": true
+      },
+      {
+        "family": "A",
+        "df0": 35,
+        "n": [
+          36.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          0.04,
+          0.04
+        ],
+        "c_conditional": 2.335085862185951,
+        "analytic": [
+          0.088825,
+          0.086399
+        ],
+        "finite_difference": [
+          0.088825,
+          0.086399
+        ],
+        "abs_dev": [
+          5e-08,
+          5e-08
+        ],
+        "max_rel_dev": 1e-06,
+        "agree": true
+      },
+      {
+        "family": "B",
+        "df0": 3,
+        "n": [
+          4.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          1.0,
+          25.0
+        ],
+        "c_conditional": 2.713010793067225,
+        "analytic": [
+          0.077852,
+          0.920035
+        ],
+        "finite_difference": [
+          0.077852,
+          0.920035
+        ],
+        "abs_dev": [
+          9e-08,
+          4e-07
+        ],
+        "max_rel_dev": 1e-06,
+        "agree": true
+      },
+      {
+        "family": "B",
+        "df0": 5,
+        "n": [
+          6.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          1.0,
+          25.0
+        ],
+        "c_conditional": 2.8830961393578045,
+        "analytic": [
+          0.412194,
+          0.129126
+        ],
+        "finite_difference": [
+          0.412194,
+          0.129127
+        ],
+        "abs_dev": [
+          2.1e-07,
+          6e-07
+        ],
+        "max_rel_dev": 5e-06,
+        "agree": true
+      },
+      {
+        "family": "B",
+        "df0": 7,
+        "n": [
+          8.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          1.0,
+          25.0
+        ],
+        "c_conditional": 2.183370805088634,
+        "analytic": [
+          0.11854,
+          0.738143
+        ],
+        "finite_difference": [
+          0.118541,
+          0.738143
+        ],
+        "abs_dev": [
+          1.3e-07,
+          3.5e-07
+        ],
+        "max_rel_dev": 1e-06,
+        "agree": true
+      },
+      {
+        "family": "B",
+        "df0": 11,
+        "n": [
+          12.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          1.0,
+          25.0
+        ],
+        "c_conditional": 2.264613384769473,
+        "analytic": [
+          0.256104,
+          0.578398
+        ],
+        "finite_difference": [
+          0.256104,
+          0.578398
+        ],
+        "abs_dev": [
+          1.9e-07,
+          3.2e-07
+        ],
+        "max_rel_dev": 1e-06,
+        "agree": true
+      },
+      {
+        "family": "B",
+        "df0": 19,
+        "n": [
+          20.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          1.0,
+          25.0
+        ],
+        "c_conditional": 2.4595442431906127,
+        "analytic": [
+          0.294891,
+          0.726978
+        ],
+        "finite_difference": [
+          0.294891,
+          0.726979
+        ],
+        "abs_dev": [
+          2.6e-07,
+          4.2e-07
+        ],
+        "max_rel_dev": 1e-06,
+        "agree": true
+      },
+      {
+        "family": "B",
+        "df0": 35,
+        "n": [
+          36.0,
+          13.0,
+          13.0
+        ],
+        "lam": [
+          1.0,
+          25.0
+        ],
+        "c_conditional": 2.9157859075196035,
+        "analytic": [
+          0.530995,
+          0.726404
+        ],
+        "finite_difference": [
+          0.530995,
+          0.726404
+        ],
+        "abs_dev": [
+          3.7e-07,
+          4.2e-07
+        ],
+        "max_rel_dev": 1e-06,
+        "agree": true
+      }
+    ],
+    "h": 0.002,
+    "alpha": 0.0245,
+    "all_agree": true,
+    "note": "dcdloglam is the implicit-function derivative at a fixed draw; the reference is a central difference of the conditional critical value solved by bisection on core.cond_noreject, so both objects are conditional on the same draw"
+  },
+  "w26_derivative_defect": {
+    "w26_empty": true,
+    "fixed_nonempty": true,
+    "w26_error_text": "np.dot shapes (201,) vs (200,) -> ValueError caught by a bare except; see the module docstring",
+    "fixed_values": [
+      0.587625,
+      0.121009
+    ]
+  },
+  "lipschitz_materiality": {
+    "rows": [
+      {
+        "family": "A",
+        "df0": 3,
+        "K": 2,
+        "N_per_axis": 2,
+        "cells": 4,
+        "correction": 1.0555951112881763,
+        "reaches_tol": false,
+        "evals_needed": 4,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 3,
+        "K": 2,
+        "N_per_axis": 4,
+        "cells": 16,
+        "correction": 0.5317540381619397,
+        "reaches_tol": false,
+        "evals_needed": 16,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 3,
+        "K": 2,
+        "N_per_axis": 8,
+        "cells": 64,
+        "correction": 0.26587701908096983,
+        "reaches_tol": false,
+        "evals_needed": 64,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 3,
+        "K": 2,
+        "N_per_axis": 16,
+        "cells": 256,
+        "correction": 0.13400976362973877,
+        "reaches_tol": false,
+        "evals_needed": 256,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 7,
+        "K": 2,
+        "N_per_axis": 2,
+        "cells": 4,
+        "correction": 1.195719390459037,
+        "reaches_tol": false,
+        "evals_needed": 4,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 7,
+        "K": 2,
+        "N_per_axis": 4,
+        "cells": 16,
+        "correction": 0.5978596952295185,
+        "reaches_tol": false,
+        "evals_needed": 16,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 7,
+        "K": 2,
+        "N_per_axis": 8,
+        "cells": 64,
+        "correction": 0.29892984761475916,
+        "reaches_tol": false,
+        "evals_needed": 64,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 7,
+        "K": 2,
+        "N_per_axis": 16,
+        "cells": 256,
+        "correction": 0.1494649238073796,
+        "reaches_tol": false,
+        "evals_needed": 256,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 19,
+        "K": 2,
+        "N_per_axis": 2,
+        "cells": 4,
+        "correction": 1.2481308976950758,
+        "reaches_tol": false,
+        "evals_needed": 4,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 19,
+        "K": 2,
+        "N_per_axis": 4,
+        "cells": 16,
+        "correction": 0.6240654488475379,
+        "reaches_tol": false,
+        "evals_needed": 16,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 19,
+        "K": 2,
+        "N_per_axis": 8,
+        "cells": 64,
+        "correction": 0.3120327244237691,
+        "reaches_tol": false,
+        "evals_needed": 64,
+        "feasible": true
+      },
+      {
+        "family": "A",
+        "df0": 19,
+        "K": 2,
+        "N_per_axis": 16,
+        "cells": 256,
+        "correction": 0.1560163622118845,
+        "reaches_tol": false,
+        "evals_needed": 256,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 3,
+        "K": 2,
+        "N_per_axis": 2,
+        "cells": 4,
+        "correction": 4.973507939479385,
+        "reaches_tol": false,
+        "evals_needed": 4,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 3,
+        "K": 2,
+        "N_per_axis": 4,
+        "cells": 16,
+        "correction": 2.4867539697396923,
+        "reaches_tol": false,
+        "evals_needed": 16,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 3,
+        "K": 2,
+        "N_per_axis": 8,
+        "cells": 64,
+        "correction": 1.243376984869846,
+        "reaches_tol": false,
+        "evals_needed": 64,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 3,
+        "K": 2,
+        "N_per_axis": 16,
+        "cells": 256,
+        "correction": 0.6216884924349231,
+        "reaches_tol": false,
+        "evals_needed": 256,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 7,
+        "K": 2,
+        "N_per_axis": 2,
+        "cells": 4,
+        "correction": 3.754247269840261,
+        "reaches_tol": false,
+        "evals_needed": 4,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 7,
+        "K": 2,
+        "N_per_axis": 4,
+        "cells": 16,
+        "correction": 1.8771236349201301,
+        "reaches_tol": false,
+        "evals_needed": 16,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 7,
+        "K": 2,
+        "N_per_axis": 8,
+        "cells": 64,
+        "correction": 0.9385966892177823,
+        "reaches_tol": false,
+        "evals_needed": 64,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 7,
+        "K": 2,
+        "N_per_axis": 16,
+        "cells": 256,
+        "correction": 0.47001578420017504,
+        "reaches_tol": false,
+        "evals_needed": 256,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 19,
+        "K": 2,
+        "N_per_axis": 2,
+        "cells": 4,
+        "correction": 3.8581012315816383,
+        "reaches_tol": false,
+        "evals_needed": 4,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 19,
+        "K": 2,
+        "N_per_axis": 4,
+        "cells": 16,
+        "correction": 1.9290506157908196,
+        "reaches_tol": false,
+        "evals_needed": 16,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 19,
+        "K": 2,
+        "N_per_axis": 8,
+        "cells": 64,
+        "correction": 0.9645253078954098,
+        "reaches_tol": false,
+        "evals_needed": 64,
+        "feasible": true
+      },
+      {
+        "family": "B",
+        "df0": 19,
+        "K": 2,
+        "N_per_axis": 16,
+        "cells": 256,
+        "correction": 0.48226265394770407,
+        "reaches_tol": false,
+        "evals_needed": 256,
+        "feasible": true
+      }
+    ],
+    "tol": 0.0001,
+    "min_correction": 0.13400976362973877,
+    "feasible_and_within_tol": 0,
+    "verdict": "the Lipschitz route does NOT reach the predeclared tolerance on a feasible grid for these cells: it is a diagnostic, not the certificate",
+    "caveat": "L_C is sampled at cell corners, so this measures whether the route is worth pursuing with rigorous enclosures, not whether a certificate exists; the certificate path is the branch-and-bound of plan 2.4"
+  },
+  "argmax_geometry": {
+    "rows": [
+      {
+        "family": "A",
+        "df0": 3,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 3.2922968355022593,
+        "argmax": [
+          0.71149275,
+          7.881e-05
+        ],
+        "argmax_at_lo": [
+          false,
+          true
+        ],
+        "argmax_at_hi": [
+          true,
+          false
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          9.737e-05,
+          7.881e-05
+        ],
+        "region_hi": [
+          0.71149275,
+          0.57587534
+        ]
+      },
+      {
+        "family": "A",
+        "df0": 5,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.801665412834273,
+        "argmax": [
+          17.08874143,
+          0.01786455
+        ],
+        "argmax_at_lo": [
+          false,
+          true
+        ],
+        "argmax_at_hi": [
+          true,
+          false
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.02076798,
+          0.01786455
+        ],
+        "region_hi": [
+          17.08874143,
+          14.69968448
+        ]
+      },
+      {
+        "family": "A",
+        "df0": 7,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.543426618913835,
+        "argmax": [
+          0.88397221,
+          0.00146275
+        ],
+        "argmax_at_lo": [
+          false,
+          true
+        ],
+        "argmax_at_hi": [
+          true,
+          false
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.00282892,
+          0.00146275
+        ],
+        "region_hi": [
+          0.88397221,
+          0.45707465
+        ]
+      },
+      {
+        "family": "A",
+        "df0": 11,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.3718963748069464,
+        "argmax": [
+          0.00227027,
+          0.35140159
+        ],
+        "argmax_at_lo": [
+          true,
+          false
+        ],
+        "argmax_at_hi": [
+          false,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.00227027,
+          0.00275042
+        ],
+        "region_hi": [
+          0.29005572,
+          0.35140159
+        ]
+      },
+      {
+        "family": "A",
+        "df0": 19,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.3137587085310574,
+        "argmax": [
+          0.46028891,
+          0.34701278
+        ],
+        "argmax_at_lo": [
+          false,
+          false
+        ],
+        "argmax_at_hi": [
+          true,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.00694772,
+          0.0052379
+        ],
+        "region_hi": [
+          0.46028891,
+          0.34701278
+        ]
+      },
+      {
+        "family": "A",
+        "df0": 35,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.277731758808454,
+        "argmax": [
+          0.19407313,
+          0.22614854
+        ],
+        "argmax_at_lo": [
+          false,
+          false
+        ],
+        "argmax_at_hi": [
+          true,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.00441119,
+          0.00514024
+        ],
+        "region_hi": [
+          0.19407313,
+          0.22614854
+        ]
+      },
+      {
+        "family": "B",
+        "df0": 3,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 3.3553746314284605,
+        "argmax": [
+          0.00243417,
+          359.92208862
+        ],
+        "argmax_at_lo": [
+          true,
+          false
+        ],
+        "argmax_at_hi": [
+          false,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.00243417,
+          0.04925475
+        ],
+        "region_hi": [
+          17.7873188,
+          359.92208862
+        ]
+      },
+      {
+        "family": "B",
+        "df0": 5,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.6489538185007335,
+        "argmax": [
+          0.5191994,
+          9187.30280259
+        ],
+        "argmax_at_lo": [
+          true,
+          false
+        ],
+        "argmax_at_hi": [
+          false,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.5191994,
+          11.16534453
+        ],
+        "region_hi": [
+          427.21853571,
+          9187.30280259
+        ]
+      },
+      {
+        "family": "B",
+        "df0": 7,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.6655601450491133,
+        "argmax": [
+          0.07072303,
+          285.67165603
+        ],
+        "argmax_at_lo": [
+          true,
+          false
+        ],
+        "argmax_at_hi": [
+          false,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.07072303,
+          0.91421725
+        ],
+        "region_hi": [
+          22.09930513,
+          285.67165603
+        ]
+      },
+      {
+        "family": "B",
+        "df0": 11,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.5582658282546835,
+        "argmax": [
+          0.05675665,
+          219.62599326
+        ],
+        "argmax_at_lo": [
+          true,
+          false
+        ],
+        "argmax_at_hi": [
+          false,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.05675665,
+          1.71901242
+        ],
+        "region_hi": [
+          7.25139305,
+          219.62599326
+        ]
+      },
+      {
+        "family": "B",
+        "df0": 19,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.5446804908354745,
+        "argmax": [
+          11.50722269,
+          216.8829846
+        ],
+        "argmax_at_lo": [
+          false,
+          false
+        ],
+        "argmax_at_hi": [
+          true,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.17369309,
+          3.27368973
+        ],
+        "region_hi": [
+          11.50722269,
+          216.8829846
+        ]
+      },
+      {
+        "family": "B",
+        "df0": 35,
+        "K": 2,
+        "grid_points": 81,
+        "sup_grid": 2.538852068156738,
+        "argmax": [
+          4.85182821,
+          141.3428391
+        ],
+        "argmax_at_lo": [
+          false,
+          false
+        ],
+        "argmax_at_hi": [
+          true,
+          true
+        ],
+        "is_vertex": true,
+        "n_coords_at_bound": 2,
+        "region_lo": [
+          0.11027964,
+          3.21265235
+        ],
+        "region_hi": [
+          4.85182821,
+          141.3428391
+        ]
+      }
+    ],
+    "per_axis": 9,
+    "n_vertex": 12,
+    "n_mixed": 0,
+    "note": "P2 seeds its witness set with vertices, face midpoints, the box centre and any mixed corners found here"
+  },
+  "seconds": 146.44559526443481,
+  "tier": "envelope_measured",
+  "tier_claim": "measured; no finite-sample guarantee",
+  "notes": [
+    "diagnostics for the measured-tier geometry: finite-difference checks of the implicit-function derivative, a SAMPLED Lipschitz materiality estimate (not a bound), and the argmax geometry used to seed the P2 branch-and-bound"
+  ]
+}

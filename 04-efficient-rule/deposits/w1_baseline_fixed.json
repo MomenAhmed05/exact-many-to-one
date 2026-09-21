@@ -1,0 +1,45 @@
+{
+ "abar": 0.025,
+ "oracle_power": 0.8,
+ "n": [
+  36.0,
+  13.0
+ ],
+ "rows": [
+  {
+   "range_log_sigma2": 6.0,
+   "n_v": 25,
+   "worst_fwer": 0.02499605124305121,
+   "worst_regret_pp": 7.22747250939878
+  },
+  {
+   "range_log_sigma2": 10.0,
+   "n_v": 41,
+   "worst_fwer": 0.02499605124305121,
+   "worst_regret_pp": 7.22747250939878
+  },
+  {
+   "range_log_sigma2": 14.0,
+   "n_v": 57,
+   "worst_fwer": 0.02499605124305121,
+   "worst_regret_pp": 7.22747250939878
+  },
+  {
+   "range_log_sigma2": 18.0,
+   "n_v": 73,
+   "worst_fwer": 0.02499605124305121,
+   "worst_regret_pp": 7.22747250939878
+  }
+ ],
+ "worst_fwer": 0.02499605124305121,
+ "worst_regret_pp": 7.22747250939878,
+ "fwer_spread_across_sweeps": 0.0,
+ "regret_spread_across_sweeps_pp": 0.0,
+ "exactly_fixed": 1,
+ "narrowest_range": 6.0,
+ "widest_range": 18.0,
+ "orders_of_magnitude_spanned": 15.634601348517064,
+ "note": "The deployed rule reads lambda_hat only, and the law of lambda_hat does not involve sigma_0^2, so widening the sweep cannot move it.  Measured rather than asserted, because it is what makes the rising losses in w1_sigma_range a comparison and not a common drift.",
+ "seconds": 67.62322330474854,
+ "tier": "exact_in_model"
+}

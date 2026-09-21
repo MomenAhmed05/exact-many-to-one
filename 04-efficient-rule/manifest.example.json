@@ -1,0 +1,82 @@
+{
+ "manifest_version": 1,
+ "locked_at": "2026-01-05T09:00:00+00:00",
+ "locked_by": "desk-research",
+ "note": "Example manifest; the shape a real one takes.",
+ "benchmark": {
+  "id": "live_book_v7",
+  "code_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "description": "the deployed multi-sleeve book"
+ },
+ "candidates": [
+  {
+   "id": "carry_v3",
+   "code_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  {
+   "id": "trend_v2",
+   "code_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+  },
+  {
+   "id": "fx_fix_v1",
+   "code_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+  }
+ ],
+ "returns": {
+  "frequency": "monthly",
+  "cost_model": {
+   "commission_bp": 2.0,
+   "slippage_bp": 4.0,
+   "financing": "SOFR + 90bp on gross",
+   "source": "broker schedule 2025-11"
+  },
+  "rebalance": "monthly, last business day, close",
+  "missing_data_policy": "reject_run"
+ },
+ "window": {
+  "research_end": "2025-12-31",
+  "calibration_start": "2021-01-01",
+  "calibration_end": "2025-12-31",
+  "evaluation_start": "2026-01-01",
+  "evaluation_end": "2028-12-31"
+ },
+ "hypothesis": {
+  "direction": "one_sided_greater",
+  "fwer_target": 0.025,
+  "statistic": "welch_separate_variance",
+  "estimand": "raw_mean_difference"
+ },
+ "dependence": {
+  "serial": {
+   "tier": "A_declared",
+   "transform": "cochrane_orcutt",
+   "phi_max": 0.2,
+   "source": "declared bound, whitened at the top"
+  },
+  "cross_sectional": {
+   "tier": "none",
+   "model": "independent_groups"
+  }
+ },
+ "nuisance_domain": {
+  "variance_ratio": [
+   0.001,
+   1000.0
+  ],
+  "source": "published_volatility_target",
+  "evidence": "book targets 8% annualised; sleeve mandates cap 25%"
+ },
+ "threshold_table": {
+  "version": "wb_certified_rule/df35",
+  "sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+  "alpha0": 0.02377,
+  "certificate_deposit": "wb_certified_rule.json"
+ },
+ "specifications": {
+  "primary": "monthly net returns, Welch, one-sided, FWER 0.025",
+  "sensitivity": [
+   "gross of costs",
+   "weekly frequency"
+  ]
+ }
+}

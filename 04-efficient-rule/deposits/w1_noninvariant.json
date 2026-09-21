@@ -1,0 +1,137 @@
+{
+ "abar": 0.025,
+ "oracle_power": 0.8,
+ "claim_under_test": "the bound of Section 10.8, computed over rules measurable in (T, lambda_hat), extends to every test",
+ "probes": [
+  {
+   "design": "df11",
+   "n": [
+    12.0,
+    13.0
+   ],
+   "kind": "scale",
+   "extra_coordinate": "s_0^2",
+   "nuisance": "sigma_0^2",
+   "nuisance_grid": [
+    0.25,
+    1.0,
+    4.0
+   ],
+   "extra_bins": 8,
+   "ratio_bins": 20,
+   "t_cells": 122,
+   "free_power": 0.7699012431346781,
+   "flat_power": 0.7445320647590488,
+   "gain_pp": 2.5369178375629353,
+   "max_spread_across_extra_axis": 1.0,
+   "beat_the_bound": 1,
+   "lp_status_free": 0,
+   "lp_status_flat": 0,
+   "seconds": 42.232746601104736
+  },
+  {
+   "design": "df11",
+   "n": [
+    12.0,
+    13.0
+   ],
+   "kind": "location",
+   "extra_coordinate": "Xbar_0",
+   "nuisance": "mu",
+   "nuisance_grid": [
+    -2.0,
+    0.0,
+    2.0
+   ],
+   "extra_bins": 8,
+   "ratio_bins": 20,
+   "t_cells": 122,
+   "free_power": 0.8832147337778774,
+   "flat_power": 0.7445320378117509,
+   "gain_pp": 13.868269596612649,
+   "max_spread_across_extra_axis": 1.0,
+   "beat_the_bound": 1,
+   "lp_status_free": 0,
+   "lp_status_flat": 0,
+   "seconds": 42.79573678970337
+  },
+  {
+   "design": "df35",
+   "n": [
+    36.0,
+    13.0
+   ],
+   "kind": "scale",
+   "extra_coordinate": "s_0^2",
+   "nuisance": "sigma_0^2",
+   "nuisance_grid": [
+    0.25,
+    1.0,
+    4.0
+   ],
+   "extra_bins": 8,
+   "ratio_bins": 20,
+   "t_cells": 122,
+   "free_power": 0.7657882575313087,
+   "flat_power": 0.7602730864021127,
+   "gain_pp": 0.5515171129196084,
+   "max_spread_across_extra_axis": 1.0,
+   "beat_the_bound": 1,
+   "lp_status_free": 0,
+   "lp_status_flat": 0,
+   "seconds": 42.60353469848633
+  },
+  {
+   "design": "df35",
+   "n": [
+    36.0,
+    13.0
+   ],
+   "kind": "location",
+   "extra_coordinate": "Xbar_0",
+   "nuisance": "mu",
+   "nuisance_grid": [
+    -2.0,
+    0.0,
+    2.0
+   ],
+   "extra_bins": 8,
+   "ratio_bins": 20,
+   "t_cells": 122,
+   "free_power": 0.8491947233880056,
+   "flat_power": 0.7602729960557585,
+   "gain_pp": 8.892172733224712,
+   "max_spread_across_extra_axis": 1.0,
+   "beat_the_bound": 1,
+   "lp_status_free": 0,
+   "lp_status_flat": 0,
+   "seconds": 43.159648418426514
+  }
+ ],
+ "n_probes": 4,
+ "worst_spread": 1.0,
+ "sanity": [
+  {
+   "design": "df35",
+   "kind": "scale",
+   "gain_pp": 0.5515201517373614,
+   "expresses_noninvariance": 1
+  },
+  {
+   "design": "df35",
+   "kind": "location",
+   "gain_pp": 8.892172737037274,
+   "expresses_noninvariance": 1
+  }
+ ],
+ "sanity_shows_the_mesh_can_cheat": 1,
+ "note": "Each probe hands the program a coordinate an invariant rule discards, one per generator of the group, and makes it hold its size across the nuisance that coordinate is sensitive to.  The flat reference is the SAME program with equality across that axis imposed as a constraint, so no rendering difference sits between the two.  The sanity rows pin the size at one nuisance value instead of a range, where the coordinate IS informative, so that finding no gain in the real probes is a result rather than an inability to express one.",
+ "seconds": 203.59346723556519,
+ "VALID": 0,
+ "invalid_because": "these numbers come from the FIRST design, which scored weighted average power at one point of the orbit; that is not the criterion the Proposition covers, so the gains it reports are consistent with the Proposition rather than against it.  The redesigned run on the covered criterion completed one probe and then failed numerically on the flat arm, so no valid measurement exists",
+ "superseded_first_version_gain_pp": 13.868269596612649,
+ "claim_survives_IGNORE_IF_INVALID": 0,
+ "worst_gain_pp_IGNORE_IF_INVALID": 13.868269596612649,
+ "n_that_beat_the_bound_IGNORE_IF_INVALID": 4,
+ "tier": "diagnostic"
+}

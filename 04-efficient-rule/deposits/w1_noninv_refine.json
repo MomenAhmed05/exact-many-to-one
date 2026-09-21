@@ -1,0 +1,57 @@
+{
+ "VALID": 0,
+ "invalid_because": "the free and flat arms are optima on different meshes, so their difference is a discretisation mismatch and not a measurement of the extra axis; the gain is flat in the nuisance grid, which is the signature of that",
+ "abar": 0.025,
+ "oracle_power": 0.8,
+ "n": [
+  36.0,
+  13.0
+ ],
+ "probe": "scale",
+ "flat_worst_regret": 0.05616899535134221,
+ "rows": [
+  {
+   "nuisance_values": 3,
+   "failed": 0,
+   "free_worst_regret": 0.6746239513619487,
+   "flat_worst_regret": 0.05616899535134221,
+   "gain_pp": -61.84549560106065,
+   "lp_status": 0,
+   "seconds": 19.382776498794556
+  },
+  {
+   "nuisance_values": 5,
+   "failed": 0,
+   "free_worst_regret": 0.6746361065926706,
+   "flat_worst_regret": 0.05616899535134221,
+   "gain_pp": -61.84671112413284,
+   "lp_status": 0,
+   "seconds": 36.26673722267151
+  },
+  {
+   "nuisance_values": 9,
+   "failed": 0,
+   "free_worst_regret": 0.6746429723219531,
+   "flat_worst_regret": 0.05616899535134221,
+   "gain_pp": -61.84739769706109,
+   "lp_status": 0,
+   "seconds": 95.86166906356812
+  },
+  {
+   "nuisance_values": 15,
+   "failed": 0,
+   "free_worst_regret": 0.6746488610415927,
+   "flat_worst_regret": 0.05616899535134221,
+   "gain_pp": -61.847986569025046,
+   "lp_status": 0,
+   "seconds": 545.3680188655853
+  }
+ ],
+ "n_solved": 4,
+ "gain_at_coarsest_pp": -61.84549560106065,
+ "gain_at_finest_pp": -61.847986569025046,
+ "note": "The size constraint of the Proposition runs over a continuum; a program can impose it only at finitely many nuisance values, and a rule reading the extra coordinate can sit in the gaps.  So a positive gain at any finite grid is expected, and the question is whether it goes to zero as the grid fills in.  The flat arm is solved on the two-dimensional mesh, since a rule constant across the extra axis is a function of (T, lambda_hat); that is exact and it removes the equality rows whose size made the first attempt fail.",
+ "seconds": 697.5143527984619,
+ "monotonically_shrinking_IGNORE_IF_INVALID": 1,
+ "tier": "diagnostic"
+}

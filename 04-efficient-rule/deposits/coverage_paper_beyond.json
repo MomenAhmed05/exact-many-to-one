@@ -1,0 +1,13 @@
+{
+ "document": "Exact-Many-to-One-Under-Estimated-Volatilities.docx",
+ "n_expected_strings": 116,
+ "n_tokens": 209,
+ "n_covered": 202,
+ "n_excused": 7,
+ "n_uncovered": 0,
+ "coverage_pct": 100.0,
+ "uncovered": [],
+ "clean": 1,
+ "note": "Body text and table cells are tokenised separately, because concatenating cells fuses adjacent numbers into tokens that are in no deposit and look uncovered while the row check covering both has already passed.",
+ "tier": "diagnostic"
+}

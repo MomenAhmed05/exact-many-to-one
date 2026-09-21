@@ -1,0 +1,723 @@
+{
+  "alpha": 0.025,
+  "draws": 200,
+  "B_boot": 80,
+  "boot_grid": {
+    "u": [
+      4,
+      8
+    ],
+    "v": [
+      4,
+      8
+    ],
+    "s": [
+      3,
+      8
+    ]
+  },
+  "ngrid": 9,
+  "blocks": {
+    "2": [
+      {
+        "scenario": "S1 balanced, equal sd",
+        "n": [
+          10,
+          10,
+          10
+        ],
+        "sigma": [
+          30.0,
+          30.0,
+          30.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.024450175835208622,
+        "uncal_size_predicted_by_calibrator": 0.025555207023225085,
+        "alpha_star_mean": 0.02584300026392911,
+        "alpha_star_sd": 0.0023006005212139334,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.024451029734557515,
+          "direct_mcse": 0.001369663550088939
+        },
+        "uncalibrated": {
+          "fwer": 0.024282128204401086,
+          "mcse": 0.00010668801028225188
+        },
+        "calibrated": {
+          "fwer": 0.025077397148710517,
+          "mcse": 0.00022754708595753247
+        },
+        "oracle_cal": {
+          "fwer": 0.0237397175024619,
+          "mcse": 0.00011380557883699328
+        },
+        "method3": {
+          "fwer": 0.024056395751436924,
+          "mcse": 0.00014889225936252416
+        },
+        "published_m3": 0.02455
+      },
+      {
+        "scenario": "S2 balanced, control largest sd",
+        "n": [
+          10,
+          10,
+          10
+        ],
+        "sigma": [
+          50.0,
+          10.0,
+          10.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.023972379207686606,
+        "uncal_size_predicted_by_calibrator": 0.025994592362687297,
+        "alpha_star_mean": 0.0261806483033242,
+        "alpha_star_sd": 0.003184774651150694,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.0254738501090407,
+          "direct_mcse": 0.00200182149733152
+        },
+        "uncalibrated": {
+          "fwer": 0.024611167866686674,
+          "mcse": 5.911721718499208e-05
+        },
+        "calibrated": {
+          "fwer": 0.02585132226974677,
+          "mcse": 0.0002584658952603245
+        },
+        "oracle_cal": {
+          "fwer": 0.02357121582683055,
+          "mcse": 9.817517579208113e-05
+        },
+        "method3": {
+          "fwer": 0.024057448649437218,
+          "mcse": 0.0001362544934192857
+        },
+        "published_m3": 0.02315
+      },
+      {
+        "scenario": "S3 balanced, one trt largest sd",
+        "n": [
+          10,
+          10,
+          10
+        ],
+        "sigma": [
+          10.0,
+          10.0,
+          50.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.023146688332833384,
+        "uncal_size_predicted_by_calibrator": 0.026924964330091426,
+        "alpha_star_mean": 0.025206457381182826,
+        "alpha_star_sd": 0.0026229466330904556,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.024766613793476076,
+          "direct_mcse": 0.001518575653289019
+        },
+        "uncalibrated": {
+          "fwer": 0.024851851963012,
+          "mcse": 9.26770826910409e-05
+        },
+        "calibrated": {
+          "fwer": 0.025219796310704937,
+          "mcse": 0.00024770325782737295
+        },
+        "oracle_cal": {
+          "fwer": 0.022998115845937833,
+          "mcse": 0.00010907579942987318
+        },
+        "method3": {
+          "fwer": 0.024529413793172552,
+          "mcse": 0.00014071537770263124
+        },
+        "published_m3": 0.02419
+      },
+      {
+        "scenario": "S4 control smallest n and sd",
+        "n": [
+          4,
+          13,
+          13
+        ],
+        "sigma": [
+          10.0,
+          10.0,
+          50.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.01930065489493263,
+        "uncal_size_predicted_by_calibrator": 0.031052020063938354,
+        "alpha_star_mean": 0.02240580492380552,
+        "alpha_star_sd": 0.003946167692560555,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.02431052664477508,
+          "direct_mcse": 0.0018241489602175308
+        },
+        "uncalibrated": {
+          "fwer": 0.028576670139522725,
+          "mcse": 0.0004101625800739042
+        },
+        "calibrated": {
+          "fwer": 0.027204743813565618,
+          "mcse": 0.0005513844404743028
+        },
+        "oracle_cal": {
+          "fwer": 0.02286649172419017,
+          "mcse": 0.0002191545501551317
+        },
+        "method3": {
+          "fwer": 0.02655671310092894,
+          "mcse": 0.0004418315765611372
+        },
+        "published_m3": 0.02646
+      },
+      {
+        "scenario": "S5 trt smallest n, largest sd",
+        "n": [
+          13,
+          13,
+          4
+        ],
+        "sigma": [
+          10.0,
+          10.0,
+          50.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.02484853836361596,
+        "uncal_size_predicted_by_calibrator": 0.025127799119800325,
+        "alpha_star_mean": 0.020696265784773224,
+        "alpha_star_sd": 0.005993740037307362,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.024782315338718316,
+          "direct_mcse": 0.003505329459152057
+        },
+        "uncalibrated": {
+          "fwer": 0.0287903053713679,
+          "mcse": 0.0006225481061083829
+        },
+        "calibrated": {
+          "fwer": 0.024327796851450215,
+          "mcse": 0.0006927351109190735
+        },
+        "oracle_cal": {
+          "fwer": 0.02864681856071693,
+          "mcse": 0.0006162809257042879
+        },
+        "method3": {
+          "fwer": 0.026670482686798093,
+          "mcse": 0.0004589725696556816
+        },
+        "published_m3": 0.02664
+      },
+      {
+        "scenario": "S6 control smallest n, largest sd",
+        "n": [
+          4,
+          13,
+          13
+        ],
+        "sigma": [
+          50.0,
+          10.0,
+          10.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.01522738769754143,
+        "uncal_size_predicted_by_calibrator": 0.03479036332167203,
+        "alpha_star_mean": 0.021974200273860288,
+        "alpha_star_sd": 0.0067136596012589145,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.02404863424314035,
+          "direct_mcse": 0.003344624966259626
+        },
+        "uncalibrated": {
+          "fwer": 0.02750707976397908,
+          "mcse": 0.00042441278244208995
+        },
+        "calibrated": {
+          "fwer": 0.0234131993684536,
+          "mcse": 0.0007688971926296997
+        },
+        "oracle_cal": {
+          "fwer": 0.018628909797539703,
+          "mcse": 0.0006372709942583552
+        },
+        "method3": {
+          "fwer": 0.024367609905095792,
+          "mcse": 0.000245155365452512
+        },
+        "published_m3": 0.02501
+      },
+      {
+        "scenario": "S7 trt smallest n and sd",
+        "n": [
+          13,
+          13,
+          4
+        ],
+        "sigma": [
+          50.0,
+          10.0,
+          10.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.023657175545315073,
+        "uncal_size_predicted_by_calibrator": 0.026384882085983937,
+        "alpha_star_mean": 0.025643551488037826,
+        "alpha_star_sd": 0.00295275582641943,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.023569036762741337,
+          "direct_mcse": 0.0015900485445192768
+        },
+        "uncalibrated": {
+          "fwer": 0.0248077463237349,
+          "mcse": 0.00014979711384823478
+        },
+        "calibrated": {
+          "fwer": 0.02545042751084089,
+          "mcse": 0.00029371774627671526
+        },
+        "oracle_cal": {
+          "fwer": 0.023498650996485723,
+          "mcse": 0.00017264037188568593
+        },
+        "method3": {
+          "fwer": 0.024605164570520022,
+          "mcse": 0.00020784079203612857
+        },
+        "published_m3": 0.02455
+      }
+    ],
+    "3": [
+      {
+        "scenario": "S1 balanced, equal sd",
+        "n": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "sigma": [
+          30.0,
+          30.0,
+          30.0,
+          30.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.02513580057257931,
+        "uncal_size_predicted_by_calibrator": 0.024862597204392208,
+        "alpha_star_mean": 0.026118445528574227,
+        "alpha_star_sd": 0.0024010850592803877,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.026741863390848716,
+          "direct_mcse": 0.001687235367004341
+        },
+        "uncalibrated": {
+          "fwer": 0.023577118214695044,
+          "mcse": 0.00021354504176241228
+        },
+        "calibrated": {
+          "fwer": 0.02477660941267268,
+          "mcse": 0.0002986595280801278
+        },
+        "oracle_cal": {
+          "fwer": 0.023715098180060727,
+          "mcse": 0.0002106320946540788
+        },
+        "method3": {
+          "fwer": 0.023200121558116682,
+          "mcse": 0.00025232978344244913
+        },
+        "published_m3": 0.02347
+      },
+      {
+        "scenario": "S2 balanced, control largest sd",
+        "n": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "sigma": [
+          50.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.025589768965423365,
+        "uncal_size_predicted_by_calibrator": 0.024441248585054177,
+        "alpha_star_mean": 0.026454177303562053,
+        "alpha_star_sd": 0.003223045110182617,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.028380330017853415,
+          "direct_mcse": 0.00222402072847001
+        },
+        "uncalibrated": {
+          "fwer": 0.023815953614444618,
+          "mcse": 0.00016502239045267116
+        },
+        "calibrated": {
+          "fwer": 0.025429224301773586,
+          "mcse": 0.00028470703236230265
+        },
+        "oracle_cal": {
+          "fwer": 0.024429743500119706,
+          "mcse": 0.0001437157546719931
+        },
+        "method3": {
+          "fwer": 0.023263947651438084,
+          "mcse": 0.0002106813637197143
+        },
+        "published_m3": 0.02371
+      },
+      {
+        "scenario": "S3 balanced, one trt largest sd",
+        "n": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "sigma": [
+          10.0,
+          10.0,
+          10.0,
+          50.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.024691517977215638,
+        "uncal_size_predicted_by_calibrator": 0.02530923085510779,
+        "alpha_star_mean": 0.02530339736165106,
+        "alpha_star_sd": 0.0023267949966432762,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.025230602717913705,
+          "direct_mcse": 0.0017193362648444017
+        },
+        "uncalibrated": {
+          "fwer": 0.024500627807693152,
+          "mcse": 0.00014190353071220704
+        },
+        "calibrated": {
+          "fwer": 0.024707555823174722,
+          "mcse": 0.00023814379972429383
+        },
+        "oracle_cal": {
+          "fwer": 0.024194258998138558,
+          "mcse": 0.00014496244780838851
+        },
+        "method3": {
+          "fwer": 0.024237177371258835,
+          "mcse": 0.00020257815301454344
+        },
+        "published_m3": 0.02427
+      },
+      {
+        "scenario": "S4 control smallest n and sd",
+        "n": [
+          4,
+          12,
+          12,
+          12
+        ],
+        "sigma": [
+          10.0,
+          10.0,
+          10.0,
+          50.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.018391407982764778,
+        "uncal_size_predicted_by_calibrator": 0.0317322046626679,
+        "alpha_star_mean": 0.022626068764620325,
+        "alpha_star_sd": 0.004461287792328382,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.023997480813319757,
+          "direct_mcse": 0.0020863208803994504
+        },
+        "uncalibrated": {
+          "fwer": 0.02868464274265511,
+          "mcse": 0.0004281414068830003
+        },
+        "calibrated": {
+          "fwer": 0.02772155998938308,
+          "mcse": 0.0005573380203988352
+        },
+        "oracle_cal": {
+          "fwer": 0.022223336517033336,
+          "mcse": 0.00020433867859083989
+        },
+        "method3": {
+          "fwer": 0.02614579965954276,
+          "mcse": 0.0004770306983924148
+        },
+        "published_m3": 0.02596
+      },
+      {
+        "scenario": "S5 trt smallest n, largest sd",
+        "n": [
+          12,
+          12,
+          12,
+          4
+        ],
+        "sigma": [
+          10.0,
+          10.0,
+          10.0,
+          50.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.032906651602949505,
+        "uncal_size_predicted_by_calibrator": 0.018355445797747106,
+        "alpha_star_mean": 0.021272029112519856,
+        "alpha_star_sd": 0.006122967340724374,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.020698109710109675,
+          "direct_mcse": 0.0026589801691056843
+        },
+        "uncalibrated": {
+          "fwer": 0.028242966035598747,
+          "mcse": 0.0005308350721667081
+        },
+        "calibrated": {
+          "fwer": 0.0247901790620365,
+          "mcse": 0.0005997536620573699
+        },
+        "oracle_cal": {
+          "fwer": 0.03507225419144049,
+          "mcse": 0.0008779927482856409
+        },
+        "method3": {
+          "fwer": 0.02626325643210213,
+          "mcse": 0.00035863033624652474
+        },
+        "published_m3": 0.0266
+      },
+      {
+        "scenario": "S6 control smallest n, largest sd",
+        "n": [
+          4,
+          12,
+          12,
+          12
+        ],
+        "sigma": [
+          50.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.02134978958367722,
+        "uncal_size_predicted_by_calibrator": 0.02868793664528689,
+        "alpha_star_mean": 0.024530977691517023,
+        "alpha_star_sd": 0.00709651068452583,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.024352366536260703,
+          "direct_mcse": 0.0036194969791514897
+        },
+        "uncalibrated": {
+          "fwer": 0.026510580638502063,
+          "mcse": 0.0003113513928168865
+        },
+        "calibrated": {
+          "fwer": 0.023827528077022663,
+          "mcse": 0.0007313877668281475
+        },
+        "oracle_cal": {
+          "fwer": 0.023345872761965293,
+          "mcse": 0.00026266544949573944
+        },
+        "method3": {
+          "fwer": 0.023114254225664353,
+          "mcse": 0.0002699564866181248
+        },
+        "published_m3": 0.02341
+      },
+      {
+        "scenario": "S7 trt smallest n and sd",
+        "n": [
+          12,
+          12,
+          12,
+          4
+        ],
+        "sigma": [
+          50.0,
+          10.0,
+          10.0,
+          10.0
+        ],
+        "draws": 200,
+        "alpha": 0.025,
+        "alpha_oracle_cal": 0.02873179346121779,
+        "uncal_size_predicted_by_calibrator": 0.021491744306120775,
+        "alpha_star_mean": 0.026051152021325776,
+        "alpha_star_sd": 0.0026033613621409156,
+        "oracle": {
+          "fwer": 0.025,
+          "mcse": 0.0,
+          "direct": 0.021300897944047107,
+          "direct_mcse": 0.0014411362029969185
+        },
+        "uncalibrated": {
+          "fwer": 0.024524154964809825,
+          "mcse": 0.00016559150426081784
+        },
+        "calibrated": {
+          "fwer": 0.025626193287061415,
+          "mcse": 0.00024996862813591
+        },
+        "oracle_cal": {
+          "fwer": 0.027970721326628558,
+          "mcse": 0.00017985169247623556
+        },
+        "method3": {
+          "fwer": 0.024241721635793047,
+          "mcse": 0.0002025000985123587
+        },
+        "published_m3": 0.02369
+      }
+    ]
+  },
+  "summary": {
+    "2": {
+      "uncalibrated": {
+        "min": 0.024282128204401086,
+        "max": 0.0287903053713679,
+        "worst_rel_err_pct": 15.161221485471597,
+        "mean_abs_rel_err_pct": 6.469234809734314
+      },
+      "calibrated": {
+        "min": 0.0234131993684536,
+        "max": 0.027204743813565618,
+        "worst_rel_err_pct": 8.818975254262464,
+        "mean_abs_rel_err_pct": 3.464394762094236
+      },
+      "oracle_cal": {
+        "min": 0.018628909797539703,
+        "max": 0.02864681856071693,
+        "worst_rel_err_pct": -25.48436080984119,
+        "mean_abs_rel_err_pct": 10.48212392415489
+      },
+      "method3": {
+        "min": 0.024056395751436924,
+        "max": 0.026670482686798093,
+        "worst_rel_err_pct": 6.681930747192366,
+        "mean_abs_rel_err_pct": 3.7778074960368744
+      },
+      "oracle_direct_worst_z": 0.8999494022940607,
+      "calibrated_beats_uncalibrated": true,
+      "calibrated_beats_method3_worst": false,
+      "calibrated_beats_method3_mean": true
+    },
+    "3": {
+      "uncalibrated": {
+        "min": 0.023577118214695044,
+        "max": 0.02868464274265511,
+        "worst_rel_err_pct": 14.738570970620437,
+        "mean_abs_rel_err_pct": 6.868762751493304
+      },
+      "calibrated": {
+        "min": 0.023827528077022663,
+        "max": 0.02772155998938308,
+        "worst_rel_err_pct": 10.886239957532307,
+        "mean_abs_rel_err_pct": 3.2429172590351523
+      },
+      "oracle_cal": {
+        "min": 0.022223336517033336,
+        "max": 0.03507225419144049,
+        "worst_rel_err_pct": 40.28901676576196,
+        "mean_abs_rel_err_pct": 11.505523177572247
+      },
+      "method3": {
+        "min": 0.023114254225664353,
+        "max": 0.02626325643210213,
+        "worst_rel_err_pct": -7.542983097342595,
+        "mean_abs_rel_err_pct": 5.3439049424993685
+      },
+      "oracle_direct_worst_z": 2.566795593824107,
+      "calibrated_beats_uncalibrated": true,
+      "calibrated_beats_method3_worst": false,
+      "calibrated_beats_method3_mean": true
+    }
+  },
+  "f2_large_df": [
+    {
+      "n_per_group": 5,
+      "df": 4,
+      "alpha_star": 0.026938938513839376,
+      "ratio_to_alpha": 1.0775575405535749
+    },
+    {
+      "n_per_group": 10,
+      "df": 9,
+      "alpha_star": 0.02847806588704531,
+      "ratio_to_alpha": 1.1391226354818123
+    },
+    {
+      "n_per_group": 30,
+      "df": 29,
+      "alpha_star": 0.024481179772053538,
+      "ratio_to_alpha": 0.9792471908821415
+    },
+    {
+      "n_per_group": 100,
+      "df": 99,
+      "alpha_star": 0.02491271921775412,
+      "ratio_to_alpha": 0.9965087687101648
+    },
+    {
+      "n_per_group": 400,
+      "df": 399,
+      "alpha_star": 0.025466612750158227,
+      "ratio_to_alpha": 1.018664510006329
+    }
+  ],
+  "f2_tends_to_alpha": true
+}

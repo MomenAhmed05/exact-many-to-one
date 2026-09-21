@@ -1,0 +1,152 @@
+{
+ "abar": 0.025,
+ "oracle_power": 0.8,
+ "n": [
+  36.0,
+  13.0
+ ],
+ "ranges": [
+  6.0,
+  10.0,
+  14.0,
+  18.0
+ ],
+ "gammas": [
+  0.25,
+  1.0
+ ],
+ "rows": [
+  {
+   "range_log_sigma2": 6.0,
+   "n_v": 25,
+   "gamma": 0.25,
+   "regret_guess_1_pp": 9.672206417790196,
+   "regret_guess_0p3_pp": 9.280844948974575,
+   "shift_guess_1": 0.07115575671195984,
+   "shift_guess_0p3": 0.05847230553627014,
+   "fwer_guess_1": 0.024999993167736392,
+   "fwer_guess_0p3": 0.02499999406044618,
+   "gap_pp": 0.39136146881562084
+  },
+  {
+   "range_log_sigma2": 6.0,
+   "n_v": 25,
+   "gamma": 1.0,
+   "regret_guess_1_pp": 12.320920095549493,
+   "regret_guess_0p3_pp": 12.14716705278962,
+   "shift_guess_1": 0.1499970555305481,
+   "shift_guess_0p3": 0.14408403635025024,
+   "fwer_guess_1": 0.024999993135428514,
+   "fwer_guess_0p3": 0.024999984668127705,
+   "gap_pp": 0.17375304275987347
+  },
+  {
+   "range_log_sigma2": 10.0,
+   "n_v": 41,
+   "gamma": 0.25,
+   "regret_guess_1_pp": 10.834513328014406,
+   "regret_guess_0p3_pp": 10.532388029645645,
+   "shift_guess_1": 0.1059560775756836,
+   "shift_guess_0p3": 0.09647572040557861,
+   "fwer_guess_1": 0.024999982093432557,
+   "fwer_guess_0p3": 0.02499999520136939,
+   "gap_pp": 0.302125298368761
+  },
+  {
+   "range_log_sigma2": 10.0,
+   "n_v": 41,
+   "gamma": 1.0,
+   "regret_guess_1_pp": 12.477740882324607,
+   "regret_guess_0p3_pp": 12.482911500902915,
+   "shift_guess_1": 0.15288159251213074,
+   "shift_guess_0p3": 0.15300238132476807,
+   "fwer_guess_1": 0.02499997741255533,
+   "fwer_guess_0p3": 0.024999977579930006,
+   "gap_pp": 0.00517061857830825
+  },
+  {
+   "range_log_sigma2": 14.0,
+   "n_v": 57,
+   "gamma": 0.25,
+   "regret_guess_1_pp": 11.58113085881074,
+   "regret_guess_0p3_pp": 11.403539035463172,
+   "shift_guess_1": 0.12839838862419128,
+   "shift_guess_0p3": 0.12290719151496887,
+   "fwer_guess_1": 0.02499999929162365,
+   "fwer_guess_0p3": 0.024999979769395213,
+   "gap_pp": 0.1775918233475675
+  },
+  {
+   "range_log_sigma2": 14.0,
+   "n_v": 57,
+   "gamma": 1.0,
+   "regret_guess_1_pp": 12.480890153229263,
+   "regret_guess_0p3_pp": 12.48512504090934,
+   "shift_guess_1": 0.15288159251213074,
+   "shift_guess_0p3": 0.15300238132476807,
+   "fwer_guess_1": 0.02499997741255533,
+   "fwer_guess_0p3": 0.024999977579930006,
+   "gap_pp": 0.004234887680077293
+  },
+  {
+   "range_log_sigma2": 18.0,
+   "n_v": 73,
+   "gamma": 0.25,
+   "regret_guess_1_pp": 12.01349399093985,
+   "regret_guess_0p3_pp": 11.915824752435622,
+   "shift_guess_1": 0.1414116621017456,
+   "shift_guess_0p3": 0.1384163498878479,
+   "fwer_guess_1": 0.02499997862396127,
+   "fwer_guess_0p3": 0.024999981287878642,
+   "gap_pp": 0.0976692385042277
+  },
+  {
+   "range_log_sigma2": 18.0,
+   "n_v": 73,
+   "gamma": 1.0,
+   "regret_guess_1_pp": 12.480890446197012,
+   "regret_guess_0p3_pp": 12.485125041296252,
+   "shift_guess_1": 0.15288159251213074,
+   "shift_guess_0p3": 0.15300238132476807,
+   "fwer_guess_1": 0.02499997741255533,
+   "fwer_guess_0p3": 0.024999977579930006,
+   "gap_pp": 0.004234595099239513
+  }
+ ],
+ "convergence": {
+  "gamma_0.25": {
+   "gaps_pp": [
+    0.39136146881562084,
+    0.302125298368761,
+    0.1775918233475675,
+    0.0976692385042277
+   ],
+   "first": 0.39136146881562084,
+   "last": 0.0976692385042277,
+   "shrank": 1,
+   "monotone": 1,
+   "converged": 0
+  },
+  "gamma_1.00": {
+   "gaps_pp": [
+    0.17375304275987347,
+    0.00517061857830825,
+    0.004234887680077293,
+    0.004234595099239513
+   ],
+   "first": 0.17375304275987347,
+   "last": 0.004234595099239513,
+   "shrank": 1,
+   "monotone": 1,
+   "converged": 1
+  }
+ },
+ "sup_has_converged": 0,
+ "widest_range": 18.0,
+ "worst_gap_at_widest_pp": 0.0976692385042277,
+ "worst_gap_at_narrowest_pp": 0.39136146881562084,
+ "bias_direction": "a truncated sweep understates the worst FWER, so it undercalibrates and FLATTERS the non-invariant rules; they lost anyway, so the qualitative finding is conservative",
+ "note": "Two guesses v0 describe the same rule at relocated sigma_0^2, so the gap between their scores is zero when the sweep is wide enough to contain both.  That makes the gap a direct read on convergence of the supremum, computed from numbers the probe already produces.",
+ "seconds": 3054.9167606830597,
+ "tier": "frontier_measured"
+}

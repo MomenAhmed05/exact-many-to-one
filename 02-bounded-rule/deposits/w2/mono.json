@@ -1,0 +1,272 @@
+[
+  {
+    "n": [
+      4,
+      13,
+      13
+    ],
+    "lam": [
+      0.04,
+      0.04
+    ],
+    "c": 3.220149977669285,
+    "c_lower": 3.2231372833093617,
+    "c_upper": 3.087988758364212,
+    "dc_dlam_sign": "negative (lower bound is conservative)"
+  },
+  {
+    "n": [
+      6,
+      13,
+      13
+    ],
+    "lam": [
+      0.04,
+      0.04
+    ],
+    "c": 2.6419998653037013,
+    "c_lower": 2.622412685409312,
+    "c_upper": 2.6394815620351766,
+    "dc_dlam_sign": "mixed/non-monotone"
+  },
+  {
+    "n": [
+      8,
+      13,
+      13
+    ],
+    "lam": [
+      0.04,
+      0.04
+    ],
+    "c": 2.4467669468238213,
+    "c_lower": 2.424406922686866,
+    "c_upper": 2.462531543717484,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      12,
+      13,
+      13
+    ],
+    "lam": [
+      0.04,
+      0.04
+    ],
+    "c": 2.2972197580098834,
+    "c_lower": 2.2736776952355533,
+    "c_upper": 2.320536495196509,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      20,
+      13,
+      13
+    ],
+    "lam": [
+      0.04,
+      0.04
+    ],
+    "c": 2.2100193008543747,
+    "c_lower": 2.185433667312553,
+    "c_upper": 2.2362721210561367,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      36,
+      13,
+      13
+    ],
+    "lam": [
+      0.04,
+      0.04
+    ],
+    "c": 2.1767030179807687,
+    "c_lower": 2.1503499640030537,
+    "c_upper": 2.2052153791215847,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      4,
+      13,
+      13
+    ],
+    "lam": [
+      1.0,
+      25.0
+    ],
+    "c": 2.7002746086892913,
+    "c_lower": 2.9994089816632545,
+    "c_upper": 2.5296518520846782,
+    "dc_dlam_sign": "negative (lower bound is conservative)"
+  },
+  {
+    "n": [
+      6,
+      13,
+      13
+    ],
+    "lam": [
+      1.0,
+      25.0
+    ],
+    "c": 2.5399977022860782,
+    "c_lower": 2.6153210733313377,
+    "c_upper": 2.497597483519598,
+    "dc_dlam_sign": "negative (lower bound is conservative)"
+  },
+  {
+    "n": [
+      8,
+      13,
+      13
+    ],
+    "lam": [
+      1.0,
+      25.0
+    ],
+    "c": 2.4875763097821917,
+    "c_lower": 2.5125368516027393,
+    "c_upper": 2.4814785242466826,
+    "dc_dlam_sign": "negative (lower bound is conservative)"
+  },
+  {
+    "n": [
+      12,
+      13,
+      13
+    ],
+    "lam": [
+      1.0,
+      25.0
+    ],
+    "c": 2.455773989385022,
+    "c_lower": 2.4507189717128113,
+    "c_upper": 2.4720594327450347,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      20,
+      13,
+      13
+    ],
+    "lam": [
+      1.0,
+      25.0
+    ],
+    "c": 2.4521114012262952,
+    "c_lower": 2.432039807351261,
+    "c_upper": 2.4770295987434876,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      36,
+      13,
+      13
+    ],
+    "lam": [
+      1.0,
+      25.0
+    ],
+    "c": 2.4701762334964816,
+    "c_lower": 2.4452685109674293,
+    "c_upper": 2.4942993217048746,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      4,
+      13,
+      13
+    ],
+    "lam": [
+      0.25,
+      4.0
+    ],
+    "c": 2.949962601599301,
+    "c_lower": 3.1776817600435354,
+    "c_upper": 2.64895061830318,
+    "dc_dlam_sign": "negative (lower bound is conservative)"
+  },
+  {
+    "n": [
+      6,
+      13,
+      13
+    ],
+    "lam": [
+      0.25,
+      4.0
+    ],
+    "c": 2.6125629264002845,
+    "c_lower": 2.662974840840166,
+    "c_upper": 2.539201492577099,
+    "dc_dlam_sign": "negative (lower bound is conservative)"
+  },
+  {
+    "n": [
+      8,
+      13,
+      13
+    ],
+    "lam": [
+      0.25,
+      4.0
+    ],
+    "c": 2.502735436451135,
+    "c_lower": 2.50983097071963,
+    "c_upper": 2.4834276712955816,
+    "dc_dlam_sign": "negative (lower bound is conservative)"
+  },
+  {
+    "n": [
+      12,
+      13,
+      13
+    ],
+    "lam": [
+      0.25,
+      4.0
+    ],
+    "c": 2.4282244205387635,
+    "c_lower": 2.4116054657442123,
+    "c_upper": 2.4382055911284066,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      20,
+      13,
+      13
+    ],
+    "lam": [
+      0.25,
+      4.0
+    ],
+    "c": 2.3976353870778904,
+    "c_lower": 2.373721914680317,
+    "c_upper": 2.4189613377152144,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  },
+  {
+    "n": [
+      36,
+      13,
+      13
+    ],
+    "lam": [
+      0.25,
+      4.0
+    ],
+    "c": 2.4006128129655164,
+    "c_lower": 2.375590825603994,
+    "c_upper": 2.4260264489578924,
+    "dc_dlam_sign": "positive (upper bound is conservative)"
+  }
+]
