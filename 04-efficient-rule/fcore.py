@@ -86,10 +86,14 @@ def _san(o):
     if isinstance(o, (np.floating, float)):
         v = float(o)
         return v if np.isfinite(v) else None
-    if isinstance(o, (np.integer, int)):
-        return int(o)
+    # bool must be tested BEFORE int: bool is a subclass of int, so the int
+    # branch below would capture every Python bool and serialise it as 1/0,
+    # leaving this branch dead.  That is how deposits came to carry integer
+    # flags that `value is False` can never match.
     if isinstance(o, (np.bool_, bool)):
         return bool(o)
+    if isinstance(o, (np.integer, int)):
+        return int(o)
     if isinstance(o, np.ndarray):
         return _san(o.tolist())
     return o
