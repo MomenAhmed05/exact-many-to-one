@@ -12,7 +12,9 @@ makes the comparisons exactly independent and turns a `(2K+2)`-dimensional
 integral into a two-dimensional outer rule over `K` one-dimensional inner
 rules. The outer dimension does not grow with the number of candidates.
 
-The paper is in [`paper/`](paper/).
+The papers are in [`paper/`](paper/): the working paper, and a short companion
+with the statements, proofs and evidence alone. The mathematics is checked in
+Lean 4 in [`Lean/`](Lean/).
 
 ## What is here
 
@@ -28,6 +30,8 @@ below is organised by which part of the paper a directory produces.
 | [`02-bounded-rule/`](02-bounded-rule/) | 9 | A2 | the admission region for the variance ratios, its exact coverage, the envelope rule and its guarantee, the power it gives up, and the two boundaries where the guarantee stops |
 | [`03-certified-supremum/`](03-certified-supremum/) | 9.11 | A3 | the branch-and-bound certificate over the continuum of ratio vectors, with interval arithmetic and a Bernstein-ellipse quadrature remainder |
 | [`04-efficient-rule/`](04-efficient-rule/) | 10 and 11 | A3 | the calibrated rule that meets the same ceiling far more cheaply, its optimality floor over the invariant class, and serial correlation and factor exposure handled as declared nuisances |
+| [`Lean/`](Lean/) | 3, 9, 10, 11 | — | the Lean 4 formalisation: every theorem the paper proves, checked against Mathlib, and every deposited certificate's arithmetic checked exactly |
+| [`paper/`](paper/) | all | — | the working paper; the companion `Exact-Many-to-One-Proofs.docx`, nine pages of statements, proofs and evidence; and the gate that checks the companion |
 
 Each directory keeps its own `deposits/` next to its scripts, because the
 scripts resolve deposits relative to their own location. Moving a script away
@@ -66,6 +70,8 @@ Every gate checks the document as it stands. Run each from its own directory.
 | `04-efficient-rule/paper_verify_beyond.py` | the invariance and dependence material | 185 checks |
 | `04-efficient-rule/verify_huntstein.py` | the Section 10.8 argument | 63 checks |
 | `04-efficient-rule/tests_frontier.py` | the deposited gates | 11 of 11 |
+| `Lean/scripts/audit.py` | the Lean development | 4 of 4: clean build, no `sorry` or axioms, certificates match the deposits, 41 headline theorems on the standard axioms only |
+| `paper/verify_proofs_paper.py` | the companion paper | 8 checks: its numbers appear in the working paper, its Lean names resolve, its numbering is consistent |
 
 All pass, none failing.
 
@@ -74,6 +80,25 @@ string in the document, so editing the paper cannot make a check pass and
 editing a deposit cannot make one pass either. Structural checks run beside
 them: the figure and table counts, the heading numbers, and the
 cross-references that have to move when a section is inserted.
+
+## The Lean development
+
+[`Lean/`](Lean/) proves in Lean 4 what the paper proves:
+the reduction behind the exact law, the envelope guarantee and the coverage
+integral, the corner enclosure against the Gaussian law, the branch-and-bound
+bracket, the union step, the two-sided identity, the joint projection, the
+maximal invariant and the whitening and factor results. The interval-arithmetic
+enclosures stay in Python. Lean checks exactly that each deposited certificate
+supports the claim the paper makes from it. The Hunt–Stein theorem is quoted,
+as in the paper, and enters one theorem as a named hypothesis. Its
+[README](Lean/README.md) maps each result to its Lean theorem and
+lists every assumption.
+
+```bash
+cd Lean
+lake exe cache get
+python scripts/audit.py
+```
 
 ## Reading the record
 
