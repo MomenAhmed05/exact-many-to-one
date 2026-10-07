@@ -42,10 +42,25 @@ import fcore as F
 import k1lab as L
 from w2_factor import GRID, AlignedFactor
 
-# The FAST grid of w2_factor sits 3.5e-04 from the reference on a value near
-# 0.011, which is 3% and too loose to certify against.  MID is between them and
-# its gap to the reference is measured below.
+# Resolution ladder for the box scan.  MID was used for the first version of
+# this scan and is kept for the record: at the small-ratio corners of the box it
+# is not converged (at lam = 0.04 it returns negative rates when both loadings
+# are 1.5, and overstates the rate at the argsup corner by 7.7e-04).  FINE is the
+# resolution of record; FINER is used only to check that FINE has converged.
 MID = {"zf": (2, 10), "z0": (2, 10), "vf": (2, 10), "s0": 20, "si": 20}
+FINE = {"zf": (4, 14), "z0": (4, 14), "vf": (4, 14), "s0": 40, "si": 40}
+FINER = {"zf": (5, 16), "z0": (5, 16), "vf": (5, 16), "s0": 48, "si": 48}
+# declared before the run: FINER at the FINE constant must sit within this of
+# ABAR at the argsup and the argmin point (about 1e-4 in the constant), and the
+# full-panel brute force at the argsup must sit within BRUTE_Z standard errors
+LADDER_TOL = 4e-6
+BRUTE_D, BRUTE_Z = 4000000, 3.0
+
+
+def _critical_fine(p):
+    """The known-parameter constant at one box point, at FINE resolution."""
+    a = AlignedFactor(36, [p[1], p[2]], [p[0]], grid=FINE)
+    return a.critical(ABAR, lo=0.5, hi=4.0, tol=1e-7)
 
 ABAR = F.ABAR
 LAM_DOMAIN = (1e-3, 1e3)
@@ -110,33 +125,43 @@ def main():
            for l in lgrid for a in bgrid for b in bgrid]
     print("   box: %d points in (lam, beta_0, beta_1)" % len(pts))
 
-    cache = {}
+    # The rate is increasing in the constant at every point, so the smallest
+    # constant holding over the whole grid is the largest of the per-point
+    # known-parameter constants; each is root-found at FINE, in parallel.
+    from concurrent.futures import ProcessPoolExecutor
+    with ProcessPoolExecutor(max_workers=11) as ex:
+        oc = np.array(list(ex.map(_critical_fine, pts)))
+    assert oc.min() > 0.5 + 1e-6 and oc.max() < 4.0 - 1e-6, \
+        "a per-point constant sits on the root-finder's bracket"
+    i_max, i_min = int(oc.argmax()), int(oc.argmin())
+    arg, arg_min = pts[i_max], pts[i_min]
+    c_cert = float(oc[i_max])
+    sup_at_cert = AlignedFactor(int(n[0]), [arg[1], arg[2]], [arg[0]],
+                                grid=FINE).fwer(c_cert)
+    print("   constant holding over the grid c = %.5f  (rate %.6f at lam=%.3f "
+          "b0=%.2f b1=%.2f)" % (c_cert, sup_at_cert, arg[0], arg[1], arg[2]))
 
-    def ev(c, p):
-        if p not in cache:
-            cache[p] = AlignedFactor(int(n[0]), [p[1], p[2]], [p[0]],
-                                     grid=MID)
-        return cache[p].fwer(c)
-
-    def sup_over_box(c):
-        vals = [(ev(c, p), p) for p in pts]
-        return max(vals, key=lambda v: v[0])
-
-    lo, hi = 1.0, 8.0
-    for _ in range(15):
-        mid = 0.5 * (lo + hi)
-        v, _a = sup_over_box(mid)
-        if v > ABAR:
-            lo = mid
-        else:
-            hi = mid
-    c_cert = 0.5 * (lo + hi)
-    sup_at_cert, arg = sup_over_box(c_cert)
-    print("   certified constant c = %.5f  (sup %.5f at lam=%.3f b0=%.2f "
-          "b1=%.2f)" % (c_cert, sup_at_cert, arg[0], arg[1], arg[2]))
+    print("\n   convergence: FINER at the FINE constant, argsup and argmin")
+    ladder = []
+    for tag, p, c in (("argsup", arg, c_cert), ("argmin", arg_min,
+                                                  float(oc[i_min]))):
+        r = AlignedFactor(int(n[0]), [p[1], p[2]], [p[0]], grid=FINER).fwer(c)
+        ladder.append({"point": tag, "lam": p[0], "b0": p[1], "b1": p[2],
+                       "c_fine": c, "fwer_finer_at_c_fine": float(r),
+                       "gap": float(abs(r - ABAR)),
+                       "pass": bool(abs(r - ABAR) <= LADDER_TOL)})
+        print("   %-6s FINER rate %.8f  gap %.2e  %s"
+              % (tag, r, abs(r - ABAR),
+                 "PASS" if abs(r - ABAR) <= LADDER_TOL else "FAIL"))
+    from w2_factor import brute
+    bp, bse = brute(int(n[0]), [arg[1], arg[2]], [arg[0]], c_cert, BRUTE_D,
+                    seed=99701)
+    bp, bse = float(bp), float(bse)
+    bz = float((bp - ABAR) / bse)
+    print("   brute force at the argsup: %.6f (se %.6f, z %+.2f) %s"
+          % (bp, bse, bz, "PASS" if abs(bz) <= BRUTE_Z else "FAIL"))
 
     print("\n3. THE PRICE AGAINST A KNOWN-PARAMETER ORACLE")
-    oc = np.array([cache[p].critical(ABAR, tol=1e-4) for p in pts])
     print("   oracle constants %.4f to %.4f" % (oc.min(), oc.max()))
 
     out = {
@@ -167,6 +192,14 @@ def main():
         "certified_constant_over_box": float(c_cert),
         "sup_at_certified_constant": float(sup_at_cert),
         "argsup": {"lam": arg[0], "b0": arg[1], "b1": arg[2]},
+        "argmin": {"lam": arg_min[0], "b0": arg_min[1], "b1": arg_min[2]},
+        "resolution": {"of_record": FINE, "convergence_check": FINER,
+                       "superseded": MID,
+                       "ladder_tol": LADDER_TOL, "ladder": ladder,
+                       "ladder_pass": bool(all(x["pass"] for x in ladder))},
+        "brute_at_argsup": {"draws": BRUTE_D, "seed": 99701, "rate": float(bp),
+                            "se": bse, "z": bz,
+                            "pass": bool(abs(bz) <= BRUTE_Z)},
         "oracle_constant_min": float(oc.min()),
         "oracle_constant_max": float(oc.max()),
         "certificate_price_vs_worst_oracle_x": float(c_cert / oc.max()),

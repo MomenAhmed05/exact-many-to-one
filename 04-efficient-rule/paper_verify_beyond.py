@@ -309,6 +309,15 @@ def main(path=None):
     has("certified constant", cer["certified_constant_over_box"], "%.4f")
     has("oracle min", cer["oracle_constant_min"], "%.4f")
     has("oracle max", cer["oracle_constant_max"], "%.4f")
+    # the box scan's resolution is checked, and the check must pass to be quoted
+    lad = [x for x in cer["resolution"]["ladder"] if x["point"] == "argsup"][0]
+    chk("box-scan resolution converged", cer["resolution"]["ladder_pass"])
+    has("box-scan refinement gap", lad["gap"], "rate at that corner by %.1e")
+    chk("box-scan brute force passes", cer["brute_at_argsup"]["pass"])
+    has("box-scan brute rate", cer["brute_at_argsup"]["rate"],
+        "simulation there returns %.5f")
+    has("box-scan brute draws", "{:,}".format(cer["brute_at_argsup"]["draws"]),
+        "over %s draws")
     chk("grid maximum labelled", "a grid maximum and not a continuum" in TXT)
     # the loadings being outside the RULE must not be written as the loadings
     # being unknowable: they are identified above one candidate
