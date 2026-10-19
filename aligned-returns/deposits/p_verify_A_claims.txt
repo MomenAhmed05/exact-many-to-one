@@ -1,0 +1,60 @@
+CLAIM PVA-F1-K2: max |F(rho=0) - P(t<=c)^2| over 25 (n, c) (tol 1e-12) = 1.88e-11 pass False
+CLAIM PVA-F1-K5-n8: R=I oracle constant vs exact (|z|<=4) = 3.4935 vs 3.4920, z +0.46
+CLAIM PVA-F1-K5-n36: R=I oracle constant vs exact (|z|<=4) = 2.7219 vs 2.7197, z +1.72
+CLAIM PVA-F2-n12-r-0.999: max |F - limit| at c in {1,2,3} (tol 1e-3) = 2.69e-14 pass True
+CLAIM PVA-F2-n12-r+0.999: max |F - limit| at c in {1,2,3} (tol 1e-3) = 4.61e-03 pass False
+CLAIM PVA-F2-mono-n12: F(2) at rho 0.9, 0.99, 0.999 approaches P(t<=2) monotonically = ['0.949980', '0.959840', '0.963089'] -> 0.964598, monotone True
+CLAIM PVA-F2-n36-r-0.999: max |F - limit| at c in {1,2,3} (tol 1e-3) = 2.64e-14 pass True
+CLAIM PVA-F2-n36-r+0.999: max |F - limit| at c in {1,2,3} (tol 1e-3) = 4.41e-03 pass False
+CLAIM PVA-F2-mono-n36: F(2) at rho 0.9, 0.99, 0.999 approaches P(t<=2) monotonically = ['0.962345', '0.969780', '0.972216'] -> 0.973346, monotone True
+CLAIM PVA-F4: max refinement move (panels x2, order 8->12) over n in {4,400}, rho in {-.95,0,.95}, c in {.5,2.3,6} (tol 1e-12) = 5.27e-10 pass False
+CLAIM PVA-F3-n4-r-0.90: F vs brute (N=4e6) = 0.895028 vs 0.895130, z +0.67
+CLAIM PVA-F3-n4-r-0.50: F vs brute (N=4e6) = 0.895510 vs 0.895757, z +1.62
+CLAIM PVA-F3-n4-r+0.00: F vs brute (N=4e6) = 0.897767 vs 0.897987, z +1.45
+CLAIM PVA-F3-n4-r+0.50: F vs brute (N=4e6) = 0.904667 vs 0.904998, z +2.26
+CLAIM PVA-F3-n4-r+0.90: F vs brute (N=4e6) = 0.923711 vs 0.923853, z +1.07
+CLAIM PVA-F3-n4-r+0.95: F vs brute (N=4e6) = 0.930060 vs 0.930172, z +0.88
+CLAIM PVA-F3-n12-r-0.90: F vs brute (N=4e6) = 0.957968 vs 0.957949, z -0.19
+CLAIM PVA-F3-n12-r-0.50: F vs brute (N=4e6) = 0.957982 vs 0.958020, z +0.38
+CLAIM PVA-F3-n12-r+0.00: F vs brute (N=4e6) = 0.958410 vs 0.958421, z +0.11
+CLAIM PVA-F3-n12-r+0.50: F vs brute (N=4e6) = 0.961060 vs 0.961042, z -0.19
+CLAIM PVA-F3-n12-r+0.90: F vs brute (N=4e6) = 0.969429 vs 0.969600, z +1.99
+CLAIM PVA-F3-n12-r+0.95: F vs brute (N=4e6) = 0.972075 vs 0.972132, z +0.69
+CLAIM PVA-F3-n36-r-0.90: F vs brute (N=4e6) = 0.972472 vs 0.972495, z +0.28
+CLAIM PVA-F3-n36-r-0.50: F vs brute (N=4e6) = 0.972473 vs 0.972480, z +0.08
+CLAIM PVA-F3-n36-r+0.00: F vs brute (N=4e6) = 0.972662 vs 0.972592, z -0.85
+CLAIM PVA-F3-n36-r+0.50: F vs brute (N=4e6) = 0.974363 vs 0.974402, z +0.49
+CLAIM PVA-F3-n36-r+0.90: F vs brute (N=4e6) = 0.979981 vs 0.979990, z +0.14
+CLAIM PVA-F3-n36-r+0.95: F vs brute (N=4e6) = 0.981725 vs 0.981679, z -0.70
+CLAIM PVA-F3-n120-r-0.90: F vs brute (N=4e6) = 0.976809 vs 0.976746, z -0.85
+CLAIM PVA-F3-n120-r-0.50: F vs brute (N=4e6) = 0.976810 vs 0.976800, z -0.13
+CLAIM PVA-F3-n120-r+0.00: F vs brute (N=4e6) = 0.976944 vs 0.976921, z -0.31
+CLAIM PVA-F3-n120-r+0.50: F vs brute (N=4e6) = 0.978366 vs 0.978252, z -1.56
+CLAIM PVA-F3-n120-r+0.90: F vs brute (N=4e6) = 0.983135 vs 0.983201, z +1.02
+CLAIM PVA-F3-n120-r+0.95: F vs brute (N=4e6) = 0.984608 vs 0.984630, z +0.36
+CLAIM PVA-F3: max |z| over 24 brute-force points (tol 4) = 2.26 pass True
+CLAIM PVA-T3-K2-n6: multivariate-t true rate by rho = -0.90:0.02500(1.000x); -0.50:0.02512(1.005x); +0.00:0.02585(1.034x); +0.50:0.02753(1.101x); +0.90:0.02823(1.129x); +0.95:0.02764(1.105x)
+CLAIM PVA-T3-K2-n8: multivariate-t true rate by rho = -0.90:0.02500(1.000x); -0.50:0.02505(1.002x); +0.00:0.02556(1.022x); +0.50:0.02684(1.074x); +0.90:0.02726(1.090x); +0.95:0.02682(1.073x)
+CLAIM PVA-T3-K2-n12: multivariate-t true rate by rho = -0.90:0.02500(1.000x); -0.50:0.02502(1.001x); +0.00:0.02532(1.013x); +0.50:0.02618(1.047x); +0.90:0.02641(1.056x); +0.95:0.02613(1.045x)
+CLAIM PVA-T3-K2-n24: multivariate-t true rate by rho = -0.90:0.02500(1.000x); -0.50:0.02500(1.000x); +0.00:0.02514(1.005x); +0.50:0.02557(1.023x); +0.90:0.02566(1.026x); +0.95:0.02553(1.021x)
+CLAIM PVA-T3-K2-n36: multivariate-t true rate by rho = -0.90:0.02500(1.000x); -0.50:0.02500(1.000x); +0.00:0.02508(1.003x); +0.50:0.02537(1.015x); +0.90:0.02543(1.017x); +0.95:0.02534(1.014x)
+CLAIM PVA-T3-K2-n60: multivariate-t true rate by rho = -0.90:0.02500(1.000x); -0.50:0.02500(1.000x); +0.00:0.02505(1.002x); +0.50:0.02522(1.009x); +0.90:0.02525(1.010x); +0.95:0.02520(1.008x)
+CLAIM PVA-T3-K2-n120: multivariate-t true rate by rho = -0.90:0.02500(1.000x); -0.50:0.02500(1.000x); +0.00:0.02502(1.001x); +0.50:0.02511(1.004x); +0.90:0.02513(1.005x); +0.95:0.02510(1.004x)
+CLAIM PVA-T3-BRUTE-n6-r+0.50: T3 rate vs brute (|z|<=4) = 0.02753 vs 0.02747, z -0.84
+CLAIM PVA-T3-BRUTE-n6-r+0.95: T3 rate vs brute (|z|<=4) = 0.02764 vs 0.02775, z +1.34
+CLAIM PVA-T3-BRUTE-n12-r+0.90: T3 rate vs brute (|z|<=4) = 0.02641 vs 0.02648, z +0.93
+CLAIM PVA-T3-BRUTE-n36-r+0.50: T3 rate vs brute (|z|<=4) = 0.02537 vs 0.02533, z -0.58
+CLAIM PVA-T3-BRUTE-n8-r-0.50: T3 rate vs brute (|z|<=4) = 0.02505 vs 0.02506, z +0.08
+CLAIM PVA-T3-BRUTE-n24-r+0.90: T3 rate vs brute (|z|<=4) = 0.02566 vs 0.02589, z +2.84
+CLAIM PVA-T3-K5-EQ0: multivariate-t true rate by n (SE 7.8e-5) = n8:0.02696(1.08x); n12:0.02621(1.05x); n24:0.02551(1.02x); n36:0.02527(1.01x); n60:0.02511(1.00x)
+CLAIM PVA-T3-K5-EQ5: multivariate-t true rate by n (SE 7.8e-5) = n8:0.03124(1.25x); n12:0.02898(1.16x); n24:0.02689(1.08x); n36:0.02615(1.05x); n60:0.02575(1.03x)
+CLAIM PVA-T3-K5-EQ9: multivariate-t true rate by n (SE 7.8e-5) = n8:0.03094(1.24x); n12:0.02879(1.15x); n24:0.02663(1.07x); n36:0.02624(1.05x); n60:0.02576(1.03x)
+CLAIM PVA-T3-K5-BM: multivariate-t true rate by n (SE 7.8e-5) = n8:0.02956(1.18x); n12:0.02800(1.12x); n24:0.02622(1.05x); n36:0.02576(1.03x); n60:0.02541(1.02x)
+CLAIM PVA-T3-K5-MIX: multivariate-t true rate by n (SE 7.8e-5) = n8:0.02831(1.13x); n12:0.02716(1.09x); n24:0.02591(1.04x); n36:0.02571(1.03x); n60:0.02547(1.02x)
+CLAIM PVA-T4-K2-n6: plug-in realised FWER by rho (N=4e5) = -0.5:0.02521(z+0.8); +0.0:0.02595(z+3.9); +0.5:0.02544(z+1.8); +0.9:0.02404(z-3.9)
+CLAIM PVA-T4-K2-n8: plug-in realised FWER by rho (N=4e5) = -0.5:0.02510(z+0.4); +0.0:0.02508(z+0.3); +0.5:0.02524(z+1.0); +0.9:0.02381(z-4.8)
+CLAIM PVA-T4-K2-n12: plug-in realised FWER by rho (N=4e5) = -0.5:0.02450(z-2.0); +0.0:0.02504(z+0.2); +0.5:0.02519(z+0.8); +0.9:0.02474(z-1.1)
+CLAIM PVA-T4-K2-n24: plug-in realised FWER by rho (N=4e5) = -0.5:0.02485(z-0.6); +0.0:0.02530(z+1.2); +0.5:0.02504(z+0.2); +0.9:0.02457(z-1.7)
+CLAIM PVA-T4-K2-n36: plug-in realised FWER by rho (N=4e5) = -0.5:0.02473(z-1.1); +0.0:0.02530(z+1.2); +0.5:0.02478(z-0.9); +0.9:0.02456(z-1.8)
+CLAIM PVA-T4-K5-EQ0: plug-in realised FWER by n (SE 1.1e-3) = n6:0.02685(z+1.7); n8:0.02635(z+1.2); n12:0.02960(z+4.2); n24:0.02470(z-0.3); n36:0.02475(z-0.2)
+CLAIM PVA-NOTE: run stopped after PVA-T4-K5-EQ0 for cost; the remaining T4 K=5 cells are run by p_verify_t4k5.py with the Bartlett inner draw (valid for n-1 >= K) and new seeds = recorded

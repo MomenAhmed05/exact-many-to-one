@@ -16,6 +16,11 @@ The papers are in [`paper/`](paper/): the working paper, and a short companion
 with the statements, proofs and evidence alone. The mathematics is checked in
 Lean 4 in [`Lean/`](Lean/).
 
+The second paper, *Many-to-One Strategy Comparison on Aligned Returns*, treats
+candidates and a benchmark observed on the same dates. Its code, results and
+Lean sources are in [`aligned-returns/`](aligned-returns/), which has its own
+[README](aligned-returns/README.md) and uses this paper's `04-efficient-rule/` code.
+
 ## What is here
 
 Every number printed in the paper is computed by a script in this repository
@@ -32,6 +37,7 @@ below is organised by which part of the paper a directory produces.
 | [`04-efficient-rule/`](04-efficient-rule/) | 10 and 11 | A3 | the calibrated rule that meets the same ceiling far more cheaply, its optimality floor over the invariant class, and serial correlation and factor exposure handled as declared nuisances |
 | [`Lean/`](Lean/) | 3, 9, 10, 11 | — | the Lean 4 formalisation: every theorem the paper proves, checked against Mathlib, and every deposited certificate's arithmetic checked exactly |
 | [`paper/`](paper/) | all | — | the working paper; the companion `Exact-Many-to-One-Proofs.docx`, nine pages of statements, proofs and evidence; and the gate that checks the companion |
+| [`aligned-returns/`](aligned-returns/) | paper 2 | — | the second paper: the certified constant for the Welch rule on aligned returns, the exact paired test, and their Lean development |
 
 Each directory keeps its own `deposits/` next to its scripts, because the
 scripts resolve deposits relative to their own location. Moving a script away

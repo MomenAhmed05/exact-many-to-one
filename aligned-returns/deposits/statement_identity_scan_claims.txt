@@ -1,0 +1,25 @@
+CLAIM SI-STRIPPER-SELFTEST: synthetic sample with 5 commented and 2 code occurrences yields code hits sorry=1 admit=1 native_decide=0, docstrings and nested blocks removed, string literal preserved = True
+CLAIM SI-Phi_antitone: identical = True  (raw span byte-identical = True; normalised length 295/295)
+CLAIM SI-ae_nonneg_of_gammaLaw: identical = True  (raw span byte-identical = True; normalised length 199/199)
+CLAIM SI-charQ_eq_det: identical = True  (raw span byte-identical = True; normalised length 104/104)
+CLAIM SI-discG_eq: identical = True  (raw span byte-identical = True; normalised length 76/76)
+CLAIM SI-charQ_factor: identical = True  (raw span byte-identical = True; normalised length 80/80)
+CLAIM SI-mu_sum_prod: identical = True  (raw span byte-identical = True; normalised length 80/80)
+CLAIM SI-box_pos: identical = True  (raw span byte-identical = True; normalised length 94/94)
+CLAIM SI-r1_lower: identical = True  (raw span byte-identical = True; normalised length 115/115)
+CLAIM SI-r2_lower: identical = True  (raw span byte-identical = True; normalised length 121/121)
+CLAIM SI-cstar_bracket: identical = True  (raw span byte-identical = True; normalised length 351/351)
+CLAIM SI-cstarBox_eq_sSup: identical = True  (raw span byte-identical = True; normalised length 225/225)
+CLAIM SI-cover_sound: identical = True  (raw span byte-identical = True; normalised length 538/538)
+CLAIM SI-comp_thm_2B: identical = True  (raw span byte-identical = True; normalised length 965/965)
+CLAIM SI-ALL: all thirteen statements identical after whitespace normalisation = True
+CLAIM SI-EXTRA-DECLS: theorems in the successor that are not among the thirteen = discG_nonneg
+CLAIM SCAN-RAW-Unit2BFormalR1R2.lean: case-insensitive substring counts over the FULL text, comments and docstrings included = {'sorry': 6, 'admit': 0, 'native_decide': 0}
+CLAIM SCAN-CODE-Unit2BFormalR1R2.lean: word counts over code with comments and docstrings stripped = {'sorry': 0, 'admit': 0, 'native_decide': 0} (code chars kept 12133 of 14505)
+CLAIM SCAN-ZERO-Unit2BFormalR1R2.lean: = False
+CLAIM SCAN-RAW-StatementIdentityR2.lean: case-insensitive substring counts over the FULL text, comments and docstrings included = {'sorry': 0, 'admit': 0, 'native_decide': 0}
+CLAIM SCAN-CODE-StatementIdentityR2.lean: word counts over code with comments and docstrings stripped = {'sorry': 0, 'admit': 0, 'native_decide': 0} (code chars kept 4265 of 5721)
+CLAIM SCAN-ZERO-StatementIdentityR2.lean: = True
+CLAIM SI-STMT-FILE-SHA256: Unit2BFormalR1.lean = ddb99b2021e52a5584cdc67cede113db85491a63e5d277a400284d1fc58097ae
+CLAIM SI-SUCC-SHA256: Unit2BFormalR1R2.lean = 89b17a9f77d2b46ffa8a03ecda5e50fa12481757ec3f364c2a642f0b95ecb812
+CLAIM SI-IDF-SHA256: StatementIdentityR2.lean = 23ab3aca9fa90783e51d9212ab61f0e66cc0cfbb3565a5090a5cdf30d03b655c

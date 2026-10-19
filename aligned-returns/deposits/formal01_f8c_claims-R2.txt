@@ -1,0 +1,21 @@
+CLAIM F8C-R2-SUPERSEDES: supersedes deposits/formal01_f8c_claims.txt (sha256 6801449ba2cd84916a5074c251151c430fbb1aa0a60edd87bdac5332525575b5) in full: that run folded |.| per polynomial before combining at rho; this run takes |rho^2 a_k - rho b_k + d_k| per monomial after combining, and locates rho by 60-step float bisection re-checked exactly at fixed dyadic shaves = done
+CLAIM F8C-PARAM-LAMKNOTS: declared lambda knots = ['1/25', '77/50', '3', '5', '8', '12', '17', '25']
+CLAIM F8C-PARAM-BKNOTS: declared b0/b1 knots = ['-3/2', '0', '3/2']
+CLAIM F8C-PARAM-ETA-EPS-LMAX: declared eta, eps, lmax, w = ['1/8', '1/256', 12, ['1', '1', '1']]
+CLAIM F8C-BUILD-SEC: seconds to build the graded cover = 81.7
+CLAIM F8C-CELLS: cells in the graded cover = 59276
+CLAIM F8C-UNSERVED: leaves that could not be certified = 0
+CLAIM F8C-A2: A-2 containment = True
+CLAIM F8C-A2-DETAIL: A-2 outcome = volumes sum exactly to the box; 59276 cells
+CLAIM F8C-EXPANSION-XCHECK: max |sympy charQ - checker charQ| over random exact points = 0
+CLAIM F8C-A4-SEC: seconds for A-4 on every cell (R-beta, parallel) = 139.9
+CLAIM F8C-A4-FAILS: cells whose R-beta upper endpoint exceeds alpha = 0
+CLAIM F8C-A4-WORST: largest R-beta upper endpoint over the cover = 0.024999125950489053
+CLAIM F8C-A4-MARGIN: alpha minus that worst upper endpoint = 8.740495109474389e-07
+CLAIM F8C-A4-MAX-RADIUS: largest R-beta ball radius = 1.1135702135516195e-30
+CLAIM F8C-A4-RADIUS-BUDGET: every radius <= 1e-9 = True
+CLAIM F8C-IMHOF-CELLS: cells cross-checked with R-Imhof = 168
+CLAIM F8C-IMHOF-SEC: seconds for the R-Imhof cross-check = 10.6
+CLAIM F8C-IMHOF-DISJOINT: cells where the two routes' balls do NOT overlap = 0
+CLAIM F8C-IMHOF-WORST: largest R-Imhof upper endpoint on those cells = 0.024999125950489053
+CLAIM F8C-IMHOF-ALL-BELOW: every R-Imhof upper endpoint <= alpha = True

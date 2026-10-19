@@ -1,0 +1,26 @@
+CLAIM T1-A-RC1: corner rc1 = 0.50504286
+CLAIM T1-A-RC2: corner rc2 = 0.04674997
+CLAIM T1-A-S: s=5.54/10.04 = 0.55179283
+CLAIM T1-A-VERDICT: corner constants match declaration = True
+CLAIM T1-B-PHI: Phi(c0; rc) = 0.025000000001
+CLAIM T1-B-PHI-DBLQUAD: Phi(c0; rc) independent route = 0.025000000001
+CLAIM T1-B-AGREE: GL vs dblquad within 1e-9 = True
+CLAIM T1-B-VERDICT: Phi(c0;rc)=0.025 +/- 1e-8 = True
+CLAIM T1-C-T0p0: Phi(c0;s-t,t) = 0.02562587081
+CLAIM T1-C-T0p01: Phi(c0;s-t,t) = 0.02548021959
+CLAIM T1-C-T0p02: Phi(c0;s-t,t) = 0.02534110501
+CLAIM T1-C-T0p03: Phi(c0;s-t,t) = 0.025208379061
+CLAIM T1-C-T0p04674996529835248: Phi(c0;s-t,t) = 0.025000000001
+CLAIM T1-C-T0p1: Phi(c0;s-t,t) = 0.024447595753
+CLAIM T1-C-T0p2: Phi(c0;s-t,t) = 0.023824577803
+CLAIM T1-C-T0p2758964143426295: Phi(c0;s-t,t) = 0.023685209535
+CLAIM T1-C-DECREASING: Phi strictly decreasing in t (uneven->even) = True
+CLAIM T1-C-PHI-S0: Phi(c0;s,0) = 0.02562587081
+CLAIM T1-C-PHI-S0-GT-ALPHA: Phi(c0;s,0) > 0.025 = True
+CLAIM T1-C-VERDICT: Schur-convexity expectation holds = True
+CLAIM T1-E-MAXPHI: max Phi(U;r(theta)) on grid = 0.024997576344
+CLAIM T1-E-ARGMAX: argmax (lam,b0,b1) = (0.04, -1.5, 1.5)
+CLAIM T1-E-MARGIN: alpha - maxPhi = 2.423656e-06
+CLAIM T1-E-COUNT-UNEVEN: points with r1+r2>=s and r2<rc2 = 8656
+CLAIM T1-E-VERDICT: max Phi(U;r) < alpha = True
+CLAIM T1-E-CORNER-IS-ARGMAX: argmax equals the box corner = True

@@ -1,0 +1,13 @@
+CLAIM L2V5-CONSTANTS: U, L, tol (exact) = 13587/5000, 271731/100000, 1/10000
+CLAIM L2V5-GRIDS: |P0|, |P1|, P0 subset of P1 exactly = 175, 1053, True
+CLAIM L2V5-F1: t_70 upper-1/40 quantile (mpmath) inside bracket at (1,0,0) = q=1.9944371117711865635 bracket=[1.994437111771130, 1.994437111771243] contained=True
+CLAIM L2V5-F2: corner bracket, inside [L,U], equal to 2B F-3 interval to 1e-12 = [2.7173398035158458, 2.7173398035159595] pass=True
+CLAIM L2V5-BRACKETS: points bracketed, widest bracket = 1053, 1.137e-13
+CLAIM L2V5-ARGMAX: P1 point with the largest upper bracket = (np.float64(0.04000000000000001), np.float64(-1.5), np.float64(1.5))
+CLAIM L2V5-D: max_P1 u <= U = max_P1 u = 2.7173398035159595, U = 13587/5000, holds = True
+CLAIM L2V5-A: max_P1 u - max_P0 l <= tol = difference = 1.137e-13, tol = 1/10000, holds = True
+CLAIM L2V5-MIN: smallest lower bracket on P1 and its point = 0.874568 at (np.float64(0.04000000000000001), np.float64(-1.5), np.float64(-1.5))
+CLAIM L2V5-F4: independent point check needed (argmax off the corner) = False
+CLAIM L2V5-VERDICT: L-2 verdict = STANDS
+CLAIM L2V5-WALL: seconds = 190
+CLAIM L2V5-SHA: sha256 of this script = 7d2b0d8a851f90f575a76dfda9c80659276a7de0641d9c55094caf06213f9d7b

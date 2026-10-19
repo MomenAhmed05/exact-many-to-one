@@ -1,0 +1,11 @@
+CLAIM A5AG-CLEAN-LO-PRESENT: the clean-room certified LOWER bound, as an exact rational, read from a5_claims.txt claim A5-PHI-LO = 53402239161552846289385933685556256024244757793286165566109146687802768866819886845130196504071/2135987035920910082395021706169552114602704522356652769947041607822219725780640550022962086936576
+CLAIM A5AG-PROD-A5MARGIN-PRESENT: the producer's A5-MARGIN, read from formal01_f8b_claims.txt = 1.2000370257968241e-06
+CLAIM A5AG-ALPHA: alpha = 1/40
+CLAIM A5AG-CLEAN-GAP: clean-room lower bound minus alpha, exact = 12816317650471147551955156587265795885723671849231587165532461236378611519365472780721653283/10679935179604550411975108530847760573013522611783263849735208039111098628903202750114810434682880
+CLAIM A5AG-GAP-DECIMAL: that gap as a decimal = 1.2000370260e-06
+CLAIM A5AG-PROD-MARGIN-DECIMAL: the producer's A5-MARGIN as a decimal = 1.2000370258e-06
+CLAIM A5AG-RELATIVE-DISAGREEMENT: relative disagreement between the two margins = 1.432e-10
+CLAIM A5AG-RELATIVE-TO-1E-10: the relative disagreement rounds to 1.4e-10 at 2 s.f. = 1.4e-10
+CLAIM A5AG-BOTH-POSITIVE: both margins are positive, so the lower bound clears alpha = True
+CLAIM A5AG-VERDICT: the clean-room lower bound independently reproduces the producer's A-5 margin = CONFIRMED to a relative 1.4e-10
+CLAIM A5AG-SCOPE: what this does and does not establish = It shows two implementations, sharing no code and in different folders, compute the same margin at the CORNER to 10 significant figures. It says nothing about any other point in the box, and the A-5 check covers exactly one point. The size bound is unaffected by it either way, since size_bound_2B goes through cover_sound and does not take hWit as a hypothesis

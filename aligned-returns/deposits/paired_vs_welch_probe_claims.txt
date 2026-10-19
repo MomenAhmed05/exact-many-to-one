@@ -1,0 +1,5 @@
+paired critical value t_35 upper 0.025 = 2.030108
+CLAIM PVW-same sign (1,1,1): size paired / Welch@Uc / Welch@c*(theta) = 0.02493 (z -0.6) / 0.00016 / 0.02488 ; power at paired-80% effect = 0.798 / 0.185 / 0.806
+CLAIM PVW-no loadings (1,0,0): size paired / Welch@Uc / Welch@c*(theta) = 0.02496 (z -0.3) / 0.00416 / 0.02495 ; power at paired-80% effect = 0.798 / 0.564 / 0.809
+CLAIM PVW-opposite (1,1,-1): size paired / Welch@Uc / Welch@c*(theta) = 0.02496 (z -0.4) / 0.01526 / 0.02499 ; power at paired-80% effect = 0.797 / 0.741 / 0.806
+CLAIM PVW-corner (0.04,-1.5,1.5): size paired / Welch@Uc / Welch@c*(theta) = 0.02483 (z -1.5) / 0.02482 / 0.02482 ; power at paired-80% effect = 0.797 / 0.800 / 0.800

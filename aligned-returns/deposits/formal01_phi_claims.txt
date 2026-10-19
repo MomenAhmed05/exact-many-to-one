@@ -1,0 +1,35 @@
+CLAIM TSF0: t70sf(sqrt(1/3)) finite-sum vs beta_lower overlap = True
+CLAIM TSF1: t70sf(sqrt(29/4)) finite-sum vs beta_lower overlap = True
+CLAIM TSF2: t70sf(sqrt(70)) finite-sum vs beta_lower overlap = True
+CLAIM TSF3: t70sf(sqrt(211)) finite-sum vs beta_lower overlap = True
+CLAIM A.beta: Phi_Rbeta(c0;25252143/50000000,4674997/100000000) = [0.0249999998155366282843597911921 +/- 8.10e-32]  radius=667843157/2^133 (~6.133e-32) radius<=1e-9:True
+CLAIM A.imhof: Phi_RImhof(c0;25252143/50000000,4674997/100000000) = [0.02499999981553662828435979 +/- 4.96e-27]  radius=642078713/2^117 (~3.864e-27) radius<=1e-9:True
+CLAIM A.beta.anchor: ball within 1/40 +/- 1e-8 = True
+CLAIM A.imhof.anchor: ball within 1/40 +/- 1e-8 = True
+CLAIM A.overlap: R-beta and R-Imhof balls overlap = True
+CLAIM A.rejected: E_B[0.5*t70sf(2*m*c0^2)] [rejected form] = [0.00013934495029154833884 +/- 4.34e-24] within anchor+/-1e-8:False
+CLAIM A.gap: Phi_Rbeta - 1/40 = [-1.84463371716e-10 +/- 3.60e-22]
+CLAIM B.beta: Phi_Rbeta(c0;277/502,0) = [0.0256258708102615092573799876390 +/- 4.41e-32]  radius=468482841/2^148 (~1.313e-36) radius<=1e-9:True
+CLAIM B.imhof: Phi_RImhof(c0;277/502,0) = [0.025625870810261509257380 +/- 6.82e-25]  radius=18597975/2^105 (~4.585e-25) radius<=1e-9:True
+CLAIM B.beta.anchor: ball within 2562587081/100000000000 +/- 1e-8 = True
+CLAIM B.imhof.anchor: ball within 2562587081/100000000000 +/- 1e-8 = True
+CLAIM B.overlap: R-beta and R-Imhof balls overlap = True
+CLAIM B.rejected: E_B[0.5*t70sf(2*m*c0^2)] [rejected form] = [0.00023763523124450906268 +/- 4.25e-24] within anchor+/-1e-8:False
+CLAIM B.gap: Phi_Rbeta - 2562587081/100000000000 = [2.61509257380e-13 +/- 1.24e-26]
+CLAIM X1.beta: Phi(Fraction(5434679607, 2000000000), 0, 0) == 1/2 exactly = True
+CLAIM X1.imhof: Phi(Fraction(5434679607, 2000000000), 0, 0) == 1/2 exactly = True
+CLAIM X2.beta: Phi(0, Fraction(3, 10), Fraction(7, 10)) == 1/2 exactly = True
+CLAIM X2.imhof: Phi(0, Fraction(3, 10), Fraction(7, 10)) == 1/2 exactly = True
+CLAIM S0.closed: t70sf(c0*sqrt(2*3/10)) [beta_lower] = [0.0194481385088145181114016387648 +/- 4.21e-32]  radius=953092407/2^216 (~9.050e-57) radius<=1e-9:True
+CLAIM S0.beta: Phi_Rbeta(c0;3/10,3/10) = [0.0194481385088145181114016387648 +/- 4.21e-32]  radius=54710043/2^154 (~2.396e-39) radius<=1e-9:True
+CLAIM S0.imhof: Phi_RImhof(c0;3/10,3/10) = [0.0194481385088145181114016 +/- 5.40e-26]  radius=1054783833/2^116 (~1.270e-26) radius<=1e-9:True
+CLAIM S0.beta.closed: overlaps closed form = True
+CLAIM S0.imhof.closed: overlaps closed form = True
+CLAIM S0.altform: 0.5*t70sf(2*rho*c0^2) [rejected form] overlaps beta route = False
+CLAIM S1.closed: t70sf(c0*sqrt(2*27589641/100000000)) [beta_lower] = [0.0236852103829760713306221684995 +/- 4.97e-32]  radius=446760833/2^215 (~8.484e-57) radius<=1e-9:True
+CLAIM S1.beta: Phi_Rbeta(c0;27589641/100000000,27589641/100000000) = [0.0236852103829760713306221684995 +/- 4.97e-32]  radius=779586031/2^158 (~2.134e-39) radius<=1e-9:True
+CLAIM S1.imhof: Phi_RImhof(c0;27589641/100000000,27589641/100000000) = [0.023685210382976071330622 +/- 4.86e-25]  radius=618208309/2^111 (~2.381e-25) radius<=1e-9:True
+CLAIM S1.beta.closed: overlaps closed form = True
+CLAIM S1.imhof.closed: overlaps closed form = True
+CLAIM S1.altform: 0.5*t70sf(2*rho*c0^2) [rejected form] overlaps beta route = False
+CLAIM ALL: every check passed = True

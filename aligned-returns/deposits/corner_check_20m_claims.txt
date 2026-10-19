@@ -1,0 +1,6 @@
+CLAIM CC20-published-11.6-constant: c, P(T > c), its standard error and (alpha - P)/se = 2.7366486, 0.024259, 3.4e-05, +21.5
+CLAIM CC20-new-certified-U: c, P(T > c), its standard error and (alpha - P)/se = 2.7174000, 0.025015, 3.5e-05, -0.4
+CLAIM CC20-new-certified-L: c, P(T > c), its standard error and (alpha - P)/se = 2.7173100, 0.025020, 3.5e-05, -0.6
+CLAIM CC20-CSTAR: empirical critical constant and approximate 95% interval = 2.71779 [2.71601, 2.71956]
+CLAIM CC20-DRAWS: draws = 20000000
+CLAIM CC20-SEED: seed = 987654321

@@ -1,0 +1,11 @@
+CLAIM PLAW-E0: max |Owen-T Phi2 - scipy Genz| over 200 points = 3.33e-16
+CLAIM PLAW-E1-n12: |F(rho=0) - P(t<=c)^2| (pass <= 1e-9) = 3.22e-15 pass True
+CLAIM PLAW-E1-n36: |F(rho=0) - P(t<=c)^2| (pass <= 1e-9) = 2.33e-15 pass True
+CLAIM PLAW-E23-n12-r-0.50: F; refine move (pass < 1e-7); brute (N=4e6) z (pass |z|<=4) = 0.957982118; 2.2e-14 True; 0.957967 z -0.15 True
+CLAIM PLAW-E23-n12-r+0.00: F; refine move (pass < 1e-7); brute (N=4e6) z (pass |z|<=4) = 0.958409744; 2.2e-14 True; 0.958400 z -0.10 True
+CLAIM PLAW-E23-n12-r+0.50: F; refine move (pass < 1e-7); brute (N=4e6) z (pass |z|<=4) = 0.961060462; 2.3e-14 True; 0.960957 z -1.07 True
+CLAIM PLAW-E23-n12-r+0.95: F; refine move (pass < 1e-7); brute (N=4e6) z (pass |z|<=4) = 0.972075034; 2.3e-14 True; 0.971983 z -1.12 True
+CLAIM PLAW-E23-n36-r-0.50: F; refine move (pass < 1e-7); brute (N=4e6) z (pass |z|<=4) = 0.972473349; 2.3e-14 True; 0.972472 z -0.02 True
+CLAIM PLAW-E23-n36-r+0.00: F; refine move (pass < 1e-7); brute (N=4e6) z (pass |z|<=4) = 0.972661502; 2.4e-14 True; 0.972708 z +0.58 True
+CLAIM PLAW-E23-n36-r+0.50: F; refine move (pass < 1e-7); brute (N=4e6) z (pass |z|<=4) = 0.974363271; 2.3e-14 True; 0.974388 z +0.31 True
+CLAIM PLAW-E23-n36-r+0.95: F; refine move (pass < 1e-7); brute (N=4e6) z (pass |z|<=4) = 0.981725408; 2.4e-14 True; 0.981874 z +2.24 True

@@ -1,0 +1,21 @@
+{
+ "point": "theta=(0.04,-1.5,1.5)",
+ "c": "Uc=271740/100000",
+ "declared_se_target": 1.5e-05,
+ "declared_draws": 250000000,
+ "draws": 250000000,
+ "seed": 20260929,
+ "empirical_P_T_gt_U": 0.025001356,
+ "achieved_se": 9.87446974741657e-06,
+ "achieved_se_meets_target": true,
+ "engine_value": 0.02499757634420947,
+ "engine_ball": [
+  "7205060832572627/288230376151711744",
+  "1801265208143157/72057594037927936"
+ ],
+ "difference": 3.7796557905284134e-06,
+ "decision_tolerance": 4.5e-05,
+ "engine_below_alpha": true,
+ "verdict": "PASS",
+ "seconds": 356.2
+}

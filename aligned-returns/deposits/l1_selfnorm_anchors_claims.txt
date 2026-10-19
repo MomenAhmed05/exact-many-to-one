@@ -1,0 +1,2 @@
+CLAIM L1F3-S15: S15 coverage, WZ Table 1 Scen.1 r=0 mean 95% (published 0.951) = 0.9550, |diff| 0.0040, tol 0.0229, pass True
+CLAIM L1F3-WSNS: WSNS coverage, WZ Table 3 Scen.3 r=0 mean 95%, B_N=100 (published 0.945) = 0.9467, |diff| 0.0018, tol 0.0242, MN 1461, pass True

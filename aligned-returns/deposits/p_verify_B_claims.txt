@@ -1,0 +1,10 @@
+CLAIM PVB-F6-K5-MIX-n6: plug-in realised FWER, n near K+1 (SE 1.1e-3) = 0.02570 (z +0.6)
+CLAIM PVB-F6-K5-MIX-n7: plug-in realised FWER, n near K+1 (SE 1.1e-3) = 0.02540 (z +0.4)
+CLAIM PVB-F6-K2-n6-r-0.95: multivariate-t true rate at extreme rho = 0.02500 (1.000x)
+CLAIM PVB-F6-K2-n6-r+0.95: multivariate-t true rate at extreme rho = 0.02764 (1.105x)
+CLAIM PVB-F6-K2-n8-r-0.95: multivariate-t true rate at extreme rho = 0.02500 (1.000x)
+CLAIM PVB-F6-K2-n8-r+0.95: multivariate-t true rate at extreme rho = 0.02682 (1.073x)
+CLAIM PVB-T5-DESIGN: correlation matrices (structured + random), n values, c values = 48, (2, 3, 5, 12), (0.5, 1, 2, 3, 5)
+CLAIM PVB-T5-NEARMISS: smallest (diff / SE) over the grid, and its configuration = -1.57 at ([0.4203, 0.3025, -0.0123], 5, 5.0, np.float64(-0.000478999261334323), 0.00030449814472619706)
+CLAIM PVB-T5-VERDICT: violations beyond 4 SE and 1e-6 = 0
+CLAIM PVB-WALL: seconds = 3844

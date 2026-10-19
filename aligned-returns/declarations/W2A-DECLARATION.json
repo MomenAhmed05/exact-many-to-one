@@ -1,0 +1,118 @@
+{
+ "unit": "UNIT 2A",
+ "declared_before_any_grid_run": true,
+ "declared_at": "2026-09-22T00:55 local",
+ "problem": "does the aligned-factor null law, in coordinates (u,v,w)=(beta_0^2, beta_1^2, beta_0*beta_1), vary monotonically in each coordinate separately over the feasible set w^2 <= uv?",
+
+ "design": {
+  "n": 36,
+  "K": 1,
+  "c": 2.20,
+  "output": "fwer at fixed c=2.20 (one evaluator call per point; sign of dFWER/dx at fixed c equals sign of dc*/dx since dFWER/dc < 0 everywhere, so the verdict transfers to the critical constant used by Unit 2B)",
+  "lam_sweep": [0.04, 1.0, 25.0],
+  "lam_rationale": "endpoints plus geometric center of w2_cert.py's declared box lgrid = log_grid(0.04, 25.0, 7); sqrt(0.04*25.0)=1.0.  The kill test therefore covers 2B's whole lambda axis at its edges and middle.",
+  "box_source": "w2_cert.py bgrid = linspace(-1.5, 1.5, 5) for both loadings -> u,v in [0, 2.25], w in [-2.25, 2.25]",
+  "n_source": "w2_cert.py n = [36.0, 36.0]; same n as every w2_factor falsifier and every Unit 5 ladder"
+ },
+
+ "grid": {
+  "points_per_axis": 61,
+  "u": [0.0, 2.25],
+  "v": [0.0, 2.25],
+  "w": [-2.25, 2.25],
+  "du": 0.0375,
+  "dw": 0.075,
+  "feasibility": "w^2 <= u*v*(1+1e-12) + 1e-15 (float-safe cone membership)",
+  "margin_handling": "a feasible point is BOUNDARY LAYER iff sqrt(u*v)-|w| <= dw  OR  u == 0  OR  v == 0 (within one w-step of the cone surface, or on the cone's degenerate faces); otherwise STRICTLY INSIDE.  Both regions are evaluated; verdicts are reported per region and combined.  A difference is layer if EITHER endpoint is layer.",
+  "axis_choice": "61 not 60 so that w = 0 and the box faces land exactly on nodes (the specification says 'e.g. 60^3'); every coordinate face of the declared box is therefore sampled."
+ },
+
+ "levels": {
+  "primary": {
+   "name": "GRID",
+   "zf": [3, 10], "z0": [3, 10], "vf": [3, 10], "s0": 24, "si": 24,
+   "justification": "w2_factor.py's reference rule and the rule the 4,000,000-draw validation (worst |z| 1.58) was measured against; deposit deposits/w2_factor.json grid field is exactly this."
+  },
+  "h12": {
+   "name": "GRID+",
+   "zf": [4, 10], "z0": [4, 10], "vf": [4, 10], "s0": 24, "si": 24,
+   "justification": "H-12 requires the monotonicity verdict to survive a refinement change: outer panels 3 -> 4 (normal and chi-square rules), inner nodes unchanged.  Different discretisation at ~2.4x the per-eval cost, feasible over the full grid."
+  }
+ },
+
+ "fd": {
+  "scheme": "adjacent forward differences along each coordinate ((i,i+1), (j,j+1), (k,k+1)) over pairs where both endpoints are feasible; every feasible point evaluated exactly once; span recorded per difference (du, du, dw respectively)",
+  "tol_fd": 0.001,
+  "tol_justification": "max of two declared noise floors, both measured/derived BEFORE any grid run: (1) MC validation conversion as specified: 2 x 1.58 x sqrt(0.25/4000000) = 7.9e-04 (|z| <= 1.58 over 4,000,000 draws, worst case of sqrt(p(1-p)/N) over the rate range); (2) quadrature: 2 x 1.9894e-04 = 3.98e-04, the measured worst GRID-vs-FINE gap at the noisiest declared cell (beta=(1.5,-1.5), lam=0.04).  Floor = 7.9e-04, declared 1e-03.  |diff| <= tol_fd is INDETERMINATE: counted and reported, never assigned a sign.",
+  "why_not_FAST": "measured FAST-vs-GRID gap reaches 6.2556e-03 at (1.5,-1.5) lam=0.25 (opposite-sign corner), which would force tol_fd >= 1.3e-02 and blank out exactly the region Table 33's U-shape lives in; FAST was rejected as a kill-test level on this measurement."
+ },
+
+ "verdict_rules": {
+  "per_difference": "confident + if diff > tol_fd, confident - if diff < -tol_fd, else INDETERMINATE",
+  "direction": "majority sign of confident differences (npos vs nneg); a tie with both signs present is non-monotone",
+  "monotone": "no confident minority-sign differences AND confident fraction (npos+nneg)/ntotal >= 0.50 -> monotone(direction)",
+  "inconclusive": "no confident minority-sign differences but confident fraction < 0.50 -> INCONCLUSIVE (noise dominates; cannot certify)",
+  "monotone_with_exceptions": "minority-sign differences exist, exactly ONE connected component under 26-neighbour adjacency of their lower grid endpoints, and the component's bounding box extent is <= 20% of 61 in EACH of the three axes -> monotone-with-exceptions (region reported)",
+  "non_monotone": "otherwise (multiple components, or bbox wider than 20% on any axis, or a confident sign tie)",
+  "regions": "interior, layer, and combined are each verdicted per coordinate",
+  "per_ratio": "verdict per lambda, per coordinate, per region",
+  "combined": "worst class across the three lambda values, class order: monotone < monotone-with-exceptions < inconclusive < non-monotone for reporting; D0-2 shape uses: all monotone -> (i); all in {monotone, exceptions} with >=1 exceptions -> (ii); any non-monotone -> (iii); inconclusive present without non-monotone -> UNDECIDED (extra declared outcome: the kill test does not decide)",
+  "h12_survival": "for every (lambda, coordinate, region): class and (if monotone) direction at the primary level must EQUAL the class/direction at the H-12 level, else the verdict does not survive the refinement change (H-12 kill)"
+ },
+
+ "anchors": {
+  "AN1_wrapper_equals_native": {
+   "cells_beta": [[1.0, 1.0], [1.0, -1.0], [1.5, -0.5], [0.5, 1.5], [0.3, -0.2], [0.0, 1.0], [1.0, 0.0]],
+   "lam": [0.04, 1.0, 25.0],
+   "tol": 1e-12,
+   "claim": "the (u,v,w) wrapper reproduces w2_factor.AlignedFactor.fwer exactly at boundary and degenerate-face cells (native code is the 4,000,000-draw-validated evaluator, so equality inherits that validation)"
+  },
+  "AN2_sign_invariance": {
+   "cells_uvw": [[1.0, 1.0, 0.0], [2.25, 2.25, 0.0], [1.0, 2.25, 0.5]],
+   "lam": [0.04, 1.0, 25.0],
+   "tol": 1e-12,
+   "claim": "m depends on (beta_0-beta_1) only through d^2 = u+v-2w: flipping the sign of d must leave the integral unchanged (symmetric z-f rule).  This is what makes interior points (w^2 < uv) well defined."
+  },
+  "AN3_deposit_values": {
+   "cells": [
+    {"uvw": [1.0, 1.0, 1.0], "lam": 1.0, "deposit_path": "w5_limits.json f3_ladders A1 rho ladder beta=(1,1) rho=1", "fine_token": 0.0014563562740200764, "tol_fine": 1e-10, "tol_grid": 1e-05},
+    {"uvw": [0.0, 0.0, 0.0], "lam": 1.0, "deposit_path": "w5_limits.json f3_ladders A1 rho ladder beta=(0,0) rho=1", "fine_token": 0.015554323710506357, "tol_fine": 1e-10, "tol_grid": 1e-05}
+   ],
+   "tol_grid_justification": "measured worst GRID-vs-FINE on these two cells: 5.5e-07 and 1.83e-06; declared 1e-05 (>=5x margin)",
+   "claim": "same-parameter values against Unit 5's ladder deposit (P-1: tokens read from the deposit at run time)"
+  },
+  "AN3b_deposit_direction": {
+   "claim": "Unit 5's A2 equal-loading ladder is strictly decreasing (deposit tokens 1.456e-03 at t=1 > 6.29e-06 at t=2 > 2.19e-11 at t=4); at the run level f(1,1,1) must exceed f(4,4,4) and f(16,16,16) by an order relation (measured quadrature noise 2x6.2e-04 FAST-scale cannot flip a 1.45e-03 gap)",
+   "cells_uvw": [[4.0, 4.0, 4.0], [16.0, 16.0, 16.0]],
+   "lam": 1.0,
+   "note": "cells outside the kill box (law-level anchor); within Unit 5's stated validity range (A2 ladder trusted through t=128)"
+  },
+  "AN5_verdict_machinery": {
+   "claim": "the verdict function is tested on synthetic difference sets with known classes before it is allowed to read real diffs",
+   "cases": ["all-confident-positive -> monotone(+)", "single small negative blob inside 20% bbox -> monotone-with-exceptions", "negative diffs in two separated components -> non-monotone", "all differences inside tol -> inconclusive", "equal confident counts both signs -> non-monotone"]
+  }
+ },
+
+ "measurement_probe_before_declaration": {
+  "worst_FAST_GRID": {"value": 0.006255605379090645, "cell": "beta=(1.5,-1.5) lam=0.25"},
+  "worst_GRID_FINE": {"value": 0.00019893702962814341, "cell": "beta=(1.5,-1.5) lam=0.04"},
+  "grid_eval_seconds_incl_init": [0.606, 0.636, 0.639, 0.648, 0.653, 0.684],
+  "mc_floor": 7.9e-04,
+  "note": "all tolerances above were frozen from these measurements before any kill-test grid point was evaluated"
+ },
+
+ "runtime": {
+  "feasible_points_estimate": "≈103k per lambda, ≈310k total",
+  "workers": 5,
+  "primary_estimate": "≈9 h wall",
+  "h12_estimate": "≈21 h wall",
+  "chain": "primary -> H-12 -> verdict, single background chain, resumable from per-level JSONL row files"
+ },
+
+ "scope_notes": [
+  "verdict is at fixed c=2.20 (the specification says 'the evaluator output'; c-dependence of monotonicity is outside this test and recorded as a caveat for Unit 2B's ASM-2)",
+  "monotonicity in lambda is NOT tested; lambda is a separate axis of 2B's box",
+  "K=1 (coordinates are per-candidate; K>1 coupling is outside this test)",
+  "L-cone-1 (cone extreme-point lemma) is NOT needed to run the grid; it is flagged PROVEN/planned-tier in the unit output after the verdict"
+ ]
+}

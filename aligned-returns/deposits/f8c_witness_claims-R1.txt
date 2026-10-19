@@ -1,0 +1,8 @@
+CLAIM WIT-LINES: lines in the witness = 59276
+CLAIM WIT-BYTES: bytes in the witness = 8127774
+CLAIM WIT-SHA256: sha256 of the witness bytes read back from disk = 0d73eaee7bfec3452b373f11ae4a642f479b1bf50c7765f6c633cf354a12e32c
+CLAIM WIT-R3-SHA256: F8C-COVER-SHA256 as deposited in R3 = 0d73eaee7bfec3452b373f11ae4a642f479b1bf50c7765f6c633cf354a12e32c
+CLAIM WIT-MATCH: witness hash equals the deposited cover identity = True
+CLAIM WIT-UNSERVED: leaves that could not be certified = 0
+CLAIM WIT-SEC: seconds to build the cover and dump the witness = 100.6
+CLAIM WIT-GATE-W: Gate W requires WIT-MATCH = True and WIT-LINES = 59276 = True

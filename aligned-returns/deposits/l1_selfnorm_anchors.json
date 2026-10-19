@@ -1,0 +1,19 @@
+{
+ "q": 45.51438795565063,
+ "anchors": {
+  "S15_T1": {
+   "published": 0.951,
+   "ours": 0.955,
+   "tol": 0.022896260611724353,
+   "pass": true
+  },
+  "WSNS_T3": {
+   "published": 0.945,
+   "ours": 0.94675,
+   "tol": 0.024180958417730262,
+   "pass": true,
+   "MN": 1461
+  }
+ },
+ "script_sha256": "871d7c812ffda4d4452bfe9ac94348eaf56ed168144b1fe20cbeff2a2b3d0707"
+}

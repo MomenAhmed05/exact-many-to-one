@@ -1,0 +1,49 @@
+CLAIM L3K-ALPHA: nominal level = 0.05
+CLAIM L3K-DRAWS: Monte Carlo draws per design arm = 200000
+CLAIM L3K-ZTHRESHOLD: predeclared failure threshold in Monte Carlo standard errors = 3.0
+CLAIM L3K-NCAL: equal-window calibration design length n = 24
+CLAIM L3K-CRIT-COUPLED: critical value calibrated on the equal, fully overlapping design at the coupled loadings = 2.1996399938190194
+CLAIM L3K-CRIT-UNCOUPLED: critical value calibrated at zero loadings = 1.6722423901534988
+CLAIM L3K-EQUAL-SIZE: realised size on the equal, fully overlapping design, the calibration anchor = 0.05068
+CLAIM L3K-equal-full-overlap-coupled(c<0)-SIZE: realised size, design equal-full-overlap|coupled(c<0), n0=24 n1=24 k=24 = 0.05068
+CLAIM L3K-equal-full-overlap-coupled(c<0)-MCSE: Monte Carlo standard error, equal-full-overlap|coupled(c<0) = 0.000490466806216282
+CLAIM L3K-equal-full-overlap-coupled(c<0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, equal-full-overlap|coupled(c<0) = 0.0
+CLAIM L3K-equal-full-overlap-uncoupled(c=0)-SIZE: realised size, design equal-full-overlap|uncoupled(c=0), n0=24 n1=24 k=24 = 0.049955
+CLAIM L3K-equal-full-overlap-uncoupled(c=0)-MCSE: Monte Carlo standard error, equal-full-overlap|uncoupled(c=0) = 0.0004871319019269832
+CLAIM L3K-equal-full-overlap-uncoupled(c=0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, equal-full-overlap|uncoupled(c=0) = -1.4883032647462997
+CLAIM L3K-equal-half-overlap-coupled(c<0)-SIZE: realised size, design equal-half-overlap|coupled(c<0), n0=24 n1=24 k=12 = 0.03252
+CLAIM L3K-equal-half-overlap-coupled(c<0)-MCSE: Monte Carlo standard error, equal-half-overlap|coupled(c<0) = 0.0003966260808368507
+CLAIM L3K-equal-half-overlap-coupled(c<0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, equal-half-overlap|coupled(c<0) = -45.78619732137582
+CLAIM L3K-equal-half-overlap-uncoupled(c=0)-SIZE: realised size, design equal-half-overlap|uncoupled(c=0), n0=24 n1=24 k=12 = 0.050945
+CLAIM L3K-equal-half-overlap-uncoupled(c=0)-MCSE: Monte Carlo standard error, equal-half-overlap|uncoupled(c=0) = 0.0004916787923787236
+CLAIM L3K-equal-half-overlap-uncoupled(c=0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, equal-half-overlap|uncoupled(c=0) = 0.5389697585245325
+CLAIM L3K-unequal-n1-longer-coupled(c<0)-SIZE: realised size, design unequal-n1-longer|coupled(c<0), n0=12 n1=24 k=12 = 0.042255
+CLAIM L3K-unequal-n1-longer-coupled(c<0)-MCSE: Monte Carlo standard error, unequal-n1-longer|coupled(c<0) = 0.0004498306068677408
+CLAIM L3K-unequal-n1-longer-coupled(c<0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, unequal-n1-longer|coupled(c<0) = -18.729272466951365
+CLAIM L3K-unequal-n1-longer-uncoupled(c=0)-SIZE: realised size, design unequal-n1-longer|uncoupled(c=0), n0=12 n1=24 k=12 = 0.054095
+CLAIM L3K-unequal-n1-longer-uncoupled(c=0)-MCSE: Monte Carlo standard error, unequal-n1-longer|uncoupled(c=0) = 0.0005058098999377137
+CLAIM L3K-unequal-n1-longer-uncoupled(c=0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, unequal-n1-longer|uncoupled(c=0) = 6.751548359216621
+CLAIM L3K-unequal-n0-longer-coupled(c<0)-SIZE: realised size, design unequal-n0-longer|coupled(c<0), n0=24 n1=12 k=12 = 0.042235
+CLAIM L3K-unequal-n0-longer-coupled(c<0)-MCSE: Monte Carlo standard error, unequal-n0-longer|coupled(c<0) = 0.00044972883371538453
+CLAIM L3K-unequal-n0-longer-coupled(c<0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, unequal-n0-longer|coupled(c<0) = -18.777982123655665
+CLAIM L3K-unequal-n0-longer-uncoupled(c=0)-SIZE: realised size, design unequal-n0-longer|uncoupled(c=0), n0=24 n1=12 k=12 = 0.053745
+CLAIM L3K-unequal-n0-longer-uncoupled(c=0)-MCSE: Monte Carlo standard error, unequal-n0-longer|uncoupled(c=0) = 0.0005042641915454636
+CLAIM L3K-unequal-n0-longer-uncoupled(c=0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, unequal-n0-longer|uncoupled(c=0) = 6.078163096622861
+CLAIM L3K-unequal-disjoint-coupled(c<0)-SIZE: realised size, design unequal-disjoint|coupled(c<0), n0=24 n1=24 k=0 = 0.01593
+CLAIM L3K-unequal-disjoint-coupled(c<0)-MCSE: Monte Carlo standard error, unequal-disjoint|coupled(c<0) = 0.00027996638280336446
+CLAIM L3K-unequal-disjoint-coupled(c<0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, unequal-disjoint|coupled(c<0) = -124.12204512570642
+CLAIM L3K-unequal-disjoint-uncoupled(c=0)-SIZE: realised size, design unequal-disjoint|uncoupled(c=0), n0=24 n1=24 k=0 = 0.05154
+CLAIM L3K-unequal-disjoint-uncoupled(c=0)-MCSE: Monte Carlo standard error, unequal-disjoint|uncoupled(c=0) = 0.0004943866321008286
+CLAIM L3K-unequal-disjoint-uncoupled(c=0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, unequal-disjoint|uncoupled(c=0) = 1.7395292351363687
+CLAIM L3K-unequal-short-coupled(c<0)-SIZE: realised size, design unequal-short|coupled(c<0), n0=4 n1=24 k=4 = 0.05308
+CLAIM L3K-unequal-short-coupled(c<0)-MCSE: Monte Carlo standard error, unequal-short|coupled(c<0) = 0.0005013108496731344
+CLAIM L3K-unequal-short-coupled(c<0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, unequal-short|coupled(c<0) = 4.787448748745118
+CLAIM L3K-unequal-short-uncoupled(c=0)-SIZE: realised size, design unequal-short|uncoupled(c=0), n0=4 n1=24 k=4 = 0.081055
+CLAIM L3K-unequal-short-uncoupled(c=0)-MCSE: Monte Carlo standard error, unequal-short|uncoupled(c=0) = 0.0006102666915988452
+CLAIM L3K-unequal-short-uncoupled(c=0)-ZEQ: departure from the equal-window design in Monte Carlo standard errors, unequal-short|uncoupled(c=0) = 49.773321103958935
+CLAIM L3K-BREACHES: designs whose size departs from the equal-window design by more than the threshold = 8
+CLAIM L3K-VERDICT: does the equal-window clean reduction survive transfer to unequal and partially overlapping windows = False
+CLAIM L3K-MECH-1: mechanism 1: at EQUAL lengths, reducing overlap from 24 to 12 moves the coupled arm by z while leaving the uncoupled arm inside the threshold, so the coupling term is the cause = coupled z=-45.78619732137582 vs uncoupled z=0.5389697585245325
+CLAIM L3K-MECH-2: mechanism 2: with coupling removed, the unequal-length designs still mis-size, because the unpaired denominator is a weighted sum of two chi-squares with different weights and is not exactly t when n0 differs from n1 = uncoupled z(n1 longer)=6.751548359216621, z(n0 longer)=6.078163096622861
+CLAIM L3K-CONTROL-OK: the uncoupled arm is inside the threshold at equal lengths and at disjoint windows, so the calibration itself is sound and the departures are attributable to the design, not to a bad critical value = control at equal=-1.4883032647462997 disjoint=1.7395292351363687
+CLAIM L3K-SANITY: the coupled arm at the calibration design is inside the threshold, confirming the instrument's anchor = z=0.0

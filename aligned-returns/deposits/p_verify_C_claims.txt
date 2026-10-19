@@ -1,0 +1,22 @@
+CLAIM PVC-F5-00: n, rho, c; route C vs T2 (|z|<=4) = 4, +0.322, 3.015; 0.9451326 vs 0.9450703, z +0.37
+CLAIM PVC-F5-01: n, rho, c; route C vs T2 (|z|<=4) = 12, +0.911, 1.122; 0.8182866 vs 0.8182947, z -0.06
+CLAIM PVC-F5-02: n, rho, c; route C vs T2 (|z|<=4) = 36, -0.511, 1.718; 0.9053626 vs 0.9054464, z -1.19
+CLAIM PVC-F5-03: n, rho, c; route C vs T2 (|z|<=4) = 120, +0.465, 3.714; 0.9996911 vs 0.9996915, z -0.68
+CLAIM PVC-F5-04: n, rho, c; route C vs T2 (|z|<=4) = 120, +0.749, 2.794; 0.9946719 vs 0.9946774, z -0.96
+CLAIM PVC-F5-05: n, rho, c; route C vs T2 (|z|<=4) = 120, +0.634, 1.294; 0.8428945 vs 0.8428436, z +1.28
+CLAIM PVC-F5-06: n, rho, c; route C vs T2 (|z|<=4) = 6, -0.063, 2.147; 0.9171264 vs 0.9169203, z +1.31
+CLAIM PVC-F5-07: n, rho, c; route C vs T2 (|z|<=4) = 6, +0.111, 2.075; 0.9102926 vs 0.9104545, z -1.00
+CLAIM PVC-F5-08: n, rho, c; route C vs T2 (|z|<=4) = 12, +0.516, 2.904; 0.9862957 vs 0.9863097, z -0.35
+CLAIM PVC-F5-09: n, rho, c; route C vs T2 (|z|<=4) = 120, -0.248, 3.607; 0.9995461 vs 0.9995462, z -0.09
+CLAIM PVC-F5-10: n, rho, c; route C vs T2 (|z|<=4) = 120, -0.262, 2.037; 0.9562521 vs 0.9562187, z +1.49
+CLAIM PVC-F5-11: n, rho, c; route C vs T2 (|z|<=4) = 6, -0.769, 1.210; 0.7195738 vs 0.7200674, z -1.68
+CLAIM PVC-F5-12: n, rho, c; route C vs T2 (|z|<=4) = 6, -0.112, 2.195; 0.9212813 vs 0.9214635, z -1.17
+CLAIM PVC-F5-13: n, rho, c; route C vs T2 (|z|<=4) = 36, -0.167, 1.894; 0.9339628 vs 0.9340026, z -0.76
+CLAIM PVC-F5-14: n, rho, c; route C vs T2 (|z|<=4) = 36, +0.549, 2.877; 0.9935217 vs 0.9935225, z -0.06
+CLAIM PVC-F5-15: n, rho, c; route C vs T2 (|z|<=4) = 12, -0.530, 1.489; 0.8360474 vs 0.8358736, z +1.10
+CLAIM PVC-F5-16: n, rho, c; route C vs T2 (|z|<=4) = 36, +0.336, 1.333; 0.8303275 vs 0.8303668, z -0.54
+CLAIM PVC-F5-17: n, rho, c; route C vs T2 (|z|<=4) = 4, -0.121, 1.617; 0.8032708 vs 0.8034343, z -0.61
+CLAIM PVC-F5-18: n, rho, c; route C vs T2 (|z|<=4) = 4, -0.370, 1.961; 0.8571425 vs 0.8570015, z +0.54
+CLAIM PVC-F5-19: n, rho, c; route C vs T2 (|z|<=4) = 4, +0.541, 2.532; 0.9224696 vs 0.9222352, z +1.19
+CLAIM PVC-F5: max |z| over 20 random interior points (tol 4) = 1.68 pass True
+CLAIM PVC-WALL: seconds = 44

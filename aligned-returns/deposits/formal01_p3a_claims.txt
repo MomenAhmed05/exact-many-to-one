@@ -1,0 +1,136 @@
+CLAIM P3A-SRC-BATTERY-SHA: sha256 of formal01_f8a_battery.py = 94b492b1cfd7a40ad75599cbcc87bd88fed0c32ef1cc43ea178b7eda75117d08
+CLAIM P3A-SRC-formal01_f8c_certified.py: sha256 of formal01_f8c_certified.py = 04aca2a7c224f98ec48d65fe6e976acea3bda6c2152b18ceaff49eb8e1b2bdf2
+CLAIM P3A-SRC-formal01_f8a_checker.py: sha256 of formal01_f8a_checker.py = a52a8946a2579fdd8cb0fd62c86a621d4b4ee718d511741a01983cd4e2f784fe
+CLAIM P3A-SRC-formal01_phi_engine.py: sha256 of formal01_phi_engine.py = 9dd33c199db4a7ca0f6ce62ba688a5005489a31585840a8de7aec6e9c94ea76c
+CLAIM P3A-ENCL-DEPOSIT: enclosure deposit of record and its sha256 = deposits/formal01_f8c_claims-R2.txt 25fdae5a0ceee53b7a0478c84a55c64a738e29dc1d4364b4ea2c4a9f736c8557
+CLAIM P3A-ENCL-SHA-PREFIX-OK: deposit sha256 begins with the prefix named in advance = True
+CLAIM P3A-LEAN-SHA: sha256 of lean/W4lean/Unit2BFormalR1.lean = ddb99b2021e52a5584cdc67cede113db85491a63e5d277a400284d1fc58097ae
+CLAIM P3A-CONST: Lc, Uc, alpha, tol, nu parsed from the approved Lean file = Lc=271731/100000 Uc=13587/5000 alpha=1/40 tol=1/10000 nu=35
+CLAIM P3A-CONST-UL: Uc - Lc (exact) and Uc - Lc <= tol = 9/100000 True
+CLAIM P3A-ENGINE-NU: engine t-dof equals 2*nu from Lean = True
+CLAIM P3A-DEP-A4-WORST: deposited A-4 worst upper endpoint (quoted) = 0.024999125950489053
+CLAIM P3A-DEP-A5-MARGIN: deposited A-5 hWit margin (quoted) = 1.2000370257968241e-06
+CLAIM P3A-COVER-REBUILT: cover rebuilt by build_graded_cover (or loaded from its keyed cache) = cells=59276 unserved=0 cached=True sec=2.7
+CLAIM P3A-COVER-MATCHES-DEPOSIT: rebuilt cell count equals deposited F8C-CELLS, 0 unserved = True
+CLAIM P3A-COVER-VOLUME: rebuilt leaf volumes sum exactly to the box = True
+CLAIM F1-TIMING-ONE-CELL: seconds for one cell (24 probes + 8 vertices + 1 rho eval), serial = 0.355
+CLAIM F1-SEC: seconds for the F-1 interior sweep (parallel) = 3755.2
+CLAIM F1-EXPECTED: F-1 expected (theory: rho_k <= r(theta) on the cell and Phi antitone) = Phi(U; r(theta)) <= alpha at every sampled interior point; rho_k <= r(theta) at every point and vertex; upper(Phi(U;r(theta))) never above upper(Phi(U;rho_k)) of its cell
+CLAIM F1-TOL: F-1 tolerance as declared = 0 (exact rational comparison of rigorous ball endpoints with alpha = 1/40); SE = N/A, exact-arithmetic r(theta) at 2^-100 + Arb R-beta balls
+CLAIM F1-DESIGN: probes per cell (8 V43-diagonal (r+1)/9, 8 {1/4,3/4}^3, 8 {1/64,63/64}^3), all strictly interior = 24 per cell x 59276 cells; the sample is finer than the mesh in every cell
+CLAIM F1-N-INTERIOR: strictly interior points sampled = 1422624
+CLAIM F1-NOT-INTERIOR: probes that were NOT strictly interior (must be 0) = 0
+CLAIM F1-MAX-PHI-INTERIOR: largest rigorous upper(Phi(U; r(theta))) over interior points = 0.024997509365313135
+CLAIM F1-MAX-PHI-INTERIOR-EXACT: that upper endpoint as an exact dyadic = 3602520763610071/144115188075855872
+CLAIM F1-MAX-PHI-POINT: theta = (lam, b0, b1) of that point (float view) = (0.040005722046, -1.499994277954, 1.499994277954)
+CLAIM F1-MAX-PHI-CELL: its cell index and that cell's certified upper(Phi(U; rho_k)) = 22760 0.024999125950489053
+CLAIM F1-MARGIN-INTERIOR: alpha - largest interior upper endpoint = 2.490634686865001e-06
+CLAIM F1-VIOLATIONS: interior points with lower(Phi) > alpha (proven violation) = 0
+CLAIM F1-UNDECIDED: interior points whose ball straddles alpha = 0
+CLAIM F1-DOM-FAIL: interior (point, component) pairs with rho_k > r_hi(theta) (proven A-3 breach) = 0
+CLAIM F1-DOM-UNDECIDED: interior pairs with r_lo < rho_k <= r_hi (undecided) = 0
+CLAIM F1-DOM-VERTEX-FAIL: vertex pairs with rho_k > r_hi (closed-cell breach) = 0
+CLAIM F1-DOM-VERTEX-UNDECIDED: vertex pairs undecided = 0
+CLAIM F1-ENGINE-INCONSISTENT: points with lower(Phi(U;r_lo)) > upper(Phi(U;rho_k)) (antitone breach) = 0
+CLAIM F1-MIN-CELL-HEADROOM: min over cells of upper(Phi(U;rho_k)) - max interior upper(Phi(U;r)) = 1.1422384301417507e-06
+CLAIM F1-MAX-RADIUS: largest Phi ball radius in the F-1 sweep = 1.5451305933291583e-30
+CLAIM F1-BINDING-CELL: cell with the largest upper(Phi(U;rho_k)) and that value (reproduces A-4 worst) = 22760 0.024999125950489053
+CLAIM F1-A4-REPRODUCED: rebuilt A-4 worst equals the deposited F8C-A4-WORST (float repr) = True
+CLAIM F1-G1-IN-BOX: G1 points inside the declared box (float lambda endpoints) = 1053 of 1053
+CLAIM F1-BOXPTS-N: box points checked (G1 + exact corner + 8 box vertices) = 1062
+CLAIM F1-BOXPTS-UNCOVERED: box points contained in NO cell (coverage breach) = 0
+CLAIM F1-BOXPTS-CONTAINMENTS: total (point, containing cell) pairs checked (faces shared) = 3337
+CLAIM F1-BOXPTS-DOM-FAIL: box-point pairs with rho_k > r_hi = 0
+CLAIM F1-BOXPTS-DOM-UNDECIDED: box-point pairs undecided = 0
+CLAIM F1-BOXPTS-VIOLATIONS: box points with upper(Phi(U;r)) > alpha = 0
+CLAIM F1-BOXPTS-MAX: largest upper(Phi(U; r)) over the box points, and where = 0.024997576344209474 at (0.04, -1.5, 1.5)
+CLAIM F1-CORNER-PHI: Phi(U; r(corner)) rigorous ball [lo, hi] = [0.02499757634420947, 0.024997576344209474]
+CLAIM F1-CORNER-MARGIN: alpha - upper(Phi(U; r(corner))) = 2.423655790526058e-06
+CLAIM F1-VERDICT: F-1 dominance, decisive, on the real enclosure = PASS
+CLAIM F2-TOL: F-2 tolerance as declared = a break counts only if PROVEN: lower ball endpoint > alpha (strict, exact); fixed exact perturbations 2^-s, s in [4, 6, 8, 10, 12, 14, 16, 18, 20, 24]
+CLAIM F2-EXPECTED: F-2 expected = lowering rho_k (or U, or r(theta)) by a small fixed shave pushes Phi above alpha at the binding cell; RAISING rho cannot raise Phi (Phi_antitone) but breaks A-3 (rho > inf r)
+CLAIM F2-BINDING-CELL: binding cell index and alpha - upper(Phi(U;rho_k)) = 22760 8.740495109474389e-07
+CLAIM F2-BIND-RHO-DOWN: binding cell: smallest shave s with lower(Phi(U; rho_k(1-2^-s))) > alpha = 14
+CLAIM F2-BIND-U-DOWN: binding cell: smallest shave s with lower(Phi(U(1-2^-s); rho_k)) > alpha = 16
+CLAIM F2-BIND-RHO-UP-PHI: binding cell, LITERAL 'above rho_k': max upper(Phi(U; rho_k(1+2^-s))) over s = 0.02499912268985299 (<= alpha: True)
+CLAIM F2-BIND-RHO-UP-A3: binding cell: smallest s at which A-3 REJECTS rho_k(1+2^-s) = 24
+CLAIM F2-BIND-RHO-UP-GENUINE: binding cell: smallest s at which rho_k(1+2^-s) exceeds r_hi at a sampled point = 24
+CLAIM F2-BIND-AT-L: binding cell: lower(Phi(Lc; rho_k)) - alpha = 2.749786352206768e-06
+CLAIM F2-TOP-N: TOP sample size = 16
+CLAIM F2-TOP-RHO-DOWN-BROKEN: TOP: cells broken by some declared rho shave (down) = 16
+CLAIM F2-TOP-RHO-DOWN-SMALLEST-S: TOP: per-cell smallest breaking s (None = unbroken) = [14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 12, 12, 12, 12]
+CLAIM F2-TOP-UP-PHI-NEVER-ABOVE: TOP: raising rho never gives upper(Phi) > alpha = True
+CLAIM F2-TOP-UP-A3-REJECTED: TOP: cells where A-3 rejects some rho_k(1+2^-s) = 16
+CLAIM F2-TOP-UP-GENUINE: TOP: cells where some rho_k(1+2^-s) provably exceeds r at a point = 16
+CLAIM F2-RAND-N: RAND sample size = 48
+CLAIM F2-RAND-RHO-DOWN-BROKEN: RAND: cells broken by some declared rho shave (down) = 27
+CLAIM F2-RAND-RHO-DOWN-SMALLEST-S: RAND: per-cell smallest breaking s (None = unbroken) = [None, 4, None, 6, None, None, None, None, 10, 6, 8, None, 4, 6, None, 6, None, 6, 4, None, 10, 4, 10, 6, None, None, 4, None, None, None, None, 4, None, None, 8, 8, 6, 6, 4, 10, 6, 4, None, None, 6, 6, 6, None]
+CLAIM F2-RAND-UP-PHI-NEVER-ABOVE: RAND: raising rho never gives upper(Phi) > alpha = True
+CLAIM F2-RAND-UP-A3-REJECTED: RAND: cells where A-3 rejects some rho_k(1+2^-s) = 48
+CLAIM F2-RAND-UP-GENUINE: RAND: cells where some rho_k(1+2^-s) provably exceeds r at a point = 48
+CLAIM F2-SLACK-R1: rel. slack (min sampled r1_hi - rho1)/rho1 over all cells: min, median, max = 3.550655799423174e-08 4.3994454772324975e-05 0.25447558224482464
+CLAIM F2-SLACK-R2: rel. slack (min sampled r2_hi - rho2)/rho2 over all cells: min, median, max = 6.07260957834678e-08 6.646603079699748e-05 3.559163823775658
+CLAIM F2-CELLS-MARGIN-LT-100000: cells with alpha - upper(Phi(U;rho_k)) < 1/100000 = 168
+CLAIM F2-CELLS-MARGIN-LT-10000: cells with alpha - upper(Phi(U;rho_k)) < 1/10000 = 5802
+CLAIM F2-CELLS-MARGIN-LT-1000: cells with alpha - upper(Phi(U;rho_k)) < 1/1000 = 26144
+CLAIM F2-POINT: sampled point used (the F-1 interior argmax) = (0.040005722046, -1.499994277954, 1.499994277954)
+CLAIM F2-POINT-R-POSITIVE: r(theta) enclosure lower endpoints both strictly positive at the point = r1.lo>0: True r2.lo>0: True
+CLAIM F2-POINT-R-DOWN: smallest s with lower(Phi(U; r_hi(theta)(1-2^-s))) > alpha = 14
+CLAIM F2-POINT-U-DOWN: smallest s with lower(Phi(U(1-2^-s); r_hi(theta))) > alpha = 14
+CLAIM F2-POINT-R-UP: LITERAL 'above r(theta)': max upper(Phi(U; r_lo(1+2^-s))) over s, and <= alpha = 0.024997506104811072 True
+CLAIM F2-CORNER-AT-L: constant side: lower(Phi(Lc; r_hi(corner))) - alpha (recomputes hWit) = 1.200037025966827e-06
+CLAIM F2-LITERAL-UP-VERDICT: the literal perturbation 'above rho_k / above r(theta)' breaks Phi(U;rho)<=alpha = CANNOT BREAK, by Phi_antitone; confirmed on every sampled cell (all cells: True) and at the sampled point (True). This is a direction error in the clause, recorded as a finding, not a pass
+CLAIM F2-VERDICT: F-2 non-vacuity (corrected direction: rho/U/r lowered; rho raised breaks A-3) = PASS
+CLAIM F3-GRID-SOURCE: w2_cert.py grid read as text (lgrid, bgrid parameters) = log_grid(0.04,25.0,7) x linspace(-1.5,1.5,5)^2
+CLAIM F3-GRID-MATCHES-DEPOSIT: re-derived grid endpoints and size equal w2_cert.json box field = True
+CLAIM F3-SEC: seconds for 175 rigorous c* brackets = 26.9
+CLAIM F3-N: grid points bracketed = 175
+CLAIM F3-BRACKET-WIDTH: largest bracket width = 1.1368683772161603e-13
+CLAIM F3-GRIDMAX: 175-point grid maximum of cstarPt, rigorous [lower, upper] = [2.717339803515846, 2.7173398035159595] ~ 2.717339803515846
+CLAIM F3-GRIDMAX-AT: argmax grid point (float view) = (0.04000000000000001, -1.5, 1.5)
+CLAIM F3-PRIOR: prior deposit's gridmax (quoted) and |recomputed - prior| = 2.7173398035301943 1.4348522370255523e-11
+CLAIM F3-CHECK-L: lower(gridmax) >= L  [exact] = True  (gap 2.980351584591645e-05)
+CLAIM F3-CHECK-U: upper(gridmax) <= U  [exact] = True  (gap 6.019648404054223e-05)
+CLAIM F3-CORNER-CSTAR: cstarPt at the exact corner (1/25,-3/2,3/2), rigorous bracket = [2.717339803515846, 2.7173398035159595]; lo>=L True; U>=hi True
+CLAIM F3-CORNER-VS-GRIDMAX: cstar(corner) - gridmax (grid lambda is float 0.04 > 1/25) = -1.1368683772161603e-13
+CLAIM F3-TOL: F-3 tolerance as declared = 0: exact rational containment L <= gridmax <= U
+CLAIM F3-VERDICT: F-3 lower anchor (reviewed reduction): L <= gridmax <= U = PASS
+CLAIM F3-V43-ANCHOR: V43 c_grid_anchor = w2_cert.json certified_constant_over_box (AlignedFactor MID) = 2.7366485595703125
+CLAIM F3-V43-LITERAL: V43 literal: U - anchor >= -1e-10 ; |L - anchor| <= TOL_F3 = False ; False (U-anchor=-0.0192485595703125, TOL_F3=1/2000)
+CLAIM F3-V43-VERDICT: V43 literal F-3 row against the AlignedFactor anchor = FAIL — the anchor is an AlignedFactor(MID) value, a resolution the AF-withdrawal packet shows contradicted at this corner; retiring or replacing it is a decision outside this battery
+CLAIM F5-SEC: seconds for the F-5 chains = 4.1
+CLAIM F5-TOL: F-5 tolerance as declared = 0: any decrease of a certified rho along a nested chain, or any child rho below its parent's, is a reversal and an H-4 finding
+CLAIM F5-DESIGN: chains: cells, depth, target fractions = 64 cells (top 16 by A-4 + 48 seeded random), depth 8 halvings, target ('1/3', '2/7', '3/5') of each cell
+CLAIM F5-LEVEL0-REPRODUCES: chains whose level-0 recertification differs from the cover's rho_k = 0
+CLAIM F5-UNCERTIFIED: chain steps where a nested box could not be certified = 0
+CLAIM F5-RHO-REVERSALS: reversals of certified rho along chains (count) = 0
+CLAIM F5-RHO-REVERSAL-MAX-REL: largest relative reversal = 0.0
+CLAIM F5-RHO-REVERSAL-DETAIL: first reversals (cell, level, comp, rel, parent shave idx, child shave idx) = []
+CLAIM F5-SHAVE-CHANGES: chain steps where the accepted fixed shave index changed = 2
+CLAIM F5-PHI-REVERSALS: chain steps with lower(Phi_child) > upper(Phi_parent) = 0
+CLAIM F5-DOMINANCE: chain levels with certified rho above r_hi(target) (must be 0) = 0
+CLAIM F5-GAP-SHRINKS: chains where r1_lo(target) - rho1 is smaller at depth 8 than at depth 0 = 64 of 64
+CLAIM F5-CHILD-REVERSALS: cells with some child rho below the parent's rho (or uncertified child) = 0
+CLAIM F5-EXAMPLE-BINDING: binding cell chain: rho1 gap to r1_lo(target) by level = ['1.4665178653172545e-05', '8.108567164211073e-06', '4.676029988048752e-06', '1.3229454652318451e-06', '7.534533255636743e-07', '6.287146827043399e-07', '2.719141162787208e-07', '6.23390239983534e-08', '6.23382032104713e-08']
+CLAIM F5-EXAMPLE-BINDING-PHI: binding cell chain: upper(Phi(U;rho)) by level, then Phi at the target = ['0.024999125950489053', '0.024998350719826284', '0.024996891666461917', '0.024996562642728367', '0.02499635043517691', '0.024996259674475857', '0.024996189690009347', '0.024996169126653933', '0.024996150567838823', '0.02499613966565471']
+CLAIM F5-VERDICT: F-5 refinement monotone toward the true value = PASS
+CLAIM F4-ANCHOR-B_df35: bnb_final.json B_df35 [c_L, c_U], witness lambda (quoted) = [7.2102028131484985, 7.210205793380737] [10.534740792888647, 17.933763241277568]
+CLAIM F4-ANCHOR-A_df3: bnb_final.json A_df3 [c_L, c_U], witness lambda (quoted) = [29.359971284866333, 29.3599796295166] [198.25835537872192, 337.5041185984546]
+CLAIM F4-ANCHOR-DIM: nuisance dimension K of each bnb anchor (len of witness lambda) = B_df35 K=2 A_df3 K=2
+CLAIM F4-ANCHOR-TARGET: bnb target level (replica.py text): ALPHA0 = ABAR - GAMMA = ALPHA0 = ABAR - GAMMA ; GAMMA = 5e-4
+CLAIM F4-2B-1D-CSTAR: 2B at b0=b1=0: cstarPt at lam=1 and lam=1/25 (=lam 25 by symmetry), rigorous = lam=1 [1.9944371117711297, 1.9944371117712434] ; lam=1/25 [2.024514496405836, 2.0245144964059496]
+CLAIM F4-CANDIDATE-T70: candidate replacement anchor: t_70 upper 1/40 quantile by mpmath (independent of flint) = 1.994437111771186563484568
+CLAIM F4-CANDIDATE-CONTAINED: engine's rigorous cstarPt(1,0,0) bracket contains the mpmath t_70 quantile = True
+CLAIM F4-VERDICT: F-4 precedent recovery at one nuisance dimension = OPEN — the named anchors are not the same object; the t_70 check above is a CANDIDATE replacement anchor, not F-4, and adopting it is a decision outside this battery
+CLAIM P3B-KAPPA-SORRY: sorry count in Unit2BKappaStatementR1.lean (S-kappa entry point) = 9
+CLAIM P3B-KAPPA-SHA: sha256 of Unit2BKappaStatementR1.lean = 0d2af3691f6f30e8abde720ff80e0813d8711fcc429731d9c5e81b4c3b0b7375
+CLAIM P3B-WITNESS: numerical witness: max rigorous upper(Phi(U; r(theta))) over every sampled theta, <= alpha = 0.024997576344209474 True over 1423686 points
+CLAIM P3B-BOUND: conditional FWER bound, as stated = for every theta in Box: Phi(Uc; r1(theta), r2(theta)) <= alpha (cover_sound, premises A-2/A-3/A-4 of the R2 deposit); = RawRate(Uc; theta) <= alpha ONLY via kappa_reduction, which is sorry
+CLAIM P3B-PMISS: P(miss) status = P(miss) = P(theta outside the declared Box). It is 0 CONDITIONAL on theta in Box (the declared operating regime) and otherwise equals the prior's mass outside Box; NOT simulated, no prior declared
+CLAIM P3B-F9-i: F-9 (i) finite-grid classifier = F-3: 175-point gridmax contained in [L,U] = True; EVIDENTIAL tier
+CLAIM P3B-F9-ii: F-9 (ii) continuum statement = cover_sound + comp_thm_2B proved in Lean on [propext, Classical.choice, Quot.sound] as deposited; their premises hCover/hLow1/hLow2 are discharged by exact-rational checks (A-2, A-3), NOT in Lean
+CLAIM P3B-F9-iii: F-9 (iii) numerical certified bound = hNum (A-4) and hWit (A-5) discharged by Arb ball arithmetic outside Lean; F-1 attacks them with 0 violations (verdict PASS); the engine-to-Lean-Phi identity is a numerical edge
+CLAIM P3B-F9-iv: F-9 (iv) conditional FWER theorem + nuisance-region coverage = CONDITIONAL on S-kappa (kappa_reduction, 9 sorry in its file, un-promoted) and on theta in Box
+CLAIM P3B-F9-v: F-9 (v) empirical relevance to observed returns = NOT DISCHARGED: no edge from the Box to observed return data exists in this check
+CLAIM P3A-SEC-TOTAL: total seconds = 3826.5
+CLAIM P3A-SUMMARY: F-1 / F-2 / F-3 / F-4 / F-5 = PASS / PASS / PASS / OPEN / PASS

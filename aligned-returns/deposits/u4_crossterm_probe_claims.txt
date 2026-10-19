@@ -1,0 +1,4 @@
+CLAIM U4P-DIAG: S_FF diagonals A, B = [30. 40.], [30. 40.]
+CLAIM U4P-OFFDIAG: S12 A, B = 20.784610, -20.784610
+CLAIM U4P-ANCHOR: mean s2 under A minus under B = 0.00027, predicted 0.00000, se 0.00088, z vs prediction +0.30
+CLAIM U4P-TEST: mean s2 under A minus under B = 2.37328, predicted 2.37538, se 0.00120, z vs prediction -1.76

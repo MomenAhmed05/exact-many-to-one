@@ -1,0 +1,680 @@
+{
+ "unit": "UNIT 5",
+ "target": "TARGET-001",
+ "gates": "tests_w5.py G1..G9",
+ "model": "r_it = mu_i + beta_i f_t + eps_it, f latent standard normal, eps independent across i, sigma_f = sigma_0 = 1",
+ "sub_tiers": {
+  "derivation_and_limits": "exact_in_model",
+  "f1_reproduction": "exact_in_model",
+  "f2_refinement": "measured",
+  "f3_ladders_and_bounds": "measured"
+ },
+ "tolerances": {
+  "anchor": 1e-08,
+  "repro": 1e-10,
+  "refine": 0.0001,
+  "limit": 0.001,
+  "n_ladder": 8,
+  "declared_in": "tests_w5.py (before any run)"
+ },
+ "derivation": {
+  "file": "w5_limits_derivation.py",
+  "lim_a": "FWER_a(c) = 1 - E_{Vf,U~chi2_nu}[ Phi( c*sqrt((beta_0^2+beta_i^2) Vf/nu + U/nu) ) ] at beta_0 = beta_i (zf drops out)",
+  "lim_b": "FWER_b(c) = P( (a_i-a_0) zf > c*sqrt((a_0^2+a_i^2) Vf/nu) for some i )",
+  "claim_tier": "proven",
+  "note": "case (a) is run on both faces of the parameter space (as declared): lambda -> 0 at fixed beta, and the loading ray at equal loadings where the two series become identical"
+ },
+ "limit_values": [
+  {
+   "tag": "A1 rho ladder, beta=(1,1)",
+   "case": "a1",
+   "analytic": 0.00015740625968041488,
+   "extrapolated": 0.00020444925989682172,
+   "gap": 4.704300021640684e-05,
+   "claim_tier": "proven"
+  },
+  {
+   "tag": "A1 rho ladder, beta=(0,0)",
+   "case": "a1",
+   "analytic": 0.017250283313853254,
+   "extrapolated": 0.01726673105451182,
+   "gap": 1.6447740658565024e-05,
+   "claim_tier": "proven"
+  },
+  {
+   "tag": "B t ladder, direction (0,1)",
+   "case": "b",
+   "analytic": 0.017250283313853487,
+   "extrapolated": 0.017302283023390985,
+   "gap": 5.199970953749869e-05,
+   "claim_tier": "proven"
+  },
+  {
+   "tag": "A2 t ladder, equal direction (1,1)",
+   "case": "a2",
+   "analytic": 0.0,
+   "extrapolated": 3.552713678800501e-15,
+   "gap": 3.552713678800501e-15,
+   "claim_tier": "proven"
+  }
+ ],
+ "f1_reproduction": {
+  "max_abs_deviation": 0.0,
+  "n_cells": 8,
+  "cells": [
+   {
+    "cell": "no loadings, independent",
+    "deposit": 0.028719385029639777,
+    "recomputed": 0.028719385029639777,
+    "abs_deviation": 0.0,
+    "pass": 1
+   },
+   {
+    "cell": "equal loadings",
+    "deposit": 0.00281391093621286,
+    "recomputed": 0.00281391093621286,
+    "abs_deviation": 0.0,
+    "pass": 1
+   },
+   {
+    "cell": "unequal loadings",
+    "deposit": 0.008967441749442973,
+    "recomputed": 0.008967441749442973,
+    "abs_deviation": 0.0,
+    "pass": 1
+   },
+   {
+    "cell": "unequal loadings and ratios",
+    "deposit": 0.011225009509995942,
+    "recomputed": 0.011225009509995942,
+    "abs_deviation": 0.0,
+    "pass": 1
+   },
+   {
+    "cell": "thirteen observations",
+    "deposit": 0.010279221021360696,
+    "recomputed": 0.010279221021360696,
+    "abs_deviation": 0.0,
+    "pass": 1
+   },
+   {
+    "cell": "strong loadings",
+    "deposit": 0.009332476179110927,
+    "recomputed": 0.009332476179110927,
+    "abs_deviation": 0.0,
+    "pass": 1
+   },
+   {
+    "cell": "one negative loading",
+    "deposit": 0.03156300474200868,
+    "recomputed": 0.03156300474200868,
+    "abs_deviation": 0.0,
+    "pass": 1
+   },
+   {
+    "cell": "five candidates",
+    "deposit": 0.007133998479329273,
+    "recomputed": 0.007133998479329273,
+    "abs_deviation": 0.0,
+    "pass": 1
+   }
+  ],
+  "tol": 1e-10,
+  "deposit_worst_abs_z": 1.5756360207384321
+ },
+ "f2_refinement": {
+  "degenerate": [
+   {
+    "tag": "A1 rho=1e-3 equal loadings beta=1",
+    "case": "a1",
+    "values": [
+     0.00024340029508540528,
+     0.00020468280733110245,
+     0.00020568174991197896
+    ],
+    "delta": 9.989425808765162e-07,
+    "first_delta": -3.871748775430284e-05,
+    "max_abs_dev": 3.871748775430284e-05,
+    "monotone": 0,
+    "flip_indices": [
+     1
+    ]
+   },
+   {
+    "tag": "A1 rho=1e-3 zero loadings",
+    "case": "a1",
+    "values": [
+     0.022072342650868437,
+     0.017210197545879047,
+     0.017250979441350345
+    ],
+    "delta": 4.078189547129796e-05,
+    "first_delta": -0.0048621451049893905,
+    "max_abs_dev": 0.0048621451049893905,
+    "monotone": 0,
+    "flip_indices": [
+     1
+    ]
+   },
+   {
+    "tag": "A2 loading ray 16 equal loadings",
+    "case": "a2",
+    "values": [
+     -1.2651018519438395e-05,
+     -4.2674930256225707e-10,
+     3.552713678800501e-15
+    ],
+    "delta": 4.2675285527593587e-10,
+    "first_delta": 1.2650591770135833e-05,
+    "max_abs_dev": 1.2650591770135833e-05,
+    "monotone": 1,
+    "flip_indices": []
+   },
+   {
+    "tag": "B loading ray 64 direction (0,1)",
+    "case": "b",
+    "values": [
+     0.021422882966514956,
+     0.016764030033061594,
+     0.017212248440101163
+    ],
+    "delta": 0.00044821840703956894,
+    "first_delta": -0.004658852933453361,
+    "max_abs_dev": 0.004658852933453361,
+    "monotone": 0,
+    "flip_indices": [
+     1
+    ]
+   }
+  ],
+  "anchor": {
+   "tag": "anchor Table 32 unequal loadings and ratios",
+   "values": [
+    0.01121712900279126,
+    0.011224918645752924,
+    0.011229786190855684
+   ],
+   "delta": 4.867545102760218e-06,
+   "max_abs_dev": 7.789642961664178e-06,
+   "monotone": 1,
+   "flip_indices": []
+  },
+  "tol": 0.0001,
+  "levels": [
+   {
+    "zf": [
+     2,
+     10
+    ],
+    "z0": [
+     2,
+     10
+    ],
+    "vf": [
+     2,
+     10
+    ],
+    "s0": 12,
+    "si": 12
+   },
+   {
+    "zf": [
+     4,
+     10
+    ],
+    "z0": [
+     4,
+     10
+    ],
+    "vf": [
+     4,
+     10
+    ],
+    "s0": 24,
+    "si": 24
+   },
+   {
+    "zf": [
+     8,
+     10
+    ],
+    "z0": [
+     8,
+     10
+    ],
+    "vf": [
+     8,
+     10
+    ],
+    "s0": 48,
+    "si": 48
+   }
+  ]
+ },
+ "f3_ladders": {
+  "rows": [
+   {
+    "tag": "A1 rho ladder, beta=(1,1)",
+    "case": "a1",
+    "kind": "rho",
+    "points": [
+     1.0,
+     0.1,
+     0.01,
+     0.001,
+     0.0001,
+     1e-05,
+     1e-06,
+     1e-07
+    ],
+    "values": [
+     0.0014563562740200764,
+     0.00028466173502883496,
+     0.00021231216170314315,
+     0.00020568174991197896,
+     0.00020505007325488656,
+     0.00020476081295106585,
+     0.0002044280088929762,
+     0.00020444925989682172
+    ],
+    "noise": [
+     7.141900011387037e-07,
+     2.834749661673186e-07,
+     3.814138680446888e-07,
+     9.989425808765162e-07,
+     1.26065559458155e-06,
+     6.728612528261735e-07,
+     1.3235631998176345e-06,
+     1.326242253907317e-06
+    ],
+    "trust_index": 7,
+    "extrapolated": 0.00020444925989682172,
+    "analytic": 0.00015740625968041488,
+    "gap": 4.704300021640684e-05,
+    "monotone": 0,
+    "nonmonotone_points": [
+     6
+    ]
+   },
+   {
+    "tag": "A1 rho ladder, beta=(0,0)",
+    "case": "a1",
+    "kind": "rho",
+    "points": [
+     1.0,
+     0.1,
+     0.01,
+     0.001,
+     0.0001,
+     1e-05,
+     1e-06,
+     1e-07
+    ],
+    "values": [
+     0.015554323710506357,
+     0.016661726575542546,
+     0.01717746792241781,
+     0.017250979441350345,
+     0.01726673105451182,
+     0.017264392460114464,
+     0.01721576392287516,
+     0.017147616250712483
+    ],
+    "noise": [
+     2.036098930568997e-06,
+     1.1740994877218469e-05,
+     2.7828175152566637e-05,
+     4.078189547129796e-05,
+     8.107667240275784e-05,
+     0.00023664994074767964,
+     0.00021634749030852163,
+     0.0001481998183495703
+    ],
+    "trust_index": 4,
+    "extrapolated": 0.01726673105451182,
+    "analytic": 0.017250283313853254,
+    "gap": 1.6447740658565024e-05,
+    "monotone": 0,
+    "nonmonotone_points": [
+     4,
+     5,
+     6
+    ]
+   },
+   {
+    "tag": "B t ladder, direction (0,1)",
+    "case": "b",
+    "kind": "t",
+    "points": [
+     1.0,
+     2.0,
+     4.0,
+     8.0,
+     16.0,
+     32.0,
+     64.0,
+     128.0
+    ],
+    "values": [
+     0.01573132969369928,
+     0.016278890421735692,
+     0.016874248071288345,
+     0.01714217688141184,
+     0.017222229952401413,
+     0.017243190185918356,
+     0.017212248440101163,
+     0.017051111172961764
+    ],
+    "noise": [
+     2.1723710039722732e-06,
+     1.7572303533386346e-06,
+     4.465090315708409e-06,
+     2.7387930491062917e-05,
+     2.810018020105165e-05,
+     0.00015410587305098034,
+     0.00044821840703956894,
+     0.00033558312936388113
+    ],
+    "trust_index": 4,
+    "extrapolated": 0.017302283023390985,
+    "analytic": 0.017250283313853487,
+    "gap": 5.199970953749869e-05,
+    "monotone": 0,
+    "nonmonotone_points": [
+     5,
+     6
+    ]
+   },
+   {
+    "tag": "A2 t ladder, equal direction (1,1)",
+    "case": "a2",
+    "kind": "t",
+    "points": [
+     1.0,
+     2.0,
+     4.0,
+     8.0,
+     16.0,
+     32.0,
+     64.0,
+     128.0
+    ],
+    "values": [
+     0.0014563562740200764,
+     6.294768290393549e-06,
+     2.1865620425387533e-11,
+     3.552713678800501e-15,
+     3.552713678800501e-15,
+     3.552713678800501e-15,
+     3.552713678800501e-15,
+     3.552713678800501e-15
+    ],
+    "noise": [
+     7.141900011387037e-07,
+     1.0712318143646371e-08,
+     4.268490005898684e-10,
+     4.2675285527593587e-10,
+     4.2675285527593587e-10,
+     4.2675285527593587e-10,
+     4.2675285527593587e-10,
+     4.2675285527593587e-10
+    ],
+    "trust_index": 7,
+    "extrapolated": 3.552713678800501e-15,
+    "analytic": 0.0,
+    "gap": 3.552713678800501e-15,
+    "monotone": 1,
+    "nonmonotone_points": []
+   }
+  ],
+  "trust_bounds": [
+   {
+    "tag": "A1 rho ladder, beta=(1,1)",
+    "bound_index": 7,
+    "bound_point": 1e-07,
+    "noise_at_bound": 1.326242253907317e-06,
+    "noise_beyond": null,
+    "tol": 0.0001
+   },
+   {
+    "tag": "A1 rho ladder, beta=(0,0)",
+    "bound_index": 4,
+    "bound_point": 0.0001,
+    "noise_at_bound": 8.107667240275784e-05,
+    "noise_beyond": 0.00023664994074767964,
+    "tol": 0.0001
+   },
+   {
+    "tag": "B t ladder, direction (0,1)",
+    "bound_index": 4,
+    "bound_point": 16.0,
+    "noise_at_bound": 2.810018020105165e-05,
+    "noise_beyond": 0.00015410587305098034,
+    "tol": 0.0001
+   },
+   {
+    "tag": "A2 t ladder, equal direction (1,1)",
+    "bound_index": 7,
+    "bound_point": 128.0,
+    "noise_at_bound": 4.2675285527593587e-10,
+    "noise_beyond": null,
+    "tol": 0.0001
+   }
+  ],
+  "tol_limit": 0.001,
+  "tol_refine": 0.0001,
+  "n_ladder": 8,
+  "levels": [
+   {
+    "zf": [
+     4,
+     10
+    ],
+    "z0": [
+     4,
+     10
+    ],
+    "vf": [
+     4,
+     10
+    ],
+    "s0": 24,
+    "si": 24
+   },
+   {
+    "zf": [
+     8,
+     10
+    ],
+    "z0": [
+     8,
+     10
+    ],
+    "vf": [
+     8,
+     10
+    ],
+    "s0": 48,
+    "si": 48
+   }
+  ],
+  "detail": [
+   {
+    "tag": "A1 rho ladder, beta=(1,1)",
+    "kind": "rho",
+    "points": [
+     1.0,
+     0.1,
+     0.01,
+     0.001,
+     0.0001,
+     1e-05,
+     1e-06,
+     1e-07
+    ],
+    "mid": null,
+    "values": [
+     0.0014563562740200764,
+     0.00028466173502883496,
+     0.00021231216170314315,
+     0.00020568174991197896,
+     0.00020505007325488656,
+     0.00020476081295106585,
+     0.0002044280088929762,
+     0.00020444925989682172
+    ],
+    "noise": [
+     7.141900011387037e-07,
+     2.834749661673186e-07,
+     3.814138680446888e-07,
+     9.989425808765162e-07,
+     1.26065559458155e-06,
+     6.728612528261735e-07,
+     1.3235631998176345e-06,
+     1.326242253907317e-06
+    ]
+   },
+   {
+    "tag": "A1 rho ladder, beta=(0,0)",
+    "kind": "rho",
+    "points": [
+     1.0,
+     0.1,
+     0.01,
+     0.001,
+     0.0001,
+     1e-05,
+     1e-06,
+     1e-07
+    ],
+    "mid": null,
+    "values": [
+     0.015554323710506357,
+     0.016661726575542546,
+     0.01717746792241781,
+     0.017250979441350345,
+     0.01726673105451182,
+     0.017264392460114464,
+     0.01721576392287516,
+     0.017147616250712483
+    ],
+    "noise": [
+     2.036098930568997e-06,
+     1.1740994877218469e-05,
+     2.7828175152566637e-05,
+     4.078189547129796e-05,
+     8.107667240275784e-05,
+     0.00023664994074767964,
+     0.00021634749030852163,
+     0.0001481998183495703
+    ]
+   },
+   {
+    "tag": "B t ladder, direction (0,1)",
+    "kind": "t",
+    "points": [
+     1.0,
+     2.0,
+     4.0,
+     8.0,
+     16.0,
+     32.0,
+     64.0,
+     128.0
+    ],
+    "mid": null,
+    "values": [
+     0.01573132969369928,
+     0.016278890421735692,
+     0.016874248071288345,
+     0.01714217688141184,
+     0.017222229952401413,
+     0.017243190185918356,
+     0.017212248440101163,
+     0.017051111172961764
+    ],
+    "noise": [
+     2.1723710039722732e-06,
+     1.7572303533386346e-06,
+     4.465090315708409e-06,
+     2.7387930491062917e-05,
+     2.810018020105165e-05,
+     0.00015410587305098034,
+     0.00044821840703956894,
+     0.00033558312936388113
+    ]
+   },
+   {
+    "tag": "A2 t ladder, equal direction (1,1)",
+    "kind": "t",
+    "points": [
+     1.0,
+     2.0,
+     4.0,
+     8.0,
+     16.0,
+     32.0,
+     64.0,
+     128.0
+    ],
+    "mid": null,
+    "values": [
+     0.0014563562740200764,
+     6.294768290393549e-06,
+     2.1865620425387533e-11,
+     3.552713678800501e-15,
+     3.552713678800501e-15,
+     3.552713678800501e-15,
+     3.552713678800501e-15,
+     3.552713678800501e-15
+    ],
+    "noise": [
+     7.141900011387037e-07,
+     1.0712318143646371e-08,
+     4.268490005898684e-10,
+     4.2675285527593587e-10,
+     4.2675285527593587e-10,
+     4.2675285527593587e-10,
+     4.2675285527593587e-10,
+     4.2675285527593587e-10
+    ]
+   }
+  ]
+ },
+ "validity_range": [
+  {
+   "ladder": "A1 rho ladder, beta=(1,1)",
+   "trusted_through_point": 1e-07,
+   "noise_at_bound": 1.326242253907317e-06,
+   "noise_beyond_bound": null,
+   "tol": 0.0001,
+   "note": "ladder trusted on the prefix through this point; past it the mid-vs-fine quadrature noise exceeds the declared tolerance and the evaluator's output is not quoted"
+  },
+  {
+   "ladder": "A1 rho ladder, beta=(0,0)",
+   "trusted_through_point": 0.0001,
+   "noise_at_bound": 8.107667240275784e-05,
+   "noise_beyond_bound": 0.00023664994074767964,
+   "tol": 0.0001,
+   "note": "ladder trusted on the prefix through this point; past it the mid-vs-fine quadrature noise exceeds the declared tolerance and the evaluator's output is not quoted"
+  },
+  {
+   "ladder": "B t ladder, direction (0,1)",
+   "trusted_through_point": 16.0,
+   "noise_at_bound": 2.810018020105165e-05,
+   "noise_beyond_bound": 0.00015410587305098034,
+   "tol": 0.0001,
+   "note": "ladder trusted on the prefix through this point; past it the mid-vs-fine quadrature noise exceeds the declared tolerance and the evaluator's output is not quoted"
+  },
+  {
+   "ladder": "A2 t ladder, equal direction (1,1)",
+   "trusted_through_point": 128.0,
+   "noise_at_bound": 4.2675285527593587e-10,
+   "noise_beyond_bound": null,
+   "tol": 0.0001,
+   "note": "ladder trusted on the prefix through this point; past it the mid-vs-fine quadrature noise exceeds the declared tolerance and the evaluator's output is not quoted"
+  }
+ ],
+ "elapsed_seconds": 1737.067,
+ "tier": "measured"
+}

@@ -1,0 +1,18 @@
+CLAIM AXA-BUILD-EXIT: lake build W4lean.AxAll exit status = 0
+CLAIM AXA-ERRORS: build errors = 0
+CLAIM AXA-DECLARED: PUBLIC declarations (theorem AND lemma) audited = 198
+CLAIM AXA-REPORTED: axiom lines returned by the kernel = 253
+CLAIM AXA-REPORTED-DISTINCT: DISTINCT declarations reported by the kernel = 177
+CLAIM AXA-REPLAYED: names printed more than once by `lake`, because `lake build` replays an upstream module's stored info messages alongside the target's = 54 (block_chiSq, block_coords_law, chiSq35_cast, coordLaw, eig2, eig2_inside, eig2_outside, gmat_mulVec_of, hInd_split, hInd_split_fun, hInd_split_lin, indepFun_comp_of_map, mu1_charQ, mu1_eq_g00_of_inside, mu2_eq_g11_of_inside, pair_law_lin, pair_transfer, pair_transfer_set, pi_coord_indep, pi_coord_indep_blocks, pi_coord_indep_single, v_sq_pos_of_outside, Phi_antitone, ae_nonneg_of_gammaLaw, box_pos, charQ_eq_det, charQ_factor, comp_thm_2B, cover_sound, cstarBox_eq_sSup, cstar_bracket, discG_eq, discG_nonneg, mu_sum_prod, r1_lower, r2_lower, Phi_le_cons, size_bound_conservative, cCons_set_nonempty, cCons_spec, cons_attain, cons_sInf_pos, cons_tail, gamma_Iic_zero, null_nonpos_of_gammaLaw, r1_ge_half, r1_ge_half_of, r2_pos, two_mu1_ge_aF, canonical_model, kappa_reduction_canonical, kappa_reduction_nonvacuous, size_bound_2B, size_bound_2B_of)
+CLAIM AXA-CLEAN: theorems on exactly the three standard axioms = 253
+CLAIM AXA-VIOLATIONS: theorems depending on anything beyond the three standard axioms = none
+CLAIM AXA-SORRYAX: theorems depending on sorryAx = 0
+CLAIM AXA-PRIVATE: private declarations present (covered transitively, not audited by name) = 9
+CLAIM AXA-PRIVATE-NAMES: Unit2B.FormalR1.Kappa.ProofsR5.gaussianPDF_mul_exp_sq, Unit2B.FormalR1.Kappa.ProofsR5.measurable_gammaPDF', Unit2B.FormalR1.Kappa.ProofsR5.integral_gammaMeasure_eq_setIntegral, Unit2B.FormalR1.Kappa.ProofsR5.integrable_exp_mul_gammaMeasure', Unit2B.FormalR1.Kappa.ProofsR5.not_integrable_exp_mul_gammaMeasure', Unit2B.FormalR1.Kappa.ProofsR5.chiSq_mgf_rpow_bridge, Unit2B.FormalR1.Kappa.ProofsR5.integrable_exp_mul_chiSq, Unit2B.FormalR1.Kappa.ProofsR5.not_integrable_exp_mul_chiSq, Unit2B.FormalR1.Kappa.ProofsR5.univ_gaussianReal_one
+CLAIM AXA-COMPLETE: every PUBLIC declaration was reported by the kernel = True
+CLAIM AXA-AMBIGUOUS: short names claimed by MORE THAN ONE declared declaration, so a bare-name match cannot decide them = 20 (Phi_antitone, Sres_eq_gram_form, ae_nonneg_of_gammaLaw, box_pos, charQ_eq_det, charQ_factor, comp_thm_2B, cover_sound, cstarBox_eq_sSup, cstar_bracket, discG_eq, discG_nonneg, eig2, gram_eq, kappa_event, mu1_charQ, mu_sum_prod, nu_eq, r1_lower, r2_lower)
+CLAIM AXA-SHADOWED: declared names not matched by the ambiguity-aware test = 0
+CLAIM AXA-VACUOUS-GUARD: an audit declaring ZERO declarations is a FAILURE not a PASS, since completeness would compare two empty sets = declared=198, guard not triggered
+CLAIM AXA-SCOPE: this audit certifies the LEAN LAYER ONLY, that the named declarations depend on nothing beyond propext, Classical.choice and Quot.sound.
+CLAIM AXA-SCOPE-CONT: it does NOT certify the Arb numerical enclosure, the paper Helmert proof, or that the certified bound is the correct bound. A narrow PASS here is not programme completion.
+CLAIM AXA-VERDICT: Lean-layer soundness audit = PASS

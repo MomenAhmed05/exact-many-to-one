@@ -1,0 +1,1601 @@
+{
+ "unit": "2A",
+ "declaration": "declarations/W2A-DECLARATION.json",
+ "status": "complete",
+ "design": {
+  "n": 36,
+  "K": 1,
+  "c": 2.2,
+  "output": "fwer at fixed c=2.20 (one evaluator call per point; sign of dFWER/dx at fixed c equals sign of dc*/dx since dFWER/dc < 0 everywhere, so the verdict transfers to the critical constant used by Unit 2B)",
+  "lam_sweep": [
+   0.04,
+   1.0,
+   25.0
+  ],
+  "lam_rationale": "endpoints plus geometric center of w2_cert.py's declared box lgrid = log_grid(0.04, 25.0, 7); sqrt(0.04*25.0)=1.0.  The kill test therefore covers 2B's whole lambda axis at its edges and middle.",
+  "box_source": "w2_cert.py bgrid = linspace(-1.5, 1.5, 5) for both loadings -> u,v in [0, 2.25], w in [-2.25, 2.25]",
+  "n_source": "w2_cert.py n = [36.0, 36.0]; same n as every w2_factor falsifier and every Unit 5 ladder"
+ },
+ "grid": {
+  "points_per_axis": 61,
+  "u": [
+   0.0,
+   2.25
+  ],
+  "v": [
+   0.0,
+   2.25
+  ],
+  "w": [
+   -2.25,
+   2.25
+  ],
+  "du": 0.0375,
+  "dw": 0.075,
+  "feasibility": "w^2 <= u*v*(1+1e-12) + 1e-15 (float-safe cone membership)",
+  "margin_handling": "a feasible point is BOUNDARY LAYER iff sqrt(u*v)-|w| <= dw  OR  u == 0  OR  v == 0 (within one w-step of the cone surface, or on the cone's degenerate faces); otherwise STRICTLY INSIDE.  Both regions are evaluated; verdicts are reported per region and combined.  A difference is layer if EITHER endpoint is layer.",
+  "axis_choice": "61 not 60 so that w = 0 and the box faces land exactly on nodes (the specification says 'e.g. 60^3'); every coordinate face of the declared box is therefore sampled."
+ },
+ "levels": {
+  "primary": {
+   "name": "GRID",
+   "zf": [
+    3,
+    10
+   ],
+   "z0": [
+    3,
+    10
+   ],
+   "vf": [
+    3,
+    10
+   ],
+   "s0": 24,
+   "si": 24,
+   "justification": "w2_factor.py's reference rule and the rule the 4,000,000-draw validation (worst |z| 1.58) was measured against; deposit deposits/w2_factor.json grid field is exactly this."
+  },
+  "h12": {
+   "name": "GRID+",
+   "zf": [
+    4,
+    10
+   ],
+   "z0": [
+    4,
+    10
+   ],
+   "vf": [
+    4,
+    10
+   ],
+   "s0": 24,
+   "si": 24,
+   "justification": "H-12 requires the monotonicity verdict to survive a refinement change: outer panels 3 -> 4 (normal and chi-square rules), inner nodes unchanged.  Different discretisation at ~2.4x the per-eval cost, feasible over the full grid."
+  }
+ },
+ "tol_fd": 0.001,
+ "anchors": {
+  "primary": {
+   "level": "primary",
+   "entries": [
+    {
+     "name": "AN1_wrapper_equals_native",
+     "ok": true,
+     "max_dev": 1.1102230246251565e-16,
+     "tol": 1e-12,
+     "detail": [
+      {
+       "beta": [
+        1.0,
+        1.0
+       ],
+       "lam": 0.04,
+       "native": 0.00023519785323178333,
+       "wrapper": 0.00023519785323178333,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        1.0
+       ],
+       "lam": 1.0,
+       "native": 0.001455804901814739,
+       "wrapper": 0.001455804901814739,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        1.0
+       ],
+       "lam": 25.0,
+       "native": 0.013866531520073111,
+       "wrapper": 0.013866531520073111,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        -1.0
+       ],
+       "lam": 0.04,
+       "native": 0.047188906792318575,
+       "wrapper": 0.047188906792318575,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        -1.0
+       ],
+       "lam": 1.0,
+       "native": 0.0389032156101452,
+       "wrapper": 0.0389032156101452,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        -1.0
+       ],
+       "lam": 25.0,
+       "native": 0.019844210975670462,
+       "wrapper": 0.019844210975670462,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.5,
+        -0.5
+       ],
+       "lam": 0.04,
+       "native": 0.03658162239705276,
+       "wrapper": 0.03658162239705276,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.5,
+        -0.5
+       ],
+       "lam": 1.0,
+       "native": 0.031042028867601212,
+       "wrapper": 0.031042028867601212,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.5,
+        -0.5
+       ],
+       "lam": 25.0,
+       "native": 0.018769647641591947,
+       "wrapper": 0.018769647641591947,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.5,
+        1.5
+       ],
+       "lam": 0.04,
+       "native": 0.002675118337135629,
+       "wrapper": 0.002675118337135518,
+       "dev": 1.1102230246251565e-16
+      },
+      {
+       "beta": [
+        0.5,
+        1.5
+       ],
+       "lam": 1.0,
+       "native": 0.004683131340297519,
+       "wrapper": 0.004683131340297519,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.5,
+        1.5
+       ],
+       "lam": 25.0,
+       "native": 0.014774919074713178,
+       "wrapper": 0.014774919074713178,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.3,
+        -0.2
+       ],
+       "lam": 0.04,
+       "native": 0.021246387835987424,
+       "wrapper": 0.021246387835987424,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.3,
+        -0.2
+       ],
+       "lam": 1.0,
+       "native": 0.01790235427041742,
+       "wrapper": 0.01790235427041742,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.3,
+        -0.2
+       ],
+       "lam": 25.0,
+       "native": 0.0171484157705879,
+       "wrapper": 0.0171484157705879,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.0,
+        1.0
+       ],
+       "lam": 0.04,
+       "native": 0.01559217512707134,
+       "wrapper": 0.015592175127071228,
+       "dev": 1.1102230246251565e-16
+      },
+      {
+       "beta": [
+        0.0,
+        1.0
+       ],
+       "lam": 1.0,
+       "native": 0.01572929962383829,
+       "wrapper": 0.01572929962383829,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.0,
+        1.0
+       ],
+       "lam": 25.0,
+       "native": 0.016985333150842608,
+       "wrapper": 0.016985333150842608,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        0.0
+       ],
+       "lam": 0.04,
+       "native": 0.017108629840801193,
+       "wrapper": 0.017108629840801193,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        0.0
+       ],
+       "lam": 1.0,
+       "native": 0.01572929962383829,
+       "wrapper": 0.01572929962383829,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        0.0
+       ],
+       "lam": 25.0,
+       "native": 0.016754065975152277,
+       "wrapper": 0.016754065975152277,
+       "dev": 0.0
+      }
+     ]
+    },
+    {
+     "name": "AN2_sign_invariance",
+     "ok": true,
+     "max_dev": 3.3306690738754696e-16,
+     "tol": 1e-12,
+     "detail": [
+      {
+       "uvw": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "lam": 0.04,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "lam": 1.0,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "lam": 25.0,
+       "dev": 3.3306690738754696e-16
+      },
+      {
+       "uvw": [
+        2.25,
+        2.25,
+        0.0
+       ],
+       "lam": 0.04,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        2.25,
+        2.25,
+        0.0
+       ],
+       "lam": 1.0,
+       "dev": 1.1102230246251565e-16
+      },
+      {
+       "uvw": [
+        2.25,
+        2.25,
+        0.0
+       ],
+       "lam": 25.0,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        2.25,
+        0.5
+       ],
+       "lam": 0.04,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        2.25,
+        0.5
+       ],
+       "lam": 1.0,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        2.25,
+        0.5
+       ],
+       "lam": 25.0,
+       "dev": 0.0
+      }
+     ]
+    },
+    {
+     "name": "AN3_deposit_values",
+     "ok": true,
+     "detail": [
+      {
+       "uvw": [
+        1.0,
+        1.0,
+        1.0
+       ],
+       "lam": 1.0,
+       "deposit_token": 0.0014563562740200764,
+       "declared_token": 0.0014563562740200764,
+       "declaration_drift": 0.0,
+       "fine_value": 0.0014563562740200764,
+       "dev_fine": 0.0,
+       "tol_fine": 1e-10,
+       "grid_value": 0.001455804901814739,
+       "dev_grid": 5.513722053374082e-07,
+       "tol_grid": 1e-05
+      },
+      {
+       "uvw": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "lam": 1.0,
+       "deposit_token": 0.015554323710506357,
+       "declared_token": 0.015554323710506357,
+       "declaration_drift": 0.0,
+       "fine_value": 0.015554323710506357,
+       "dev_fine": 0.0,
+       "tol_fine": 1e-10,
+       "grid_value": 0.015552495806164801,
+       "dev_grid": 1.827904341555886e-06,
+       "tol_grid": 1e-05
+      }
+     ]
+    },
+    {
+     "name": "AN3b_deposit_direction",
+     "ok": true,
+     "f_at_1": 0.001455804901814739,
+     "margins": {
+      "4,4,4": 0.0014493574745325644,
+      "16,16,16": 0.0014556419320387315
+     },
+     "note": "order relation only; measured quadrature noise cannot flip these margins (see declaration)"
+    },
+    {
+     "name": "AN5_verdict_machinery",
+     "ok": true,
+     "cases": [
+      {
+       "case": "all-confident-positive",
+       "passed": true
+      },
+      {
+       "case": "single-small-negative-blob",
+       "passed": true
+      },
+      {
+       "case": "two-separated-negative-clusters",
+       "passed": true
+      },
+      {
+       "case": "all-indeterminate",
+       "passed": true
+      },
+      {
+       "case": "confident-sign-tie",
+       "passed": true
+      }
+     ]
+    }
+   ],
+   "all_ok": true,
+   "seconds": 128.2671821117401,
+   "ran_at": "2026-10-19 22:17:23"
+  },
+  "h12": {
+   "level": "h12",
+   "entries": [
+    {
+     "name": "AN1_wrapper_equals_native",
+     "ok": true,
+     "max_dev": 1.1102230246251565e-16,
+     "tol": 1e-12,
+     "detail": [
+      {
+       "beta": [
+        1.0,
+        1.0
+       ],
+       "lam": 0.04,
+       "native": 0.00023490782871038451,
+       "wrapper": 0.00023490782871038451,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        1.0
+       ],
+       "lam": 1.0,
+       "native": 0.0014556420840189377,
+       "wrapper": 0.0014556420840189377,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        1.0
+       ],
+       "lam": 25.0,
+       "native": 0.013866369245236987,
+       "wrapper": 0.013866369245236987,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        -1.0
+       ],
+       "lam": 0.04,
+       "native": 0.04712996299982131,
+       "wrapper": 0.04712996299982131,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        -1.0
+       ],
+       "lam": 1.0,
+       "native": 0.03890161801564318,
+       "wrapper": 0.03890161801564318,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        -1.0
+       ],
+       "lam": 25.0,
+       "native": 0.019844046224910206,
+       "wrapper": 0.019844046224910206,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.5,
+        -0.5
+       ],
+       "lam": 0.04,
+       "native": 0.036574728936930256,
+       "wrapper": 0.036574728936930256,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.5,
+        -0.5
+       ],
+       "lam": 1.0,
+       "native": 0.031041036824784207,
+       "wrapper": 0.031041036824784207,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.5,
+        -0.5
+       ],
+       "lam": 25.0,
+       "native": 0.01876948300676906,
+       "wrapper": 0.01876948300676906,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.5,
+        1.5
+       ],
+       "lam": 0.04,
+       "native": 0.0026745276665028905,
+       "wrapper": 0.0026745276665028905,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.5,
+        1.5
+       ],
+       "lam": 1.0,
+       "native": 0.004682968587075842,
+       "wrapper": 0.004682968587075842,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.5,
+        1.5
+       ],
+       "lam": 25.0,
+       "native": 0.014774755710050824,
+       "wrapper": 0.014774755710050935,
+       "dev": 1.1102230246251565e-16
+      },
+      {
+       "beta": [
+        0.3,
+        -0.2
+       ],
+       "lam": 0.04,
+       "native": 0.021250082006068594,
+       "wrapper": 0.021250082006068594,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.3,
+        -0.2
+       ],
+       "lam": 1.0,
+       "native": 0.017902185907352597,
+       "wrapper": 0.017902185907352597,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.3,
+        -0.2
+       ],
+       "lam": 25.0,
+       "native": 0.017148253404717484,
+       "wrapper": 0.017148253404717484,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.0,
+        1.0
+       ],
+       "lam": 0.04,
+       "native": 0.01554587964592391,
+       "wrapper": 0.01554587964592391,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.0,
+        1.0
+       ],
+       "lam": 1.0,
+       "native": 0.01572915732269531,
+       "wrapper": 0.01572915732269531,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        0.0,
+        1.0
+       ],
+       "lam": 25.0,
+       "native": 0.016985169842199888,
+       "wrapper": 0.016985169842199777,
+       "dev": 1.1102230246251565e-16
+      },
+      {
+       "beta": [
+        1.0,
+        0.0
+       ],
+       "lam": 0.04,
+       "native": 0.017103716152864656,
+       "wrapper": 0.017103716152864656,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        0.0
+       ],
+       "lam": 1.0,
+       "native": 0.01572915732269531,
+       "wrapper": 0.01572915732269531,
+       "dev": 0.0
+      },
+      {
+       "beta": [
+        1.0,
+        0.0
+       ],
+       "lam": 25.0,
+       "native": 0.01675390265054999,
+       "wrapper": 0.01675390265054999,
+       "dev": 0.0
+      }
+     ]
+    },
+    {
+     "name": "AN2_sign_invariance",
+     "ok": true,
+     "max_dev": 1.1102230246251565e-16,
+     "tol": 1e-12,
+     "detail": [
+      {
+       "uvw": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "lam": 0.04,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "lam": 1.0,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        1.0,
+        0.0
+       ],
+       "lam": 25.0,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        2.25,
+        2.25,
+        0.0
+       ],
+       "lam": 0.04,
+       "dev": 1.1102230246251565e-16
+      },
+      {
+       "uvw": [
+        2.25,
+        2.25,
+        0.0
+       ],
+       "lam": 1.0,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        2.25,
+        2.25,
+        0.0
+       ],
+       "lam": 25.0,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        2.25,
+        0.5
+       ],
+       "lam": 0.04,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        2.25,
+        0.5
+       ],
+       "lam": 1.0,
+       "dev": 0.0
+      },
+      {
+       "uvw": [
+        1.0,
+        2.25,
+        0.5
+       ],
+       "lam": 25.0,
+       "dev": 0.0
+      }
+     ]
+    },
+    {
+     "name": "AN3b_deposit_direction",
+     "ok": true,
+     "f_at_1": 0.0014556420840189377,
+     "margins": {
+      "4,4,4": 0.0014493580280466878,
+      "16,16,16": 0.0014556424890023179
+     },
+     "note": "order relation only; measured quadrature noise cannot flip these margins (see declaration)"
+    },
+    {
+     "name": "AN5_verdict_machinery",
+     "ok": true,
+     "cases": [
+      {
+       "case": "all-confident-positive",
+       "passed": true
+      },
+      {
+       "case": "single-small-negative-blob",
+       "passed": true
+      },
+      {
+       "case": "two-separated-negative-clusters",
+       "passed": true
+      },
+      {
+       "case": "all-indeterminate",
+       "passed": true
+      },
+      {
+       "case": "confident-sign-tie",
+       "passed": true
+      }
+     ]
+    }
+   ],
+   "all_ok": true,
+   "seconds": 90.61983489990234,
+   "ran_at": "2026-10-19 22:18:54"
+  }
+ },
+ "coverage": {
+  "primary": {
+   "declared_feasible_points": 98417,
+   "evaluated_points": 295251,
+   "ratio": 1.0,
+   "expected_total": 295251,
+   "n_lams": 3
+  },
+  "h12": {
+   "declared_feasible_points": 98417,
+   "evaluated_points": 295251,
+   "ratio": 1.0,
+   "expected_total": 295251,
+   "n_lams": 3
+  }
+ },
+ "verdicts": {
+  "primary": {
+   "0.04": {
+    "u": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "v": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "w": {
+     "interior": {
+      "n_diffs": 87381,
+      "n_pos": 0,
+      "n_neg": 68928,
+      "n_indet": 18453,
+      "confident_fraction": 0.7888213684897174,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     },
+     "layer": {
+      "n_diffs": 7315,
+      "n_pos": 0,
+      "n_neg": 4716,
+      "n_indet": 2599,
+      "confident_fraction": 0.6447026657552973,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     },
+     "combined": {
+      "n_diffs": 94696,
+      "n_pos": 0,
+      "n_neg": 73644,
+      "n_indet": 21052,
+      "confident_fraction": 0.7776886035313002,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     }
+    }
+   },
+   "1.0": {
+    "u": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "v": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "w": {
+     "interior": {
+      "n_diffs": 87381,
+      "n_pos": 0,
+      "n_neg": 64733,
+      "n_indet": 22648,
+      "confident_fraction": 0.7408132202652751,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     },
+     "layer": {
+      "n_diffs": 7315,
+      "n_pos": 0,
+      "n_neg": 4742,
+      "n_indet": 2573,
+      "confident_fraction": 0.648257006151743,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     },
+     "combined": {
+      "n_diffs": 94696,
+      "n_pos": 0,
+      "n_neg": 69475,
+      "n_indet": 25221,
+      "confident_fraction": 0.7336635127143702,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     }
+    }
+   },
+   "25.0": {
+    "u": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "v": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "w": {
+     "interior": {
+      "n_diffs": 87381,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 87381,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7315,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7315,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 94696,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 94696,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    }
+   }
+  },
+  "h12": {
+   "0.04": {
+    "u": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "v": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "w": {
+     "interior": {
+      "n_diffs": 87381,
+      "n_pos": 0,
+      "n_neg": 68938,
+      "n_indet": 18443,
+      "confident_fraction": 0.7889358098442453,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     },
+     "layer": {
+      "n_diffs": 7315,
+      "n_pos": 0,
+      "n_neg": 4716,
+      "n_indet": 2599,
+      "confident_fraction": 0.6447026657552973,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     },
+     "combined": {
+      "n_diffs": 94696,
+      "n_pos": 0,
+      "n_neg": 73654,
+      "n_indet": 21042,
+      "confident_fraction": 0.7777942046126552,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     }
+    }
+   },
+   "1.0": {
+    "u": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "v": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "w": {
+     "interior": {
+      "n_diffs": 87381,
+      "n_pos": 0,
+      "n_neg": 64733,
+      "n_indet": 22648,
+      "confident_fraction": 0.7408132202652751,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     },
+     "layer": {
+      "n_diffs": 7315,
+      "n_pos": 0,
+      "n_neg": 4742,
+      "n_indet": 2573,
+      "confident_fraction": 0.648257006151743,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     },
+     "combined": {
+      "n_diffs": 94696,
+      "n_pos": 0,
+      "n_neg": 69475,
+      "n_indet": 25221,
+      "confident_fraction": 0.7336635127143702,
+      "tol": 0.001,
+      "class": "monotone",
+      "direction": "-"
+     }
+    }
+   },
+   "25.0": {
+    "u": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "v": {
+     "interior": {
+      "n_diffs": 88672,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 88672,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7322,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7322,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 95994,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 95994,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    },
+    "w": {
+     "interior": {
+      "n_diffs": 87381,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 87381,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "layer": {
+      "n_diffs": 7315,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 7315,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     },
+     "combined": {
+      "n_diffs": 94696,
+      "n_pos": 0,
+      "n_neg": 0,
+      "n_indet": 94696,
+      "confident_fraction": 0.0,
+      "tol": 0.001,
+      "class": "inconclusive",
+      "reason": "no confident differences"
+     }
+    }
+   }
+  }
+ },
+ "combined_primary": {
+  "u": {
+   "interior": {
+    "n_diffs": 88672,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 88672,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 0.04,
+    "per_lam_class": {
+     "0.04": "inconclusive",
+     "1.0": "inconclusive",
+     "25.0": "inconclusive"
+    }
+   },
+   "layer": {
+    "n_diffs": 7322,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 7322,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 0.04,
+    "per_lam_class": {
+     "0.04": "inconclusive",
+     "1.0": "inconclusive",
+     "25.0": "inconclusive"
+    }
+   },
+   "combined": {
+    "n_diffs": 95994,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 95994,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 0.04,
+    "per_lam_class": {
+     "0.04": "inconclusive",
+     "1.0": "inconclusive",
+     "25.0": "inconclusive"
+    }
+   }
+  },
+  "v": {
+   "interior": {
+    "n_diffs": 88672,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 88672,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 0.04,
+    "per_lam_class": {
+     "0.04": "inconclusive",
+     "1.0": "inconclusive",
+     "25.0": "inconclusive"
+    }
+   },
+   "layer": {
+    "n_diffs": 7322,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 7322,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 0.04,
+    "per_lam_class": {
+     "0.04": "inconclusive",
+     "1.0": "inconclusive",
+     "25.0": "inconclusive"
+    }
+   },
+   "combined": {
+    "n_diffs": 95994,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 95994,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 0.04,
+    "per_lam_class": {
+     "0.04": "inconclusive",
+     "1.0": "inconclusive",
+     "25.0": "inconclusive"
+    }
+   }
+  },
+  "w": {
+   "interior": {
+    "n_diffs": 87381,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 87381,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 25.0,
+    "per_lam_class": {
+     "0.04": "monotone",
+     "1.0": "monotone",
+     "25.0": "inconclusive"
+    }
+   },
+   "layer": {
+    "n_diffs": 7315,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 7315,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 25.0,
+    "per_lam_class": {
+     "0.04": "monotone",
+     "1.0": "monotone",
+     "25.0": "inconclusive"
+    }
+   },
+   "combined": {
+    "n_diffs": 94696,
+    "n_pos": 0,
+    "n_neg": 0,
+    "n_indet": 94696,
+    "confident_fraction": 0.0,
+    "tol": 0.001,
+    "class": "inconclusive",
+    "reason": "no confident differences",
+    "worst_lam": 25.0,
+    "per_lam_class": {
+     "0.04": "monotone",
+     "1.0": "monotone",
+     "25.0": "inconclusive"
+    }
+   }
+  }
+ },
+ "h12_survival": {
+  "all_survived": true,
+  "n_pairs": 27,
+  "n_mismatches": 0,
+  "mismatches": []
+ },
+ "d02_shape": "UNDECIDED (inconclusive region, no non-monotone)",
+ "route_hint": "UNDECIDED: inconclusive region; extend the tolerance study or rerun at a finer level",
+ "scope_notes": [
+  "verdict is at fixed c=2.20 (the specification says 'the evaluator output'; c-dependence of monotonicity is outside this test and recorded as a caveat for Unit 2B's ASM-2)",
+  "monotonicity in lambda is NOT tested; lambda is a separate axis of 2B's box",
+  "K=1 (coordinates are per-candidate; K>1 coupling is outside this test)",
+  "L-cone-1 (cone extreme-point lemma) is NOT needed to run the grid; it is flagged PROVEN/planned-tier in the unit output after the verdict"
+ ],
+ "seconds": 2.1739182472229004,
+ "ran_at": "2026-10-19 22:19:26",
+ "tier": "measured"
+}

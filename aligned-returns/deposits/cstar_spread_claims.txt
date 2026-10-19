@@ -1,0 +1,6 @@
+CLAIM SPREAD-corner (argmax): cstar bracket at theta=(0.04, -1.5, 1.5) = [2.717340, 2.717340]
+CLAIM SPREAD-no loadings, equal var: cstar bracket at theta=(1.0, 0.0, 0.0) = [1.994437, 1.994437]
+CLAIM SPREAD-same sign 1,1: cstar bracket at theta=(1.0, 1.0, 1.0) = [1.416272, 1.416272]
+CLAIM SPREAD-same sign 1.5,1.5, lam 25: cstar bracket at theta=(25.0, 1.5, 1.5) = [1.862025, 1.862025]
+CLAIM SPREAD-opposite 1,-1: cstar bracket at theta=(1.0, 1.0, -1.0) = [2.453056, 2.453056]
+CLAIM SPREAD-benchmark unloaded 0,1: cstar bracket at theta=(1.0, 0.0, 1.0) = [1.998170, 1.998170]

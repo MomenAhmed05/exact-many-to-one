@@ -1,0 +1,7 @@
+CLAIM L3B-COUPLED-DESIGNS: coupled-arm designs tested = 6
+CLAIM L3B-COUPLED-PASS: coupled-arm designs where the reduction survives = n0=24 n1=24 k=24
+CLAIM L3B-FULL-OVERLAP-OF-SHORTER: designs where the overlap covers the whole shorter window, k = min(n0,n1) = n0=24 n1=24 k=24 -> survives, n0=12 n1=24 k=12 -> FAILS, n0=24 n1=12 k=12 -> FAILS, n0=4 n1=24 k=4 -> FAILS
+CLAIM L3B-BOUNDARY: the equal-window reduction survives ONLY where the two windows are identical, n0 = n1 = k; equal LENGTHS with reduced overlap already break it, so the operative condition is identical windows, not equal windows = True
+CLAIM L3B-K-OF-SHORTER-FAILS: full overlap of the shorter window is NOT sufficient: n0=12 n1=24 k=12 has k=min(n0,n1) yet fails = z=-14.876755951102302
+CLAIM L3B-EQUAL-LEN-REDUCED-K: equal lengths 24,24 with overlap reduced to 12 already fails, so 'equal windows' as commonly stated is the wrong condition = True
+CLAIM L3B-TARGET-FORM: L-3's target is a stated correction or a stated boundary; this run yields a BOUNDARY, not a correction, because no corrected critical value is derived here = BOUNDARY

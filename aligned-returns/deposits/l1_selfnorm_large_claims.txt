@@ -1,0 +1,2 @@
+CLAIM L1F2-phi0.0: size at n=4000, N=4e5 (pass |z|<=4) = 0.02470 (z -1.21, pass True)
+CLAIM L1F2-phi0.6: size at n=4000, N=4e5 (pass |z|<=4) = 0.02549 (z +2.00, pass True)

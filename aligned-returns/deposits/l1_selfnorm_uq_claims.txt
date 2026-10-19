@@ -1,0 +1,7 @@
+CLAIM L1UQ-brownian_m1000: upper-0.05 point of U1, N=1e7, batch SE = 45.5304 (se 0.0486)
+CLAIM L1UQ-brownian_m4000: upper-0.05 point of U1, N=1e7, batch SE = 45.5367 (se 0.0483)
+CLAIM L1UQ-kl_K2000: upper-0.05 point of U1 by Karhunen-Loeve, N=1e7, batch SE = 45.4931 (se 0.0473)
+CLAIM L1UQ-F1-AGREE: Brownian(m=4000) vs KL within 3 combined SE = diff 0.0436, 3SE 0.2028, pass True
+CLAIM L1UQ-F1-REFINE: Brownian m=1000 -> 4000 moves q by less than one SE = move 0.0062, SE 0.0483, pass True
+CLAIM L1UQ-Q: q of record (inverse-variance mean of the two routes) = 45.5144
+CLAIM L1UQ-Q-T: equivalent one-sided t-type critical value sqrt(q) = 6.7464

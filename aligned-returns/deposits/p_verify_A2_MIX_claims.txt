@@ -1,0 +1,2 @@
+CLAIM PVA2-T4-K5-MIX: plug-in realised FWER by n, Bartlett inner (SE 1.1e-3) = n6:0.02570(z+0.6); n8:0.02760(z+2.4); n12:0.02450(z-0.5); n24:0.02605(z+1.0); n36:0.02465(z-0.3)
+CLAIM PVA2-WALL-MIX: seconds = 1886

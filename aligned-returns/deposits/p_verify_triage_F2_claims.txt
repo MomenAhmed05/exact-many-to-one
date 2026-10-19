@@ -1,0 +1,4 @@
+CLAIM TRIAGE-F2-n12-r-0.999-c1: evaluator / brute (8e6) / limit = 0.661199 / 0.661180 (z -0.11) / 0.661199; evaluator-limit -1.74e-14
+CLAIM TRIAGE-F2-n12-r-0.999-c2: evaluator / brute (8e6) / limit = 0.929196 / 0.929372 (z +1.94) / 0.929196; evaluator-limit -2.44e-14
+CLAIM TRIAGE-F2-n12-r+0.999-c1: evaluator / brute (8e6) / limit = 0.825993 / 0.826071 (z +0.58) / 0.830600; evaluator-limit -4.61e-03
+CLAIM TRIAGE-F2-n12-r+0.999-c2: evaluator / brute (8e6) / limit = 0.963089 / 0.963001 (z -1.31) / 0.964598; evaluator-limit -1.51e-03

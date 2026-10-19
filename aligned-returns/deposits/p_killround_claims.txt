@@ -1,0 +1,33 @@
+CLAIM PKR-TAB-n12: c*(rho) table on 81 tanh-spaced rho; max interpolation error at 10 midpoints = 1.33e-07
+CLAIM PKR-TAB-n36: c*(rho) table on 81 tanh-spaced rho; max interpolation error at 10 midpoints = 9.60e-08
+CLAIM PKR-TAB-n120: c*(rho) table on 81 tanh-spaced rho; max interpolation error at 10 midpoints = 8.71e-08
+CLAIM PKR-TAB-n36-a0: c*(rho) table at alpha0 = 0.9 alpha, n = 36; interpolation error = 9.65e-08
+CLAIM PKR-1-r-0.5: plug-in realised FWER, n=12 (KILL unless >1.05a and >a+3SE) = 0.02530 (z +1.2)
+CLAIM PKR-1-r+0.0: plug-in realised FWER, n=12 (KILL unless >1.05a and >a+3SE) = 0.02466 (z -1.4)
+CLAIM PKR-1-r+0.5: plug-in realised FWER, n=12 (KILL unless >1.05a and >a+3SE) = 0.02513 (z +0.5)
+CLAIM PKR-1-r+0.9: plug-in realised FWER, n=12 (KILL unless >1.05a and >a+3SE) = 0.02431 (z -2.8)
+CLAIM PKR-1-VERDICT: conjecture 1 (plug-in liberal by >5% at n=12) = KILLED
+CLAIM PKR-2-n36: plug-in realised FWER at worst rho -0.5 = 0.02509 (z +0.4)
+CLAIM PKR-2-n120: plug-in realised FWER at worst rho -0.5 = 0.02505 (z +0.2)
+CLAIM PKR-2-VERDICT: conjecture 2 (excess ~ 1/n): ratios 12/36, 36/120 in [1.5, 6] = 3.27, 2.06 -> SURVIVES
+CLAIM PKR-3-r-0.5: multivariate-t constant and its TRUE rate, n=12 = c_mvt 2.5926, rate 0.02502 (1.00x)
+CLAIM PKR-3-r+0.0: multivariate-t constant and its TRUE rate, n=12 = c_mvt 2.5823, rate 0.02532 (1.01x)
+CLAIM PKR-3-r+0.5: multivariate-t constant and its TRUE rate, n=12 = c_mvt 2.5326, rate 0.02618 (1.05x)
+CLAIM PKR-3-r+0.9: multivariate-t constant and its TRUE rate, n=12 = c_mvt 2.3877, rate 0.02641 (1.06x)
+CLAIM PKR-3-VERDICT: conjecture 3 (mvt liberal at true R, n=12) = SURVIVES
+CLAIM PKR-45-n12: c*(rho) on the declared grid = -0.50:2.593012; -0.25:2.592346; +0.00:2.589554; +0.25:2.581155; +0.50:2.559415; +0.75:2.503273; +0.95:2.365750
+CLAIM PKR-45-n36: c*(rho) on the declared grid = -0.50:2.341953; -0.25:2.341570; +0.00:2.339232; +0.25:2.331392; +0.50:2.311351; +0.75:2.263236; +0.95:2.155290
+CLAIM PKR-4-VERDICT: conjecture 4 (argmax at rho=0) = KILLED
+CLAIM PKR-5-VERDICT: conjecture 5 (a negative rho beats rho=0) = SURVIVES
+CLAIM PKR-6-NEARMISS: min over grid of P(|t1|,|t2|<=c) - P(|t|<=c)^2 (200 configs) = 3.472e-10 at n=36 rho=-0.10 c=5.0
+CLAIM PKR-6-VERDICT: conjecture 6 (Sidak product holds, own denominators, K=2) = SURVIVES
+CLAIM PKR-7-r0.00: oracle c*, Bonferroni c, effect, power oracle/Bonferroni, loss = 2.3392, 2.3420, 0.5313, 0.8000/0.7993, 0.0007
+CLAIM PKR-7-r0.45: oracle c*, Bonferroni c, effect, power oracle/Bonferroni, loss = 2.3169, 2.3420, 0.5298, 0.8000/0.7929, 0.0071
+CLAIM PKR-7-VERDICT: conjecture 7 (Bonferroni loss < 2pp) = SURVIVES
+CLAIM PKR-8-r-0.50: plug-in at alpha0 = 0.9a, n=36, realised FWER = 0.02246 (z -10.3)
+CLAIM PKR-8-r+0.00: plug-in at alpha0 = 0.9a, n=36, realised FWER = 0.02250 (z -10.1)
+CLAIM PKR-8-r+0.50: plug-in at alpha0 = 0.9a, n=36, realised FWER = 0.02246 (z -10.3)
+CLAIM PKR-8-r+0.90: plug-in at alpha0 = 0.9a, n=36, realised FWER = 0.02242 (z -10.5)
+CLAIM PKR-8-r+0.95: plug-in at alpha0 = 0.9a, n=36, realised FWER = 0.02255 (z -9.9)
+CLAIM PKR-8-VERDICT: conjecture 8 (internal level >= 0.9a feasible at n=36) = SURVIVES
+CLAIM PKR-WALL: seconds = 1213

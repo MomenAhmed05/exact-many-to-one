@@ -1,0 +1,18 @@
+CLAIM HK-SIM-DRAWS: Monte-Carlo draws in the direct test of the reduction, corner theta=(1/25,-3/2,3/2), n=36, s^2 unbiased = 4000000
+CLAIM HK-SIM-C0: the critical value tested, equal to the certified c0 = 2.7173398035
+CLAIM HK-SIM-EMPIRICAL: empirical P(T > c0) from the simulation = 0.025053
+CLAIM HK-SIM-SE: standard error of that empirical estimate = 0.000078
+CLAIM HK-SIM-REDUCTION: the reduction's Phi(c0; r) at the same corner = 0.024998
+CLAIM HK-SIM-DIFFERENCE: empirical minus reduction = 0.000055
+CLAIM HK-SIM-DIFFERENCE-IN-SE: that difference in units of the standard error = 0.7
+CLAIM HK-SIM-VERDICT: the reduction is CONSISTENT with the simulation at the corner = True
+CLAIM HK-SIM-CANNOT-CLOSE: why the simulation cannot close H-kappa: its standard error is 0.000078 while the A-5 margin is 0.0000012, so the test bounds the reduction only to about +/-3e-04, roughly two orders of magnitude coarser than the certificate margin; it can falsify at the coarse scale and can never confirm at the fine scale = CANNOT CLOSE
+CLAIM HK-HELMERT-NSTD-MEAN: simulated mean of Nstd (target 0) = -0.00064
+CLAIM HK-HELMERT-NSTD-VAR: simulated variance of Nstd (target 1) = 1.00201
+CLAIM HK-HELMERT-CORR: simulated correlation between Nstd and Sres, the reduction's load-bearing independence claim (target 0) = 0.00073
+CLAIM HK-HELMERT-R1: r1 = mu1/aF from the eigenvalues of G at the corner = 0.5050428633869065
+CLAIM HK-HELMERT-R2: r2 = mu2/aF from the eigenvalues of G at the corner = 0.04674996529835249
+CLAIM HK-HELMERT-QUANTILE-REL-DIFF: largest relative difference between simulated Sres quantiles and mu1*X1+mu2*X2 over q in 0.01..0.99, i.e. the agreement of the two laws = 0.0012
+CLAIM HK-VERDICT: all three of the reduction's load-bearing claims (Nstd ~ N(0,1); Nstd independent of Sres; Sres has law mu1*X1+mu2*X2) are CONFIRMED numerically, and H-kappa is closed ON PAPER by the Helmert argument, the formal gap being K-7a/K-7b alone = CONFIRMED, paper closure
+CLAIM HK-STILL-OPEN: what this does NOT establish: no Lean proof of K-7a/K-7b, so the reduction is STATEMENT-ONLY in the formal layer; and the engine-to-Lean-Phi identity remains a numerical edge = K-7a/K-7b open
+CLAIM HK-SCHUR-CROSSOVER-CHECK: a crossover reported in an earlier review was reproduced in the QUADRATIC-FORM TAIL P(rho.X > q), which is a different functional from the rate Pbar(k*sqrt(rho.X)); the rate has a Gaussian numerator and is Schur-convex for all c > 0, so the crossover does not bear on the rate = reproduced, different functional

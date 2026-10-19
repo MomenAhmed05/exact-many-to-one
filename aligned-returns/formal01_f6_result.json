@@ -1,0 +1,18 @@
+[
+ "CLAIM F6-CELLS: cells in the cover used by F-6 = 59276",
+ "CLAIM F6-UNSERVED: leaves that could not be certified = 0",
+ "CLAIM F6-GRID: construction grid re-derived from w2_cert.py as (n_lam, n_b) per axis = log_grid(0.04000000000000001,24.999999999999996,7) x linspace(-1.5,1.5,5)^2",
+ "CLAIM F6-GRID-N: construction-grid points = 175",
+ "CLAIM F6-SEC: seconds = 22.0",
+ "CLAIM F6-OUTSIDE-BOX: construction-grid points outside the declared box = 0",
+ "CLAIM F6-UNCOVERED: construction-grid points in NO cell (containment breach) = 0",
+ "CLAIM F6-DOM-FAIL: cell/point pairs with rho_k > r_hi (cell does not certify) = 0",
+ "CLAIM F6-DOM-UNDECIDED: cell/point pairs undecided = 0",
+ "CLAIM F6-VIOLATIONS: construction-grid points with upper(Phi(U;r)) > alpha = 0",
+ "CLAIM F6-WORST: largest upper(Phi(U; r)) over the construction grid = 0.024997576344209474",
+ "CLAIM F6-MARGIN: alpha minus that worst upper endpoint = 2.423655790526058e-06",
+ "CLAIM F6-ARGMX: grid point attaining the largest upper(Phi(U;r)) = [0.04000000000000001, -1.5, 1.5]",
+ "CLAIM F6-CORNER-COVERED: cells containing the exact corner = 1",
+ "CLAIM F6-CORNER-DOMINATED: every containing cell has rho_k <= r(corner) = True",
+ "CLAIM F6-VERDICT: F-6 construction-grid containment and dominance = PASS"
+]
