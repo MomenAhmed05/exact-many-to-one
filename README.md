@@ -19,7 +19,8 @@ Lean 4 in [`Lean/`](Lean/).
 The second paper, *Many-to-One Strategy Comparison on Aligned Returns*, treats
 candidates and a benchmark observed on the same dates. Its code, results and
 Lean sources are in [`aligned-returns/`](aligned-returns/), which has its own
-[README](aligned-returns/README.md) and uses this paper's `04-efficient-rule/` code.
+[README](aligned-returns/README.md) and uses this paper's `04-efficient-rule/` code. The
+paper itself is [`paper/Aligned-Returns-Paper-2.docx`](paper/Aligned-Returns-Paper-2.docx).
 
 ## What is here
 

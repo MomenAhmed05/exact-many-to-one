@@ -1,6 +1,6 @@
 # Aligned returns: code, results and Lean sources for paper 2
 
-This folder holds everything behind the second paper, *Many-to-One Strategy Comparison on Aligned Returns: a certified constant for the Welch rule, and the exact paired test that removes the need for it*. It sits in the same repository as paper 1 because several scripts here use paper 1's code in [`../04-efficient-rule/`](../04-efficient-rule/).
+This folder holds everything behind the second paper, *Many-to-One Strategy Comparison on Aligned Returns: a certified constant for the Welch rule, and the exact paired test that removes the need for it*. The paper is [`../paper/Aligned-Returns-Paper-2.docx`](../paper/Aligned-Returns-Paper-2.docx); its Appendix A names the script and deposit behind each section. It sits in the same repository as paper 1 because several scripts here use paper 1's code in [`../04-efficient-rule/`](../04-efficient-rule/).
 
 Each script writes its results to a text or JSON file under [`deposits/`](deposits/). The paper calls such a file a deposit. Most results files are lists of lines of the form `CLAIM <id>: <description> = <value>`, and every number in the paper is one of those values, a Lean declaration, or a cited figure.
 
