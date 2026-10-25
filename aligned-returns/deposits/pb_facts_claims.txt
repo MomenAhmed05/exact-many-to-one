@@ -1,0 +1,13 @@
+CLAIM PBF-FALS-0.172: float FWER of the 1.03-alpha table, n=12, rho=0.172 = 0.025932
+CLAIM PBF-FALS-0.18: float FWER of the 1.03-alpha table, n=12, rho=0.18 = 0.025931
+CLAIM PBF-FALS-0.186: float FWER of the 1.03-alpha table, n=12, rho=0.186 = 0.025930
+CLAIM PBF-36-0.02488-0.96: float FWER, n=36 table at a=0.02488, rho=0.96; margin below 1/40 = 0.024441; 5.59e-04
+CLAIM PBF-36-0.02488-0.98: float FWER, n=36 table at a=0.02488, rho=0.98; margin below 1/40 = 0.024529; 4.71e-04
+CLAIM PBF-36-0.02488-0.99: float FWER, n=36 table at a=0.02488, rho=0.99; margin below 1/40 = 0.024611; 3.89e-04
+CLAIM PBF-36-0.02468-0.96: float FWER, n=36 table at a=0.02468, rho=0.96; margin below 1/40 = 0.024243; 7.57e-04
+CLAIM PBF-36-0.02468-0.98: float FWER, n=36 table at a=0.02468, rho=0.98; margin below 1/40 = 0.024331; 6.69e-04
+CLAIM PBF-36-0.02468-0.99: float FWER, n=36 table at a=0.02468, rho=0.99; margin below 1/40 = 0.024412; 5.88e-04
+CLAIM PBF-12-P-0.0: certified n=12 rule at rho=0.0: FWER, P1, P12 = 0.024859, 0.012508, 0.000157
+CLAIM PBF-12-P-0.2: certified n=12 rule at rho=0.2: FWER, P1, P12 = 0.024869, 0.012646, 0.000423
+CLAIM PBF-12-P-0.5: certified n=12 rule at rho=0.5: FWER, P1, P12 = 0.024679, 0.013089, 0.001499
+CLAIM PBF-12-P-0.9: certified n=12 rule at rho=0.9: FWER, P1, P12 = 0.023803, 0.016088, 0.008373

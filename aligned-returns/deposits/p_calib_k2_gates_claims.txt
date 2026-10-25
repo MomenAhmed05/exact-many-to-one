@@ -1,0 +1,7 @@
+CLAIM G0-1--0.5: constant table vs Law2.F, n=12, rho=-0.5, max |diff| over c in 1.5/2.5/3.5 = 1.83e-13 (PASS)
+CLAIM G0-1-+0.0: constant table vs Law2.F, n=12, rho=0.0, max |diff| over c in 1.5/2.5/3.5 = 2.37e-13 (PASS)
+CLAIM G0-1-+0.9: constant table vs Law2.F, n=12, rho=0.9, max |diff| over c in 1.5/2.5/3.5 = 2.87e-11 (PASS)
+CLAIM G0-2: refinement move (panels 8->12, inner 10->16), n=12, plug-in at alpha, max over 4 rho = 7.70e-11 (PASS)
+CLAIM G0-3--0.50: brute 1e6 vs evaluator, plug-in at alpha, n=12, rho=-0.5 = brute 0.02497, eval 0.025033, z -0.42 (PASS)
+CLAIM G0-3-+0.50: brute 1e6 vs evaluator, plug-in at alpha, n=12, rho=0.5 = brute 0.02496, eval 0.024979, z -0.11 (PASS)
+CLAIM G0-3-+0.95: brute 1e6 vs evaluator, plug-in at alpha, n=12, rho=0.95 = brute 0.02433, eval 0.024090, z +1.57 (PASS)

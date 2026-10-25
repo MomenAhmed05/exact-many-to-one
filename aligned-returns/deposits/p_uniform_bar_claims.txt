@@ -1,0 +1,11 @@
+CLAIM UB-12-BONF: Bonferroni critical value t_(nu=11, 1-alpha/2), alpha = 0.025 = 2.593093
+CLAIM UB-12-ANCHOR: c*(rho=-0.5), n=12, reproduces Table 6 (2.593012) = 2.593012 (|diff| 1.6e-07)
+CLAIM UB-12-0.9: c*(rho=-0.9), n=12; gap to Bonferroni = 2.593093 (gap 7.78e-09, below Bonferroni: True)
+CLAIM UB-12-0.99: c*(rho=-0.99), n=12; gap to Bonferroni = 2.593093 (gap -2.56e-11, below Bonferroni: True)
+CLAIM UB-12-0.999: c*(rho=-0.999), n=12; gap to Bonferroni = 2.593093 (gap -2.56e-11, below Bonferroni: True)
+CLAIM UB-36-BONF: Bonferroni critical value t_(nu=35, 1-alpha/2), alpha = 0.025 = 2.341969
+CLAIM UB-36-ANCHOR: c*(rho=-0.5), n=36, reproduces Table 6 (2.341953) = 2.341953 (|diff| 2.3e-07)
+CLAIM UB-36-0.9: c*(rho=-0.9), n=36; gap to Bonferroni = 2.341969 (gap 1.17e-11, below Bonferroni: True)
+CLAIM UB-36-0.99: c*(rho=-0.99), n=36; gap to Bonferroni = 2.341969 (gap 1.17e-11, below Bonferroni: True)
+CLAIM UB-36-0.999: c*(rho=-0.999), n=36; gap to Bonferroni = 2.341969 (gap 1.17e-11, below Bonferroni: True)
+CLAIM UB-BRUTE: brute-force P(max t <= c*(-0.99)), n=12, 4,000,000 draws; target 0.975 = 0.97501 (se 0.00008, z +0.09)

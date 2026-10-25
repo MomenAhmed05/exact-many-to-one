@@ -1,0 +1,9 @@
+CLAIM PB1C3-12-0.19: certified rule, n=12, rho=0.19: brute 1e6 vs evaluator = brute 0.02506, eval 0.024870, z +1.21 (PASS)
+CLAIM PB1C3-12-0.60: certified rule, n=12, rho=0.6: brute 1e6 vs evaluator = brute 0.02432, eval 0.024524, z -1.34 (PASS)
+CLAIM PB1C3-12-0.95: certified rule, n=12, rho=0.95: brute 1e6 vs evaluator = brute 0.02355, eval 0.023795, z -1.59 (PASS)
+CLAIM PB1POW-12-0.00: power at oracle-80% edge, n=12, rho=0.0: certified / Bonferroni / oracle; gain over Bonferroni (pp); loss to oracle (pp) = 0.7991 / 0.7991 / 0.8000; +0.01; +0.09
+CLAIM PB1POW-12-0.45: power at oracle-80% edge, n=12, rho=0.45: certified / Bonferroni / oracle; gain over Bonferroni (pp); loss to oracle (pp) = 0.8010 / 0.7928 / 0.8000; +0.82; -0.10
+CLAIM PB1POW-12-0.75: power at oracle-80% edge, n=12, rho=0.75: certified / Bonferroni / oracle; gain over Bonferroni (pp); loss to oracle (pp) = 0.8022 / 0.7760 / 0.8000; +2.62; -0.22
+CLAIM PB1POW-12-0.90: power at oracle-80% edge, n=12, rho=0.9: certified / Bonferroni / oracle; gain over Bonferroni (pp); loss to oracle (pp) = 0.8018 / 0.7524 / 0.8000; +4.94; -0.18
+CLAIM PB1POW-12-0.95: power at oracle-80% edge, n=12, rho=0.95: certified / Bonferroni / oracle; gain over Bonferroni (pp); loss to oracle (pp) = 0.8011 / 0.7362 / 0.8000; +6.49; -0.11
+CLAIM PB1POW-12-0.99: power at oracle-80% edge, n=12, rho=0.99: certified / Bonferroni / oracle; gain over Bonferroni (pp); loss to oracle (pp) = 0.7996 / 0.7098 / 0.8000; +8.98; +0.04

@@ -1,0 +1,9 @@
+CLAIM PB0-12-PLUGIN: uncalibrated plug-in table at a = alpha, n=12: worst FWER over rho grid (41 pts in [-0.999, 0.999]) = 0.025173 at rho=+0.1878 (1.0069 alpha)
+CLAIM PB0-12-PLUGIN-PROFILE: FWER at rho = -0.999, -0.9, -0.5, 0, 0.5, 0.9, 0.999 = 0.024999, 0.025000, 0.025030, 0.025162, 0.024958, 0.024085, 0.024715
+CLAIM PB0-12-LEVEL: calibrated internal level (largest feasible after 9 bisection steps), n=12 = 0.024824 (0.9930 alpha); worst FWER 0.024996 at rho=+0.1878
+CLAIM PB0-12-POW-0.00: power at oracle-80% edge, n=12, rho=0.0: oracle c*, Bonferroni c; calibrated / Bonferroni power; gain over Bonferroni (pp) = 2.589554, 2.593093; 0.7999 / 0.7991; +0.08
+CLAIM PB0-12-POW-0.45: power at oracle-80% edge, n=12, rho=0.45: oracle c*, Bonferroni c; calibrated / Bonferroni power; gain over Bonferroni (pp) = 2.565488, 2.593093; 0.8018 / 0.7928; +0.90
+CLAIM PB0-12-POW-0.75: power at oracle-80% edge, n=12, rho=0.75: oracle c*, Bonferroni c; calibrated / Bonferroni power; gain over Bonferroni (pp) = 2.503273, 2.593093; 0.8030 / 0.7760; +2.70
+CLAIM PB0-12-POW-0.90: power at oracle-80% edge, n=12, rho=0.9: oracle c*, Bonferroni c; calibrated / Bonferroni power; gain over Bonferroni (pp) = 2.420309, 2.593093; 0.8026 / 0.7524; +5.02
+CLAIM PB0-12-POW-0.95: power at oracle-80% edge, n=12, rho=0.95: oracle c*, Bonferroni c; calibrated / Bonferroni power; gain over Bonferroni (pp) = 2.365750, 2.593093; 0.8019 / 0.7362; +6.56
+CLAIM PB0-12-POW-0.99: power at oracle-80% edge, n=12, rho=0.99: oracle c*, Bonferroni c; calibrated / Bonferroni power; gain over Bonferroni (pp) = 2.280097, 2.593093; 0.8004 / 0.7098; +9.06

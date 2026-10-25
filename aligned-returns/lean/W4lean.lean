@@ -25,3 +25,5 @@ import W4lean.Unit2BSizeConsAsmR11
 import W4lean.Unit2BSizeConsR11
 import W4lean.Unit2BSizeR11
 import W4lean.UnitPReduction
+import W4lean.UnitPUniformBar
+import W4lean.UnitPBStructure
