@@ -1,16 +1,23 @@
 # Exact Many-to-One Comparison Under Estimated Volatilities
 
-Code, deposits and paper for an exact null distribution of Dunnett's
-many-to-one comparison when the group variances are unequal **and estimated**.
+Code, deposits and paper for the exact null distribution of Dunnett's
+many-to-one statistics when the group variances are unequal and estimated,
+computed at any given variance ratios.
 
-Dunnett solved the equal-variance case in 1955. The unequal-variance case has
-been treated as intractable since, and the current state of the art
-approximates the joint law of the denominators in four places and then
-simulates it. This work computes that law exactly, by conditioning on both of
-the benchmark's sufficient statistics rather than on its mean alone, which
-makes the comparisons exactly independent and turns a `(2K+2)`-dimensional
-integral into a two-dimensional outer rule over `K` one-dimensional inner
-rules. The outer dimension does not grow with the number of candidates.
+Dunnett solved the equal-variance case in 1955. With unequal variances the
+joint law of the separate-variance statistics depends on the unknown variance
+ratios, and the current state of the art approximates the joint law of the
+denominators in four places and then simulates it. This work computes that law
+exactly at any given variance ratios, by conditioning on both of the
+benchmark's sufficient statistics rather than on its mean alone. Given those
+two statistics the comparisons are independent, and a `(2K+2)`-dimensional
+integral becomes a two-dimensional outer rule over `K` one-dimensional inner
+rules, whose outer dimension does not grow with the number of candidates.
+
+Because the law depends on the variance ratios, it does not give an exact test
+when they are estimated. The repository uses it to measure the error rates of
+the procedures in use, and to build a calibrated rule whose familywise error
+rate is certified over a declared range of variance ratios.
 
 The papers are in [`paper/`](paper/): the working paper, and a short companion
 with the statements, proofs and evidence alone. The mathematics is checked in
